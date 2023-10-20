@@ -1,0 +1,10 @@
+C:\Users\E841371\source\repos\PathUsing\PathUsing\bin\Debug\PathUsing.exe.config
+C:\Users\E841371\source\repos\PathUsing\PathUsing\bin\Debug\PathUsing.exe
+C:\Users\E841371\source\repos\PathUsing\PathUsing\bin\Debug\PathUsing.pdb
+C:\Users\E841371\source\repos\PathUsing\PathUsing\obj\Debug\PathUsing.csproj.AssemblyReference.cache
+C:\Users\E841371\source\repos\PathUsing\PathUsing\obj\Debug\PathUsing.Form1.resources
+C:\Users\E841371\source\repos\PathUsing\PathUsing\obj\Debug\PathUsing.Properties.Resources.resources
+C:\Users\E841371\source\repos\PathUsing\PathUsing\obj\Debug\PathUsing.csproj.GenerateResource.cache
+C:\Users\E841371\source\repos\PathUsing\PathUsing\obj\Debug\PathUsing.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\PathUsing\PathUsing\obj\Debug\PathUsing.exe
+C:\Users\E841371\source\repos\PathUsing\PathUsing\obj\Debug\PathUsing.pdb
