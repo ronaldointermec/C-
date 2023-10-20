@@ -1,0 +1,11 @@
+C:\Users\E841371\source\repos\Studying Classess\Studying Classess\bin\Debug\Studying Classess.exe.config
+C:\Users\E841371\source\repos\Studying Classess\Studying Classess\bin\Debug\Studying Classess.exe
+C:\Users\E841371\source\repos\Studying Classess\Studying Classess\bin\Debug\Studying Classess.pdb
+C:\Users\E841371\source\repos\Studying Classess\Studying Classess\obj\Debug\Studying Classess.csproj.AssemblyReference.cache
+C:\Users\E841371\source\repos\Studying Classess\Studying Classess\obj\Debug\Studying_Classess.Form1.resources
+C:\Users\E841371\source\repos\Studying Classess\Studying Classess\obj\Debug\Studying_Classess.Properties.Resources.resources
+C:\Users\E841371\source\repos\Studying Classess\Studying Classess\obj\Debug\Studying Classess.csproj.GenerateResource.cache
+C:\Users\E841371\source\repos\Studying Classess\Studying Classess\obj\Debug\Studying Classess.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\Studying Classess\Studying Classess\obj\Debug\Studying Classess.exe
+C:\Users\E841371\source\repos\Studying Classess\Studying Classess\obj\Debug\Studying Classess.pdb
+C:\Users\E841371\source\repos\Studying Classess\Studying Classess\obj\Debug\Studying_Classess.Form2.resources

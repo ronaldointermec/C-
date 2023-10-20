@@ -1,0 +1,9 @@
+C:\Users\E841371\source\repos\Timer Studying\Timer Studying\bin\Debug\Timer Studying.exe.config
+C:\Users\E841371\source\repos\Timer Studying\Timer Studying\bin\Debug\Timer Studying.exe
+C:\Users\E841371\source\repos\Timer Studying\Timer Studying\bin\Debug\Timer Studying.pdb
+C:\Users\E841371\source\repos\Timer Studying\Timer Studying\obj\Debug\Timer_Studying.Form1.resources
+C:\Users\E841371\source\repos\Timer Studying\Timer Studying\obj\Debug\Timer_Studying.Properties.Resources.resources
+C:\Users\E841371\source\repos\Timer Studying\Timer Studying\obj\Debug\Timer Studying.csproj.GenerateResource.cache
+C:\Users\E841371\source\repos\Timer Studying\Timer Studying\obj\Debug\Timer Studying.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\Timer Studying\Timer Studying\obj\Debug\Timer Studying.exe
+C:\Users\E841371\source\repos\Timer Studying\Timer Studying\obj\Debug\Timer Studying.pdb

@@ -1,0 +1,10 @@
+C:\Users\E841371\source\repos\Studying List\Studying List\bin\Debug\Studying List.exe.config
+C:\Users\E841371\source\repos\Studying List\Studying List\bin\Debug\Studying List.exe
+C:\Users\E841371\source\repos\Studying List\Studying List\bin\Debug\Studying List.pdb
+C:\Users\E841371\source\repos\Studying List\Studying List\obj\Debug\Studying List.csproj.AssemblyReference.cache
+C:\Users\E841371\source\repos\Studying List\Studying List\obj\Debug\Studying_List.Form1.resources
+C:\Users\E841371\source\repos\Studying List\Studying List\obj\Debug\Studying_List.Properties.Resources.resources
+C:\Users\E841371\source\repos\Studying List\Studying List\obj\Debug\Studying List.csproj.GenerateResource.cache
+C:\Users\E841371\source\repos\Studying List\Studying List\obj\Debug\Studying List.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\Studying List\Studying List\obj\Debug\Studying List.exe
+C:\Users\E841371\source\repos\Studying List\Studying List\obj\Debug\Studying List.pdb

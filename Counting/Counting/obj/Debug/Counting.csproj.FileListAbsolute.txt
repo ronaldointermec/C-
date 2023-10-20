@@ -1,0 +1,10 @@
+C:\Users\E841371\source\repos\Counting\Counting\obj\Debug\Counting.Form1.resources
+C:\Users\E841371\source\repos\Counting\Counting\obj\Debug\Counting.Properties.Resources.resources
+C:\Users\E841371\source\repos\Counting\Counting\obj\Debug\Counting.csproj.GenerateResource.cache
+C:\Users\E841371\source\repos\Counting\Counting\obj\Debug\Counting.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\Counting\Counting\bin\Debug\Counting.exe.config
+C:\Users\E841371\source\repos\Counting\Counting\bin\Debug\Counting.exe
+C:\Users\E841371\source\repos\Counting\Counting\bin\Debug\Counting.pdb
+C:\Users\E841371\source\repos\Counting\Counting\obj\Debug\Counting.exe
+C:\Users\E841371\source\repos\Counting\Counting\obj\Debug\Counting.pdb
+C:\Users\E841371\source\repos\Counting\Counting\obj\Debug\Counting.csproj.AssemblyReference.cache

@@ -1,0 +1,10 @@
+C:\Users\E841371\source\repos\Delegate\Delegate\obj\Debug\Delegate.csproj.AssemblyReference.cache
+C:\Users\E841371\source\repos\Delegate\Delegate\obj\Debug\Delegate.Form1.resources
+C:\Users\E841371\source\repos\Delegate\Delegate\obj\Debug\Delegate.Properties.Resources.resources
+C:\Users\E841371\source\repos\Delegate\Delegate\obj\Debug\Delegate.csproj.GenerateResource.cache
+C:\Users\E841371\source\repos\Delegate\Delegate\obj\Debug\Delegate.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\Delegate\Delegate\bin\Debug\Delegate.exe.config
+C:\Users\E841371\source\repos\Delegate\Delegate\bin\Debug\Delegate.exe
+C:\Users\E841371\source\repos\Delegate\Delegate\bin\Debug\Delegate.pdb
+C:\Users\E841371\source\repos\Delegate\Delegate\obj\Debug\Delegate.exe
+C:\Users\E841371\source\repos\Delegate\Delegate\obj\Debug\Delegate.pdb

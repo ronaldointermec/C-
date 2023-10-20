@@ -1,0 +1,10 @@
+C:\Users\E841371\source\repos\Encpsulation\Encpsulation\obj\Debug\Encpsulation.Form1.resources
+C:\Users\E841371\source\repos\Encpsulation\Encpsulation\obj\Debug\Encpsulation.FrmEmployeeDetails.resources
+C:\Users\E841371\source\repos\Encpsulation\Encpsulation\obj\Debug\Encpsulation.Properties.Resources.resources
+C:\Users\E841371\source\repos\Encpsulation\Encpsulation\obj\Debug\Encpsulation.csproj.GenerateResource.cache
+C:\Users\E841371\source\repos\Encpsulation\Encpsulation\obj\Debug\Encpsulation.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\Encpsulation\Encpsulation\bin\Debug\Encpsulation.exe.config
+C:\Users\E841371\source\repos\Encpsulation\Encpsulation\bin\Debug\Encpsulation.exe
+C:\Users\E841371\source\repos\Encpsulation\Encpsulation\bin\Debug\Encpsulation.pdb
+C:\Users\E841371\source\repos\Encpsulation\Encpsulation\obj\Debug\Encpsulation.exe
+C:\Users\E841371\source\repos\Encpsulation\Encpsulation\obj\Debug\Encpsulation.pdb

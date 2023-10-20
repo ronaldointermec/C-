@@ -1,0 +1,9 @@
+C:\Users\E841371\source\repos\FileFileInfo\FileFileInfo\bin\Debug\FileFileInfo.exe.config
+C:\Users\E841371\source\repos\FileFileInfo\FileFileInfo\bin\Debug\FileFileInfo.exe
+C:\Users\E841371\source\repos\FileFileInfo\FileFileInfo\bin\Debug\FileFileInfo.pdb
+C:\Users\E841371\source\repos\FileFileInfo\FileFileInfo\obj\Debug\FileFileInfo.Form1.resources
+C:\Users\E841371\source\repos\FileFileInfo\FileFileInfo\obj\Debug\FileFileInfo.Properties.Resources.resources
+C:\Users\E841371\source\repos\FileFileInfo\FileFileInfo\obj\Debug\FileFileInfo.csproj.GenerateResource.cache
+C:\Users\E841371\source\repos\FileFileInfo\FileFileInfo\obj\Debug\FileFileInfo.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\FileFileInfo\FileFileInfo\obj\Debug\FileFileInfo.exe
+C:\Users\E841371\source\repos\FileFileInfo\FileFileInfo\obj\Debug\FileFileInfo.pdb

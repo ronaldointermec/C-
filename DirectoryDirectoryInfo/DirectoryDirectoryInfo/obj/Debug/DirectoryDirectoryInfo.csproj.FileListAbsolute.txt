@@ -1,0 +1,10 @@
+C:\Users\E841371\source\repos\DirectoryDirectoryInfo\DirectoryDirectoryInfo\bin\Debug\DirectoryDirectoryInfo.exe.config
+C:\Users\E841371\source\repos\DirectoryDirectoryInfo\DirectoryDirectoryInfo\bin\Debug\DirectoryDirectoryInfo.exe
+C:\Users\E841371\source\repos\DirectoryDirectoryInfo\DirectoryDirectoryInfo\bin\Debug\DirectoryDirectoryInfo.pdb
+C:\Users\E841371\source\repos\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\DirectoryDirectoryInfo.Form1.resources
+C:\Users\E841371\source\repos\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\DirectoryDirectoryInfo.Properties.Resources.resources
+C:\Users\E841371\source\repos\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\DirectoryDirectoryInfo.csproj.GenerateResource.cache
+C:\Users\E841371\source\repos\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\DirectoryDirectoryInfo.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\DirectoryDirectoryInfo.exe
+C:\Users\E841371\source\repos\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\DirectoryDirectoryInfo.pdb
+C:\Users\E841371\source\repos\DirectoryDirectoryInfo\DirectoryDirectoryInfo\obj\Debug\DirectoryDirectoryInfo.csproj.AssemblyReference.cache

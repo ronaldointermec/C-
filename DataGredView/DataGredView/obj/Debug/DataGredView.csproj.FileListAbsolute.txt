@@ -1,0 +1,10 @@
+C:\Users\E841371\source\repos\DataGredView\DataGredView\bin\Debug\DataGredView.exe.config
+C:\Users\E841371\source\repos\DataGredView\DataGredView\bin\Debug\DataGredView.exe
+C:\Users\E841371\source\repos\DataGredView\DataGredView\bin\Debug\DataGredView.pdb
+C:\Users\E841371\source\repos\DataGredView\DataGredView\obj\Debug\DataGredView.csproj.AssemblyReference.cache
+C:\Users\E841371\source\repos\DataGredView\DataGredView\obj\Debug\DataGredView.Form1.resources
+C:\Users\E841371\source\repos\DataGredView\DataGredView\obj\Debug\DataGredView.Properties.Resources.resources
+C:\Users\E841371\source\repos\DataGredView\DataGredView\obj\Debug\DataGredView.csproj.GenerateResource.cache
+C:\Users\E841371\source\repos\DataGredView\DataGredView\obj\Debug\DataGredView.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\DataGredView\DataGredView\obj\Debug\DataGredView.exe
+C:\Users\E841371\source\repos\DataGredView\DataGredView\obj\Debug\DataGredView.pdb

@@ -1,0 +1,10 @@
+C:\Users\E841371\source\repos\Exception\Exception\bin\Debug\Exception.exe.config
+C:\Users\E841371\source\repos\Exception\Exception\bin\Debug\Exception.exe
+C:\Users\E841371\source\repos\Exception\Exception\bin\Debug\Exception.pdb
+C:\Users\E841371\source\repos\Exception\Exception\obj\Debug\Exception.Form1.resources
+C:\Users\E841371\source\repos\Exception\Exception\obj\Debug\Exception.Properties.Resources.resources
+C:\Users\E841371\source\repos\Exception\Exception\obj\Debug\Exception.csproj.GenerateResource.cache
+C:\Users\E841371\source\repos\Exception\Exception\obj\Debug\Exception.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\Exception\Exception\obj\Debug\Exception.exe
+C:\Users\E841371\source\repos\Exception\Exception\obj\Debug\Exception.pdb
+C:\Users\E841371\source\repos\Exception\Exception\obj\Debug\Exception.csproj.AssemblyReference.cache

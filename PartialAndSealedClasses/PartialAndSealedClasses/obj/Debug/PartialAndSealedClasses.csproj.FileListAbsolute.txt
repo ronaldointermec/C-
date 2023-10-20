@@ -1,0 +1,10 @@
+C:\Users\E841371\source\repos\PartialAndSealedClasses\PartialAndSealedClasses\bin\Debug\PartialAndSealedClasses.exe.config
+C:\Users\E841371\source\repos\PartialAndSealedClasses\PartialAndSealedClasses\bin\Debug\PartialAndSealedClasses.exe
+C:\Users\E841371\source\repos\PartialAndSealedClasses\PartialAndSealedClasses\bin\Debug\PartialAndSealedClasses.pdb
+C:\Users\E841371\source\repos\PartialAndSealedClasses\PartialAndSealedClasses\obj\Debug\PartialAndSealedClasses.csproj.AssemblyReference.cache
+C:\Users\E841371\source\repos\PartialAndSealedClasses\PartialAndSealedClasses\obj\Debug\PartialAndSealedClasses.Properties.Resources.resources
+C:\Users\E841371\source\repos\PartialAndSealedClasses\PartialAndSealedClasses\obj\Debug\PartialAndSealedClasses.csproj.GenerateResource.cache
+C:\Users\E841371\source\repos\PartialAndSealedClasses\PartialAndSealedClasses\obj\Debug\PartialAndSealedClasses.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\PartialAndSealedClasses\PartialAndSealedClasses\obj\Debug\PartialAndSealedClasses.exe
+C:\Users\E841371\source\repos\PartialAndSealedClasses\PartialAndSealedClasses\obj\Debug\PartialAndSealedClasses.pdb
+C:\Users\E841371\source\repos\PartialAndSealedClasses\PartialAndSealedClasses\obj\Debug\PartialAndSealedClasses.Form1.resources
