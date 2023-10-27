@@ -1,0 +1,10 @@
+C:\Users\E841371\source\repos\CalculaNDC\CalculaNDC\bin\Debug\CalculaNDC.exe.config
+C:\Users\E841371\source\repos\CalculaNDC\CalculaNDC\bin\Debug\CalculaNDC.exe
+C:\Users\E841371\source\repos\CalculaNDC\CalculaNDC\bin\Debug\CalculaNDC.pdb
+C:\Users\E841371\source\repos\CalculaNDC\CalculaNDC\obj\Debug\CalculaNDC.csproj.AssemblyReference.cache
+C:\Users\E841371\source\repos\CalculaNDC\CalculaNDC\obj\Debug\CalculaNDC.Form1.resources
+C:\Users\E841371\source\repos\CalculaNDC\CalculaNDC\obj\Debug\CalculaNDC.Properties.Resources.resources
+C:\Users\E841371\source\repos\CalculaNDC\CalculaNDC\obj\Debug\CalculaNDC.csproj.GenerateResource.cache
+C:\Users\E841371\source\repos\CalculaNDC\CalculaNDC\obj\Debug\CalculaNDC.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\CalculaNDC\CalculaNDC\obj\Debug\CalculaNDC.exe
+C:\Users\E841371\source\repos\CalculaNDC\CalculaNDC\obj\Debug\CalculaNDC.pdb
