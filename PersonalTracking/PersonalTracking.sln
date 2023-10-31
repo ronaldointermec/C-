@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.34114.132
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonalTracking", "PersonalTracking\PersonalTracking.csproj", "{076B0FC7-AC90-4FDD-92B8-3DF9CF43F262}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{BC764257-7E8D-4AC7-B955-17A637B48BA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{398A1739-ED21-4ECB-B85A-C2F7AE438EDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{076B0FC7-AC90-4FDD-92B8-3DF9CF43F262}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{076B0FC7-AC90-4FDD-92B8-3DF9CF43F262}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{076B0FC7-AC90-4FDD-92B8-3DF9CF43F262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC764257-7E8D-4AC7-B955-17A637B48BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC764257-7E8D-4AC7-B955-17A637B48BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC764257-7E8D-4AC7-B955-17A637B48BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC764257-7E8D-4AC7-B955-17A637B48BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{398A1739-ED21-4ECB-B85A-C2F7AE438EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{398A1739-ED21-4ECB-B85A-C2F7AE438EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{398A1739-ED21-4ECB-B85A-C2F7AE438EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{398A1739-ED21-4ECB-B85A-C2F7AE438EDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

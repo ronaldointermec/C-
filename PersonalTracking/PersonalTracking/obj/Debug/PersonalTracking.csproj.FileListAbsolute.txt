@@ -1,0 +1,15 @@
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\bin\Debug\PersonalTracking.exe.config
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\bin\Debug\PersonalTracking.exe
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\bin\Debug\PersonalTracking.pdb
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\bin\Debug\BLL.dll
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\bin\Debug\DAL.dll
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\bin\Debug\BLL.pdb
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\bin\Debug\DAL.pdb
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.csproj.AssemblyReference.cache
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.FrmLogin.resources
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.Properties.Resources.resources
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.csproj.GenerateResource.cache
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.csproj.CopyComplete
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.exe
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.pdb
