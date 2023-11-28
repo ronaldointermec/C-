@@ -14,3 +14,10 @@ C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\Person
 C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.exe
 C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.pdb
 C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.FrmMain.resources
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.FrmDepartment.resources
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.FrmDepartmentList.resources
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.FrmEmployee.resources
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.FrmEmployeeList.resources
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.FrmPosition.resources
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.FrmPositionList.resources
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.FrmTaskList.resources

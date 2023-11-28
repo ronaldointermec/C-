@@ -45,7 +45,7 @@ namespace PersonalTracking
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(395, 374);
+            this.dataGridView1.Size = new System.Drawing.Size(368, 374);
             this.dataGridView1.TabIndex = 0;
             // 
             // panel1
@@ -55,15 +55,15 @@ namespace PersonalTracking
             this.panel1.Controls.Add(this.btnUpdate);
             this.panel1.Controls.Add(this.btnAdd);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 213);
+            this.panel1.Location = new System.Drawing.Point(0, 224);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(395, 70);
+            this.panel1.Size = new System.Drawing.Size(368, 55);
             this.panel1.TabIndex = 1;
             // 
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(12, 3);
+            this.btnAdd.Location = new System.Drawing.Point(12, 14);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(80, 29);
             this.btnAdd.TabIndex = 0;
@@ -73,7 +73,7 @@ namespace PersonalTracking
             // btnUpdate
             // 
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(98, 3);
+            this.btnUpdate.Location = new System.Drawing.Point(98, 14);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(80, 29);
             this.btnUpdate.TabIndex = 1;
@@ -83,7 +83,7 @@ namespace PersonalTracking
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(184, 3);
+            this.btnDelete.Location = new System.Drawing.Point(184, 14);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(80, 29);
             this.btnDelete.TabIndex = 2;
@@ -93,7 +93,7 @@ namespace PersonalTracking
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(270, 3);
+            this.btnClose.Location = new System.Drawing.Point(270, 14);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(80, 29);
             this.btnClose.TabIndex = 3;
@@ -105,7 +105,7 @@ namespace PersonalTracking
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(395, 283);
+            this.ClientSize = new System.Drawing.Size(368, 279);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "FrmDepartmentList";

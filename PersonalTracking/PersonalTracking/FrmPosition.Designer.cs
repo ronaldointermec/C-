@@ -53,7 +53,7 @@ namespace PersonalTracking
             this.txtPosition.Location = new System.Drawing.Point(120, 16);
             this.txtPosition.Name = "txtPosition";
             this.txtPosition.Size = new System.Drawing.Size(124, 26);
-            this.txtPosition.TabIndex = 1;
+            this.txtPosition.TabIndex = 0;
             // 
             // label2
             // 
@@ -72,7 +72,7 @@ namespace PersonalTracking
             this.cbmDepartment.Location = new System.Drawing.Point(123, 50);
             this.cbmDepartment.Name = "cbmDepartment";
             this.cbmDepartment.Size = new System.Drawing.Size(121, 28);
-            this.cbmDepartment.TabIndex = 2;
+            this.cbmDepartment.TabIndex = 1;
             // 
             // btnClose
             // 
@@ -80,7 +80,7 @@ namespace PersonalTracking
             this.btnClose.Location = new System.Drawing.Point(123, 99);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(100, 28);
-            this.btnClose.TabIndex = 4;
+            this.btnClose.TabIndex = 3;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -91,7 +91,7 @@ namespace PersonalTracking
             this.btnSave.Location = new System.Drawing.Point(17, 99);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(100, 28);
-            this.btnSave.TabIndex = 3;
+            this.btnSave.TabIndex = 2;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
             // 
