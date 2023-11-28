@@ -26,5 +26,12 @@ namespace PersonalTracking
         {
             e.Handled = General.isNumber(e);
         }
+
+        private void btnEnter_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+    
     }
 }

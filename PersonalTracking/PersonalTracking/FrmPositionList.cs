@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace PersonalTracking
 {
-    public partial class FrmMain : Form
+    public partial class FrmPositionList : Form
     {
-        public FrmMain()
+        public FrmPositionList()
         {
             InitializeComponent();
         }
 
-        private void btnEmployee_Click(object sender, EventArgs e)
+        private void btnClose_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
     }
 }
