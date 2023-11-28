@@ -55,6 +55,7 @@ namespace PersonalTracking
             this.btnSalary.Text = "Salary";
             this.btnSalary.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSalary.UseVisualStyleBackColor = false;
+            this.btnSalary.Click += new System.EventHandler(this.btnSalary_Click);
             // 
             // btnTask
             // 
@@ -70,6 +71,7 @@ namespace PersonalTracking
             this.btnTask.Text = "Tasks";
             this.btnTask.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnTask.UseVisualStyleBackColor = false;
+            this.btnTask.Click += new System.EventHandler(this.btnTask_Click);
             // 
             // btnPosition
             // 
@@ -85,7 +87,7 @@ namespace PersonalTracking
             this.btnPosition.Text = "Position";
             this.btnPosition.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPosition.UseVisualStyleBackColor = false;
-            this.btnPosition.Click += new System.EventHandler(this.btnEmployee_Click);
+            this.btnPosition.Click += new System.EventHandler(this.btnPosition_Click);
             // 
             // btnDepartment
             // 
@@ -101,7 +103,7 @@ namespace PersonalTracking
             this.btnDepartment.Text = "Department";
             this.btnDepartment.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnDepartment.UseVisualStyleBackColor = false;
-            this.btnDepartment.Click += new System.EventHandler(this.btnEmployee_Click);
+            this.btnDepartment.Click += new System.EventHandler(this.btnDepartment_Click);
             // 
             // btnExit
             // 
@@ -133,7 +135,7 @@ namespace PersonalTracking
             this.btnLogOut.Text = "LogOut";
             this.btnLogOut.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnLogOut.UseVisualStyleBackColor = false;
-            this.btnLogOut.Click += new System.EventHandler(this.btnEmployee_Click);
+            this.btnLogOut.Click += new System.EventHandler(this.btnLogOut_Click);
             // 
             // btnPermisson
             // 
@@ -149,7 +151,7 @@ namespace PersonalTracking
             this.btnPermisson.Text = "Permisson";
             this.btnPermisson.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnPermisson.UseVisualStyleBackColor = false;
-            this.btnPermisson.Click += new System.EventHandler(this.btnEmployee_Click);
+            this.btnPermisson.Click += new System.EventHandler(this.btnPermisson_Click);
             // 
             // btnEmployee
             // 
@@ -183,14 +185,14 @@ namespace PersonalTracking
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmMain";
             this.Text = "Employee Tracking";
-            this.Load += new System.EventHandler(this.FrmMain_Load);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmMain_FormClosed);
             this.ResumeLayout(false);
 
         }
 
         private void FrmMain_Load(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+
         }
 
         #endregion

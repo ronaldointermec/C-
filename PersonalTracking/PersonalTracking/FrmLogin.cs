@@ -27,11 +27,11 @@ namespace PersonalTracking
             e.Handled = General.isNumber(e);
         }
 
-        private void btnEnter_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
-           
+            FrmMain frm = new FrmMain();
+            this.Hide();
+            frm.ShowDialog();
         }
-
-    
     }
 }
