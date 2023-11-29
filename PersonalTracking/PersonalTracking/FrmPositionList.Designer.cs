@@ -29,24 +29,25 @@ namespace PersonalTracking
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvPosition = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPosition)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // dgvPosition
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(368, 272);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvPosition.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvPosition.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPosition.Dock = System.Windows.Forms.DockStyle.Top;
+            this.dgvPosition.Location = new System.Drawing.Point(0, 0);
+            this.dgvPosition.Name = "dgvPosition";
+            this.dgvPosition.Size = new System.Drawing.Size(368, 272);
+            this.dgvPosition.TabIndex = 0;
             // 
             // panel1
             // 
@@ -55,7 +56,7 @@ namespace PersonalTracking
             this.panel1.Controls.Add(this.btnUpdate);
             this.panel1.Controls.Add(this.btnNew);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 278);
+            this.panel1.Location = new System.Drawing.Point(0, 272);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(368, 55);
             this.panel1.TabIndex = 1;
@@ -107,13 +108,14 @@ namespace PersonalTracking
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(368, 333);
+            this.ClientSize = new System.Drawing.Size(368, 327);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvPosition);
             this.Name = "FrmPositionList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Position List";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.FrmPositionList_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPosition)).EndInit();
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -121,7 +123,7 @@ namespace PersonalTracking
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvPosition;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnDelete;

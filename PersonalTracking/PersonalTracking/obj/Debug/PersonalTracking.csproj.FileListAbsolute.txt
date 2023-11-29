@@ -26,3 +26,4 @@ C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\bin\Debug\DAL.pd
 C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.csproj.CopyComplete
 C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.exe
 C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.pdb
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\bin\Debug\DAL.dll.config

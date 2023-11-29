@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BLL;
+using DAL;
 
 namespace PersonalTracking
 {
@@ -16,6 +18,9 @@ namespace PersonalTracking
         {
             InitializeComponent();
         }
+
+        // variables 
+        List<DEPARTMENT> list = new List<DEPARTMENT>();
 
         private void btnClose_Click(object sender, EventArgs e)
         {
@@ -28,6 +33,7 @@ namespace PersonalTracking
             this.Hide();
             frm.ShowDialog();
             this.Visible = true;
+            FillGrid();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
@@ -36,6 +42,20 @@ namespace PersonalTracking
             this.Hide();
             frm.ShowDialog();
             this.Visible = true;
+        }
+
+        void FillGrid()
+        {
+            list = DepartmentBLL.GetDepartments();
+            dgvDepartments.DataSource = list;
+        }
+
+        private void FrmDepartmentList_Load(object sender, EventArgs e)
+        {
+            FillGrid();
+
+            dgvDepartments.Columns[0].Visible = false;
+            dgvDepartments.Columns[1].HeaderText = "Department Name";
         }
     }
 }
