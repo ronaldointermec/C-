@@ -30,7 +30,7 @@ namespace PersonalTracking
             this.Hide();
             frm.ShowDialog();
             this.Visible = true;
-            FillGrid();
+           FillGrid();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
