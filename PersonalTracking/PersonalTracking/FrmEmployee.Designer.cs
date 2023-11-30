@@ -82,7 +82,7 @@ namespace PersonalTracking
             this.chAdmin.Location = new System.Drawing.Point(579, 25);
             this.chAdmin.Name = "chAdmin";
             this.chAdmin.Size = new System.Drawing.Size(108, 24);
-            this.chAdmin.TabIndex = 8;
+            this.chAdmin.TabIndex = 3;
             this.chAdmin.Text = "Is Admin?";
             this.chAdmin.UseVisualStyleBackColor = true;
             // 
@@ -93,7 +93,7 @@ namespace PersonalTracking
             this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(114, 26);
-            this.txtPassword.TabIndex = 7;
+            this.txtPassword.TabIndex = 2;
             // 
             // label2
             // 
@@ -113,9 +113,10 @@ namespace PersonalTracking
             this.btnCheck.Margin = new System.Windows.Forms.Padding(2);
             this.btnCheck.Name = "btnCheck";
             this.btnCheck.Size = new System.Drawing.Size(88, 32);
-            this.btnCheck.TabIndex = 5;
+            this.btnCheck.TabIndex = 1;
             this.btnCheck.Text = "Check";
             this.btnCheck.UseVisualStyleBackColor = true;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
             // 
             // txtUserNo
             // 
@@ -124,7 +125,7 @@ namespace PersonalTracking
             this.txtUserNo.Margin = new System.Windows.Forms.Padding(2);
             this.txtUserNo.Name = "txtUserNo";
             this.txtUserNo.Size = new System.Drawing.Size(114, 26);
-            this.txtUserNo.TabIndex = 3;
+            this.txtUserNo.TabIndex = 0;
             this.txtUserNo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtUserNo_KeyPress);
             // 
             // label1
@@ -145,7 +146,7 @@ namespace PersonalTracking
             this.txtName.Margin = new System.Windows.Forms.Padding(2);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(114, 26);
-            this.txtName.TabIndex = 9;
+            this.txtName.TabIndex = 1;
             // 
             // label3
             // 
@@ -176,7 +177,7 @@ namespace PersonalTracking
             this.txtSurname.Margin = new System.Windows.Forms.Padding(2);
             this.txtSurname.Name = "txtSurname";
             this.txtSurname.Size = new System.Drawing.Size(114, 26);
-            this.txtSurname.TabIndex = 9;
+            this.txtSurname.TabIndex = 2;
             // 
             // label5
             // 
@@ -217,7 +218,7 @@ namespace PersonalTracking
             this.btnBrowse.Margin = new System.Windows.Forms.Padding(2);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(88, 30);
-            this.btnBrowse.TabIndex = 11;
+            this.btnBrowse.TabIndex = 8;
             this.btnBrowse.Text = "Browse";
             this.btnBrowse.UseVisualStyleBackColor = true;
             this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
@@ -240,7 +241,7 @@ namespace PersonalTracking
             this.txtSalary.Margin = new System.Windows.Forms.Padding(2);
             this.txtSalary.Name = "txtSalary";
             this.txtSalary.Size = new System.Drawing.Size(114, 26);
-            this.txtSalary.TabIndex = 9;
+            this.txtSalary.TabIndex = 3;
             this.txtSalary.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSalary_KeyPress);
             // 
             // cbmPosition
@@ -250,7 +251,7 @@ namespace PersonalTracking
             this.cbmPosition.Location = new System.Drawing.Point(123, 274);
             this.cbmPosition.Name = "cbmPosition";
             this.cbmPosition.Size = new System.Drawing.Size(121, 28);
-            this.cbmPosition.TabIndex = 15;
+            this.cbmPosition.TabIndex = 5;
             // 
             // cbmDepartment
             // 
@@ -259,7 +260,7 @@ namespace PersonalTracking
             this.cbmDepartment.Location = new System.Drawing.Point(123, 241);
             this.cbmDepartment.Name = "cbmDepartment";
             this.cbmDepartment.Size = new System.Drawing.Size(121, 28);
-            this.cbmDepartment.TabIndex = 12;
+            this.cbmDepartment.TabIndex = 4;
             this.cbmDepartment.SelectedIndexChanged += new System.EventHandler(this.cbmDepartment_SelectedIndexChanged);
             // 
             // label7
@@ -298,7 +299,7 @@ namespace PersonalTracking
             this.dateTimePicker1.Location = new System.Drawing.Point(123, 312);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(121, 20);
-            this.dateTimePicker1.TabIndex = 17;
+            this.dateTimePicker1.TabIndex = 6;
             // 
             // label10
             // 
@@ -319,7 +320,7 @@ namespace PersonalTracking
             this.txtAddress.Multiline = true;
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(452, 91);
-            this.txtAddress.TabIndex = 9;
+            this.txtAddress.TabIndex = 7;
             // 
             // btnClose
             // 
@@ -327,7 +328,7 @@ namespace PersonalTracking
             this.btnClose.Location = new System.Drawing.Point(320, 469);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(100, 28);
-            this.btnClose.TabIndex = 19;
+            this.btnClose.TabIndex = 10;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -338,7 +339,7 @@ namespace PersonalTracking
             this.btnSave.Location = new System.Drawing.Point(214, 469);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(100, 28);
-            this.btnSave.TabIndex = 18;
+            this.btnSave.TabIndex = 9;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);

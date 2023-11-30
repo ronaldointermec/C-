@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using BLL;
 using DAL.DTO;
 using DAL;
+using System.IO;
 
 namespace PersonalTracking
 {
@@ -65,12 +66,16 @@ namespace PersonalTracking
 
         }
 
+
+        string fileName = "";
         private void btnBrowse_Click(object sender, EventArgs e)
         {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 pictureBox1.Load(openFileDialog1.FileName);
                 txtImagePath.Text = openFileDialog1.FileName;
+                string Unique = Guid.NewGuid().ToString();
+                fileName += Unique + openFileDialog1.SafeFileName;
             }
         }
 
@@ -80,6 +85,8 @@ namespace PersonalTracking
                 MessageBox.Show("User no is Empty");
             else if (txtPassword.Text.Trim() == "")
                 MessageBox.Show("Passwowrd is Empty");
+            else if (!EmployeeBLL.IsUnique(Convert.ToInt32(txtUserNo.Text)))
+                MessageBox.Show("This user no is used by another employee, please change");
             else if (txtName.Text.Trim() == "")
                 MessageBox.Show("Name is Empty");
             else if (txtSurname.Text.Trim() == "")
@@ -90,6 +97,8 @@ namespace PersonalTracking
                 MessageBox.Show("Select a department");
             else if (cbmPosition.SelectedIndex == -1)
                 MessageBox.Show("Select a position");
+            else if (pictureBox1.Image == null)
+                MessageBox.Show("Select an image");
             else
             {
                 EMPLOYEE employee = new EMPLOYEE();
@@ -101,11 +110,46 @@ namespace PersonalTracking
                 employee.Salary = Convert.ToInt32(txtSalary.Text);
                 employee.DepartmetnID = Convert.ToInt32(cbmDepartment.SelectedValue);
                 employee.PositionID = Convert.ToInt32(cbmPosition.SelectedValue);
-                employee. = dateTimePicker1.Value;
+                employee.Adress = txtAddress.Text;
+                employee.BirthDay = dateTimePicker1.Value;
+                employee.ImagePath = fileName;
+                EmployeeBLL.AddEmployee(employee);
+                File.Copy(txtImagePath.Text, @"images\\" + fileName);
+                MessageBox.Show("Employee was added");
 
+                txtUserNo.Clear();
+                txtPassword.Clear();
+                chAdmin.Checked = false;
+                txtName.Clear();
+                txtSurname.Clear();
+                txtSalary.Clear();
+                txtAddress.Clear();
+                txtImagePath.Clear();
+                pictureBox1.Image = null;
+                comboFull = false;
+                cbmDepartment.SelectedIndex = -1;
+                cbmPosition.DataSource = dto.Positions;
+                cbmPosition.SelectedIndex = -1;
+                comboFull = true;
+                dateTimePicker1.Value = DateTime.Today;
+                fileName = "";
 
             }
 
+        }
+        bool isUnique = false; 
+        private void btnCheck_Click(object sender, EventArgs e)
+        {
+            if (txtUserNo.Text.Trim() == "")
+                MessageBox.Show("User no is Empty");
+            else
+            {
+                isUnique = EmployeeBLL.IsUnique(Convert.ToInt32(txtUserNo.Text));
+                if (!isUnique)
+                    MessageBox.Show("This user no is used by another employee, please change");
+                else
+                    MessageBox.Show("This use no is usable");
+            }
         }
     }
 }

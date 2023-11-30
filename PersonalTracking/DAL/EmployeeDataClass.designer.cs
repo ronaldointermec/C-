@@ -1214,6 +1214,8 @@ namespace DAL
 		
 		private System.Nullable<bool> _IsAdmin;
 		
+		private System.Nullable<System.DateTime> _BirthDay;
+		
     #region Extensibility Method Definitions
     partial void OnLoaded();
     partial void OnValidate(System.Data.Linq.ChangeAction action);
@@ -1240,6 +1242,8 @@ namespace DAL
     partial void OnPasswordChanged();
     partial void OnIsAdminChanging(System.Nullable<bool> value);
     partial void OnIsAdminChanged();
+    partial void OnBirthDayChanging(System.Nullable<System.DateTime> value);
+    partial void OnBirthDayChanged();
     #endregion
 		
 		public EMPLOYEE()
@@ -1463,6 +1467,26 @@ namespace DAL
 					this._IsAdmin = value;
 					this.SendPropertyChanged("IsAdmin");
 					this.OnIsAdminChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_BirthDay", DbType="Date")]
+		public System.Nullable<System.DateTime> BirthDay
+		{
+			get
+			{
+				return this._BirthDay;
+			}
+			set
+			{
+				if ((this._BirthDay != value))
+				{
+					this.OnBirthDayChanging(value);
+					this.SendPropertyChanging();
+					this._BirthDay = value;
+					this.SendPropertyChanged("BirthDay");
+					this.OnBirthDayChanged();
 				}
 			}
 		}
