@@ -21,6 +21,7 @@ namespace BLL
                 taskDTO.Departments = DepartmentDAO.GetDepartments();
                 taskDTO.Positions = PositionDAO.GetPositions();
                 taskDTO.TaskStates = TaskDAO.GetTaskStates();
+                taskDTO.Tasks = TaskDAO.GetTasks();
                 return taskDTO;
             }
             catch (Exception ex)
