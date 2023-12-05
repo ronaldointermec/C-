@@ -30,8 +30,8 @@ namespace PersonalTracking
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dgvEmployee = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.cbmPosition = new System.Windows.Forms.ComboBox();
             this.cbmDepartment = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -43,7 +43,7 @@ namespace PersonalTracking
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbTaskSate = new System.Windows.Forms.ComboBox();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lbTaskState = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtTitle = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -51,19 +51,30 @@ namespace PersonalTracking
             this.btnClose = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.dataGridView1);
+            this.panel1.Controls.Add(this.dgvEmployee);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(573, 0);
+            this.panel1.Location = new System.Drawing.Point(532, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 480);
+            this.panel1.Size = new System.Drawing.Size(298, 480);
             this.panel1.TabIndex = 0;
+            // 
+            // dgvEmployee
+            // 
+            this.dgvEmployee.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvEmployee.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvEmployee.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvEmployee.Location = new System.Drawing.Point(0, 137);
+            this.dgvEmployee.Name = "dgvEmployee";
+            this.dgvEmployee.Size = new System.Drawing.Size(298, 343);
+            this.dgvEmployee.TabIndex = 1;
+            this.dgvEmployee.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEmployee_RowEnter);
             // 
             // panel2
             // 
@@ -74,17 +85,8 @@ namespace PersonalTracking
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 137);
+            this.panel2.Size = new System.Drawing.Size(298, 137);
             this.panel2.TabIndex = 0;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 137);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(200, 343);
-            this.dataGridView1.TabIndex = 1;
             // 
             // cbmPosition
             // 
@@ -94,6 +96,7 @@ namespace PersonalTracking
             this.cbmPosition.Name = "cbmPosition";
             this.cbmPosition.Size = new System.Drawing.Size(121, 28);
             this.cbmPosition.TabIndex = 1;
+            this.cbmPosition.SelectedIndexChanged += new System.EventHandler(this.cbmPosition_SelectedIndexChanged);
             // 
             // cbmDepartment
             // 
@@ -103,6 +106,7 @@ namespace PersonalTracking
             this.cbmDepartment.Name = "cbmDepartment";
             this.cbmDepartment.Size = new System.Drawing.Size(121, 28);
             this.cbmDepartment.TabIndex = 0;
+            this.cbmDepartment.SelectedIndexChanged += new System.EventHandler(this.cbmDepartment_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -196,15 +200,15 @@ namespace PersonalTracking
             this.cmbTaskSate.Size = new System.Drawing.Size(184, 28);
             this.cmbTaskSate.TabIndex = 3;
             // 
-            // label9
+            // lbTaskState
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(12, 126);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(96, 20);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "Task State";
+            this.lbTaskState.AutoSize = true;
+            this.lbTaskState.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTaskState.Location = new System.Drawing.Point(12, 126);
+            this.lbTaskState.Name = "lbTaskState";
+            this.lbTaskState.Size = new System.Drawing.Size(96, 20);
+            this.lbTaskState.TabIndex = 12;
+            this.lbTaskState.Text = "Task State";
             // 
             // label6
             // 
@@ -267,16 +271,17 @@ namespace PersonalTracking
             this.btnSave.TabIndex = 6;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // FrmTask
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(773, 480);
+            this.ClientSize = new System.Drawing.Size(830, 480);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.cmbTaskSate);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.lbTaskState);
             this.Controls.Add(this.txtContent);
             this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.txtSurname);
@@ -291,10 +296,11 @@ namespace PersonalTracking
             this.Name = "FrmTask";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Task";
+            this.Load += new System.EventHandler(this.FrmTask_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvEmployee)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -303,7 +309,7 @@ namespace PersonalTracking
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvEmployee;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.ComboBox cbmPosition;
         private System.Windows.Forms.ComboBox cbmDepartment;
@@ -316,7 +322,7 @@ namespace PersonalTracking
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cmbTaskSate;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lbTaskState;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtTitle;
         private System.Windows.Forms.Label label7;
