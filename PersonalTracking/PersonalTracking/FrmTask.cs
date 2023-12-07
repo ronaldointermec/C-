@@ -105,7 +105,7 @@ namespace PersonalTracking
         {
 
             if (task.EmployeeID == 0)
-                MessageBox.Show("Please slect an employee on table");
+                MessageBox.Show("Please select an employee on table");
             else if (txtTitle.Text.Trim() == "")
                 MessageBox.Show("Task Tile is empty");
             else if (txtContent.Text.Trim() == "")
