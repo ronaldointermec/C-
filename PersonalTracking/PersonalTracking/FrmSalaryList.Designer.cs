@@ -37,7 +37,7 @@ namespace PersonalTracking
             this.rbEqual = new System.Windows.Forms.RadioButton();
             this.rbLess = new System.Windows.Forms.RadioButton();
             this.rbMore = new System.Windows.Forms.RadioButton();
-            this.cmbMonth = new System.Windows.Forms.ComboBox();
+            this.cbmMonth = new System.Windows.Forms.ComboBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txtYear = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -59,13 +59,13 @@ namespace PersonalTracking
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvSalary = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.pnlForAdmin.SuspendLayout();
             this.pane.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSalary)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -83,7 +83,7 @@ namespace PersonalTracking
             this.panel3.Controls.Add(this.btnClear);
             this.panel3.Controls.Add(this.btnSearch);
             this.panel3.Controls.Add(this.groupBox1);
-            this.panel3.Controls.Add(this.cmbMonth);
+            this.panel3.Controls.Add(this.cbmMonth);
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.txtYear);
             this.panel3.Controls.Add(this.label7);
@@ -104,6 +104,7 @@ namespace PersonalTracking
             this.btnClear.TabIndex = 4;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnSearch
             // 
@@ -114,6 +115,7 @@ namespace PersonalTracking
             this.btnSearch.TabIndex = 3;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // groupBox1
             // 
@@ -164,14 +166,14 @@ namespace PersonalTracking
             this.rbMore.Text = "More";
             this.rbMore.UseVisualStyleBackColor = true;
             // 
-            // cmbMonth
+            // cbmMonth
             // 
-            this.cmbMonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbMonth.FormattingEnabled = true;
-            this.cmbMonth.Location = new System.Drawing.Point(71, 58);
-            this.cmbMonth.Name = "cmbMonth";
-            this.cmbMonth.Size = new System.Drawing.Size(184, 28);
-            this.cmbMonth.TabIndex = 1;
+            this.cbmMonth.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbmMonth.FormattingEnabled = true;
+            this.cbmMonth.Location = new System.Drawing.Point(71, 58);
+            this.cbmMonth.Name = "cbmMonth";
+            this.cbmMonth.Size = new System.Drawing.Size(184, 28);
+            this.cbmMonth.TabIndex = 1;
             // 
             // label8
             // 
@@ -258,6 +260,7 @@ namespace PersonalTracking
             this.cbmDepartment.Name = "cbmDepartment";
             this.cbmDepartment.Size = new System.Drawing.Size(121, 28);
             this.cbmDepartment.TabIndex = 3;
+            this.cbmDepartment.SelectedIndexChanged += new System.EventHandler(this.cbmDepartment_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -394,26 +397,28 @@ namespace PersonalTracking
             this.btnNew.UseVisualStyleBackColor = true;
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
-            // dataGridView1
+            // dgvSalary
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 194);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(806, 190);
-            this.dataGridView1.TabIndex = 2;
+            this.dgvSalary.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvSalary.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvSalary.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvSalary.Location = new System.Drawing.Point(0, 194);
+            this.dgvSalary.Name = "dgvSalary";
+            this.dgvSalary.Size = new System.Drawing.Size(806, 190);
+            this.dgvSalary.TabIndex = 2;
             // 
             // FrmSalaryList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(806, 450);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvSalary);
             this.Controls.Add(this.pane);
             this.Controls.Add(this.panel1);
             this.Name = "FrmSalaryList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Salary List";
+            this.Load += new System.EventHandler(this.FrmSalaryList_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -422,7 +427,7 @@ namespace PersonalTracking
             this.pnlForAdmin.ResumeLayout(false);
             this.pnlForAdmin.PerformLayout();
             this.pane.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvSalary)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -431,7 +436,7 @@ namespace PersonalTracking
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel pane;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvSalary;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel pnlForAdmin;
         private System.Windows.Forms.Button btnClose;
@@ -452,7 +457,7 @@ namespace PersonalTracking
         private System.Windows.Forms.RadioButton rbEqual;
         private System.Windows.Forms.RadioButton rbLess;
         private System.Windows.Forms.RadioButton rbMore;
-        private System.Windows.Forms.ComboBox cmbMonth;
+        private System.Windows.Forms.ComboBox cbmMonth;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtYear;
         private System.Windows.Forms.Label label7;

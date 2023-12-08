@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.DTO;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace DAL.DAO
             try
             {
 
-                return db.MONTHs.ToList(); 
+                return db.MONTHs.ToList();
             }
             catch (Exception ex)
             {
@@ -28,6 +29,88 @@ namespace DAL.DAO
             {
                 db.SALARies.InsertOnSubmit(salary);
                 db.SubmitChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        public static List<SalaryDetailDTO> GetSalaries()
+        {
+            try
+            {
+                List<SalaryDetailDTO> salaryList = new List<SalaryDetailDTO>();
+
+
+                //EmployeeID
+                //UserNo
+                //Name
+                //Surname
+                //DepartmentName
+                //PositionName
+                //DepartmentID
+                //PositionID
+                //MonthName
+                //SalaryYear
+                //MonthID
+                //SalaryAmount
+                //SalaryID
+                //OldSalary
+
+                var list = (
+                    from s in db.SALARies
+                    join e in db.EMPLOYEEs on s.EmployeeID equals e.ID
+                    join m in db.MONTHs on s.MonthID equals m.ID                   
+                    //join d in db.DEPARTMENTs on e.DepartmetnID equals d.ID
+                    //join p in db.POSITIONs on e.PositionID equals p.ID
+
+                    select new
+                    {
+                        EmployeeID = s.ID,
+                        UserNo = e.UserNo,
+                        Name = e.Name,
+                        Surname = e.Surname,
+                        //DepartmentName = d.DepartmentName,
+                        //PositionName = p.PositionName,
+                        DepartmentID = e.ID,
+                        PositionID = e.ID,
+                        MonthName = m.MonthName,
+                        SalaryYear = s.Year,
+                        MonthID = m.ID,
+                        SalaryAmount = s.Amount,
+                        SalaryID = s.ID,
+                        // OldSalary
+                    }
+
+
+                    ).OrderBy(x => x.MonthName).ToList();
+
+                foreach (var item in list)
+                {
+                    SalaryDetailDTO dto = new SalaryDetailDTO();
+
+                    dto.EmployeeID = item.EmployeeID;
+                    dto.UserNo = item.UserNo;
+                    dto.Name = item.Name;
+                    dto.Surname = item.Surname;
+                    //dto.DepartmentName = item.DepartmentName;
+                    //dto.PositionName = item.PositionName;
+                    dto.DepartmentID = item.DepartmentID;
+                    dto.PositionID = item.PositionID;                    
+                    dto.MonthName = item.MonthName;
+                    dto.SalaryYear = item.SalaryYear;
+                    dto.MonthID = item.MonthID;
+                    dto.SalaryAmount = item.SalaryAmount;
+                    dto.SalaryID = item.SalaryID;
+                    dto.OldSalary = item.SalaryAmount; 
+                    salaryList.Add(dto);
+
+                }
+
+
+                return salaryList;
             }
             catch (Exception ex)
             {

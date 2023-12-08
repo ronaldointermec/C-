@@ -78,6 +78,7 @@ namespace PersonalTracking
             dgvTasks.Columns[13].Visible = false;
             dgvTasks.Columns[14].Visible = false;
 
+           
         }
 
         private void btnNew_Click(object sender, EventArgs e)
