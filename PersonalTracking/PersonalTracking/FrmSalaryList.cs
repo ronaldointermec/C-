@@ -76,21 +76,6 @@ namespace PersonalTracking
         private void FrmSalaryList_Load(object sender, EventArgs e)
         {
 
-            // 0 -  EmployeeID 
-            // 1 -  UserNo 
-            // 2 -  Name 
-            // 3 -  Surname 
-            // 4 -  DepartmentName
-            // 5 -  PositionName
-            // 6 -  DepartmentID 
-            // 7 -  PositionID 
-            // 8 -  MonthName 
-            // 9 -  SalaryYear 
-            // 10 - MonthID 
-            // 11 - SalaryAmount 
-            // 12 - SalaryID
-            // 13 - OldSalary 
-
             FillAllData();
 
             dgvSalary.Columns[0].Visible = false;
