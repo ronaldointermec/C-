@@ -93,10 +93,23 @@ namespace PersonalTracking
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            FrmTask frm = new FrmTask();
-            this.Hide();
-            frm.ShowDialog();
-            this.Visible = true;
+
+            if (detail.TaskID == 0)
+                MessageBox.Show("Please select a task from table");
+
+            else {
+
+                FrmTask frm = new FrmTask();
+                frm.IsUpdate = true;
+                frm.detail = detail;
+                this.Hide();
+                frm.ShowDialog();
+                this.Visible = true;
+                FillAllDate();
+                CleanFilters();
+
+            }
+
         }
 
         private void cbmDepartment_SelectedIndexChanged(object sender, EventArgs e)
@@ -154,6 +167,45 @@ namespace PersonalTracking
             rbStartDate.Checked = false;
             cmbTaskState.SelectedIndex = -1;
             dgvTasks.DataSource = dto.Tasks;
+        }
+
+        TaskDetailTDO detail = new TaskDetailTDO();
+        private void dgvTasks_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            // 0  -  Title 
+            // 1  -  UserNo 
+            // 2  -  Name 
+            // 3  -  Surname 
+            // 4  -  TaskStartDate 
+            // 5  -  TaskDeliveryDate
+            // 6  -  TaskStateName   
+            // 7  -  DepartmentName 
+            // 8  -  PositionName 
+            // 9  -  DepartmentID 
+            // 10 -  PositionID 
+            // 11 -  TaskID 
+            // 12 -  EmployeeID 
+            // 13 -  Content 
+            // 14 -  TaskStateID 
+
+            detail.Title = dgvTasks.Rows[e.RowIndex].Cells[0].Value.ToString();
+            detail.UserNo = Convert.ToInt32(dgvTasks.Rows[e.RowIndex].Cells[1].Value);
+            detail.Name = dgvTasks.Rows[e.RowIndex].Cells[2].Value.ToString();
+            detail.Surname = dgvTasks.Rows[e.RowIndex].Cells[3].Value.ToString();
+            detail.TaskStartDate = Convert.ToDateTime(dgvTasks.Rows[e.RowIndex].Cells[4].Value);
+            detail.TaskDeliveryDate = Convert.ToDateTime(dgvTasks.Rows[e.RowIndex].Cells[5].Value);
+            detail.TaskStateName = dgvTasks.Rows[e.RowIndex].Cells[6].Value.ToString();
+            detail.DepartmentName = dgvTasks.Rows[e.RowIndex].Cells[7].Value.ToString();
+            detail.PositionName = dgvTasks.Rows[e.RowIndex].Cells[8].Value.ToString();
+            detail.DepartmentID = Convert.ToInt32(dgvTasks.Rows[e.RowIndex].Cells[9].Value);
+            detail.PositionID = Convert.ToInt32(dgvTasks.Rows[e.RowIndex].Cells[10].Value);
+            detail.TaskID = Convert.ToInt32(dgvTasks.Rows[e.RowIndex].Cells[11].Value);
+            detail.EmployeeID = Convert.ToInt32(dgvTasks.Rows[e.RowIndex].Cells[12].Value);
+            detail.Content = dgvTasks.Rows[e.RowIndex].Cells[13].Value.ToString();
+            detail.TaskStateID = Convert.ToInt32(dgvTasks.Rows[e.RowIndex].Cells[14].Value);              
+                           
+
+
         }
     }
     }

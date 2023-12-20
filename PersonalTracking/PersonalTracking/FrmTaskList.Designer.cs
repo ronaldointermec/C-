@@ -413,6 +413,7 @@ namespace PersonalTracking
             this.dgvTasks.Name = "dgvTasks";
             this.dgvTasks.Size = new System.Drawing.Size(800, 187);
             this.dgvTasks.TabIndex = 2;
+            this.dgvTasks.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTasks_RowEnter);
             // 
             // FrmTaskList
             // 

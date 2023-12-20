@@ -22,7 +22,6 @@ namespace DAL.DTO
         public int TaskID { get; set; }
         public int EmployeeID { get; set; }
         public string Content { get; set; }
-
         public int TaskStateID { get; set; }
     }
 }
