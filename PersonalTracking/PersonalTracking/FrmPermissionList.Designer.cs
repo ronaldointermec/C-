@@ -419,6 +419,7 @@ namespace PersonalTracking
             this.btnDisApproved.TabIndex = 5;
             this.btnDisApproved.Text = "Disapprove";
             this.btnDisApproved.UseVisualStyleBackColor = true;
+            this.btnDisApproved.Click += new System.EventHandler(this.btnDisApproved_Click);
             // 
             // btnApprove
             // 
@@ -429,6 +430,7 @@ namespace PersonalTracking
             this.btnApprove.TabIndex = 0;
             this.btnApprove.Text = "Approve";
             this.btnApprove.UseVisualStyleBackColor = true;
+            this.btnApprove.Click += new System.EventHandler(this.btnApprove_Click);
             // 
             // btnNew
             // 
@@ -450,6 +452,7 @@ namespace PersonalTracking
             this.dgvPermission.Name = "dgvPermission";
             this.dgvPermission.Size = new System.Drawing.Size(828, 262);
             this.dgvPermission.TabIndex = 2;
+            this.dgvPermission.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPermission_RowEnter);
             // 
             // FrmPermissionList
             // 

@@ -46,10 +46,21 @@ namespace PersonalTracking
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            FrmPermission frm = new FrmPermission();
-            this.Hide();
-            frm.ShowDialog();
-            this.Visible = true;
+            if (detail.PermissionID == 0)
+                MessageBox.Show("Please select a permission from table");
+            
+            else
+            {
+                FrmPermission frm = new FrmPermission();
+                frm.isUpdate = true;
+                frm.detail = detail;
+                this.Hide();
+                frm.ShowDialog();
+                this.Visible = true;
+                FillDate();
+                CleanFilters();
+            }
+
         }
 
         PermissionDTO dto = new PermissionDTO();
@@ -115,8 +126,9 @@ namespace PersonalTracking
             dgvPermission.Columns[11].HeaderText = "State";
             dgvPermission.Columns[12].Visible = false;
             dgvPermission.Columns[13].Visible = false;
+            dgvPermission.Columns[14].Visible = false;
 
-           
+
         }
 
         private void cbmDepartment_SelectedIndexChanged(object sender, EventArgs e)
@@ -177,6 +189,35 @@ namespace PersonalTracking
             rbStartDate.Checked = false;
             cbmState.SelectedIndex = -1;
             dgvPermission.DataSource = dto.Permissions;
+        }
+        PermissionDatailDTO detail = new PermissionDatailDTO();
+        private void dgvPermission_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+
+          detail.UserNo = Convert.ToInt32(dgvPermission.Rows[e.RowIndex].Cells[1].Value);
+          detail.StartDate = Convert.ToDateTime(dgvPermission.Rows[e.RowIndex].Cells[8].Value);
+          detail.EndDate = Convert.ToDateTime(dgvPermission.Rows[e.RowIndex].Cells[9].Value);
+          detail.PermissionDayAmount = Convert.ToInt32(dgvPermission.Rows[e.RowIndex].Cells[10].Value);
+          detail.State = Convert.ToInt32(dgvPermission.Rows[e.RowIndex].Cells[12].Value);
+          detail.Explanation = dgvPermission.Rows[e.RowIndex].Cells[13].Value.ToString();
+          detail.PermissionID = Convert.ToInt32(dgvPermission.Rows[e.RowIndex].Cells[14].Value);
+        
+        }
+
+        private void btnApprove_Click(object sender, EventArgs e)
+        {
+            PermissionBLL.UpdatePermission(detail.PermissionID, PermissionStates.Approved);
+            MessageBox.Show("Approved");
+            FillDate();
+            CleanFilters();
+        }
+
+        private void btnDisApproved_Click(object sender, EventArgs e)
+        {
+            PermissionBLL.UpdatePermission(detail.PermissionID, PermissionStates.Disapproved);
+            MessageBox.Show("Disapproved");
+            FillDate();
+            CleanFilters();
         }
     }
 }
