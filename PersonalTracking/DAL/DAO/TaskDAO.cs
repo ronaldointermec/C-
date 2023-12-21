@@ -101,5 +101,25 @@ namespace DAL.DAO
                 throw ex;
             }
         }
+
+        public static void UpdateTask(TASK update)
+        {
+            try
+            {
+                TASK ts = db.TASKs.First(x => x.ID == update.ID);
+                ts.TaskTitle = update.TaskTitle;
+                ts.TaskContent = update.TaskContent;
+                ts.TaskState = update.TaskState;
+                ts.EmployeeID = update.EmployeeID;
+                db.SubmitChanges();
+
+                   
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
     }
 }

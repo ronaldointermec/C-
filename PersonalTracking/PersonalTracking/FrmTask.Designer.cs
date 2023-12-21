@@ -42,7 +42,7 @@ namespace PersonalTracking
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.cmbTaskSate = new System.Windows.Forms.ComboBox();
+            this.cbmTaskState = new System.Windows.Forms.ComboBox();
             this.lbTaskState = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtTitle = new System.Windows.Forms.TextBox();
@@ -191,14 +191,14 @@ namespace PersonalTracking
             this.label1.TabIndex = 8;
             this.label1.Text = "UserNo";
             // 
-            // cmbTaskSate
+            // cbmTaskState
             // 
-            this.cmbTaskSate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbTaskSate.FormattingEnabled = true;
-            this.cmbTaskSate.Location = new System.Drawing.Point(114, 122);
-            this.cmbTaskSate.Name = "cmbTaskSate";
-            this.cmbTaskSate.Size = new System.Drawing.Size(184, 28);
-            this.cmbTaskSate.TabIndex = 3;
+            this.cbmTaskState.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbmTaskState.FormattingEnabled = true;
+            this.cbmTaskState.Location = new System.Drawing.Point(114, 122);
+            this.cbmTaskState.Name = "cbmTaskState";
+            this.cbmTaskState.Size = new System.Drawing.Size(184, 28);
+            this.cbmTaskState.TabIndex = 3;
             // 
             // lbTaskState
             // 
@@ -280,7 +280,7 @@ namespace PersonalTracking
             this.ClientSize = new System.Drawing.Size(830, 480);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
-            this.Controls.Add(this.cmbTaskSate);
+            this.Controls.Add(this.cbmTaskState);
             this.Controls.Add(this.lbTaskState);
             this.Controls.Add(this.txtContent);
             this.Controls.Add(this.txtTitle);
@@ -321,7 +321,7 @@ namespace PersonalTracking
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cmbTaskSate;
+        private System.Windows.Forms.ComboBox cbmTaskState;
         private System.Windows.Forms.Label lbTaskState;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtTitle;

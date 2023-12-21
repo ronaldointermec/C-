@@ -87,7 +87,7 @@ namespace PersonalTracking
                 }
                 else if(isUpdate)
                 {
-                    DialogResult result = MessageBox.Show("Are you sure", "Warning", MessageBoxButtons.YesNo);
+                    DialogResult result = MessageBox.Show("Are you sure?", "Warning", MessageBoxButtons.YesNo);
                     if(result == DialogResult.Yes)
                     {
                         permission.ID = detail.PermissionID;
