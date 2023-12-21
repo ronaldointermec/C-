@@ -406,6 +406,7 @@ namespace PersonalTracking
             this.dgvSalary.Name = "dgvSalary";
             this.dgvSalary.Size = new System.Drawing.Size(806, 190);
             this.dgvSalary.TabIndex = 2;
+            this.dgvSalary.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSalary_RowEnter);
             // 
             // FrmSalaryList
             // 

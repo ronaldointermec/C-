@@ -37,10 +37,21 @@ namespace PersonalTracking
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            FrmSalary frm = new FrmSalary();
-            this.Hide();
-            frm.ShowDialog();
-            this.Visible = true;
+            if (detail.SalaryID == 0)
+                MessageBox.Show("Please select a salary from table");
+
+            else
+            {
+                FrmSalary frm = new FrmSalary();
+                frm.isUpdate = true;
+                frm.detail = detail;
+                this.Hide();
+                frm.ShowDialog();
+                this.Visible = true;
+                FillAllData();
+                ClearFilter();
+            }
+
         }
 
         SalaryDTO dto = new SalaryDTO();
@@ -94,7 +105,7 @@ namespace PersonalTracking
             dgvSalary.Columns[13].Visible = false;
 
 
-    
+
         }
 
         private void cbmDepartment_SelectedIndexChanged(object sender, EventArgs e)
@@ -126,12 +137,12 @@ namespace PersonalTracking
             {
                 if (rbMore.Checked)
                     list = list.Where(x => x.SalaryAmount > Convert.ToInt32(txtSalary.Text)).ToList();
-               else if(rbLess.Checked)
+                else if (rbLess.Checked)
                     list = list.Where(x => x.SalaryAmount < Convert.ToInt32(txtSalary.Text)).ToList();
-               else //(rbEqual.Checked)
+                else //(rbEqual.Checked)
                     list = list.Where(x => x.SalaryAmount == Convert.ToInt32(txtSalary.Text)).ToList();
             }
-            
+
 
 
 
@@ -160,6 +171,41 @@ namespace PersonalTracking
             txtYear.Clear();
             txtSalary.Clear();
             dgvSalary.DataSource = dto.Salaries;
+        }
+
+        SalaryDetailDTO detail = new SalaryDetailDTO();
+        private void dgvSalary_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            // 0  - EmployeeID
+            // 1  - UserNo 
+            // 2  - Name
+            // 3  - Surname
+            // 4  - DepartmentName
+            // 5  - PositionName
+            // 6  - DepartmentID
+            // 7  - PositionID
+            // 8  - MonthName
+            // 9  - SalaryYear
+            // 10 - MonthID
+            // 11 - SalaryAmount
+            // 12 - SalaryID
+            // 13 - OldSalary
+
+            detail.EmployeeID = Convert.ToInt32(dgvSalary.Rows[e.RowIndex].Cells[0].Value);
+            detail.UserNo = Convert.ToInt32(dgvSalary.Rows[e.RowIndex].Cells[1].Value);
+            detail.Name = dgvSalary.Rows[e.RowIndex].Cells[2].Value.ToString();
+            detail.Surname = dgvSalary.Rows[e.RowIndex].Cells[3].Value.ToString();
+           // detail.DepartmentName = dgvSalary.Rows[e.RowIndex].Cells[4].Value.ToString();
+           // detail.PositionName = dgvSalary.Rows[e.RowIndex].Cells[5].Value.ToString();
+            detail.DepartmentID = Convert.ToInt32(dgvSalary.Rows[e.RowIndex].Cells[6].Value);
+            detail.PositionID = Convert.ToInt32(dgvSalary.Rows[e.RowIndex].Cells[7].Value);
+            detail.MonthName = dgvSalary.Rows[e.RowIndex].Cells[8].Value.ToString();
+            detail.SalaryYear = Convert.ToInt32(dgvSalary.Rows[e.RowIndex].Cells[9].Value);
+            detail.MonthID = Convert.ToInt32(dgvSalary.Rows[e.RowIndex].Cells[10].Value);
+            detail.SalaryAmount = Convert.ToInt32(dgvSalary.Rows[e.RowIndex].Cells[11].Value);
+            detail.SalaryID = Convert.ToInt32(dgvSalary.Rows[e.RowIndex].Cells[12].Value);
+            detail.OldSalary = Convert.ToInt32(dgvSalary.Rows[e.RowIndex].Cells[13].Value);
+
         }
     }
 }
