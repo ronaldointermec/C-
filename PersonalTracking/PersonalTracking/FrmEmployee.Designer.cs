@@ -52,7 +52,7 @@ namespace PersonalTracking
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dpBirthday = new System.Windows.Forms.DateTimePicker();
             this.label10 = new System.Windows.Forms.Label();
             this.txtAddress = new System.Windows.Forms.TextBox();
             this.btnClose = new System.Windows.Forms.Button();
@@ -294,12 +294,12 @@ namespace PersonalTracking
             this.label9.TabIndex = 16;
             this.label9.Text = "Birthday";
             // 
-            // dateTimePicker1
+            // dpBirthday
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(123, 312);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(121, 20);
-            this.dateTimePicker1.TabIndex = 6;
+            this.dpBirthday.Location = new System.Drawing.Point(123, 312);
+            this.dpBirthday.Name = "dpBirthday";
+            this.dpBirthday.Size = new System.Drawing.Size(121, 20);
+            this.dpBirthday.TabIndex = 6;
             // 
             // label10
             // 
@@ -351,7 +351,7 @@ namespace PersonalTracking
             this.ClientSize = new System.Drawing.Size(699, 509);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.dpBirthday);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.cbmPosition);
             this.Controls.Add(this.cbmDepartment);
@@ -407,7 +407,7 @@ namespace PersonalTracking
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dpBirthday;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtAddress;
         private System.Windows.Forms.Button btnClose;

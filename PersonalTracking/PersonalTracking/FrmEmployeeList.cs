@@ -36,22 +36,36 @@ namespace PersonalTracking
             this.Hide();
             frm.ShowDialog();
             this.Visible = true;
+            FillAllDate();
+            CleanFilters();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            FrmEmployee frm = new FrmEmployee();
-            this.Hide();
-            frm.ShowDialog();
-            this.Visible = true;
+
+            if (detail.EmployeeID == 0)
+                MessageBox.Show("Please select an employee on table");
+            else
+            {
+                FrmEmployee frm = new FrmEmployee();
+                frm.isUpdate = true;
+                frm.detail = detail;
+                this.Hide();
+                frm.ShowDialog();
+                this.Visible = true;
+                FillAllDate();
+                CleanFilters();
+            }
+
         }
 
         EmployeeDTO dto = new EmployeeDTO();
         bool comboFull = false;
-        private void FrmEmployeeList_Load(object sender, EventArgs e)
+        EmployeeDetailDTO detail = new EmployeeDetailDTO();
+        void FillAllDate()
         {
-            dto = EmployeeBLL.GetAll();
 
+            dto = EmployeeBLL.GetAll();
             dgvEmployeeDetail.DataSource = dto.Emploees;
             dgvEmployeeDetail.Columns[0].Visible = false;
             dgvEmployeeDetail.Columns[1].HeaderText = "User No";
@@ -80,6 +94,10 @@ namespace PersonalTracking
             cbmPosition.ValueMember = "ID";
             cbmPosition.SelectedIndex = -1;
             comboFull = true;
+        }
+        private void FrmEmployeeList_Load(object sender, EventArgs e)
+        {
+            FillAllDate();
         }
 
         private void cbmDepartment_SelectedIndexChanged(object sender, EventArgs e)
@@ -112,6 +130,12 @@ namespace PersonalTracking
 
         private void btnClear_Click(object sender, EventArgs e)
         {
+
+            CleanFilters();
+        }
+
+        private void CleanFilters()
+        {
             txtUserNo.Clear();
             txtName.Clear();
             txtSurname.Clear();
@@ -120,7 +144,40 @@ namespace PersonalTracking
             cbmPosition.SelectedIndex = -1;
             comboFull = true;
             dgvEmployeeDetail.DataSource = dto.Emploees;
- 
+        }
+
+        private void dgvEmployeeDetail_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            // 0  - EmployeeID 
+            // 1  - UserNo 
+            // 2  - Name 
+            // 3  - Surname 
+            // 4  - DepartmentName
+            // 5  - PositionName 
+            // 6  - DepartmentID 
+            // 7  - PositionID 
+            // 8  - Salary  
+            // 9  - Password 
+            // 10 - IsAdmin 
+            // 11 - ImagePath 
+            // 12 - Adress  
+            // 13 - BirthDay 
+
+            detail.EmployeeID = Convert.ToInt32(dgvEmployeeDetail.Rows[e.RowIndex].Cells[0].Value);
+            detail.UserNo = Convert.ToInt32(dgvEmployeeDetail.Rows[e.RowIndex].Cells[1].Value);
+            detail.Name = dgvEmployeeDetail.Rows[e.RowIndex].Cells[2].Value.ToString();
+            detail.Surname = dgvEmployeeDetail.Rows[e.RowIndex].Cells[3].Value.ToString();
+            detail.DepartmentName = dgvEmployeeDetail.Rows[e.RowIndex].Cells[4].Value.ToString();
+            detail.PositionName = dgvEmployeeDetail.Rows[e.RowIndex].Cells[5].Value.ToString();
+            detail.DepartmentID = Convert.ToInt32(dgvEmployeeDetail.Rows[e.RowIndex].Cells[6].Value);
+            detail.PositionID = Convert.ToInt32(dgvEmployeeDetail.Rows[e.RowIndex].Cells[7].Value);
+            detail.Salary = Convert.ToInt32(dgvEmployeeDetail.Rows[e.RowIndex].Cells[8].Value);
+            detail.Password = dgvEmployeeDetail.Rows[e.RowIndex].Cells[9].Value.ToString();
+            detail.IsAdmin = Convert.ToBoolean(dgvEmployeeDetail.Rows[e.RowIndex].Cells[10].Value);
+            detail.ImagePath = dgvEmployeeDetail.Rows[e.RowIndex].Cells[11].Value.ToString();
+            detail.Adress = dgvEmployeeDetail.Rows[e.RowIndex].Cells[12].Value.ToString();
+            detail.BirthDay = Convert.ToDateTime(dgvEmployeeDetail.Rows[e.RowIndex].Cells[13].Value);
+
         }
     }
 }

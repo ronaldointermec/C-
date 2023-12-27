@@ -204,6 +204,7 @@ namespace PersonalTracking
             this.dgvEmployeeDetail.Name = "dgvEmployeeDetail";
             this.dgvEmployeeDetail.Size = new System.Drawing.Size(602, 343);
             this.dgvEmployeeDetail.TabIndex = 1;
+            this.dgvEmployeeDetail.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEmployeeDetail_RowEnter);
             // 
             // panel2
             // 
