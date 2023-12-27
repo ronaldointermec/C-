@@ -79,6 +79,35 @@ namespace DAL.DAO
 
         }
 
+        public static void UpdateEmployee(EMPLOYEE employee)
+        {
+            try
+            {
+
+                EMPLOYEE emp = db.EMPLOYEEs.First(x => x.ID == employee.ID);
+
+                emp.ImagePath = employee.ImagePath;
+                //   emp.ID = employee.ID;
+                emp.UserNo = employee.UserNo;
+                emp.Name = employee.Name;
+                emp.Surname = employee.Surname;
+                emp.IsAdmin = employee.IsAdmin;
+                emp.Password = employee.Password;
+                emp.Adress = employee.Adress;
+                emp.BirthDay = employee.BirthDay;
+                emp.DepartmetnID = employee.DepartmetnID;
+                emp.PositionID = employee.PositionID;
+                emp.Salary = employee.Salary;
+
+                db.SubmitChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
         public static void UpdateEmployee(int employeeID, int amount)
         {
             try

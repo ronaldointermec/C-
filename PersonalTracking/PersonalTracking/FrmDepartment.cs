@@ -24,6 +24,8 @@ namespace PersonalTracking
             this.Close();
         }
 
+        public DEPARTMENT detail = new DEPARTMENT();
+        public bool isUpdate = false;
         private void btnSave_Click(object sender, EventArgs e)
         {
 
@@ -31,12 +33,39 @@ namespace PersonalTracking
                 MessageBox.Show("Please fill the name field");
             else
             {
-                DEPARTMENT department = new DEPARTMENT();
-                department.DepartmentName = txtDepartment.Text;
-                DepartmentBLL.AddDepartment(department);
-                MessageBox.Show("Department was added");
-                txtDepartment.Clear();
+                if (!isUpdate)
+                {
+                    DEPARTMENT department = new DEPARTMENT();
+                    department.DepartmentName = txtDepartment.Text;
+                    DepartmentBLL.AddDepartment(department);
+                    MessageBox.Show("Department was added");
+                    txtDepartment.Clear();
+                }
+                else
+                {
+
+                    DialogResult result = MessageBox.Show("Are you sure?", "Warning", MessageBoxButtons.YesNo);
+
+                    if (result == DialogResult.Yes)
+                    {
+
+                        DEPARTMENT department = new DEPARTMENT();
+                        department.ID = detail.ID;
+                        department.DepartmentName = txtDepartment.Text;
+                        DepartmentBLL.UpdateDepartment(department);
+                        MessageBox.Show("Department was updated");
+                        this.Close();
+                    }
+
+                }
+
             }
+        }
+
+        private void FrmDepartment_Load(object sender, EventArgs e)
+        {
+            if (isUpdate)
+                txtDepartment.Text = detail.DepartmentName;
         }
     }
 }

@@ -21,6 +21,7 @@ namespace PersonalTracking
 
         // variables 
         List<DEPARTMENT> list = new List<DEPARTMENT>();
+        DEPARTMENT detail = new DEPARTMENT();
 
         private void btnClose_Click(object sender, EventArgs e)
         {
@@ -38,10 +39,20 @@ namespace PersonalTracking
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            FrmDepartment frm = new FrmDepartment();
-            this.Hide();
-            frm.ShowDialog();
-            this.Visible = true;
+
+            if (detail.ID == 0)
+                MessageBox.Show("Please, select a department on table");
+            else
+            {
+                FrmDepartment frm = new FrmDepartment();
+                frm.detail = detail;
+                frm.isUpdate = true;
+                this.Hide();
+                frm.ShowDialog();
+                this.Visible = true;
+                FillGrid();
+            }
+      
         }
 
         void FillGrid()
@@ -56,6 +67,13 @@ namespace PersonalTracking
 
             dgvDepartments.Columns[0].Visible = false;
             dgvDepartments.Columns[1].HeaderText = "Department Name";
+        }
+
+        private void dgvDepartments_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            detail.ID = Convert.ToInt32(dgvDepartments.Rows[e.RowIndex].Cells[0].Value);
+            detail.DepartmentName = dgvDepartments.Rows[e.RowIndex].Cells[1].Value.ToString();
+
         }
     }
 }

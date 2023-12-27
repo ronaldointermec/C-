@@ -48,6 +48,7 @@ namespace PersonalTracking
             this.dgvDepartments.Name = "dgvDepartments";
             this.dgvDepartments.Size = new System.Drawing.Size(368, 218);
             this.dgvDepartments.TabIndex = 0;
+            this.dgvDepartments.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDepartments_RowEnter);
             // 
             // panel1
             // 
