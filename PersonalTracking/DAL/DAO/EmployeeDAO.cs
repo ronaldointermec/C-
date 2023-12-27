@@ -79,6 +79,26 @@ namespace DAL.DAO
 
         }
 
+        public static void UpdateEmployee(POSITION position)
+        {
+            try
+            {
+                List<EMPLOYEE> list = db.EMPLOYEEs.Where(x => x.PositionID ==position.ID).ToList();
+
+                foreach (var item in list)
+                {
+                    item.DepartmetnID = position.ID;
+                }
+
+                db.SubmitChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
         public static void UpdateEmployee(EMPLOYEE employee)
         {
             try

@@ -48,6 +48,7 @@ namespace PersonalTracking
             this.dgvPosition.Name = "dgvPosition";
             this.dgvPosition.Size = new System.Drawing.Size(368, 272);
             this.dgvPosition.TabIndex = 0;
+            this.dgvPosition.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPosition_RowEnter);
             // 
             // panel1
             // 

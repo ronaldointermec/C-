@@ -34,9 +34,7 @@ namespace DAL.DAO
             try
             {
                 DEPARTMENT dp = db.DEPARTMENTs.First(x => x.ID == department.ID);
-
                 dp.DepartmentName = department.DepartmentName;
-
                 db.SubmitChanges();
             }
             catch (Exception ex)

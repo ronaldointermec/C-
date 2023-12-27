@@ -81,9 +81,9 @@ namespace PersonalTracking
                 txtTitle.Text = detail.Title;
                 txtContent.Text = detail.Content;
 
-                cbmTaskState.DataSource = dto.TaskStates;
-                cbmTaskState.DisplayMember = "Statename";
-                cbmTaskState.ValueMember = "ID";
+                //cbmTaskState.DataSource = dto.TaskStates;
+                //cbmTaskState.DisplayMember = "Statename";
+                //cbmTaskState.ValueMember = "ID";
                 cbmTaskState.SelectedValue = detail.TaskStateID;
             }
         }
