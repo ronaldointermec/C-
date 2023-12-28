@@ -68,7 +68,7 @@ namespace PersonalTracking
                 else
                 {
 
-                    DialogResult result = MessageBox.Show("Are you susre?", "Warming", MessageBoxButtons.YesNo);
+                    DialogResult result = MessageBox.Show("Are you sure?", "Warming", MessageBoxButtons.YesNo);
 
                     if (result == DialogResult.Yes)
                     {
@@ -79,7 +79,7 @@ namespace PersonalTracking
 
                         bool control = false;
 
-                        if (Convert.ToInt32(cmbDepartment.SelectedValue) != detail.OldDepartmentID)
+                        if (position.DepartmentID != detail.OldDepartmentID)
                             control = true; ;
 
 

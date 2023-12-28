@@ -83,11 +83,11 @@ namespace DAL.DAO
         {
             try
             {
-                List<EMPLOYEE> list = db.EMPLOYEEs.Where(x => x.PositionID ==position.ID).ToList();
+                List<EMPLOYEE> list = db.EMPLOYEEs.Where(x => x.PositionID == position.ID).ToList();
 
                 foreach (var item in list)
                 {
-                    item.DepartmetnID = position.ID;
+                    item.DepartmetnID = position.DepartmentID;
                 }
 
                 db.SubmitChanges();
