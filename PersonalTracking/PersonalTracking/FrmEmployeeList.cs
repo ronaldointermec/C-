@@ -179,6 +179,19 @@ namespace PersonalTracking
             detail.BirthDay = Convert.ToDateTime(dgvEmployeeDetail.Rows[e.RowIndex].Cells[13].Value);
 
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure to delete employee?", "Warming", MessageBoxButtons.YesNo);
+            if(result == DialogResult.Yes)
+            {
+
+                EmployeeBLL.DeleteEmployee(detail.EmployeeID);
+                MessageBox.Show("Employee was deleted");
+                FillAllDate();
+                CleanFilters();
+            }
+        }
     }
 }
 

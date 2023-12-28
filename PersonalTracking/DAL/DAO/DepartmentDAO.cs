@@ -21,7 +21,7 @@ namespace DAL.DAO
 
                 throw ex;
             }
-           
+
         }
 
         public static List<DEPARTMENT> GetDepartments()
@@ -35,6 +35,21 @@ namespace DAL.DAO
             {
                 DEPARTMENT dp = db.DEPARTMENTs.First(x => x.ID == department.ID);
                 dp.DepartmentName = department.DepartmentName;
+                db.SubmitChanges();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
+        public static void DeleteDepartment(int iD)
+        {
+            try
+            {
+                DEPARTMENT dp = db.DEPARTMENTs.First(x => x.ID == iD);
+                db.DEPARTMENTs.DeleteOnSubmit(dp);
                 db.SubmitChanges();
             }
             catch (Exception ex)

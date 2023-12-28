@@ -25,5 +25,10 @@ namespace BLL
         {
             DepartmentDAO.UpdateDepartment(department);
         }
+
+        public static void DeleteDepartment(int iD)
+        {
+            DepartmentDAO.DeleteDepartment(iD);
+        }
     }
 }

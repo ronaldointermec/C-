@@ -79,6 +79,36 @@ namespace DAL.DAO
 
         }
 
+        public static void DeleteEmployee(int employeeID)
+        {
+            try
+            {
+                EMPLOYEE emp = db.EMPLOYEEs.First(x => x.ID == employeeID);
+                db.EMPLOYEEs.DeleteOnSubmit(emp);
+                db.SubmitChanges();
+
+                //IF NOT USE TRIGGER UNCOMENT THISE 
+                //List<TASK> tasks = db.TASKs.Where(x => x.EmployeeID == employeeID).ToList();
+                //db.TASKs.DeleteAllOnSubmit(tasks);
+                //db.SubmitChanges();
+
+                //List<SALARY> salaries = db.SALARies.Where(x => x.EmployeeID == employeeID).ToList();
+
+                //db.SALARies.DeleteAllOnSubmit(salaries);
+                //db.SubmitChanges();
+
+                //List<PERMISSION> permissions = db.PERMISSIONs.Where(x => x.EmployeeID == employeeID).ToList();
+                //db.PERMISSIONs.DeleteAllOnSubmit(permissions);
+                //db.SubmitChanges();
+
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
         public static void UpdateEmployee(POSITION position)
         {
             try

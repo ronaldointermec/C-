@@ -45,6 +45,7 @@ namespace PersonalTracking
             this.dgvPosition.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPosition.Dock = System.Windows.Forms.DockStyle.Top;
             this.dgvPosition.Location = new System.Drawing.Point(0, 0);
+            this.dgvPosition.MultiSelect = false;
             this.dgvPosition.Name = "dgvPosition";
             this.dgvPosition.Size = new System.Drawing.Size(368, 272);
             this.dgvPosition.TabIndex = 0;
@@ -82,6 +83,7 @@ namespace PersonalTracking
             this.btnDelete.TabIndex = 2;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 

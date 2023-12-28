@@ -75,5 +75,18 @@ namespace PersonalTracking
             detail.DepartmentName = dgvDepartments.Rows[e.RowIndex].Cells[1].Value.ToString();
 
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure to delete department","Warning",MessageBoxButtons.YesNo);
+
+            if(DialogResult.Yes == result)
+            {
+
+                DepartmentBLL.DeleteDepartment(detail.ID);
+                MessageBox.Show("Department was deleted");
+                FillGrid();
+            }
+        }
     }
 }
