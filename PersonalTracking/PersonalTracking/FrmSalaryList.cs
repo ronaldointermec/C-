@@ -207,5 +207,19 @@ namespace PersonalTracking
             detail.OldSalary = Convert.ToInt32(dgvSalary.Rows[e.RowIndex].Cells[13].Value);
 
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure to delete salary?","Warning",MessageBoxButtons.YesNo);
+
+            if (result == DialogResult.Yes) {
+
+                SalaryBLL.DeleteSalary(detail.SalaryID);
+                MessageBox.Show("Selary was deleted");
+                FillAllData();
+                ClearFilter();
+            
+            }
+        }
     }
 }

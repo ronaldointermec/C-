@@ -374,6 +374,7 @@ namespace PersonalTracking
             this.btnDelete.TabIndex = 2;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -403,6 +404,7 @@ namespace PersonalTracking
             this.dgvSalary.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvSalary.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvSalary.Location = new System.Drawing.Point(0, 194);
+            this.dgvSalary.MultiSelect = false;
             this.dgvSalary.Name = "dgvSalary";
             this.dgvSalary.Size = new System.Drawing.Size(806, 190);
             this.dgvSalary.TabIndex = 2;

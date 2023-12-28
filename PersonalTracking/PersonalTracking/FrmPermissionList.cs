@@ -48,7 +48,7 @@ namespace PersonalTracking
         {
             if (detail.PermissionID == 0)
                 MessageBox.Show("Please select a permission from table");
-            
+
             else
             {
                 FrmPermission frm = new FrmPermission();
@@ -89,7 +89,7 @@ namespace PersonalTracking
             cbmState.ValueMember = "ID";
             cbmState.SelectedIndex = -1;
         }
-        
+
         private void FrmPermissionList_Load(object sender, EventArgs e)
         {
 
@@ -111,7 +111,7 @@ namespace PersonalTracking
             // 13 - Explanation 
 
             FillDate();
-         
+
             dgvPermission.Columns[0].Visible = false;
             dgvPermission.Columns[1].HeaderText = "User No";
             dgvPermission.Columns[2].HeaderText = "Name";
@@ -134,9 +134,9 @@ namespace PersonalTracking
         private void cbmDepartment_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-            if(comboFull)
-            cbmPosition.DataSource = dto.Positions.Where(x => x.DepartmentID == Convert.ToInt32(cbmDepartment.SelectedValue)).ToList();
-            
+            if (comboFull)
+                cbmPosition.DataSource = dto.Positions.Where(x => x.DepartmentID == Convert.ToInt32(cbmDepartment.SelectedValue)).ToList();
+
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
@@ -159,7 +159,7 @@ namespace PersonalTracking
                 x.StartDate > Convert.ToDateTime(dpStart.Value)).ToList();
 
             else if (rbEndDate.Checked)
-                list = list.Where(x => x.EndDate <  Convert.ToDateTime(dpEnd.Value) &&
+                list = list.Where(x => x.EndDate < Convert.ToDateTime(dpEnd.Value) &&
                 x.EndDate > Convert.ToDateTime(dpStart.Value)).ToList();
 
             if (cbmState.SelectedIndex != -1)
@@ -194,14 +194,14 @@ namespace PersonalTracking
         private void dgvPermission_RowEnter(object sender, DataGridViewCellEventArgs e)
         {
 
-          detail.UserNo = Convert.ToInt32(dgvPermission.Rows[e.RowIndex].Cells[1].Value);
-          detail.StartDate = Convert.ToDateTime(dgvPermission.Rows[e.RowIndex].Cells[8].Value);
-          detail.EndDate = Convert.ToDateTime(dgvPermission.Rows[e.RowIndex].Cells[9].Value);
-          detail.PermissionDayAmount = Convert.ToInt32(dgvPermission.Rows[e.RowIndex].Cells[10].Value);
-          detail.State = Convert.ToInt32(dgvPermission.Rows[e.RowIndex].Cells[12].Value);
-          detail.Explanation = dgvPermission.Rows[e.RowIndex].Cells[13].Value.ToString();
-          detail.PermissionID = Convert.ToInt32(dgvPermission.Rows[e.RowIndex].Cells[14].Value);
-        
+            detail.UserNo = Convert.ToInt32(dgvPermission.Rows[e.RowIndex].Cells[1].Value);
+            detail.StartDate = Convert.ToDateTime(dgvPermission.Rows[e.RowIndex].Cells[8].Value);
+            detail.EndDate = Convert.ToDateTime(dgvPermission.Rows[e.RowIndex].Cells[9].Value);
+            detail.PermissionDayAmount = Convert.ToInt32(dgvPermission.Rows[e.RowIndex].Cells[10].Value);
+            detail.State = Convert.ToInt32(dgvPermission.Rows[e.RowIndex].Cells[12].Value);
+            detail.Explanation = dgvPermission.Rows[e.RowIndex].Cells[13].Value.ToString();
+            detail.PermissionID = Convert.ToInt32(dgvPermission.Rows[e.RowIndex].Cells[14].Value);
+
         }
 
         private void btnApprove_Click(object sender, EventArgs e)
@@ -218,6 +218,25 @@ namespace PersonalTracking
             MessageBox.Show("Disapproved");
             FillDate();
             CleanFilters();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure to delete this permission?", "Warning", MessageBoxButtons.YesNo);
+
+            if (result == DialogResult.Yes)
+            {
+                if (detail.State == PermissionStates.Approved || detail.State == PermissionStates.Disapproved)
+                    MessageBox.Show("You cannot delete approved or deisapproved permissions");
+                else
+                {
+                    PermissionBLL.DeletePermission(detail.PermissionID);
+                    MessageBox.Show("Permission was deleted");
+                    FillDate();
+                    CleanFilters();
+                }
+
+            }
         }
     }
 }

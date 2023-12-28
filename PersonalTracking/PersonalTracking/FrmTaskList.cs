@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using DAL;
 using DAL.DTO;
-using BLL; 
+using BLL;
 
 namespace PersonalTracking
 {
@@ -78,7 +78,7 @@ namespace PersonalTracking
             dgvTasks.Columns[13].Visible = false;
             dgvTasks.Columns[14].Visible = false;
 
-           
+
         }
 
         private void btnNew_Click(object sender, EventArgs e)
@@ -97,7 +97,8 @@ namespace PersonalTracking
             if (detail.TaskID == 0)
                 MessageBox.Show("Please select a task from table");
 
-            else {
+            else
+            {
 
                 FrmTask frm = new FrmTask();
                 frm.IsUpdate = true;
@@ -119,7 +120,7 @@ namespace PersonalTracking
 
                 cbmPosition.DataSource = dto.Positions.Where(x => x.DepartmentID ==
                 Convert.ToInt32(cbmDepartment.SelectedValue)).ToList();
-               
+
             }
         }
 
@@ -138,7 +139,7 @@ namespace PersonalTracking
             if (cbmPosition.SelectedIndex != -1)
                 list = list.Where(x => x.PositionID == Convert.ToInt32(cbmPosition.SelectedValue)).ToList();
             if (rbStartDate.Checked)
-                list = list.Where(x => x.TaskStartDate > Convert.ToDateTime(dpStart.Value) && 
+                list = list.Where(x => x.TaskStartDate > Convert.ToDateTime(dpStart.Value) &&
                 x.TaskStartDate < Convert.ToDateTime(dpEnd.Value)).ToList();
             if (rbDeliveryDate.Checked)
                 list = list.Where(x => x.TaskDeliveryDate > Convert.ToDateTime(dpStart.Value) &&
@@ -202,12 +203,27 @@ namespace PersonalTracking
             detail.TaskID = Convert.ToInt32(dgvTasks.Rows[e.RowIndex].Cells[11].Value);
             detail.EmployeeID = Convert.ToInt32(dgvTasks.Rows[e.RowIndex].Cells[12].Value);
             detail.Content = dgvTasks.Rows[e.RowIndex].Cells[13].Value.ToString();
-            detail.TaskStateID = Convert.ToInt32(dgvTasks.Rows[e.RowIndex].Cells[14].Value);              
-                           
+            detail.TaskStateID = Convert.ToInt32(dgvTasks.Rows[e.RowIndex].Cells[14].Value);
+
 
 
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Are you sure to delete this task?", "Warning", MessageBoxButtons.YesNo);
+
+            if (result == DialogResult.Yes)
+            {
+
+                TaskBLL.DeleteTask(detail.TaskID);
+                MessageBox.Show("Task was deleted");
+                FillAllDate();
+                CleanFilters();
+            }
+
+        }
     }
-    }
-    
+}
+
 
