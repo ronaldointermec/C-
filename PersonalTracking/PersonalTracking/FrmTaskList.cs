@@ -263,6 +263,11 @@ namespace PersonalTracking
 
 
         }
+
+        private void btnExcel_Click(object sender, EventArgs e)
+        {
+            ExportToExcel.ExmportToExcel(dgvTasks);
+        }
     }
 }
 

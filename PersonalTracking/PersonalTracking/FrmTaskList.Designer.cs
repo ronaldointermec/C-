@@ -61,6 +61,7 @@ namespace PersonalTracking
             this.btnApprove = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.dgvTasks = new System.Windows.Forms.DataGridView();
+            this.btnExcel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -81,6 +82,7 @@ namespace PersonalTracking
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.btnExcel);
             this.panel3.Controls.Add(this.btnClear);
             this.panel3.Controls.Add(this.btnSearch);
             this.panel3.Controls.Add(this.cmbTaskState);
@@ -418,6 +420,17 @@ namespace PersonalTracking
             this.dgvTasks.TabIndex = 2;
             this.dgvTasks.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTasks_RowEnter);
             // 
+            // btnExcel
+            // 
+            this.btnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcel.Location = new System.Drawing.Point(131, 157);
+            this.btnExcel.Name = "btnExcel";
+            this.btnExcel.Size = new System.Drawing.Size(186, 29);
+            this.btnExcel.TabIndex = 12;
+            this.btnExcel.Text = "Export to Excel";
+            this.btnExcel.UseVisualStyleBackColor = true;
+            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
+            // 
             // FrmTaskList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -477,5 +490,6 @@ namespace PersonalTracking
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnExcel;
     }
 }

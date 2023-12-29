@@ -48,6 +48,7 @@ namespace PersonalTracking
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
+            this.btnExcel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmployeeDetail)).BeginInit();
             this.panel2.SuspendLayout();
@@ -55,6 +56,7 @@ namespace PersonalTracking
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnExcel);
             this.panel1.Controls.Add(this.btnClear);
             this.panel1.Controls.Add(this.btnSearch);
             this.panel1.Controls.Add(this.cbmPosition);
@@ -263,6 +265,17 @@ namespace PersonalTracking
             this.btnNew.UseVisualStyleBackColor = true;
             this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
+            // btnExcel
+            // 
+            this.btnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcel.Location = new System.Drawing.Point(360, 85);
+            this.btnExcel.Name = "btnExcel";
+            this.btnExcel.Size = new System.Drawing.Size(220, 29);
+            this.btnExcel.TabIndex = 6;
+            this.btnExcel.Text = "Export to Excel";
+            this.btnExcel.UseVisualStyleBackColor = true;
+            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
+            // 
             // FrmEmployeeList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -304,5 +317,6 @@ namespace PersonalTracking
         private System.Windows.Forms.ComboBox cbmDepartment;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnExcel;
     }
 }

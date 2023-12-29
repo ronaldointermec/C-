@@ -192,6 +192,11 @@ namespace PersonalTracking
                 CleanFilters();
             }
         }
+
+        private void btnExcel_Click(object sender, EventArgs e)
+        {
+            ExportToExcel.ExmportToExcel(dgvEmployeeDetail);
+        }
     }
 }
 

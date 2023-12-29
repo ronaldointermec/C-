@@ -27,3 +27,4 @@ C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\Person
 C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.csproj.CopyComplete
 C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.exe
 C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.pdb
+C:\Users\E841371\source\repos\PersonalTracking\PersonalTracking\obj\Debug\PersonalTracking.csproj.ResolveComReference.cache

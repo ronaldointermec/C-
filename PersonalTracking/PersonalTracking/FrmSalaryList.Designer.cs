@@ -60,6 +60,7 @@ namespace PersonalTracking
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.dgvSalary = new System.Windows.Forms.DataGridView();
+            this.btnExcel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -80,6 +81,7 @@ namespace PersonalTracking
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.btnExcel);
             this.panel3.Controls.Add(this.btnClear);
             this.panel3.Controls.Add(this.btnSearch);
             this.panel3.Controls.Add(this.groupBox1);
@@ -410,6 +412,17 @@ namespace PersonalTracking
             this.dgvSalary.TabIndex = 2;
             this.dgvSalary.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvSalary_RowEnter);
             // 
+            // btnExcel
+            // 
+            this.btnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcel.Location = new System.Drawing.Point(71, 125);
+            this.btnExcel.Name = "btnExcel";
+            this.btnExcel.Size = new System.Drawing.Size(184, 29);
+            this.btnExcel.TabIndex = 29;
+            this.btnExcel.Text = "Export to Excel";
+            this.btnExcel.UseVisualStyleBackColor = true;
+            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
+            // 
             // FrmSalaryList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -468,5 +481,6 @@ namespace PersonalTracking
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.Button btnExcel;
     }
 }
