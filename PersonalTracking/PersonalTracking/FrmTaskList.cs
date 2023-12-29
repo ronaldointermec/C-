@@ -37,8 +37,10 @@ namespace PersonalTracking
         {
 
             dto = TaskBLL.GetAll();
-            dgvTasks.DataSource = dto.Tasks;
 
+            if (!UserStatic.isAdmin)
+                dto.Tasks = dto.Tasks.Where(x => x.EmployeeID == UserStatic.EmployeeID).ToList();
+            dgvTasks.DataSource = dto.Tasks;
 
             comboFull = false;
 
@@ -55,6 +57,7 @@ namespace PersonalTracking
 
             cmbTaskState.DataSource = dto.TaskStates;
             cmbTaskState.DisplayMember = "Statename";
+            cmbTaskState.ValueMember = "ID";
             cmbTaskState.SelectedIndex = -1; ;
         }
         private void FrmTaskList_Load(object sender, EventArgs e)
@@ -68,7 +71,7 @@ namespace PersonalTracking
             dgvTasks.Columns[3].HeaderText = "Surname";
             dgvTasks.Columns[4].HeaderText = "Start Date";
             dgvTasks.Columns[5].HeaderText = "Delivery Date";
-            dgvTasks.Columns[6].Visible = false;
+            dgvTasks.Columns[6].HeaderText = "Task State";
             dgvTasks.Columns[7].Visible = false;
             dgvTasks.Columns[8].Visible = false;
             dgvTasks.Columns[9].Visible = false;
@@ -77,6 +80,18 @@ namespace PersonalTracking
             dgvTasks.Columns[12].Visible = false;
             dgvTasks.Columns[13].Visible = false;
             dgvTasks.Columns[14].Visible = false;
+
+            if (!UserStatic.isAdmin)
+            {
+
+                btnNew.Visible = false;
+                btnUpdate.Visible = false;
+                btnDelete.Visible = false;
+                btnClose.Location = new Point(430, 20);
+                btnApprove.Location = new Point(258, 20);
+                pnlForAdmin.Hide();
+                btnApprove.Text = "Delivery";
+            }
 
 
         }
@@ -146,6 +161,8 @@ namespace PersonalTracking
                 x.TaskDeliveryDate < Convert.ToDateTime(dpEnd.Value)).ToList();
             if (cmbTaskState.SelectedIndex != -1)
                 list = list.Where(x => x.TaskStateID == Convert.ToInt32(cmbTaskState.SelectedValue)).ToList();
+                //MessageBox.Show(cmbTaskState.ValueMember.ToString());
+
 
             dgvTasks.DataSource = list;
         }
@@ -221,6 +238,29 @@ namespace PersonalTracking
                 FillAllDate();
                 CleanFilters();
             }
+
+        }
+
+        private void btnApprove_Click(object sender, EventArgs e)
+        {
+            if (UserStatic.isAdmin && detail.TaskStateID == TaskStates.OnEmployee && detail.EmployeeID != UserStatic.EmployeeID)
+                MessageBox.Show("Before approve a task employee have to delivery task");
+            else if (UserStatic.isAdmin && detail.TaskStateID == TaskStates.Approved)
+                MessageBox.Show("This task is already approved");
+            else if (!UserStatic.isAdmin && detail.TaskStateID == TaskStates.Delivered)
+                MessageBox.Show("This task is already delived");
+            else if (!UserStatic.isAdmin && detail.TaskStateID == TaskStates.Approved)
+                MessageBox.Show("This task is already approved");
+            else
+            {
+                TaskBLL.ApproveTask(detail.TaskID, UserStatic.isAdmin);
+                MessageBox.Show("Task was updated");
+                FillAllDate();
+                CleanFilters();
+
+            }
+
+
 
         }
     }

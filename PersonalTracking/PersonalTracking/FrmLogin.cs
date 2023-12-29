@@ -34,7 +34,7 @@ namespace PersonalTracking
         {
 
             if (txtUserNo.Text.Trim() == "" || txtPassword.Text.Trim() == "")
-                MessageBox.Show("Please fill the UserNo nad Password");
+                MessageBox.Show("Please fill the UserNo and Password");
 
             else
             {
@@ -50,7 +50,7 @@ namespace PersonalTracking
                     employee = employeeList.First();
                     UserStatic.EmployeeID = employee.ID;
                     UserStatic.UserNo = employee.UserNo;
-                    UserStatic.isAdmin = employee.IsAdmin;
+                    UserStatic.isAdmin = Convert.ToBoolean(employee.IsAdmin);
 
                     FrmMain frm = new FrmMain();
                     this.Hide();

@@ -61,6 +61,9 @@ namespace PersonalTracking
         void FillAllData()
         {
             dto = SalaryBLL.GetAll();
+            if (!UserStatic.isAdmin)
+                dto.Salaries = dto.Salaries.Where(x => x.EmployeeID == UserStatic.EmployeeID).ToList();
+           
             dgvSalary.DataSource = dto.Salaries;
 
             comboFull = false;
@@ -103,7 +106,14 @@ namespace PersonalTracking
             dgvSalary.Columns[11].HeaderText = "Salary";
             dgvSalary.Columns[12].Visible = false;
             dgvSalary.Columns[13].Visible = false;
-
+            if (!UserStatic.isAdmin)
+            {
+                btnUpdate.Hide();
+                btnDelete.Hide();
+                btnNew.Location = new Point(317, 19);
+                btnClose.Location = new Point(403, 19);
+                pnlForAdmin.Hide();
+            }
 
 
         }

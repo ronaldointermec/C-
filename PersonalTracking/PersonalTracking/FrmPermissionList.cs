@@ -48,8 +48,10 @@ namespace PersonalTracking
         {
             if (detail.PermissionID == 0)
                 MessageBox.Show("Please select a permission from table");
+            else if (detail.State == PermissionStates.Approved || detail.State == PermissionStates.Disapproved)
+                MessageBox.Show("You can not update any approved or disapproved permisson");
 
-            else
+            else 
             {
                 FrmPermission frm = new FrmPermission();
                 frm.isUpdate = true;
@@ -69,6 +71,8 @@ namespace PersonalTracking
         void FillDate()
         {
             dto = PermissionBLL.GetAll();
+            if (!UserStatic.isAdmin)
+                dto.Permissions = dto.Permissions.Where(x => x.EmployeeID == UserStatic.EmployeeID).ToList();
             dgvPermission.DataSource = dto.Permissions;
 
             comboFull = false;
@@ -127,6 +131,15 @@ namespace PersonalTracking
             dgvPermission.Columns[12].Visible = false;
             dgvPermission.Columns[13].Visible = false;
             dgvPermission.Columns[14].Visible = false;
+            if (!UserStatic.isAdmin)
+            {
+                pnlForAdmin.Visible = false;
+                btnApprove.Hide();
+                btnDisApproved.Hide();
+                btnDelete.Hide();
+                btnClose.Location = new Point(376, 39);
+
+            }
 
 
         }

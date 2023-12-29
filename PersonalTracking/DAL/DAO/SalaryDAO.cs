@@ -68,7 +68,7 @@ namespace DAL.DAO
 
                     select new
                     {
-                        EmployeeID = s.ID,
+                        EmployeeID = s.EmployeeID,
                         UserNo = e.UserNo,
                         Name = e.Name,
                         Surname = e.Surname,

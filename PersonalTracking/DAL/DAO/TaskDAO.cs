@@ -68,7 +68,7 @@ namespace DAL.DAO
                             }
                             ).OrderBy(x => x.startdate).ToList();
 
-                
+
 
                 foreach (var item in list)
                 {
@@ -102,6 +102,26 @@ namespace DAL.DAO
             }
         }
 
+        public static void ApproveTask(int taskID, bool isAdmin)
+        {
+            try
+            {
+                TASK tsk = db.TASKs.First(x => x.ID == taskID);
+                if (isAdmin)
+                    tsk.TaskState = TaskStates.Approved;
+                else
+                    tsk.TaskState = TaskStates.Delivered;
+                tsk.TastkDeliveryDate = DateTime.Today;
+                db.SubmitChanges();
+
+                            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+
         public static void DeleteTask(int taskID)
         {
             try
@@ -128,7 +148,7 @@ namespace DAL.DAO
                 ts.EmployeeID = update.EmployeeID;
                 db.SubmitChanges();
 
-                   
+
             }
             catch (Exception ex)
             {
