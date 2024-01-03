@@ -1,0 +1,7 @@
+C:\Users\E841371\source\repos\AbstractFactoryConsole\AbstractFactoryConsole\bin\Debug\AbstractFactoryConsole.exe.config
+C:\Users\E841371\source\repos\AbstractFactoryConsole\AbstractFactoryConsole\bin\Debug\AbstractFactoryConsole.exe
+C:\Users\E841371\source\repos\AbstractFactoryConsole\AbstractFactoryConsole\bin\Debug\AbstractFactoryConsole.pdb
+C:\Users\E841371\source\repos\AbstractFactoryConsole\AbstractFactoryConsole\obj\Debug\AbstractFactoryConsole.csproj.AssemblyReference.cache
+C:\Users\E841371\source\repos\AbstractFactoryConsole\AbstractFactoryConsole\obj\Debug\AbstractFactoryConsole.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\AbstractFactoryConsole\AbstractFactoryConsole\obj\Debug\AbstractFactoryConsole.exe
+C:\Users\E841371\source\repos\AbstractFactoryConsole\AbstractFactoryConsole\obj\Debug\AbstractFactoryConsole.pdb
