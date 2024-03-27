@@ -22,8 +22,16 @@ namespace CalculaNDC
 
             try
             {
-                txtResult.Text = long.Parse(txtOBUID.Text + "4762515").ToString("X");
-                txtHEX.Text = long.Parse(txtOBUID.Text).ToString("X4");
+                //txtResult.Text = long.Parse(txtOBUID.Text + "4762515").ToString("X");
+                //txtHEX.Text = long.Parse(txtOBUID.Text).ToString("X4");
+
+
+                //
+                //string hexString = txtOBUID.Text; // Get the hexadecimal string from txtResult.Text
+                long parsedLong = long.Parse(txtOBUID.Text, System.Globalization.NumberStyles.HexNumber);
+                parsedLong -= 4762515;
+                txtResult.Text = parsedLong.ToString();
+                //
 
             }
             catch (Exception ex)
