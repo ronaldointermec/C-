@@ -22,16 +22,9 @@ namespace CalculaNDC
 
             try
             {
-                //txtResult.Text = long.Parse(txtOBUID.Text + "4762515").ToString("X");
-                //txtHEX.Text = long.Parse(txtOBUID.Text).ToString("X4");
 
-
-                //
-                //string hexString = txtOBUID.Text; // Get the hexadecimal string from txtResult.Text
-                long parsedLong = long.Parse(txtOBUID.Text, System.Globalization.NumberStyles.HexNumber);
-                parsedLong -= 4762515;
-                txtResult.Text = parsedLong.ToString();
-                //
+                txtResult.Text = long.Parse(txtOBUID.Text + "4762515").ToString("X");
+                txtHEX.Text = long.Parse(txtOBUID.Text).ToString("X4");                
 
             }
             catch (Exception ex)
@@ -40,6 +33,28 @@ namespace CalculaNDC
             }
 
         }
+
+        private void btnNCC_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                long parsedLong = long.Parse(textNCC.Text, System.Globalization.NumberStyles.HexNumber);
+                parsedLong -= 4762515;
+               txtOBUID2.Text = parsedLong.ToString().Substring(0, 10);
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+
 
         private void txtOBUID_Enter(object sender, EventArgs e)
         {
@@ -50,11 +65,13 @@ namespace CalculaNDC
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void textNCC_Enter(object sender, EventArgs e)
         {
-
+            if (textNCC.Text == "Enter your NCC")
+            {
+                textNCC.Text = "";
+                textNCC.ForeColor = System.Drawing.SystemColors.ControlText; // Set the text color to the default color.
+            }
         }
-
-
     }
 }
