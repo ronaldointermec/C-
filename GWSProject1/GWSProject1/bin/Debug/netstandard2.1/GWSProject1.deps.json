@@ -1,0 +1,142 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "GWSProject1/1.0.0": {
+        "dependencies": {
+          "Honeywell.GWS.Connector.SDK": "2.1.0"
+        },
+        "runtime": {
+          "GWSProject1.dll": {}
+        }
+      },
+      "Common.Logging.Core/3.4.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Common.Logging.Core.dll": {
+            "assemblyVersion": "3.4.1.0",
+            "fileVersion": "3.4.0.0"
+          }
+        }
+      },
+      "Honeywell.GuidedWork.AppBase.Abstractions/1.11.0": {
+        "dependencies": {
+          "Common.Logging.Core": "3.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Honeywell.GuidedWork.AppBase.Abstractions.dll": {
+            "assemblyVersion": "1.11.0.0",
+            "fileVersion": "1.11.0.0"
+          }
+        }
+      },
+      "Honeywell.GWS.Connector.SDK/2.1.0": {
+        "dependencies": {
+          "Honeywell.GuidedWork.AppBase.Abstractions": "1.11.0",
+          "Honeywell.VIO.SDK": "3.1.0",
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Honeywell.GWS.Connector.SDK.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.1/de/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es-MX/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/netstandard2.1/es/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr-CA/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "fr-CA"
+          },
+          "lib/netstandard2.1/fr/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/ja/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/nl/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/netstandard2.1/pt-BR/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/pt/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "pt"
+          }
+        }
+      },
+      "Honeywell.VIO.SDK/3.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Honeywell.VIO.SDK.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GWSProject1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common.Logging.Core/3.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wLHldZHvxsSD6Ahonfj00/SkfHfKqO+YT6jsUwVm8Rch1REL9IArHAcSLXxYxYfu5/4ydGtmXvOtaH3AkVPu0A==",
+      "path": "common.logging.core/3.4.1",
+      "hashPath": "common.logging.core.3.4.1.nupkg.sha512"
+    },
+    "Honeywell.GuidedWork.AppBase.Abstractions/1.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/9p8AA1VyPyNuu/svZ3TxzOVNDazWi7XjOdK6slwgfCAtCSAHenPY7bNwWY5i1LQJHQdDPR4CdQ1nLJ+xn89Xg==",
+      "path": "honeywell.guidedwork.appbase.abstractions/1.11.0",
+      "hashPath": "honeywell.guidedwork.appbase.abstractions.1.11.0.nupkg.sha512"
+    },
+    "Honeywell.GWS.Connector.SDK/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kat8oOUKNIovExGqcHfEJgveC/rhQykaHc2+PrlEozHHPpQ9Mek3zSyn33DnTh2WceJ+ogoP4ftJBG88UxALhA==",
+      "path": "honeywell.gws.connector.sdk/2.1.0",
+      "hashPath": "honeywell.gws.connector.sdk.2.1.0.nupkg.sha512"
+    },
+    "Honeywell.VIO.SDK/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QPNL0/BPBqNMgviblkeKYDHgJWuaCxHJEUhMdDBQPNUI0kO+9a9bxc4B91VFbibPPyFxkyuGPI/hqgljpusr9A==",
+      "path": "honeywell.vio.sdk/3.1.0",
+      "hashPath": "honeywell.vio.sdk.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    }
+  }
+}

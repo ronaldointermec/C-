@@ -22,7 +22,6 @@ namespace CalculaNDC
 
             try
             {
-
                 txtResult.Text = long.Parse(txtOBUID.Text + "4762515").ToString("X");
                 txtHEX.Text = long.Parse(txtOBUID.Text).ToString("X4");                
 
@@ -53,10 +52,7 @@ namespace CalculaNDC
         {
 
         }
-
-
-
-        private void txtOBUID_Enter(object sender, EventArgs e)
+                private void txtOBUID_Enter(object sender, EventArgs e)
         {
             if (txtOBUID.Text == "Enter your OBUID")
             {

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "ff7R4Kcpu9BbSfih6gQE9cv3nnfwr0q6+bT+mkUAurHuMbovmwQsIk0NeHJrywmU3N8FDkLHhu8MGLIO0A7UfA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\E841371\\source\\repos\\GWSProject1\\GWSProject1\\GWSProject1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\E841371\\.nuget\\packages\\common.logging.core\\3.4.1\\common.logging.core.3.4.1.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\honeywell.guidedwork.appbase.abstractions\\1.11.0\\honeywell.guidedwork.appbase.abstractions.1.11.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\honeywell.gws.connector.sdk\\2.1.0\\honeywell.gws.connector.sdk.2.1.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\honeywell.vio.sdk\\3.1.0\\honeywell.vio.sdk.3.1.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,826 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "Common.Logging.Core/3.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1"
+        },
+        "compile": {
+          "lib/net40/Common.Logging.Core.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net40/Common.Logging.Core.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "Honeywell.GuidedWork.AppBase.Abstractions/1.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Common.Logging.Core": "3.4.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Honeywell.GuidedWork.AppBase.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Honeywell.GuidedWork.AppBase.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Honeywell.GWS.Connector.SDK/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Honeywell.GuidedWork.AppBase.Abstractions": "1.11.0",
+          "Honeywell.VIO.SDK": "3.1.0",
+          "Microsoft.CSharp": "4.7.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.ServiceModel"
+        ],
+        "compile": {
+          "lib/net472/Honeywell.GWS.Connector.SDK.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/Honeywell.GWS.Connector.SDK.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net472/de/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net472/es-MX/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net472/es/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net472/fr-CA/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "fr-CA"
+          },
+          "lib/net472/fr/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net472/ja/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net472/nl/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net472/pt-BR/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net472/pt/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "pt"
+          }
+        }
+      },
+      "Honeywell.VIO.SDK/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Honeywell.VIO.SDK.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/Honeywell.VIO.SDK.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/android": {
+      "Common.Logging.Core/3.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1"
+        },
+        "compile": {
+          "lib/net40/Common.Logging.Core.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net40/Common.Logging.Core.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "Honeywell.GuidedWork.AppBase.Abstractions/1.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Common.Logging.Core": "3.4.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Honeywell.GuidedWork.AppBase.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Honeywell.GuidedWork.AppBase.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Honeywell.GWS.Connector.SDK/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Honeywell.GuidedWork.AppBase.Abstractions": "1.11.0",
+          "Honeywell.VIO.SDK": "3.1.0",
+          "Microsoft.CSharp": "4.7.0",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.ServiceModel"
+        ],
+        "compile": {
+          "lib/net472/Honeywell.GWS.Connector.SDK.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/Honeywell.GWS.Connector.SDK.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net472/de/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net472/es-MX/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/net472/es/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net472/fr-CA/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "fr-CA"
+          },
+          "lib/net472/fr/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net472/ja/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net472/nl/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net472/pt-BR/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net472/pt/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "pt"
+          }
+        }
+      },
+      "Honeywell.VIO.SDK/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Honeywell.VIO.SDK.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net472/Honeywell.VIO.SDK.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net461/System.Threading.Tasks.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETStandard,Version=v2.1": {
+      "Common.Logging.Core/3.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Common.Logging.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.0/Common.Logging.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Honeywell.GuidedWork.AppBase.Abstractions/1.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Common.Logging.Core": "3.4.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Honeywell.GuidedWork.AppBase.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Honeywell.GuidedWork.AppBase.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Honeywell.GWS.Connector.SDK/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Honeywell.GuidedWork.AppBase.Abstractions": "1.11.0",
+          "Honeywell.VIO.SDK": "3.1.0",
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Honeywell.GWS.Connector.SDK.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Honeywell.GWS.Connector.SDK.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/netstandard2.1/de/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es-MX/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/netstandard2.1/es/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr-CA/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "fr-CA"
+          },
+          "lib/netstandard2.1/fr/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/ja/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/nl/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/netstandard2.1/pt-BR/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/pt/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "pt"
+          }
+        }
+      },
+      "Honeywell.VIO.SDK/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Honeywell.VIO.SDK.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Honeywell.VIO.SDK.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/Microsoft.CSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    ".NETStandard,Version=v2.1/android": {
+      "Common.Logging.Core/3.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.0/Common.Logging.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.0/Common.Logging.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Honeywell.GuidedWork.AppBase.Abstractions/1.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Common.Logging.Core": "3.4.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Honeywell.GuidedWork.AppBase.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Honeywell.GuidedWork.AppBase.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Honeywell.GWS.Connector.SDK/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Honeywell.GuidedWork.AppBase.Abstractions": "1.11.0",
+          "Honeywell.VIO.SDK": "3.1.0",
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Honeywell.GWS.Connector.SDK.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Honeywell.GWS.Connector.SDK.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/netstandard2.1/de/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.1/es-MX/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "es-MX"
+          },
+          "lib/netstandard2.1/es/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.1/fr-CA/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "fr-CA"
+          },
+          "lib/netstandard2.1/fr/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.1/ja/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.1/nl/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/netstandard2.1/pt-BR/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.1/pt/Honeywell.GWS.Connector.SDK.resources.dll": {
+            "locale": "pt"
+          }
+        }
+      },
+      "Honeywell.VIO.SDK/3.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Honeywell.VIO.SDK.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Honeywell.VIO.SDK.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/Microsoft.CSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Common.Logging.Core/3.4.1": {
+      "sha512": "wLHldZHvxsSD6Ahonfj00/SkfHfKqO+YT6jsUwVm8Rch1REL9IArHAcSLXxYxYfu5/4ydGtmXvOtaH3AkVPu0A==",
+      "type": "package",
+      "path": "common.logging.core/3.4.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "common.logging.core.3.4.1.nupkg.sha512",
+        "common.logging.core.nuspec",
+        "lib/net40/Common.Logging.Core.XML",
+        "lib/net40/Common.Logging.Core.dll",
+        "lib/net40/Common.Logging.Core.pdb",
+        "lib/netstandard1.0/Common.Logging.Core.dll",
+        "lib/netstandard1.0/Common.Logging.Core.pdb",
+        "lib/netstandard1.0/Common.Logging.Core.xml",
+        "lib/portable-win+net40+sl40+wp7+wpa81/Common.Logging.Core.XML",
+        "lib/portable-win+net40+sl40+wp7+wpa81/Common.Logging.Core.dll",
+        "lib/portable-win+net40+sl40+wp7+wpa81/Common.Logging.Core.pdb"
+      ]
+    },
+    "Honeywell.GuidedWork.AppBase.Abstractions/1.11.0": {
+      "sha512": "/9p8AA1VyPyNuu/svZ3TxzOVNDazWi7XjOdK6slwgfCAtCSAHenPY7bNwWY5i1LQJHQdDPR4CdQ1nLJ+xn89Xg==",
+      "type": "package",
+      "path": "honeywell.guidedwork.appbase.abstractions/1.11.0",
+      "files": [
+        ".nupkg.metadata",
+        "honeywell.guidedwork.appbase.abstractions.1.11.0.nupkg.sha512",
+        "honeywell.guidedwork.appbase.abstractions.nuspec",
+        "lib/netstandard2.0/Honeywell.GuidedWork.AppBase.Abstractions.dll",
+        "lib/netstandard2.0/Honeywell.GuidedWork.AppBase.Abstractions.xml"
+      ]
+    },
+    "Honeywell.GWS.Connector.SDK/2.1.0": {
+      "sha512": "Kat8oOUKNIovExGqcHfEJgveC/rhQykaHc2+PrlEozHHPpQ9Mek3zSyn33DnTh2WceJ+ogoP4ftJBG88UxALhA==",
+      "type": "package",
+      "path": "honeywell.gws.connector.sdk/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "honeywell.gws.connector.sdk.2.1.0.nupkg.sha512",
+        "honeywell.gws.connector.sdk.nuspec",
+        "honeywell.png",
+        "lib/net472/Honeywell.GWS.Connector.SDK.dll",
+        "lib/net472/Honeywell.GWS.Connector.SDK.xml",
+        "lib/net472/de/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/net472/es-MX/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/net472/es/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/net472/fr-CA/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/net472/fr/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/net472/ja/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/net472/nl/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/net472/pt-BR/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/net472/pt/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/netstandard2.1/Honeywell.GWS.Connector.SDK.dll",
+        "lib/netstandard2.1/Honeywell.GWS.Connector.SDK.xml",
+        "lib/netstandard2.1/de/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/netstandard2.1/es-MX/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/netstandard2.1/es/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/netstandard2.1/fr-CA/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/netstandard2.1/fr/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/netstandard2.1/ja/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/netstandard2.1/nl/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/netstandard2.1/pt-BR/Honeywell.GWS.Connector.SDK.resources.dll",
+        "lib/netstandard2.1/pt/Honeywell.GWS.Connector.SDK.resources.dll"
+      ]
+    },
+    "Honeywell.VIO.SDK/3.1.0": {
+      "sha512": "QPNL0/BPBqNMgviblkeKYDHgJWuaCxHJEUhMdDBQPNUI0kO+9a9bxc4B91VFbibPPyFxkyuGPI/hqgljpusr9A==",
+      "type": "package",
+      "path": "honeywell.vio.sdk/3.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "honeywell.png",
+        "honeywell.vio.sdk.3.1.0.nupkg.sha512",
+        "honeywell.vio.sdk.nuspec",
+        "lib/net472/Honeywell.VIO.SDK.dll",
+        "lib/net472/Honeywell.VIO.SDK.xml",
+        "lib/netstandard2.0/Honeywell.VIO.SDK.dll",
+        "lib/netstandard2.0/Honeywell.VIO.SDK.xml"
+      ]
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "sha512": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Threading.Tasks.Extensions.dll",
+        "lib/net461/System.Threading.Tasks.Extensions.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "Honeywell.GWS.Connector.SDK >= 2.1.0"
+    ],
+    ".NETStandard,Version=v2.1": [
+      "Honeywell.GWS.Connector.SDK >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\E841371\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\E841371\\source\\repos\\GWSProject1\\GWSProject1\\GWSProject1.csproj",
+      "projectName": "GWSProject1",
+      "projectPath": "C:\\Users\\E841371\\source\\repos\\GWSProject1\\GWSProject1\\GWSProject1.csproj",
+      "packagesPath": "C:\\Users\\E841371\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\E841371\\source\\repos\\GWSProject1\\GWSProject1\\obj\\publish\\android\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "configFilePaths": [
+        "C:\\Users\\E841371\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472",
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\nuget": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packagesource": {}
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "projectReferences": {}
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "targetAlias": "net472",
+        "dependencies": {
+          "Honeywell.GWS.Connector.SDK": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+      },
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "dependencies": {
+          "Honeywell.GWS.Connector.SDK": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "android": {
+        "#import": []
+      }
+    }
+  }
+}

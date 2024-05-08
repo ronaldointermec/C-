@@ -1,0 +1,17 @@
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\GWSProject1.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\GWSProject1.pdb
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\Common.Logging.Core.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\Honeywell.GuidedWork.AppBase.Abstractions.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\Honeywell.GWS.Connector.SDK.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\Honeywell.VIO.SDK.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\System.Threading.Tasks.Extensions.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\de\Honeywell.GWS.Connector.SDK.resources.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\es-MX\Honeywell.GWS.Connector.SDK.resources.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\es\Honeywell.GWS.Connector.SDK.resources.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\fr-CA\Honeywell.GWS.Connector.SDK.resources.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\fr\Honeywell.GWS.Connector.SDK.resources.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\ja\Honeywell.GWS.Connector.SDK.resources.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\nl\Honeywell.GWS.Connector.SDK.resources.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\pt-BR\Honeywell.GWS.Connector.SDK.resources.dll
+C:\Users\E841371\source\repos\GWSProject1\GWSProject1\publish\Release\service\pt\Honeywell.GWS.Connector.SDK.resources.dll
