@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GWSProject1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43cf88f871282796276d5157444e966db4201f97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+162268190809b969f294d6fc8bb90a7503022b4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("GWSProject1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GWSProject1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

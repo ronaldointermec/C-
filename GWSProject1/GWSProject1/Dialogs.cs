@@ -2,6 +2,8 @@
 {
     public enum Dialogs
     {
-        Start
+        Start,
+        GetNextOperation,
+        SendOperationResult
     }
 }
