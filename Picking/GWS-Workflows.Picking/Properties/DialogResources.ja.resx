@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_Authentication" xml:space="preserve">
+    <value>現時点では「{0}」にアクセスできません。VCONFIRM または VSIGNOFF と言います。</value>
+  </data>
+  <data name="BeginPickingOrder_ContainersCount" xml:space="preserve">
+    <value>、{0}コンテナ</value>
+  </data>
+  <data name="BeginPickingOrder_ContainerType" xml:space="preserve">
+    <value>、{0}</value>
+  </data>
+  <data name="BeginPickingOrder_Order" xml:space="preserve">
+    <value>注文{0}</value>
+  </data>
+  <data name="Error_Incorrect" xml:space="preserve">
+    <value>間違った</value>
+  </data>
+  <data name="GetWork_NotWork" xml:space="preserve">
+    <value>作業は割り当てられていません。もう一度やり直すには、VCONFIRMと言います</value>
+  </data>
+  <data name="PickingLine_Aisle" xml:space="preserve">
+    <value>通路{0}</value>
+  </data>
+  <data name="PickingLine_AskPackage" xml:space="preserve">
+    <value>パッケージが含まれていますか?</value>
+  </data>
+  <data name="PickingLine_ConfirmBatch" xml:space="preserve">
+    <value>バッチ{0}?</value>
+  </data>
+  <data name="PickingLine_BreakageQuantity" xml:space="preserve">
+    <value>破損数量?</value>
+  </data>
+  <data name="PickingLine_CD" xml:space="preserve">
+    <value>制御桁?</value>
+  </data>
+  <data name="PickingLine_Confirm" xml:space="preserve">
+    <value>そうです。</value>
+  </data>
+  <data name="PickingLine_LowerQuantityReason" xml:space="preserve">
+    <value>理由コード?</value>
+  </data>
+  <data name="PickingLine_RequiredQuantity" xml:space="preserve">
+    <value>求められた </value>
+  </data>
+  <data name="PickingLine_PickedQuantity" xml:space="preserve">
+    <value>、あなたは言った </value>
+  </data>
+  <data name="PickingLine_IsShort" xml:space="preserve">
+    <value>.これは短いですか?</value>
+  </data>
+  <data name="PickingLine_MaxQuantityAllowed" xml:space="preserve">
+    <value>ピッキングごとに許可される最大数量は</value>
+  </data>
+  <data name="PickingLine_MaxWeightAllowed" xml:space="preserve">
+    <value>重量が許容値を超えている</value>
+  </data>
+  <data name="PickingLine_MinWeightAllowed" xml:space="preserve">
+    <value>重量が許容値未満です</value>
+  </data>
+  <data name="PickingLine_NotAllowed" xml:space="preserve">
+    <value>禁じられた</value>
+  </data>
+  <data name="PickingLine_HowMuchMore" xml:space="preserve">
+    <value>残り{0}行</value>
+  </data>
+  <data name="PickingLine_PendingQuantity" xml:space="preserve">
+    <value>残る</value>
+  </data>
+  <data name="PickingLine_QuantityInLocation" xml:space="preserve">
+    <value>ロケーションの数量</value>
+  </data>
+  <data name="PickingLine_Slot" xml:space="preserve">
+    <value>スロット{0}</value>
+  </data>
+  <data name="PickingLine_Units" xml:space="preserve">
+    <value>{0}ユニット</value>
+  </data>
+  <data name="PickingLine_Weight" xml:space="preserve">
+    <value>重量。</value>
+  </data>
+  <data name="PickingLine_QuantityGreater" xml:space="preserve">
+    <value>要求数量より大きい</value>
+  </data>
+  <data name="PlaceInDock_Destination" xml:space="preserve">
+    <value>宛先を指定</value>
+  </data>
+  <data name="PlaceInDock_Dock" xml:space="preserve">
+    <value>ドック{0}</value>
+  </data>
+  <data name="PlaceInDock_Location" xml:space="preserve">
+    <value>パレット位置</value>
+  </data>
+  <data name="PlaceInDock_PalletPlaced" xml:space="preserve">
+    <value>パレット配置</value>
+  </data>
+  <data name="PrintLabels_Confirm" xml:space="preserve">
+    <value>、印刷するには、VCONFIRMと言います</value>
+  </data>
+  <data name="PrintLabels_ConfirmPrinter" xml:space="preserve">
+    <value>プリンター。</value>
+  </data>
+  <data name="PrintLabels_ConfirmResult" xml:space="preserve">
+    <value>正しい印刷?</value>
+  </data>
+  <data name="PrintLabels_Labels" xml:space="preserve">
+    <value>ラベルはいくつありますか?</value>
+  </data>
+  <data name="PrintLabels_Printer" xml:space="preserve">
+    <value>プリンター</value>
+  </data>
+  <data name="PrintLabels_PrintersNotAvailable" xml:space="preserve">
+    <value>プリンターが利用できません</value>
+  </data>
+  <data name="PrintLabels_Retrying" xml:space="preserve">
+    <value>再試行。。。</value>
+  </data>
+  <data name="PrintLabels_UnknownPrinter" xml:space="preserve">
+    <value>不明なプリンター</value>
+  </data>
+  <data name="Break_ConfirmReason" xml:space="preserve">
+    <value>残りの理由?</value>
+  </data>
+  <data name="Break_Resume" xml:space="preserve">
+    <value>安静時。作業を再開するには、VCONFIRMと言います</value>
+  </data>
+  <data name="ValidatePrinting_Confirm" xml:space="preserve">
+    <value>ラベルの検証</value>
+  </data>
+  <data name="ValidatePrinting_ConfirmLabel" xml:space="preserve">
+    <value>ラベルの検証</value>
+  </data>
+  <data name="ValidatePrinting_ValidationCompleted" xml:space="preserve">
+    <value>検証が完了しました</value>
+  </data>
+  <data name="PickingLine_SelectBatch" xml:space="preserve">
+    <value>バッチを選択</value>
+  </data>
+  <data name="PlaceInDock_PlaceInDock" xml:space="preserve">
+    <value>ドックに置く</value>
+  </data>
+  <data name="PrintLabels_Unknown" xml:space="preserve">
+    <value>不明</value>
+  </data>
+  <data name="PrintLabels_Completed" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="ValidatePrinting_Pendings" xml:space="preserve">
+    <value>残る</value>
+  </data>
+  <data name="LowerQuantityMenu_Empty" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="LowerQuantityMenu_Breakage" xml:space="preserve">
+    <value>破損</value>
+  </data>
+  <data name="LowerQuantityMenu_Complete" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="LowerQuantityMenu_Dock" xml:space="preserve">
+    <value>ドック</value>
+  </data>
+  <data name="LowerQuantityMenu_Continue" xml:space="preserve">
+    <value>続ける</value>
+  </data>
+  <data name="LowerQuantityMenu_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="PickingLine_MissingData" xml:space="preserve">
+    <value>情報がありません</value>
+  </data>
+  <data name="Error_UnknownReason" xml:space="preserve">
+    <value>不明な理由</value>
+  </data>
+  <data name="Error_ConnectMissingServerResponse" xml:space="preserve">
+    <value>アクセスエラー:サーバーから応答を受信しませんでした</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>エラーが発生しました</value>
+  </data>
+</root>

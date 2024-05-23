@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_Authentication" xml:space="preserve">
+    <value>You can't access at this time: '{0}'. Say VCONFIRM or VSIGNOFF.</value>
+  </data>
+  <data name="BeginPickingOrder_ContainersCount" xml:space="preserve">
+    <value>, {0} containers</value>
+  </data>
+  <data name="BeginPickingOrder_ContainerType" xml:space="preserve">
+    <value>, in {0}</value>
+  </data>
+  <data name="BeginPickingOrder_Order" xml:space="preserve">
+    <value>Order {0}</value>
+  </data>
+  <data name="Error_Incorrect" xml:space="preserve">
+    <value>Incorrect</value>
+  </data>
+  <data name="GetWork_NotWork" xml:space="preserve">
+    <value>No work assigned. To try again, say VCONFIRM</value>
+  </data>
+  <data name="PickingLine_Aisle" xml:space="preserve">
+    <value>Aisle {0}</value>
+  </data>
+  <data name="PickingLine_AskPackage" xml:space="preserve">
+    <value>Contains packaging?</value>
+  </data>
+  <data name="PickingLine_ConfirmBatch" xml:space="preserve">
+    <value>Batch {0}?</value>
+  </data>
+  <data name="PickingLine_BreakageQuantity" xml:space="preserve">
+    <value>Breakage quantity?</value>
+  </data>
+  <data name="PickingLine_CD" xml:space="preserve">
+    <value>Check digit?</value>
+  </data>
+  <data name="PickingLine_Confirm" xml:space="preserve">
+    <value> , correct?</value>
+  </data>
+  <data name="PickingLine_LowerQuantityReason" xml:space="preserve">
+    <value>Reason code?</value>
+  </data>
+  <data name="PickingLine_RequiredQuantity" xml:space="preserve">
+    <value>Asked for </value>
+  </data>
+  <data name="PickingLine_PickedQuantity" xml:space="preserve">
+    <value>, you said </value>
+  </data>
+  <data name="PickingLine_IsShort" xml:space="preserve">
+    <value>. Is this a short?</value>
+  </data>
+  <data name="PickingLine_MaxQuantityAllowed" xml:space="preserve">
+    <value>The maximum quantity allowed per pick is</value>
+  </data>
+  <data name="PickingLine_MaxWeightAllowed" xml:space="preserve">
+    <value>The weight is more than allowed</value>
+  </data>
+  <data name="PickingLine_MinWeightAllowed" xml:space="preserve">
+    <value>The weight is less than allowed</value>
+  </data>
+  <data name="PickingLine_NotAllowed" xml:space="preserve">
+    <value>Not allowed</value>
+  </data>
+  <data name="PickingLine_HowMuchMore" xml:space="preserve">
+    <value>There are {0} lines remaining</value>
+  </data>
+  <data name="PickingLine_PendingQuantity" xml:space="preserve">
+    <value>Remain</value>
+  </data>
+  <data name="PickingLine_QuantityInLocation" xml:space="preserve">
+    <value>Quantity in location</value>
+  </data>
+  <data name="PickingLine_Slot" xml:space="preserve">
+    <value>Slot {0}</value>
+  </data>
+  <data name="PickingLine_Units" xml:space="preserve">
+    <value>{0} units</value>
+  </data>
+  <data name="PickingLine_Weight" xml:space="preserve">
+    <value>Weight?</value>
+  </data>
+  <data name="PickingLine_QuantityGreater" xml:space="preserve">
+    <value>Quantity greater than requested</value>
+  </data>
+  <data name="PlaceInDock_Destination" xml:space="preserve">
+    <value>Specify destination</value>
+  </data>
+  <data name="PlaceInDock_Dock" xml:space="preserve">
+    <value>Dock {0}</value>
+  </data>
+  <data name="PlaceInDock_Location" xml:space="preserve">
+    <value>Pallet location</value>
+  </data>
+  <data name="PlaceInDock_PalletPlaced" xml:space="preserve">
+    <value>Pallet placed</value>
+  </data>
+  <data name="PrintLabels_Confirm" xml:space="preserve">
+    <value>, to print, say VCONFIRM</value>
+  </data>
+  <data name="PrintLabels_ConfirmPrinter" xml:space="preserve">
+    <value>Printer?</value>
+  </data>
+  <data name="PrintLabels_ConfirmResult" xml:space="preserve">
+    <value>Correct printing?</value>
+  </data>
+  <data name="PrintLabels_Labels" xml:space="preserve">
+    <value>How many labels?</value>
+  </data>
+  <data name="PrintLabels_Printer" xml:space="preserve">
+    <value>Printer</value>
+  </data>
+  <data name="PrintLabels_PrintersNotAvailable" xml:space="preserve">
+    <value>Printers not available</value>
+  </data>
+  <data name="PrintLabels_Retrying" xml:space="preserve">
+    <value>Retrying...</value>
+  </data>
+  <data name="PrintLabels_UnknownPrinter" xml:space="preserve">
+    <value>Unknown printer</value>
+  </data>
+  <data name="Break_ConfirmReason" xml:space="preserve">
+    <value>Break reason?</value>
+  </data>
+  <data name="Break_Resume" xml:space="preserve">
+    <value>At break. To resume work, say VCONFIRM</value>
+  </data>
+  <data name="ValidatePrinting_Confirm" xml:space="preserve">
+    <value>Validate labels</value>
+  </data>
+  <data name="ValidatePrinting_ConfirmLabel" xml:space="preserve">
+    <value>Validate label</value>
+  </data>
+  <data name="ValidatePrinting_ValidationCompleted" xml:space="preserve">
+    <value>Validation completed</value>
+  </data>
+  <data name="PickingLine_SelectBatch" xml:space="preserve">
+    <value>Select batch</value>
+  </data>
+  <data name="PlaceInDock_PlaceInDock" xml:space="preserve">
+    <value>Place in dock</value>
+  </data>
+  <data name="PrintLabels_Unknown" xml:space="preserve">
+    <value>unknown</value>
+  </data>
+  <data name="PrintLabels_Completed" xml:space="preserve">
+    <value>Completed</value>
+  </data>
+  <data name="ValidatePrinting_Pendings" xml:space="preserve">
+    <value>, remain </value>
+  </data>
+  <data name="LowerQuantityMenu_Empty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="LowerQuantityMenu_Breakage" xml:space="preserve">
+    <value>Breakage</value>
+  </data>
+  <data name="LowerQuantityMenu_Complete" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+  <data name="LowerQuantityMenu_Dock" xml:space="preserve">
+    <value>Dock</value>
+  </data>
+  <data name="LowerQuantityMenu_Continue" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="LowerQuantityMenu_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="PickingLine_MissingData" xml:space="preserve">
+    <value>Information not available</value>
+  </data>
+  <data name="Error_UnknownReason" xml:space="preserve">
+    <value>Unknown reason</value>
+  </data>
+  <data name="Error_ConnectMissingServerResponse" xml:space="preserve">
+    <value>Error accessing: no response received from the server</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>An error ocurred</value>
+  </data>
+</root>

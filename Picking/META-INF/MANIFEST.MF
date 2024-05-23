@@ -1,0 +1,2798 @@
+Manifest-Version: 1.0
+Created-By: 14.0.2 (Oracle Corporation)
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/es/Honeywell.GWS.Connector.
+ SDK.resources.dll
+SHA-256-Digest: 9FTYzSgx5CsaI7K3L9dEBAqdbkYQkiZMAaDN3IeQtiE=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.SqlServer.xml
+SHA-256-Digest: 191OB1RP5enPQUyoVxw8L+vGTlvLUZMfklcHfgigBSY=
+
+Name: GWS-Workflows.Picking.Tests.MockCatalyst/GWS-Workflows.Picking.Tes
+ ts.MockCatalyst.pyproj
+SHA-256-Digest: /uhfOnffwA00VBEmpGKhw9UcWr17XlS2f1jcxjqTLvc=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/project.assets.json
+SHA-256-Digest: 2AtX/REIlEOqU/YvC5fainH1hfg+AZgb2ZWlvPUOdZM=
+
+Name: GWS-Workflows.Picking.Rest/assemblies
+SHA-256-Digest: iIL46Dj2NuEFs0hTCbbWkMjC4XUOnQ0FVdNbyfaqfaw=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/zh-Hant/Microsof
+ t.VisualStudio.TestPlatform.Common.resources.dll
+SHA-256-Digest: Xr3DM7HgNcag29gOqMdmtygqC19lSG0Rp+PeHgF42vk=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/win-arm
+ /native/e_sqlcipher.dll
+SHA-256-Digest: 8vQYofwTRktOt8dPV6T+WAkf9sxo3jwmxAJoLC9ofXY=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.Rest.Properties.Resources.es.resour
+ ces
+SHA-256-Digest: OVwq4W0hgeQF/KHmpgBOkEucxsR/VzVeNHAEWVYEhWI=
+
+Name: GWS-Workflows.Picking.Rest/Batch/ServiceConnector.cs
+SHA-256-Digest: C1zM2koJZuu+mxcrcwSkwz3Zuw6XCQz2cKXQttk26yw=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Data.Sq
+ lClient.SNI.x64.pdb
+SHA-256-Digest: zUI3sxeH/SX+Ru9yxlWHqUsNYGZ1QlkgwSgYwrcC0QQ=
+
+Name: GWS-Workflows.Picking.Oracle/assemblies
+SHA-256-Digest: zxvcQn37Z8q6xtgCwsctwwoBkSUgMZvxgddRKhYGEcs=
+
+Name: GWS-Workflows.Picking.SqlServer.Tests/GWS-Workflows.Picking.SqlSer
+ ver.Tests.csproj
+SHA-256-Digest: YU41kxsuys8M7WCLiinlv05TQeNVBAaP6Vyl9Ueu0L4=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/fr-CA/Honeywell.GWS.
+ Connector.SDK.resources.dll
+SHA-256-Digest: lKg1Xj3H4QwCelYZbf1b4gFoiXSbgxIHwAzqjrDT0uI=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/fr/Honeywell.GWS
+ .Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: zv66H1ER1adYsWRHvkbf6IFSZWv3WMboFBDDUXjdx0o=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.Buffers.dl
+ l
+SHA-256-Digest: rMzPvkXZ8I/+7ZkW43sz6YxlvgEs//bn+ntnIQzh/vs=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.Properties.DialogResources.ja.resources
+SHA-256-Digest: NCPGHB+wxYdUhC2OozLuneCaoD2g6fWUEfyG8GGo9Cs=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/es/Honeyw
+ ell.GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: coJNVcJsbdUQOB9gf1ZERT21w3F9yO6dM0cBhwnfe1A=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/GWS-Workflow
+ s.Picking.Oracle.csproj.GenerateResource.cache
+SHA-256-Digest: RJKCTwCM7NHMfYSO/Dz0IqVLgyN0fDNRh5JpQSUnUK8=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.Rest.xml
+SHA-256-Digest: 15fsgN2CglXiewh9GayXPsSfDK05lI6aTI+NXoFs0nQ=
+
+Name: GWS-Workflows.Picking.SqlServer/Continuous/Behavior.cs
+SHA-256-Digest: axNAyxOYfPaqJMABW6KkKctdA4ymSD2nek3erToCLCw=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/it/Microsoft.Tes
+ tPlatform.CoreUtilities.resources.dll
+SHA-256-Digest: Lj8EjIRvY89xvLKckWytMb9RJMwFlkCMkoA0Ce5savA=
+
+Name: GWS-Workflows.Picking.Rest/Continuous/AppConnector.cs
+SHA-256-Digest: H8xxaAte63ZW0W3QkXGernQ2uxc5+BE/iUi+xCD6CDo=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/GWS-Workflows.Picking.Rest.Te
+ sts.csproj.nuget.g.targets
+SHA-256-Digest: BY+GeyKvzaMWQbKsraWDVB5k3slhIdaCS5D5QgMGbG0=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/fr-CA/Honeywell.GWS.Co
+ nnector.SDK.resources.dll
+SHA-256-Digest: lKg1Xj3H4QwCelYZbf1b4gFoiXSbgxIHwAzqjrDT0uI=
+
+Name: GWS-Workflows.Picking/Modules/Behaviors/IPickingContinuousBehavior
+ .cs
+SHA-256-Digest: Hm5UDDMqg9MeXtjJmoBoX+HJ1PIChPy23AAiQuaFnGU=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.Threading.
+ Tasks.Extensions.dll
+SHA-256-Digest: T4H/0NxyBNt1r8NepCkXabB8RAWS8oiUJg7qdmJqI8Y=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/tr/Microsoft.Tes
+ tPlatform.CrossPlatEngine.resources.dll
+SHA-256-Digest: HksntRqTuD9WVX9Dxh1DDldQCO9EAQ5djn0FCzrykvY=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/de/Honeywell.GWS.Conne
+ ctor.SDK.resources.dll
+SHA-256-Digest: aKrr8G4fOS7HNmfFIWEwQvjVIWvOMMsDxDwY0YZ+8bw=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/es/Honeywell.G
+ WS.Connector.Library.Workflows.Picking.Rest.resources.dll
+SHA-256-Digest: StfgnKOnLtPuScq76DhJ8W+FFdqU25W7MC1ndh66iLA=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/GWS-Workflows.Picking.cspro
+ j.AssemblyReference.cache
+SHA-256-Digest: F4r9Ovz9zKeo3LbFrrilZKfVAdYJc983go0sEfHP8x0=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/zh-Hant/Microsof
+ t.TestPlatform.CrossPlatEngine.resources.dll
+SHA-256-Digest: VjP6cBG10T/93kz9aoPTY12kN/6DLkcQ3jxvghisocQ=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/ja/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: 2j7+thMPU2iiwvfAl+zqbNstuIqgaGpQd/CC6cCJxSU=
+
+Name: GWS-Workflows.Picking/Properties/DialogResources.nl.resx
+SHA-256-Digest: lR4O8QP4IArAdpBFnpv9vSRNeI6qwDmRalBVO/Br6Q0=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Data.Sq
+ lClient.SNI.x64.dll
+SHA-256-Digest: o8m7ypcH1dHUVBObsUDQp81nRcKqP7lREvIlSOVmSPY=
+
+Name: GWS-Workflows.Picking/Labels.cs
+SHA-256-Digest: 96H2pVQxwaAF0u6kKtwNYeRBnKHuCYc3KT5TVTb8B60=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/Honeywell.GWS.Connecto
+ r.Library.Workflows.Picking.Rest.dll
+SHA-256-Digest: 0sN3kLRwDpdWZuwiuG0qu4ZFQa2DcrDNXwRMYg/8eiw=
+
+Name: GWS-Workflows.Picking.Files/Properties/Resources.es.Designer.cs
+SHA-256-Digest: Byw+3sMq2OSEulOaQMmWYMaV5fbWwh+Ew+Tn6KW6rKQ=
+
+Name: GWS-Workflows.Picking.Rest/Properties/Resources.resx
+SHA-256-Digest: iJIEnfXSPtivyWM5k4JH3CUA+bCTlkknLswgIEY9Cxk=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/ja/Honeywell.GWS.Connector.
+ Library.Workflows.Picking.resources.dll
+SHA-256-Digest: DZV77wEFOXRULzLg3DWTa4zh3HyTxf8MzXX98aDX1fE=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/Honeywell.GWS.Connecto
+ r.Library.Workflows.Picking.Rest.pdb
+SHA-256-Digest: +oejKuvc/ar7Xzru5PjpaDnpy9sdLNXYNjowijlMNr4=
+
+Name: GWS-Workflows.Picking.Files/Properties/Resources.es.resx
+SHA-256-Digest: Id3kSCMSU6Y9AsWrfhtlPAW84UWt78j3N62pdO0Z8fg=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/GWS-Workflows.
+ Picking.Rest.csproj.AssemblyReference.cache
+SHA-256-Digest: gFaqQWVy/jttU1go+z4QJMiYGx9vZA8U807viW1Ah5A=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Common.Logging.d
+ ll
+SHA-256-Digest: z6qKBvWvrG9/WCX1rHT1DuLKhpwTHgk3e7zEZO4hwLI=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Microsoft.Visual
+ Studio.TestPlatform.Common.dll
+SHA-256-Digest: hGCXnzISSDE8hRd8/WckbUtnYPwIob/+BlX7Y1nxYWs=
+
+Name: GWS-Workflows.Picking/Models/ValidatePrinting.cs
+SHA-256-Digest: PrOX9Qx7pZqQW74utoRbmdLwUVAnexdYYZ6aJJcyPUU=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/GWS-Workflows.
+ Picking.Rest.assets.cache
+SHA-256-Digest: snA7mFMlZxA7z0mXNeUnsByxbJDTmJnkwg2OHA8ekAU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ko/Microsoft.Vis
+ ualStudio.TestPlatform.ObjectModel.resources.dll
+SHA-256-Digest: w4wqAD/kum6cIPBLmpOJcK3khiBoGKWjZQUGQHEXXRQ=
+
+Name: GWS-Workflows.Picking/Models/BeginBreak.cs
+SHA-256-Digest: 6T9wA6HNa/gF9dLzLgMZn/OfYJVj5lrwznHqyW/2c1U=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/linux-m
+ usl-arm/native/libe_sqlcipher.so
+SHA-256-Digest: CGUYicK6mEACChoh1pPpSbdGeCgszGGD1TLrolHho1s=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/es/Honeywell.GWS
+ .Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: coJNVcJsbdUQOB9gf1ZERT21w3F9yO6dM0cBhwnfe1A=
+
+Name: GWS-Workflows.Picking/Modules/InMemory/Continuous/Behavior.cs
+SHA-256-Digest: g4MYWcNo28ApgiPhhvI4wAWRWrbOyUclE92tTraO1AQ=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/GWS-Workflows.Pi
+ cking.Rest.Tests.csproj.FileListAbsolute.txt
+SHA-256-Digest: O7OF+EaREoof/2JNS2X1CbqdF/KY+BuATB/hKojvS1w=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.Rest.xml
+SHA-256-Digest: 15fsgN2CglXiewh9GayXPsSfDK05lI6aTI+NXoFs0nQ=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/NuGet.Frameworks
+ .dll
+SHA-256-Digest: enH0hqy+JAaqi86jiMWJafXfU+eXfuwuApVU7R/JvoY=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/linux-m
+ ips64/native/libe_sqlcipher.so
+SHA-256-Digest: q1HlbEq4V02xRh31sOXU0+OCidBzzLbmQaxP2TXNR0A=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.Rest.pdb
+SHA-256-Digest: tAbnhar3RO9Vk8VIiFTbMH72l5FViW2Hy4ucygKBDfk=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/GWS-Workflows.Picking.
+ Rest.csproj.FileListAbsolute.txt
+SHA-256-Digest: l7ytcBs93i6kMhIvFYBLwPOdUHzvs6a+A3rOeCd8Rxc=
+
+Name: GWS-Workflows.Picking.Files.Tests/Continuous/BehaviorTestsData.cs
+SHA-256-Digest: S4VG0Z8iy7Ch9zIsDB0Yvyj5WNjEoZAOl0s2ZmOTaRE=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/GWS-Workf
+ lows.Picking.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+SHA-256-Digest: cRM3jqwI0ttf6tnCD0HyMSN4gsrAxjuFFDe+JCkcjcE=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.Properties.DialogResources.nl.resources
+SHA-256-Digest: WWtC8PAm/gkNE+CvOCx2QWV1yKkp3eCmMlTNjEpNsNs=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.SqlServer.pdb
+SHA-256-Digest: RhIt/z/5y5tzK1OxDpHq7oFN1qJqYzJiiJ/wwhz3KzU=
+
+Name: GWS-Workflows.Picking.Oracle/Continuous/AppConnector.cs
+SHA-256-Digest: e+iVyHWYViS+qM5tdWSdjmcOma1YreoDYzODkVTI47I=
+
+Name: GWS-Workflows.Picking.Files.Tests/GWS-Workflows.Picking.Files.Test
+ s.csproj
+SHA-256-Digest: +C+btZCEo8/ImoZn1JxgSCYMrjKrraE835rRXff60JE=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/GWS-Workflows.Pickin
+ g.Oracle.csproj.CoreCompileInputs.cache
+SHA-256-Digest: s10t0WUSv7OTzYt7tIw6t5LemfqRLc1XWf9eBa8D9bc=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/GWS-Workflows.
+ Picking.Rest.csproj.FileListAbsolute.txt
+SHA-256-Digest: kgKqs/+NIEZ7fpRvQucQmmQ4WBHH61m9A3m5B+ihOsQ=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.Rest.dll
+SHA-256-Digest: OKgS8xI+VgoO3ISViwFIMNSs7wH6UX/snTgYSEAlJLU=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/fr-CA/Honeywel
+ l.GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: djCjOSvPGPZSafNLrP1CUUmpj9pN8CQkcdMAY5ox8p4=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/win-arm
+ 64/native/e_sqlcipher.dll
+SHA-256-Digest: qceLusNnV1iissXqh8Bbl89GTJqHuCUqypVH4mXC9zo=
+
+Name: GWS-Workflows.Picking/Properties/DialogResources.de.resx
+SHA-256-Digest: vZJ+EInouAknHiplO/iC3rEzrT4s7FbGqOzeWqX0F4s=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/pl/Microsoft.Tes
+ tPlatform.CommunicationUtilities.resources.dll
+SHA-256-Digest: eB0t16vqdy7CS8bOgaJ5EgJIMMo1L1krLpefMAGJIYw=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.SqlServer.deps.json
+SHA-256-Digest: T7sm4SQZuiepo7WO/lFfmezj/abvrCZgVGjwMvHCR3E=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.SqlServer.dll
+SHA-256-Digest: 4JSA6ayfPLrFyYlK7xvxtg4FbMZ8JTywDpUwWCaoz7U=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/GWS-Workf
+ lows.Picking.SqlServer.csproj.FileListAbsolute.txt
+SHA-256-Digest: pcpAyZz9f9lGoMr8jyWCUdfnjzB1BgouQGWqPRlceNE=
+
+Name: GWS-Workflows.Picking.Files.Tests/Parser/JsonParserTests.cs
+SHA-256-Digest: ukcwsbRuU3JfjNQ228o4hCdmrzQBIXSm73BvtizQjF4=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/tr/Microsoft.Vis
+ ualStudio.TestPlatform.Common.resources.dll
+SHA-256-Digest: VyFY0VTJdn6dIrw7Ixp/H2utCqPrPvH38v7iJizt0rY=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Data.Sq
+ lClient.SNI.arm64.pdb
+SHA-256-Digest: WxBMtSzWfZTpq/oiY2rsrjN6acISddLAwmlpWcZlEGQ=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/GWS-Workflows.Pic
+ king.SqlServer.csproj.AssemblyReference.cache
+SHA-256-Digest: MKcmAptYC8I8sr30p7B26ut7Y81412js5Sm/w7To4dk=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/es/Microsoft.Data
+ .SqlClient.resources.dll
+SHA-256-Digest: xhvohhi25z9g9fP6tzOPe/hU59RlgbimvNLAKro4eUM=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/GWS-Workf
+ lows.Picking.SqlServer.csproj.GenerateResource.cache
+SHA-256-Digest: lfrvdVtLKgo3fEiwR4Mc5bRzEDyOgAfD+xtWc0hp58I=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/zh-Hans/Microsof
+ t.TestPlatform.CrossPlatEngine.resources.dll
+SHA-256-Digest: 3fOmX1zWqUFxjb7BYsHg76pr0oOA7wvj+V7GlcK8UUw=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Identit
+ yModel.JsonWebTokens.dll
+SHA-256-Digest: 616iy8IXTuOACX1gT4SBIAxyLoNyF9bUULe9M+VXXYI=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/Honeywell.GWS.Connecto
+ r.Library.Workflows.Picking.xml
+SHA-256-Digest: eWyPGykzhkuXHy8y8l2J1mD0o7JrzvK05zI1iwSRm38=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/assemblies
+SHA-256-Digest: iIL46Dj2NuEFs0hTCbbWkMjC4XUOnQ0FVdNbyfaqfaw=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/es/Honeywell.G
+ WS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: coJNVcJsbdUQOB9gf1ZERT21w3F9yO6dM0cBhwnfe1A=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Data.Sq
+ lClient.SNI.arm64.dll
+SHA-256-Digest: cw8xgQD3cjZw554c1q7kqwvrnPJY0ZpqPC4VaYr0/Rk=
+
+Name: GWS-Workflows.Picking.Files.Tests/Batch/BehaviorTestsData.cs
+SHA-256-Digest: oMJ8Mcv/cIWuhmMJZ7x2SE2wkUDNIge57O/eZEwByHU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/linux-x
+ 86/native/libe_sqlcipher.so
+SHA-256-Digest: SHSRByx7OABRZ70CFgngdgx0XIsYp2s1YSKxtd0PkSw=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/Honeywell.GW
+ S.Connector.Library.Workflows.Picking.Oracle.deps.json
+SHA-256-Digest: rCZJgiBUgIeIxyPAGfq6N857Xf+r5vuBVOXU1RaexQM=
+
+Name: GWS-Workflows.Picking/Models/PrintLabelsResult.cs
+SHA-256-Digest: mhKNIZ25tJkxHMx9xgnQZ/CLoJemMOZCZpEzW4EAsJk=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/GWS-Workflows.Pic
+ king.SqlServer.AssemblyInfoInputs.cache
+SHA-256-Digest: +is4F4yF73aEggLSCA21VHrs8DZEViPGR2n+uoQUcUY=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/GWS-Workflows.Pic
+ king.SqlServer.csproj.CopyComplete
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: GWS-Workflows.Picking.Files/Code/IParserFactory.cs
+SHA-256-Digest: ENJA4/a1gLtXftFBFAceJWhhzePvXHAIky+KtTCbev0=
+
+Name: GWS-Workflows.Picking.Oracle.Tests/Usings.cs
+SHA-256-Digest: 6N6bkVebpmHL/r05EjKMLckX0qUZzFZbcXRGx/OebTM=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/RestSharp.dll
+SHA-256-Digest: N78qiBXhgzFT/5LQvsOhQF9cXxRohNBWOpa6zRsAdPk=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/fr-CA/Hon
+ eywell.GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: djCjOSvPGPZSafNLrP1CUUmpj9pN8CQkcdMAY5ox8p4=
+
+Name: GWS-Workflows.Picking.Files/GlobalSuppressions.cs
+SHA-256-Digest: QEHpJUWi9nZNAGP/Orcu8LkyAvRPJ6YxbHi+PMRWPY0=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/refint/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.Rest.Tests.dll
+SHA-256-Digest: 18EO44GyJ/kpypwechBc9qxxLmpBGF4ON3FXRLGiwq0=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/pt/Honeywell.GWS.Conne
+ ctor.SDK.resources.dll
+SHA-256-Digest: YGgilDjoy3EOf9VHj2QLQGYaCcPAQu2g0l/Kqyvqi8w=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/GWS-Workflow
+ s.Picking.Oracle.csproj.CoreCompileInputs.cache
+SHA-256-Digest: iW6B/JNay9zvC3EZkeIkpBc+IbJ4zNUQWmDQq5CMKFw=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/Honeywell.GW
+ S.Connector.Library.Workflows.Picking.pdb
+SHA-256-Digest: vccupEMTrhO2QjLcfUMGnHjZYf2EaIc9idJcQlD71/U=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/Oracle.ManagedDataAc
+ cess.dll
+SHA-256-Digest: BTxcL/DtXqcr80zGDcdmTfx1d3oBWbP7Sqn9OZH75dY=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/maccata
+ lyst-arm64/native/libe_sqlcipher.dylib
+SHA-256-Digest: sHd6u+pZi6MXxd7NBzSxqSkheUViNjsb8C5UZ9eXS5Y=
+
+Name: GWS-Workflows.Picking/Models/BeginPickingOrderResult.cs
+SHA-256-Digest: ZTycs9DCzXhdCN2w5bBpnclCbob4Id2FT4nUGbQyuR4=
+
+Name: GWS-Workflows.Picking.SqlServer/Continuous/AppConnector.cs
+SHA-256-Digest: tv3rr9amjBXpKkwDj9G8B2o+IytnRjTyFrBnzroLMoM=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/nl/Honeywell.GWS.Connector.
+ SDK.resources.dll
+SHA-256-Digest: Txbb02ictH4Dm2KnHpqdEk9Q6D/uF1my/kHYDldsPHw=
+
+Name: GWS-Workflows.Picking.Rest/obj/GWS-Workflows.Picking.Rest.csproj.n
+ uget.g.props
+SHA-256-Digest: kR2PTELeNUIEbQIs96mF7MDVvCBMiGfgm/gPEGhFOcU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/CoverletSourceRo
+ otsMapping
+SHA-256-Digest: UJ65cnaewjnP6XwG7emGxMNFBMbzpI28ieinz6/T6RA=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Data.Sq
+ lClient.dll
+SHA-256-Digest: k0Chvk2bBHVqkMUVZ8BBbuBGbwImt1obSFMWQUdeQjY=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/es/Honeywell.GWS.
+ Connector.SDK.resources.dll
+SHA-256-Digest: 9FTYzSgx5CsaI7K3L9dEBAqdbkYQkiZMAaDN3IeQtiE=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/GWS-Workflows.Pic
+ king.SqlServer.assets.cache
+SHA-256-Digest: 6FEftiw1mqBQvfB6+wXUIaXFR3GM01YyK1t6QNuVeGI=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/Honeywell.GW
+ S.Connector.Library.Workflows.Picking.dll
+SHA-256-Digest: Hi4DrSoJuo2XBTp6/M8B8Zj+cRzeU0cgWyYVUStUrRo=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.Security.C
+ ryptography.ProtectedData.dll
+SHA-256-Digest: zZYSTkKV6/ZnYkyFmLHLMODHRh4ji7bQ52qD4i8ZwUg=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/GWS-Workflows.Picki
+ ng.csproj.CoreCompileInputs.cache
+SHA-256-Digest: uo05N1hZDZyioYAzw736Gjst4j7cbx+emqm+mxXeRVw=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/es-MX/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: 1A3SE/5azy+b4e5iPjDJ0OqhKwmtzQbkYisACYeKaD4=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/es-MX/Honeywell.GWS.Connect
+ or.SDK.resources.dll
+SHA-256-Digest: 8GZY/p/T4idKmk0hloyl302ho0+zI0PRT89UAWTL7NU=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/es/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.SqlServer.resources.dll
+SHA-256-Digest: jDOgF6OaF+77SZaIW36M9Ti9kazx/cTgjWbCPjgSARY=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/it/Microsoft.Vis
+ ualStudio.TestPlatform.Common.resources.dll
+SHA-256-Digest: ImpnpGdRGOZzuSO4+wwMkcUchNKQK+FpiQ0xTh+H5Z0=
+
+Name: GWS-Workflows.Picking/bin/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.pdb
+SHA-256-Digest: vccupEMTrhO2QjLcfUMGnHjZYf2EaIc9idJcQlD71/U=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/pt-BR/Microsoft.
+ TestPlatform.CoreUtilities.resources.dll
+SHA-256-Digest: s4asS/p4nmLjOfeqZnfK1Ox6IDW/eINLPxk2lj1o8Iw=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.xml
+SHA-256-Digest: eWyPGykzhkuXHy8y8l2J1mD0o7JrzvK05zI1iwSRm38=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.Rest.Tests.deps.json
+SHA-256-Digest: mrvEbiyo17YdbtrsHtrhBJwcXe+9xviKhXY1bUUjCc4=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/GWS-Workflows.Picki
+ ng.csproj.GenerateResource.cache
+SHA-256-Digest: h1CYXlh6OYqajI3QUmRAJiRqanqRSElzJFz1XDFCB2A=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/Honeywell.VIO.SDK.dl
+ l
+SHA-256-Digest: s3nNOw17EDtGgIDJpFgWiv7meVMdnkawVxMBWHbs37c=
+
+Name: GWS-Workflows.Picking.Files/Batch/ServiceConnector.cs
+SHA-256-Digest: FfR7liap5EJh84Arq8t4CbdUWH5u1qMgJ9XUF17L7+s=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/GWS-Workflows.Pic
+ king.SqlServer.GeneratedMSBuildEditorConfig.editorconfig
+SHA-256-Digest: cRM3jqwI0ttf6tnCD0HyMSN4gsrAxjuFFDe+JCkcjcE=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/es-MX/Honeywell.G
+ WS.Connector.SDK.resources.dll
+SHA-256-Digest: 8GZY/p/T4idKmk0hloyl302ho0+zI0PRT89UAWTL7NU=
+
+Name: GWS-Workflows.Picking.Oracle/obj/project.nuget.cache
+SHA-256-Digest: dvUs+KWEq2LSIWct4i1eclXMCRN7K95dr+BLgjaRSXs=
+
+Name: GWS-Workflows.Picking.Oracle/Batch/ServiceConnector.cs
+SHA-256-Digest: HEig3A3oYTNIP6FALPsRjhjj9WUbmkP2ia2vLScW2f4=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/RestSharp.Serial
+ izers.NewtonsoftJson.dll
+SHA-256-Digest: ywkE+vhupsT8cKt7QhyFE8SIrndzley3AjczSUNYIFk=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/nl/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: Aw62YFDEnrE/1A2DaE9CrDcWR0KBlQxg7cyL8pn0pwI=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/GWS-Workflows.
+ Picking.Rest.GeneratedMSBuildEditorConfig.editorconfig
+SHA-256-Digest: n2XWVsVvpe/Ez8ucAoh/5qe3v98UlhjVy357Smg7GsM=
+
+Name: GWS-Workflows.Picking.Files.Tests/Usings.cs
+SHA-256-Digest: yfMnBi5qwia4835cTzdRRKjaNVy62QeKfuEwnNZPHMo=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/fr/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: iHuXsbMqU6bN6fXF+T6DFzyL5aKX619W/+Gg5MOpuMs=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/Honeywell.GWS.Connecto
+ r.SDK.dll
+SHA-256-Digest: E3B7djGYwfDC7/MRm3K2eLoX05PT+LLQGi/a56B2lPc=
+
+Name: GWS-Workflows.Picking.sln
+SHA-256-Digest: 9gSOWYRU7FJRHdgF4WqPio/Jf76F8YR8vCK765BpmzU=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/Honeywell.GWS.Connec
+ tor.Library.Workflows.Picking.Oracle.xml
+SHA-256-Digest: Dw16ejgQSYLgDyhNCt3R2s9fWF99fW+fa3ptb3G9jTM=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/nl/Honeywell.GWS.Connector.
+ Library.Workflows.Picking.resources.dll
+SHA-256-Digest: dG6vunDpouIkCltgImZHbVXebmWclojZ7CmkC2j5yWk=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/es/Honeywell.GWS.Conne
+ ctor.SDK.resources.dll
+SHA-256-Digest: 9FTYzSgx5CsaI7K3L9dEBAqdbkYQkiZMAaDN3IeQtiE=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/es/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: TK+crjKHodMyY/3ovDMwMUGaWtZJwkXaX58oEOWP2Bg=
+
+Name: GWS-Workflows.Picking/Modules/Behaviors/PickingBehaviorBase.cs
+SHA-256-Digest: W2TKFVWkXO5Ih3hLQ6JTg5wL664mmoAfIhvLaBpAV/w=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/fr/Microsoft.Data
+ .SqlClient.resources.dll
+SHA-256-Digest: WNqzXb4Xzdlwpw5BY42nf/Ki4xZVeySSK29GgyXf37I=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/Honeywell.GWS.Connector.SDK
+ .dll
+SHA-256-Digest: E3B7djGYwfDC7/MRm3K2eLoX05PT+LLQGi/a56B2lPc=
+
+Name: GWS-Workflows.Picking.Oracle/Batch/Behavior.cs
+SHA-256-Digest: PN8jkp+dHm3ymyqmn0Jc3XgiaVdNq/fti+I+AbrcrF4=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Newtonsoft.Json.d
+ ll
+SHA-256-Digest: 4eJ697B+7t9c5xqSVfBCKBam/FhJpIPGcU4bRyBE+p0=
+
+Name: GWS-Workflows.Picking/Models/BeginPickingOrder.cs
+SHA-256-Digest: Us5uBuC5bRvU8XFruKj8jOK2x5lJweBsNi3I348k8VE=
+
+Name: GWS-Workflows.Picking/Models/AskQuestion.cs
+SHA-256-Digest: P7uQ1EtzR9VHX50dpwdM2jWyGUrtf5ML0YNi6DWdwLw=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/System.Buffers.dll
+SHA-256-Digest: rMzPvkXZ8I/+7ZkW43sz6YxlvgEs//bn+ntnIQzh/vs=
+
+Name: GWS-Workflows.Picking/Services/InAppServerLog.cs
+SHA-256-Digest: uJARJ1xy7BIsOsRlJMh6/gyysif6sg5hFuVqZX14+5Q=
+
+Name: GWS-Workflows.Picking.Files/Code/JsonParser.cs
+SHA-256-Digest: DFgui7yRqj3380KdJR4x/tpmSiJgbrPUPD83zlHwNoE=
+
+Name: GWS-Workflows.Picking.Oracle/Properties/Resources.resx
+SHA-256-Digest: JAUhArRA4d8KlDNAy+0/QsCh58reFqQYC4eW4/35tew=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/fr-CA/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: UX61uNIGZRXrZWAfm4Y9WHzyOldIU2m1MFBGwD2OpUk=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/es-MX/Honeyw
+ ell.GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: gQswtSgSQkL5+ghlj8pDnf6jj7X/ssDt7fa+FkbV7gI=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Moq.dll
+SHA-256-Digest: WRHkkAIMd4zSh760sGhdLzsWEDMMjFMj71Cn6nuSYR0=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.Rest.dll
+SHA-256-Digest: OKgS8xI+VgoO3ISViwFIMNSs7wH6UX/snTgYSEAlJLU=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.Security.P
+ ermissions.dll
+SHA-256-Digest: I7kcfm6Eq5g8xuGN5NYKBhaaJu2oL8Aa4pfdAUIUoCM=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/GWS-Workflows.Picking.SqlServe
+ r.csproj.nuget.g.targets
+SHA-256-Digest: H/Sk1iuyfRSUDydnOAPt3BIm1Y+QN4in9l4zoidU+ng=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/fr/Honeywell.GWS.Connector.
+ Library.Workflows.Picking.resources.dll
+SHA-256-Digest: iHuXsbMqU6bN6fXF+T6DFzyL5aKX619W/+Gg5MOpuMs=
+
+Name: GWS-Workflows.Picking/Modules/Behaviors/PickingBehaviorSettings.cs
+SHA-256-Digest: bLvdzezP4g+zbceAvNsjrAR09Bb4nZUHxMrHWr3Kqvo=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/es/Honeyw
+ ell.GWS.Connector.Library.Workflows.Picking.SqlServer.resources.dll
+SHA-256-Digest: JdQAylofCl9lvbfve19qrqmr5bMkHP3VsJZVtvVMI14=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/fr-CA/Honeywell.G
+ WS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: UX61uNIGZRXrZWAfm4Y9WHzyOldIU2m1MFBGwD2OpUk=
+
+Name: GWS-Workflows.Picking/obj/project.nuget.cache
+SHA-256-Digest: e/WuxxCncgD8qd79ggWIopQUspH7j8Q+6Njoy+ryg7U=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Data.Sq
+ lClient.SNI.x86.pdb
+SHA-256-Digest: 2r3Xc+T221lHFMwmD5xfed684tRmRwmKf5fu83rED5g=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.dll
+SHA-256-Digest: Qmz0SOcpX8G0A/421AM1itbaBU20mZx4Ye9JbjVIJ9U=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/fr/Honeyw
+ ell.GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: zv66H1ER1adYsWRHvkbf6IFSZWv3WMboFBDDUXjdx0o=
+
+Name: GWS-Workflows.Picking/Vars.cs
+SHA-256-Digest: oNlozKLwx63lqNRrNo9zNYZ+D8ykvMlsOLoCCAfZn8w=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.pdb
+SHA-256-Digest: dmujaEf5c9pqtsD4Zh3s0lYnNbHQZa7PuvDEZVGV1Ak=
+
+Name: GWS-Workflows.Picking/bin/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.dll
+SHA-256-Digest: Hi4DrSoJuo2XBTp6/M8B8Zj+cRzeU0cgWyYVUStUrRo=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/GWS-Workflows.Pi
+ cking.Rest.Tests.GlobalUsings.g.cs
+SHA-256-Digest: 8/E06egl4+cmgJD1ixryvaLeUT9hoJxW9IubjQhhKrw=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/System.Runtime.CompilerServ
+ ices.Unsafe.dll
+SHA-256-Digest: N3aEiOjvRXKbx9miZ3YzxkUAQpdbuWUW4YbabLnNDc8=
+
+Name: GWS-Workflows.Picking/Modules/Behaviors/AppConnectorBase.cs
+SHA-256-Digest: fqMR28q3OaqsYoj/2m0YfwjSnuGHvVJVrEJNm9qpJ0Q=
+
+Name: GWS-Workflows.Picking.Files/Continuous/ServiceConnector.cs
+SHA-256-Digest: jbsiya2xKYAIThiMPLkj+9a3Ax3pz4JClAT+HxwabtQ=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.Rest.xml
+SHA-256-Digest: 15fsgN2CglXiewh9GayXPsSfDK05lI6aTI+NXoFs0nQ=
+
+Name: GWS-Workflows.Picking.Files/Properties/Resources.resx
+SHA-256-Digest: rowp6YRaVmNDgfb67ibaJ5tJUT0mDpsXiwUYRgsF4gM=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/GWS-Workflows.
+ Picking.Rest.csproj.CoreCompileInputs.cache
+SHA-256-Digest: W4qBUJpYdhqV3EkEKcqH2v0AqiFYBxV7XDZ7ye5ef00=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/es/Honeywell.GWS
+ .Connector.Library.Workflows.Picking.Rest.resources.dll
+SHA-256-Digest: StfgnKOnLtPuScq76DhJ8W+FFdqU25W7MC1ndh66iLA=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.pdb
+SHA-256-Digest: vccupEMTrhO2QjLcfUMGnHjZYf2EaIc9idJcQlD71/U=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Castle.Core.dll
+SHA-256-Digest: nFdirifyr+CRPo/6SU9wX/6WgGmapPt5wmEzRMkY7ig=
+
+Name: GWS-Workflows.Picking/Models/Interfaces/IGetWorkOrderItem.cs
+SHA-256-Digest: kjYiq4uye3CaaSpeBDTeOyaz4yMu+pSeNcYV35/swPg=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/GWS-Workflow
+ s.Picking.Oracle.AssemblyInfo.cs
+SHA-256-Digest: CJlGrnHeat4Cp8rgaehwDy9TE7nVVJGwyPw6VBRrivs=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.Properties.Resources.es.resources
+SHA-256-Digest: h5rCWKbSZWhouSpHoRl0z/ag36hwtJJggcJObYtUS5Q=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.Security.A
+ ccessControl.dll
+SHA-256-Digest: /xTF9ii5pnmNFzrvu6CkPWHmb3FRCOJXasDT36uQcdA=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Microsoft.Visual
+ Studio.CodeCoverage.Shim.dll
+SHA-256-Digest: 1xJTyVO2u9qrSKvCnXy68NgjnpyasAizhlUcbtEJ+JY=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.dll
+SHA-256-Digest: Hi4DrSoJuo2XBTp6/M8B8Zj+cRzeU0cgWyYVUStUrRo=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.pdb
+SHA-256-Digest: dmujaEf5c9pqtsD4Zh3s0lYnNbHQZa7PuvDEZVGV1Ak=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/testhost.dll
+SHA-256-Digest: KqEQLMDo+9X7DBiXAU3+B1zk2t8XfHPeCr2uc7+KpjA=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Data.Sq
+ lClient.SNI.x86.dll
+SHA-256-Digest: KaZfbpH/pyIsqftha+ldlIQVWNRgsGKXPhix52m7yTw=
+
+Name: GWS-Workflows.Picking/Dialogs.cs
+SHA-256-Digest: /nZa+v1bBSUkGXGsU+I4i9LzqBcTUA34RptCl7GR6zo=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/.NETFramework,Version=v4.7.
+ 2.AssemblyAttributes.cs
+SHA-256-Digest: YhGZVX6Q+xZh5AHMmpcxY8hQtLfmW7yNEA9n9mme73A=
+
+Name: GWS-Workflows.Picking.Oracle/Batch/AppConnector.cs
+SHA-256-Digest: w17zL7GhAcn1EKmr+HtEG34uL6TSzKcF7WaJr3CkA5M=
+
+Name: GWS-Workflows.Picking/Code/IDbDataReaderParser.cs
+SHA-256-Digest: KJP52Nih8BaB3thXDBwqG/3fIk7JlLZmGo9cwLR7eFU=
+
+Name: GWS-Workflows.Picking.Tests/WorkflowTests.cs
+SHA-256-Digest: Th6kle3N+E2sIOJ8191n49irEUqtohdVoZ4hJL8sZao=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.dll
+SHA-256-Digest: Qmz0SOcpX8G0A/421AM1itbaBU20mZx4Ye9JbjVIJ9U=
+
+Name: GWS-Workflows.Picking.Files/Code/IsExternalInit.cs
+SHA-256-Digest: nbycdrxyisl8nrmoTNQuys4SNjUAEgfzi0e7EJpfkDU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Microsoft.Visual
+ Studio.TestPlatform.ObjectModel.dll
+SHA-256-Digest: /MYusdT1sNXfDqi68pT+TqIF31vH88dVH6sxmkrsH0I=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Azure.Identity.dl
+ l
+SHA-256-Digest: Zmlzr5CM+CpJVTCy6iMHQATerUReG7Ru91pePIeaYyE=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ja/Microsoft.Tes
+ tPlatform.CrossPlatEngine.resources.dll
+SHA-256-Digest: UtxPxggJLLnAVy7sDx+6HTvJW0P8jEcJImDw/sI3UaI=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/fr/Honeywell.GWS.Connector.
+ SDK.resources.dll
+SHA-256-Digest: 2K5t6LhxU4BvjysdUYJXlPn7xRzjcqg9zgGuO/1WZHM=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.xml
+SHA-256-Digest: eWyPGykzhkuXHy8y8l2J1mD0o7JrzvK05zI1iwSRm38=
+
+Name: GWS-Workflows.Picking/Modules/Behaviors/IPickingBehavior.cs
+SHA-256-Digest: OE8KQzlUWgqAuOT+T90MavtNy87zvj2HnOpU/jJlkgo=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/fr/Honeywell.GWS
+ .Connector.SDK.resources.dll
+SHA-256-Digest: mxst7hyhYYeX2jcaM6uYMEHY05v6oKuAc1jigDXXwwo=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Identit
+ y.Client.dll
+SHA-256-Digest: iORrjpRXZYgnjRXC9g/Xc+vRPzqe2vaSAwEf+EeR4a4=
+
+Name: GWS-Workflows.Picking/Code/IsExternalInit.cs
+SHA-256-Digest: nbycdrxyisl8nrmoTNQuys4SNjUAEgfzi0e7EJpfkDU=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/GWS-Workflows.Picking.Assem
+ blyInfoInputs.cache
+SHA-256-Digest: F3cGOW05ySKgZe0kR3N/fFAHM6+ySlZcSgaHL/q0jJc=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.Properties.Resources.es.resources
+SHA-256-Digest: h5rCWKbSZWhouSpHoRl0z/ag36hwtJJggcJObYtUS5Q=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Bcl.Asy
+ ncInterfaces.dll
+SHA-256-Digest: kxFj5XoVHOMlLHJrtf6/10GZnu1NBBOB8UZnISvrgRY=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/GWS-Workflows.Picking.Gener
+ atedMSBuildEditorConfig.editorconfig
+SHA-256-Digest: 7cARmmh3JBj8a2y/O1tyU88IwgOT6NpZU9m82VJDOj8=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.Properties.DialogResources.es.resources
+SHA-256-Digest: XUDuBnyLB/e/bv4Q7C0tAyD5DeCnqNVK4yw6o5BdOMs=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/alpine-
+ arm/native/libe_sqlcipher.so
+SHA-256-Digest: CGUYicK6mEACChoh1pPpSbdGeCgszGGD1TLrolHho1s=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/zh-Hant/Microsof
+ t.TestPlatform.CommunicationUtilities.resources.dll
+SHA-256-Digest: hUOVmbKW64yivKad5kFdZBSodnML1SjaYcotvy/eGh0=
+
+Name: GWS-Workflows.Picking/obj/GWS-Workflows.Picking.csproj.nuget.g.tar
+ gets
+SHA-256-Digest: lxzJtTU4SEm1xmHXds16gIM6QWJl4y6JaOBsNnNouLU=
+
+Name: GWS-Workflows.Picking/Properties/Resources.es.resx
+SHA-256-Digest: dElMPOR/x5SBjdBo0oCbMg1HbdU0oC1+aRnQVrm4TLs=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/es-MX/Honeywell.
+ GWS.Connector.SDK.resources.dll
+SHA-256-Digest: 7d8o/tS+DWe5QkKZtCG4iuo3YPm/iHYYnVFMf8mmLUw=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Honeywell.GWS.Co
+ nnector.SDK.dll
+SHA-256-Digest: kc+dMKHIKEpqquYt65Zp5UGVu/r2Vn721fHDa3HufJo=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/GWS-Workf
+ lows.Picking.SqlServer.csproj.CoreCompileInputs.cache
+SHA-256-Digest: BP2HcCvlASLDe616YPb4YIHwUlcjJYrp42sbSBi+iNw=
+
+Name: GWS-Workflows.Picking/Models/AskQuestionResult.cs
+SHA-256-Digest: dfde8ea8ru+K1zx/Z2zgobHtDmgsnVm26nVI8tD2Whk=
+
+Name: GWS-Workflows.Picking.Files/Code/YamlParser.cs
+SHA-256-Digest: 8tlgvbdOKw38BUOlyFuj2B4gLDmdjnrmAm1WeighM6Q=
+
+Name: GWS-Workflows.Picking/Models/PlaceInDockResult.cs
+SHA-256-Digest: Hq7oKeYIcIAU6GBuqv0YB8NyX/yX3pYBaE9WddMcnAs=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/alpine-
+ x64/native/libe_sqlcipher.so
+SHA-256-Digest: Ki6L806zS7Sam2V1EtjKOe+HO1b2i+SeYlTBg3JyE2k=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.Properties.DialogResources.fr-CA.resourc
+ es
+SHA-256-Digest: vMuhBIHYzcnIjx4VzSj/UAjrIpKussbPSsBlsNAriGg=
+
+Name: GWS-Workflows.Picking/obj/GWS-Workflows.Picking.csproj.nuget.dgspe
+ c.json
+SHA-256-Digest: EI7OA5vw3j7HgEKqUeys2m2bpPlNymylyHSqygzxR0k=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/Honeywell.GWS.Connecto
+ r.Library.Workflows.Picking.Rest.Properties.Resources.es.resources
+SHA-256-Digest: OVwq4W0hgeQF/KHmpgBOkEucxsR/VzVeNHAEWVYEhWI=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/fr/Microsoft.Vis
+ ualStudio.TestPlatform.Common.resources.dll
+SHA-256-Digest: wg5B1mCe3cfVRHqPFweWNwE9hIn1wg+WC4D7iLdjNgo=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/xunit.assert.dll
+SHA-256-Digest: JZkb6JUSs9kYBNFPpkyRcBSdyH8ZfvYhoSCHRZ9uxSw=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/System.Configura
+ tion.ConfigurationManager.dll
+SHA-256-Digest: BifPvuiLd/QNMAErerh9fl4WX412+KqkadXbmOW5kzU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/Usings.cs
+SHA-256-Digest: 6N6bkVebpmHL/r05EjKMLckX0qUZzFZbcXRGx/OebTM=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/pt-BR/Microsoft.
+ TestPlatform.CommunicationUtilities.resources.dll
+SHA-256-Digest: fMUPLtJUyln170S2PsZ3WIMMoIch3rYwWEtWujF9kX8=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/GWS-Workf
+ lows.Picking.SqlServer.csproj.CopyComplete
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: GWS-Workflows.Picking.Oracle/obj/GWS-Workflows.Picking.Oracle.cspr
+ oj.nuget.g.targets
+SHA-256-Digest: cnUOve8WOk6QLXX9B16FheeB/3H7eRRCdBYxuNnak/w=
+
+Name: GWS-Workflows.Picking.Rest/GWS-Workflows.Picking.Rest.csproj
+SHA-256-Digest: pIsRrOSGHGi+BA/zTHqI2G2wQSsQxk5GRL8PVZL9IiI=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/ja/Honeyw
+ ell.GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: 2j7+thMPU2iiwvfAl+zqbNstuIqgaGpQd/CC6cCJxSU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Honeywell.VIO.SD
+ K.dll
+SHA-256-Digest: cJDJTNbix/jFbBv36CiqB38GJzjT+axTdQaxwxgXRRE=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.Properties.DialogResources.fr.resources
+SHA-256-Digest: IJ89KCEEVN0Z74tQaUk8qxp05BmEy4s0LPwndLV2aqc=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/GWS-Workflows.Picking.cspro
+ j.CoreCompileInputs.cache
+SHA-256-Digest: a+sgF5piOSquPIk31YS0z0D7K3VsQnKYBF3qTW63elw=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/es-MX/Honeywel
+ l.GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: gQswtSgSQkL5+ghlj8pDnf6jj7X/ssDt7fa+FkbV7gI=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.SqlServer.xml
+SHA-256-Digest: 191OB1RP5enPQUyoVxw8L+vGTlvLUZMfklcHfgigBSY=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.Properties.DialogResources.ja.resources
+SHA-256-Digest: NCPGHB+wxYdUhC2OozLuneCaoD2g6fWUEfyG8GGo9Cs=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Common.Logging.C
+ ore.dll
+SHA-256-Digest: N1etuvirNg6bPBNa9k+tAlMp8GSLrLgHasZqPu3b0Qo=
+
+Name: GWS-Workflows.Picking.Rest/Models/RegisterOperatorModel.cs
+SHA-256-Digest: w0VPOHb2akyDrTHXgwJRSI+vFiig6n7y/MNm2z/pnKM=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/GuidedWorkAddOns
+ .dll
+SHA-256-Digest: yTLCo2JRIgIPh74lUieRQG2uwhen5/HVSeXsL8FhQvg=
+
+Name: GWS-Workflows.Picking.Files.Tests/FilesBehaviorTests.cs
+SHA-256-Digest: IoNcx8TtymNSW01JcSNBDKjrhtfG0+cJN9SmXaAueQA=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/es/Honeywell.GWS.Connector.
+ Library.Workflows.Picking.resources.dll
+SHA-256-Digest: TK+crjKHodMyY/3ovDMwMUGaWtZJwkXaX58oEOWP2Bg=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/GWS-Workflows.Picking.SqlServe
+ r.csproj.nuget.g.props
+SHA-256-Digest: kR2PTELeNUIEbQIs96mF7MDVvCBMiGfgm/gPEGhFOcU=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/es/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.Rest.resources.dll
+SHA-256-Digest: jOtlNVpQd1IkwWpV1o/xfkzZUrl7bYN+em33brroKEM=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/zh-Hant/Microsof
+ t.VisualStudio.TestPlatform.ObjectModel.resources.dll
+SHA-256-Digest: SLiPAunSUVb9uL1Ga1zIXFjhnfRRusPBP4Wdqq7NoTs=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/System.ValueTuple.dl
+ l
+SHA-256-Digest: 6QXRAlhbIsbfBPIZr1y9v6e8Fll56XiLYt9tzBZeEPQ=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/GWS-Workflows.Picking.
+ Rest.csproj.CoreCompileInputs.cache
+SHA-256-Digest: 16IJtv0D2lYPZ5eKXYKrN/bv2HuRTAlLe3OKFbWiLyI=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/GWS-Workflows.Pi
+ cking.Rest.Tests.AssemblyInfo.cs
+SHA-256-Digest: 1iEnFRC0D8r8A1e002ym2n4ItrH3C6Sz2LpwAt/PnSY=
+
+Name: GWS-Workflows.Picking.Oracle/Continuous/Behavior.cs
+SHA-256-Digest: rJvBUp1sVuylj7RN09qBdHw7K6leQm3pciKDxrhSMFA=
+
+Name: GWS-Workflows.Picking.SqlServer/Batch/AppConnector.cs
+SHA-256-Digest: UoS+ZlScXQ6AqCCuAuEY7jyxvByQy8Zll5vIPnqq/lg=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/System.Numerics.Vect
+ ors.dll
+SHA-256-Digest: HT74aYKB589zcdFVSv71hys5+Wwm2nciEKM9oEG6EYM=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/assemblies
+SHA-256-Digest: zxvcQn37Z8q6xtgCwsctwwoBkSUgMZvxgddRKhYGEcs=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/ja/Honeywell.GWS.Conne
+ ctor.SDK.resources.dll
+SHA-256-Digest: WJnfrBjm7Cda1mC6kgsIr8zpLFM8KeuKd8r7KRgGsvY=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/de/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: QcylVVJHvom7r3eScOvO78TlJMibm9MyVLfq3mGszBc=
+
+Name: GWS-Workflows.Picking.Files.Tests/ConfigMock.cs
+SHA-256-Digest: xvlK2byy3/xhy8l9EG5yP4xIfotWYsiTMOpexSHBMeg=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/es-MX/Honeywell.
+ GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: gQswtSgSQkL5+ghlj8pDnf6jj7X/ssDt7fa+FkbV7gI=
+
+Name: GWS-Workflows.Picking.Rest/Continuous/Behavior.cs
+SHA-256-Digest: TimGOmnmWKpuRZN8frlQPzjiCsUTsPRaj0HSt69tUdE=
+
+Name: GWS-Workflows.Picking.Rest/Models/SetWork.cs
+SHA-256-Digest: 8CdBvo53CBThRdtJDIcVXOcgb8EGOKzpEK6LeK4apQA=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/System.Runtime.Compile
+ rServices.Unsafe.dll
+SHA-256-Digest: N3aEiOjvRXKbx9miZ3YzxkUAQpdbuWUW4YbabLnNDc8=
+
+Name: GWS-Workflows.Picking.Rest/obj/GWS-Workflows.Picking.Rest.csproj.n
+ uget.dgspec.json
+SHA-256-Digest: /4Nv8jlVmFPCdQUw5bXf4n6jF8wdgE7WOKGxlL1rliU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/de/Microsoft.Tes
+ tPlatform.CrossPlatEngine.resources.dll
+SHA-256-Digest: gIWnIKI4qBNP2KRIupZw1S+asAx7K/43eMhhJwxFesg=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.SqlServer.dll
+SHA-256-Digest: 4JSA6ayfPLrFyYlK7xvxtg4FbMZ8JTywDpUwWCaoz7U=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/xunit.runner.vis
+ ualstudio.dotnetcore.testadapter.dll
+SHA-256-Digest: wes9ww6D6KgA6Ml67cr16FJCw1/wUQE5Jh05zuZnYuw=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.SqlServer.pdb
+SHA-256-Digest: RhIt/z/5y5tzK1OxDpHq7oFN1qJqYzJiiJ/wwhz3KzU=
+
+Name: GWS-Workflows.Picking.Oracle/GlobalSuppressions.cs
+SHA-256-Digest: QEHpJUWi9nZNAGP/Orcu8LkyAvRPJ6YxbHi+PMRWPY0=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/de/Honeywell.GWS
+ .Connector.SDK.resources.dll
+SHA-256-Digest: So/h3fWzjB3701yZcG//E0qeyTstdwpum2ZgUHgoc+g=
+
+Name: GWS-Workflows.Picking.Rest/GetWorkOrderConverter.cs
+SHA-256-Digest: kzzAhndB1semLRXT5o5OgU+mchDsPjwNw73py8kxusg=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/pl/Microsoft.Tes
+ tPlatform.CrossPlatEngine.resources.dll
+SHA-256-Digest: qb7/V1l99roRoVjwUqJLzH7a3Vbn50/pntRldn+iLwI=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/GWS-Workflows.Pickin
+ g.Oracle.csproj.AssemblyReference.cache
+SHA-256-Digest: rFHMalxQkBa8394kjA9eU1e+Fn8NBiqXLhAEoZcglVk=
+
+Name: GWS-Workflows.Picking/ResponseTypes.cs
+SHA-256-Digest: rrtLOO9GV3knVuoracZVg+Jsqaq6d2Sc2upe/ybrP9I=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/nl/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: dG6vunDpouIkCltgImZHbVXebmWclojZ7CmkC2j5yWk=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/ko/Microsoft.Data
+ .SqlClient.resources.dll
+SHA-256-Digest: qWTYZSo2KWMlXYFGOOYmMTk1otCsmKCQtjNLYIjgGLA=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/SQLitePCLRaw.cor
+ e.dll
+SHA-256-Digest: l57cyQVqwG1fUrEtm3czsSF5FKtQvxI6sxLgJ+esV6U=
+
+Name: GWS-Workflows.Picking/Models/EmptyWork.cs
+SHA-256-Digest: xeQWApUkKLlDGK0xKukjzhZKdWvqFQBmkFJnOspP+vg=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/cs/Microsoft.Vis
+ ualStudio.TestPlatform.Common.resources.dll
+SHA-256-Digest: LJSt53mBwWfObJkGeN+PlVZYnNZdvucFgAiNKm9kiCI=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/GWS-Workflows.Picking.cspro
+ j.GenerateResource.cache
+SHA-256-Digest: h1CYXlh6OYqajI3QUmRAJiRqanqRSElzJFz1XDFCB2A=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Microsoft.TestPl
+ atform.CoreUtilities.dll
+SHA-256-Digest: ZdCwb+XknERy6WySiV90Lyo+kEvXNBtJH1T9dKCRrFE=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/ref/Honeywell.GW
+ S.Connector.Library.Workflows.Picking.Rest.Tests.dll
+SHA-256-Digest: 18EO44GyJ/kpypwechBc9qxxLmpBGF4ON3FXRLGiwq0=
+
+Name: GWS-Workflows.Picking.SqlServer/Continuous/ServiceConnector.cs
+SHA-256-Digest: 5YYCrQVQ8bPiSkd1Pq02172OS+PmTzFd91T6RHzz4Eg=
+
+Name: GWS-Workflows.Picking.Rest/Models/DisconnectModel.cs
+SHA-256-Digest: eO96HL+9iorbeG8P226aa0Crotj9VcGC+37QkUndnWg=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ru/Microsoft.Tes
+ tPlatform.CoreUtilities.resources.dll
+SHA-256-Digest: 9jqhzH7vDEJnNJCjyo2RqiN+XEzXZhMO8pbhiaK0P4Y=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/es/Microsoft.Vis
+ ualStudio.TestPlatform.Common.resources.dll
+SHA-256-Digest: MlJYiiXnWIhmw0PEKlFCihi91/R3Gp6m7IzeOpEhSPE=
+
+Name: GWS-Workflows.Picking.Tests.MockCatalyst/testPickingLineBatch.py
+SHA-256-Digest: zI0R633HAkEpfKNf8NCHStH5UW7Sk0MAsKV/UW3sovw=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.Properties.DialogResources.nl.resources
+SHA-256-Digest: WWtC8PAm/gkNE+CvOCx2QWV1yKkp3eCmMlTNjEpNsNs=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.Properties.DialogResources.de.resources
+SHA-256-Digest: p6E04cSNhcyG+27EveJZCZZqf0q+DuskiJBZ3x/qP5M=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/System.Threading.Tasks.Exte
+ nsions.dll
+SHA-256-Digest: T4H/0NxyBNt1r8NepCkXabB8RAWS8oiUJg7qdmJqI8Y=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/fr/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: iHuXsbMqU6bN6fXF+T6DFzyL5aKX619W/+Gg5MOpuMs=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/GWS-Workflows.Picking.Rest.Te
+ sts.csproj.nuget.g.props
+SHA-256-Digest: tAbRvVxuM7KMMrTbrf2/xbqxFRjOZzebVKprPh98io4=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ru/Microsoft.Vis
+ ualStudio.TestPlatform.ObjectModel.resources.dll
+SHA-256-Digest: Ao24CJUzviovh0FJ7SYrl1bDALwihmMNn1/ZkXrKs2c=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/GWS-Workflows.Pickin
+ g.Oracle.assets.cache
+SHA-256-Digest: LpJBM3MluG7kJvKkUGYR8P0p3Y5NMlJmDpYxjipJS8g=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/GWS-Workflows.Picking.
+ Rest.AssemblyInfoInputs.cache
+SHA-256-Digest: T2+Pf7mtKmpufDbvLxLuAVa65AFdFi9HP6/ABkGm+Zs=
+
+Name: GWS-Workflows.Picking/bin/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.xml
+SHA-256-Digest: AodztmXbxQH33dfqle59NOWo5hiIANfGB6y6fgIXNLY=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/fr/Honeywell.GWS.Conne
+ ctor.SDK.resources.dll
+SHA-256-Digest: 2K5t6LhxU4BvjysdUYJXlPn7xRzjcqg9zgGuO/1WZHM=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/fr/Honeywell.GWS.
+ Connector.SDK.resources.dll
+SHA-256-Digest: 2K5t6LhxU4BvjysdUYJXlPn7xRzjcqg9zgGuO/1WZHM=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/GWS-Workflows.Picki
+ ng.GeneratedMSBuildEditorConfig.editorconfig
+SHA-256-Digest: 7cARmmh3JBj8a2y/O1tyU88IwgOT6NpZU9m82VJDOj8=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/Honeywell.GW
+ S.Connector.Library.Workflows.Picking.Oracle.dll
+SHA-256-Digest: syhx6AhRXtNDAXkRertYeQMGbM/h5nbKfE/s2pTjt08=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/es/Honeywell.G
+ WS.Connector.Library.Workflows.Picking.Rest.resources.dll
+SHA-256-Digest: StfgnKOnLtPuScq76DhJ8W+FFdqU25W7MC1ndh66iLA=
+
+Name: GWS-Workflows.Picking/Models/PickingLineResult.cs
+SHA-256-Digest: epp5AqcG+Dm8ugFsC0grwrgUb+v/rRUrn+9NqDSTl2M=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/testhost.exe
+SHA-256-Digest: Ri8XoV9PPNUk4KVc1phUWYPs4pqLUBm/Xh73+i4ArsY=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.dll
+SHA-256-Digest: Qmz0SOcpX8G0A/421AM1itbaBU20mZx4Ye9JbjVIJ9U=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/GWS-Workflows.Picking.cspro
+ j.CopyComplete
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/System.Threading.Tasks
+ .Extensions.dll
+SHA-256-Digest: T4H/0NxyBNt1r8NepCkXabB8RAWS8oiUJg7qdmJqI8Y=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/Honeywell.GW
+ S.Connector.Library.Workflows.Picking.Oracle.pdb
+SHA-256-Digest: KxkFFdynDxY2bZAgy3lwuP1nejOmKY6x45sOsiHzUVA=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/GWS-Workflows.Pickin
+ g.Oracle.AssemblyInfo.cs
+SHA-256-Digest: CJlGrnHeat4Cp8rgaehwDy9TE7nVVJGwyPw6VBRrivs=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/de/Microsoft.Vis
+ ualStudio.TestPlatform.ObjectModel.resources.dll
+SHA-256-Digest: mHV+X5Hkyl68McCQzryVmbEBAdPmINrCagbtVRfDhS0=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.pdb
+SHA-256-Digest: dmujaEf5c9pqtsD4Zh3s0lYnNbHQZa7PuvDEZVGV1Ak=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/win-x86
+ /native/e_sqlcipher.dll
+SHA-256-Digest: vKJPJV5Qx+4kWVP5lQzWqLDeDq9JrZEr0VZJYzvLZBc=
+
+Name: .editorconfig
+SHA-256-Digest: l6Cium9IWVSL9aJtJYRN6lchkm7SzWX4JJjHel2DQU8=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/project.nuget.cache
+SHA-256-Digest: C9Jhrnq/tMlMQM98dcJzvPORzt6ri0jzOUWVh90x9QE=
+
+Name: GWS-Workflows.Picking/Models/Interfaces/ISetWorkOrderItem.cs
+SHA-256-Digest: kRBdVKVfojxhu4NjJGyTzniS0EhKUv4h8OjurFURmq0=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/es/Microsoft.Tes
+ tPlatform.CommunicationUtilities.resources.dll
+SHA-256-Digest: 4jTAkx7jdIxbLmn+pbuP2TRPQaMRMVjDDAMoqP6ghIY=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/fr/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: zv66H1ER1adYsWRHvkbf6IFSZWv3WMboFBDDUXjdx0o=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/cs/Microsoft.Tes
+ tPlatform.CommunicationUtilities.resources.dll
+SHA-256-Digest: VJXaQmzyqtyKkiXN+dVOlTF5k1JtRmeGbJUAx85OKjo=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/es/Honeywell.GWS.Connector.
+ Library.Workflows.Picking.resources.dll
+SHA-256-Digest: TK+crjKHodMyY/3ovDMwMUGaWtZJwkXaX58oEOWP2Bg=
+
+Name: GWS-Workflows.Picking/GlobalSuppressions.cs
+SHA-256-Digest: Uwqxh8WwWzCIPGoDNNbwTW0e/pkwlWLkFB4sXrzpVlg=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/pt-BR/Microsoft.
+ VisualStudio.TestPlatform.ObjectModel.resources.dll
+SHA-256-Digest: 100bwGHe1rCRhjguooW3b4+TJPT11VnDWTtiqb4SLJM=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/es/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.Oracle.resources.dll
+SHA-256-Digest: puuuHolgRoSV2WLGOArsGvBWH16RGU+sZfSbAde9oOs=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/Honeywell.GW
+ S.Connector.Library.Workflows.Picking.Oracle.xml
+SHA-256-Digest: HC1RqjMWigbgQh+CKkg06HYzZHBLuzt03NAVph42wWE=
+
+Name: GWS-Workflows.Picking.Tests.MockCatalyst/OnetimeStartupSettings.sq
+ l.config
+SHA-256-Digest: 94XQ/We4kreVjHrPoPPznL8n1DOPW6B3lZJLcdQFHtk=
+
+Name: GWS-Workflows.Picking/Models/PickingLine.cs
+SHA-256-Digest: bQdx93T1jmF+sDfcTZb2tQt8vDRd8VPFBJmj1lTDuJo=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/Honeywell.GWS.Connec
+ tor.Library.Workflows.Picking.Oracle.xml
+SHA-256-Digest: Dw16ejgQSYLgDyhNCt3R2s9fWF99fW+fa3ptb3G9jTM=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/GWS-Workflows.Picking.SqlServe
+ r.csproj.nuget.dgspec.json
+SHA-256-Digest: N5B6zMbgx6fWq2TWW//B3yvtKlaB5jMA+xix9FIkRvM=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/fr/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: iHuXsbMqU6bN6fXF+T6DFzyL5aKX619W/+Gg5MOpuMs=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.Configurat
+ ion.ConfigurationManager.dll
+SHA-256-Digest: xn3fCuSJnnCpz1BDjzkEThjqSy8dTP16ebS9MvhqHnw=
+
+Name: GWS-Workflows.Picking.Tests.MockCatalyst/testPickingLineContinuous
+ .py
+SHA-256-Digest: XX9kQk26p+IYRMd3pAbbF+xGzWtoIrEQfm4cGPyBm3o=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/es/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: TK+crjKHodMyY/3ovDMwMUGaWtZJwkXaX58oEOWP2Bg=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/Honeywell.GW
+ S.Connector.Library.Workflows.Picking.xml
+SHA-256-Digest: AodztmXbxQH33dfqle59NOWo5hiIANfGB6y6fgIXNLY=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/it/Microsoft.Vis
+ ualStudio.TestPlatform.ObjectModel.resources.dll
+SHA-256-Digest: yv3NiVacJJk6IQLPtpGDAf/1wX5K/sESVB4fHBCYyxU=
+
+Name: GWS-Workflows.Picking/Properties/Resources.Designer.cs
+SHA-256-Digest: QrSvIWGqGYSyoaBwucE6Emq9FJjZdUKJfKGBf8PDWFI=
+
+Name: GWS-Workflows.Picking.Rest/Code/IsExternalInit.cs
+SHA-256-Digest: nbycdrxyisl8nrmoTNQuys4SNjUAEgfzi0e7EJpfkDU=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/.NETStandard,Versio
+ n=v2.1.AssemblyAttributes.cs
+SHA-256-Digest: yoXc5eaa6nw1dwUdH3EHtmcsB/AhfdwIB31NDR7WY10=
+
+Name: GWS-Workflows.Picking.Rest/obj/project.nuget.cache
+SHA-256-Digest: nGRyLEFbCUU0PQYRLwqJb4DXgTF1QnDirLcUhn03owQ=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/es-MX/Honeywell.G
+ WS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: 1A3SE/5azy+b4e5iPjDJ0OqhKwmtzQbkYisACYeKaD4=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/es/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: coJNVcJsbdUQOB9gf1ZERT21w3F9yO6dM0cBhwnfe1A=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/nl/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: Aw62YFDEnrE/1A2DaE9CrDcWR0KBlQxg7cyL8pn0pwI=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/ja/Honeywell.GWS.Connector.
+ Library.Workflows.Picking.resources.dll
+SHA-256-Digest: DZV77wEFOXRULzLg3DWTa4zh3HyTxf8MzXX98aDX1fE=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/Honeywell.GW
+ S.Connector.Library.Workflows.Picking.Oracle.Properties.Resources.resou
+ rces
+SHA-256-Digest: 10x+x02LeekBW7ZueFTWMfURR2xZ09qGAGwoYCnwEeQ=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/es/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.Rest.resources.dll
+SHA-256-Digest: jOtlNVpQd1IkwWpV1o/xfkzZUrl7bYN+em33brroKEM=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/Honeywell.GWS.Connecto
+ r.Library.Workflows.Picking.Rest.dll
+SHA-256-Digest: 0sN3kLRwDpdWZuwiuG0qu4ZFQa2DcrDNXwRMYg/8eiw=
+
+Name: GWS-Workflows.Picking/Properties/Resources.resx
+SHA-256-Digest: lZHQPnQnmFhg0b8/OGrpeQ1nlhrLVBlTo/GjuDaMY50=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/nl/Honeywell.GWS.Con
+ nector.SDK.resources.dll
+SHA-256-Digest: Txbb02ictH4Dm2KnHpqdEk9Q6D/uF1my/kHYDldsPHw=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/xunit.execution.
+ dotnet.dll
+SHA-256-Digest: sHdwX85Ax1NQXTRE0offUlsuYITWzqetZYTqa3OtDAw=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/es-MX/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: 1A3SE/5azy+b4e5iPjDJ0OqhKwmtzQbkYisACYeKaD4=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/nl/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: dG6vunDpouIkCltgImZHbVXebmWclojZ7CmkC2j5yWk=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/fr-CA/Honeywell.
+ GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: djCjOSvPGPZSafNLrP1CUUmpj9pN8CQkcdMAY5ox8p4=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/Honeywell.GWS.Connecto
+ r.Library.Workflows.Picking.Rest.pdb
+SHA-256-Digest: +oejKuvc/ar7Xzru5PjpaDnpy9sdLNXYNjowijlMNr4=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/ja/Honeywell.GWS.Connector.
+ SDK.resources.dll
+SHA-256-Digest: WJnfrBjm7Cda1mC6kgsIr8zpLFM8KeuKd8r7KRgGsvY=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/GWS-Workflows.Pi
+ cking.Rest.Tests.csproj.AssemblyReference.cache
+SHA-256-Digest: upr0LjnFul2RFwjsqvi0qO4XwoMN5cY2qhLaVqZQ9eM=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/pt-BR/Honeywell.GWS.Connect
+ or.SDK.resources.dll
+SHA-256-Digest: 9DQ34SWu4Tz6rziRDcoxFHUwiULQTBxcztux3C2yLt8=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/GWS-Workflows.Picking.cspro
+ j.FileListAbsolute.txt
+SHA-256-Digest: efscWr3tSh+IaOdzziHZ+Us33qor+7E5AXbFVn16nQI=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/pt-BR/Honeywell.GWS.Co
+ nnector.SDK.resources.dll
+SHA-256-Digest: 9DQ34SWu4Tz6rziRDcoxFHUwiULQTBxcztux3C2yLt8=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/ja/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: 2j7+thMPU2iiwvfAl+zqbNstuIqgaGpQd/CC6cCJxSU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/linux-m
+ usl-x64/native/libe_sqlcipher.so
+SHA-256-Digest: Ki6L806zS7Sam2V1EtjKOe+HO1b2i+SeYlTBg3JyE2k=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/ja/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: DZV77wEFOXRULzLg3DWTa4zh3HyTxf8MzXX98aDX1fE=
+
+Name: GWS-Workflows.Picking.SqlServer/Batch/Behavior.cs
+SHA-256-Digest: jLxlwzHDfc7b6x8LermZnkAsKSv5SjTMLK6aQgn02pA=
+
+Name: GWS-Workflows.Picking/Properties/DialogResources.fr.resx
+SHA-256-Digest: lPtYVe9nhcnETM4Ia5kja+w6uF/oWtu/swSMXwt6fMU=
+
+Name: GWS-Workflows.Picking/Modules/InMemory/Continuous/AppConnector.cs
+SHA-256-Digest: 3JybZugc1q4JzLcqxsskY8ZVtpgScA3ZoO/jvAyL+Kg=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/SQLitePCLRaw.pro
+ vider.e_sqlcipher.dll
+SHA-256-Digest: aBFoMjdf4CA/lauTaJkRYjXyjOlf4cyL+sBDxgTqocs=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/de/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: lw6xQqRCsURKVfV6llECrHJRS1ucNCLqA7pNwT7Yl1M=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/Honeywell.VIO.SDK.dll
+SHA-256-Digest: s3nNOw17EDtGgIDJpFgWiv7meVMdnkawVxMBWHbs37c=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/pt-BR/Microsoft.
+ VisualStudio.TestPlatform.Common.resources.dll
+SHA-256-Digest: OKNrbV+DVE0eXL8N/ei6jbBtutdgS8a5tM6WIm3UbvA=
+
+Name: GWS-Workflows.Picking.Oracle/Properties/Resources.es.resx
+SHA-256-Digest: +C1QXlvfqPFG/xszcmjVeZiTpU6cAfMWIPVsabvo5Tk=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/de/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: QcylVVJHvom7r3eScOvO78TlJMibm9MyVLfq3mGszBc=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/it/Microsoft.Data
+ .SqlClient.resources.dll
+SHA-256-Digest: 4PSDacZaSQmnZEet+aohr9TeCGnQTXknTqIew2w1Yu4=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/System.Security.
+ Cryptography.ProtectedData.dll
+SHA-256-Digest: gaA4XPH+0i8xU3idSuH+51cZ8j5yzVQ+26GvSJJvvyQ=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/Newtonsoft.Json.dll
+SHA-256-Digest: 4eJ697B+7t9c5xqSVfBCKBam/FhJpIPGcU4bRyBE+p0=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ru/Microsoft.Tes
+ tPlatform.CommunicationUtilities.resources.dll
+SHA-256-Digest: kwGL0E1kL+20oXKpjguGzwca9B0yNDk27vltdYGp/pQ=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/GWS-Workflows.Pi
+ cking.Rest.Tests.AssemblyInfoInputs.cache
+SHA-256-Digest: 0IfLMZC+HSRNMqFfxZTDhb1CbfiHuXbofkOIMYqgVCE=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ko/Microsoft.Vis
+ ualStudio.TestPlatform.Common.resources.dll
+SHA-256-Digest: BVsmz16aIuNYi3R7AWZT3Z4JmUZQliElyiPpVm4njgA=
+
+Name: GWS-Workflows.Picking.Rest/Properties/Resources.Designer.cs
+SHA-256-Digest: /SB0KaobHmkgLGqkqHYKyuQMHTjBJ38Ogp0PB0bhisY=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Microsoft.TestPl
+ atform.Utilities.dll
+SHA-256-Digest: XCaZMAVd8EEWrg1+7JDLaI7VtI8rkF1EYi5s7zkdh4A=
+
+Name: GWS-Workflows.Picking.Files/Continuous/AppConnector.cs
+SHA-256-Digest: 2FMMyvyupj+oDy7ewM+S/PyW6WAQlGGSS9oz/YDLhc0=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/RestSharp.dll
+SHA-256-Digest: RNfvgIvfJ9pFMFmv5d0TLwYeMCuzSxv/PHm3QknFJkA=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/GWS-Workflows.Pickin
+ g.Oracle.GeneratedMSBuildEditorConfig.editorconfig
+SHA-256-Digest: i6pjesoTb+mrfH9sYOJWV9Maej24+xlERyAKB2IaYhc=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/es-MX/Honeywell.GWS
+ .Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: gQswtSgSQkL5+ghlj8pDnf6jj7X/ssDt7fa+FkbV7gI=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/es/Honeywell.GWS
+ .Connector.SDK.resources.dll
+SHA-256-Digest: zFs09LhnI0yY2LSxQ/h73XLRtV//dWHBiHB1+5NTnvg=
+
+Name: GWS-Workflows.Picking.Oracle.Tests/ConfigMock.cs
+SHA-256-Digest: 8qcuuaqoZgZGPf38ymWwEs8rSJjneiJTKlQ3RhknVSw=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/ja/Microsoft.Data
+ .SqlClient.resources.dll
+SHA-256-Digest: PQ+BakW+yOaNOly2jGPRnsEJEGXBIYpHYBV0Of39ouw=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/cs/Microsoft.Tes
+ tPlatform.CrossPlatEngine.resources.dll
+SHA-256-Digest: B61z6kfSxZGwwoBIGyoFCWbJn5f28IAn12/V/HdKWJA=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.Rest.Tests.runtimeconfig.json
+SHA-256-Digest: CjVj8PUxnaT+hYVOMVqff5IrBC3Wtmin3BL/miiPRQQ=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/GWS-Workflows.Pic
+ king.SqlServer.csproj.GenerateResource.cache
+SHA-256-Digest: lfrvdVtLKgo3fEiwR4Mc5bRzEDyOgAfD+xtWc0hp58I=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/win-x64
+ /native/e_sqlcipher.dll
+SHA-256-Digest: wiyXhB59PBx6Hdj6d9IsOaa8cBlWdqW85JR3v0NIxK4=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/project.nuget.cache
+SHA-256-Digest: OTkhQw98GplspWrTKvLVSpxAj8wXZWiQR4aSZAmAT5w=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/System.Diagnosti
+ cs.EventLog.dll
+SHA-256-Digest: JKAtl8L8bVZzXhlrt/qq6PrwBoxIbQw8f6PjtztPEqQ=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/pt-BR/Honeywell.GWS.
+ Connector.SDK.resources.dll
+SHA-256-Digest: 9DQ34SWu4Tz6rziRDcoxFHUwiULQTBxcztux3C2yLt8=
+
+Name: GWS-Workflows.Picking.Rest/Batch/AppConnector.cs
+SHA-256-Digest: SLPzgL+Eiq1GR94nzJV3bufzMzQqRt2tBfw0SN2SIq4=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/GWS-Workflow
+ s.Picking.Oracle.GeneratedMSBuildEditorConfig.editorconfig
+SHA-256-Digest: i6pjesoTb+mrfH9sYOJWV9Maej24+xlERyAKB2IaYhc=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/assemblie
+ s
+SHA-256-Digest: 9iKTBjaWNvJWqjdPLmRQHy3mcYuFhwDc05SXILNLl20=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/GWS-Workf
+ lows.Picking.SqlServer.AssemblyInfo.cs
+SHA-256-Digest: OgvYXM0VyhcVtQlHlwo8xx8UsfpbBuzUZwIHGNz186U=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ko/Microsoft.Tes
+ tPlatform.CoreUtilities.resources.dll
+SHA-256-Digest: SCtvTWhXvcY03u8MPs8MhsYneflHBOcw28gVQkzyMwY=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/tr/Microsoft.Tes
+ tPlatform.CommunicationUtilities.resources.dll
+SHA-256-Digest: ICE0R6yxztRFR4ahvL0hhJ2mA7f4Dk1GizEVylADUME=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/GWS-Workflows.Picking.
+ Rest.GeneratedMSBuildEditorConfig.editorconfig
+SHA-256-Digest: n2XWVsVvpe/Ez8ucAoh/5qe3v98UlhjVy357Smg7GsM=
+
+Name: GWS-Workflows.Picking.SqlServer.Tests/Usings.cs
+SHA-256-Digest: ChQrt9BHveku9NBM76zt2ZwQdAWEN2gXhyPGRHQJSyM=
+
+Name: GWS-Workflows.Picking.Tests/Usings.cs
+SHA-256-Digest: 6N6bkVebpmHL/r05EjKMLckX0qUZzFZbcXRGx/OebTM=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/Newtonsoft.Json.dll
+SHA-256-Digest: 4eJ697B+7t9c5xqSVfBCKBam/FhJpIPGcU4bRyBE+p0=
+
+Name: GWS-Workflows.Picking.Rest/Batch/Behavior.cs
+SHA-256-Digest: GhPYPd6UwqTcedFnZ9rFDJH/Yi0NLBYGtTIDgOjwL3Q=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/Honeywell.VIO.SDK.dll
+SHA-256-Digest: s3nNOw17EDtGgIDJpFgWiv7meVMdnkawVxMBWHbs37c=
+
+Name: GWS-Workflows.Picking.SqlServer/GlobalSuppressions.cs
+SHA-256-Digest: QEHpJUWi9nZNAGP/Orcu8LkyAvRPJ6YxbHi+PMRWPY0=
+
+Name: GWS-Workflows.Picking.Oracle/GWS-Workflows.Picking.Oracle.csproj
+SHA-256-Digest: 1/Tgj5lZ2LpMFzVLAgU5n88pI8qirGBQux8CP3jo/AA=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.xml
+SHA-256-Digest: AodztmXbxQH33dfqle59NOWo5hiIANfGB6y6fgIXNLY=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/GWS-Workflows.Picki
+ ng.csproj.FileListAbsolute.txt
+SHA-256-Digest: zvueC+wz0ajdUS1p8hXuhVEIbPcFZnDWDi9cS33AN40=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/zh-Hans/Microsof
+ t.TestPlatform.CoreUtilities.resources.dll
+SHA-256-Digest: rX5kCbdTnuxE7VoP0s3rtJAaSF9VC4YHxufGAcgo8UM=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/GWS-Workflows.Pic
+ king.SqlServer.csproj.FileListAbsolute.txt
+SHA-256-Digest: ttqQK/MlChv35rDmQTwsMks1XHKO6jHfp24A9X+wwiA=
+
+Name: GWS-Workflows.Picking/GWS-Workflows.Picking.csproj
+SHA-256-Digest: 2hb5nhje3UwJjs7PO/rDZ/S+aF2DoFIoqkkQZqhTWk0=
+
+Name: GWS-Workflows.Picking.Oracle/obj/project.assets.json
+SHA-256-Digest: mSDeOpDXxTN9qVTvKCj5p85QkEovF7eN96YfY6zF8qc=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/Honeywell.GWS.Connec
+ tor.Library.Workflows.Picking.xml
+SHA-256-Digest: eWyPGykzhkuXHy8y8l2J1mD0o7JrzvK05zI1iwSRm38=
+
+Name: GWS-Workflows.Picking/Code/DbDataReaderExtensions.cs
+SHA-256-Digest: 0zk4X+mkP4uOno9kw3/jEfBc4Hn4CmoqDu9UOP0qEiw=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/GWS-Workflows.Picki
+ ng.AssemblyInfo.cs
+SHA-256-Digest: jM94YDxDHLOGVQI3m9f5T08urPYVITgg9WjnoH5+VQw=
+
+Name: GWS-Workflows.Picking.Files.Tests/Parser/YamlParserTests.cs
+SHA-256-Digest: 5fmA8VtULScsZJvfq2chdMhhrPNEIPwKsuFwSUP6tIQ=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/fr-CA/Honeywell.GWS.Connect
+ or.SDK.resources.dll
+SHA-256-Digest: lKg1Xj3H4QwCelYZbf1b4gFoiXSbgxIHwAzqjrDT0uI=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/ja/Honeywell.GWS.
+ Connector.SDK.resources.dll
+SHA-256-Digest: WJnfrBjm7Cda1mC6kgsIr8zpLFM8KeuKd8r7KRgGsvY=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.Properties.DialogResources.resources
+SHA-256-Digest: Us398xjkqTiz7PZtfwdcECk12Apxg8N60zDvZGvlmfU=
+
+Name: GWS-Workflows.Picking.Oracle.Tests/Batch/BehaviorTests.cs
+SHA-256-Digest: leI+vs7oiNQZ4J5fEhjcadfc9E5ICDF9S3Mv8MpG3Xc=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Honeywell.GWS.Con
+ nector.SDK.dll
+SHA-256-Digest: E3B7djGYwfDC7/MRm3K2eLoX05PT+LLQGi/a56B2lPc=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/.NETStandard
+ ,Version=v2.1.AssemblyAttributes.cs
+SHA-256-Digest: yoXc5eaa6nw1dwUdH3EHtmcsB/AhfdwIB31NDR7WY10=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/tr/Microsoft.Tes
+ tPlatform.CoreUtilities.resources.dll
+SHA-256-Digest: OKkvg9uB4SVYw6d0W81o6M0aMxyRTgRWScrWq8Xod+k=
+
+Name: GWS-Workflows.Picking.Files/Code/IParser.cs
+SHA-256-Digest: x3KA4HLzvy+RSGSWDsNiCN6CwbfYC+ocChIvpvjBuLQ=
+
+Name: GWS-Workflows.Picking.SqlServer/SqlServerBehavior.cs
+SHA-256-Digest: vKHQ05VODTTbYDdzsT1SmmS8oqvfyoItCDVasYHQAj0=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ru/Microsoft.Tes
+ tPlatform.CrossPlatEngine.resources.dll
+SHA-256-Digest: uJmwxXiLPek7gmyk12Jx89qkDzDhf0LB8AlLkKZw5aE=
+
+Name: GWS-Workflows.Picking.Rest/Continuous/ServiceConnector.cs
+SHA-256-Digest: mA9CgP18cjsGmXdaOwE53gqEl5TNl7aCIM/0mK9jWBA=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/ja/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: DZV77wEFOXRULzLg3DWTa4zh3HyTxf8MzXX98aDX1fE=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Honeywell.Guided
+ Work.AppBase.dll
+SHA-256-Digest: VG+YOLUZhBr5a5SVnCWe3rVCyttB/d+/6Rfbjax7fMY=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/it/Microsoft.Tes
+ tPlatform.CrossPlatEngine.resources.dll
+SHA-256-Digest: EqQqkes+TDhuk9+Y9+j7h5aRWG7vRjq94B+kZSJmJTA=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/Honeywell.GW
+ S.Connector.Library.Workflows.Picking.Oracle.xml
+SHA-256-Digest: HC1RqjMWigbgQh+CKkg06HYzZHBLuzt03NAVph42wWE=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.Numerics.V
+ ectors.dll
+SHA-256-Digest: HT74aYKB589zcdFVSv71hys5+Wwm2nciEKM9oEG6EYM=
+
+Name: GWS-Workflows.Picking.SqlServer/GWS-Workflows.Picking.SqlServer.cs
+ proj
+SHA-256-Digest: 8qtqe0C3RjTVeAlAVB6p3QE0knjd/+pRjh/1k4lNwCQ=
+
+Name: GWS-Workflows.Picking/Models/SetWorkOrderItemBase.cs
+SHA-256-Digest: d6GBNQcfFAmDZxWGEKLU3roWDZKNHcXW0vhC6/dU/yI=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/.NETCoreApp,Vers
+ ion=v7.0.AssemblyAttributes.cs
+SHA-256-Digest: rJ3bXuHWrcYQV/MCm/AkKz9hnx+F1MyP+pVrdupI2Tk=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/GWS-Workflows.Picki
+ ng.assets.cache
+SHA-256-Digest: sqkdfJBvHaKCtGpSsh+po53b4q5B2sTDm4I4Lsc9udY=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/nl/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: dG6vunDpouIkCltgImZHbVXebmWclojZ7CmkC2j5yWk=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.Diagnostic
+ s.DiagnosticSource.dll
+SHA-256-Digest: 9xszk37YnN7gFNrElgsGTklWbcZGdqLmp6bwwAEm+VA=
+
+Name: GWS-Workflows.Picking.Files/GWS-Workflows.Picking.Files.csproj
+SHA-256-Digest: h8Yt2AyQgT0OA7dOGIvQv7NU1xuPg/PO0MB8zUY8Jss=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/alpine-
+ arm64/native/libe_sqlcipher.so
+SHA-256-Digest: rygrhXokOkEW5XXqYLEQlgSJtg5uqykoHPZGEvTS7vI=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/linux-a
+ rmel/native/libe_sqlcipher.so
+SHA-256-Digest: R+TvFYOqOpSSJF/7x8jTD2kimMt1EGwTyCcYKosD+L0=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.Properties.Resources.resources
+SHA-256-Digest: cNdq3LlpLM1YhZsM92LN/PsLy8wSI0rLDCi4qraVyeE=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/fr-CA/Honeyw
+ ell.GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: djCjOSvPGPZSafNLrP1CUUmpj9pN8CQkcdMAY5ox8p4=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.Properties.DialogResources.es.resources
+SHA-256-Digest: XUDuBnyLB/e/bv4Q7C0tAyD5DeCnqNVK4yw6o5BdOMs=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/assemblies
+SHA-256-Digest: iIL46Dj2NuEFs0hTCbbWkMjC4XUOnQ0FVdNbyfaqfaw=
+
+Name: GWS-Workflows.Picking.Rest.Tests/Batch/BehaviorTests.cs
+SHA-256-Digest: T3JR3EXIF+WY4AT7HmXza7jz6/s2JsiHYtueJPpdQbE=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ru/Microsoft.Vis
+ ualStudio.TestPlatform.Common.resources.dll
+SHA-256-Digest: +lGaCqm+tf7VfiRDbN3s5nYrr7K9osLKWLYAi8nWoDw=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Identit
+ yModel.Protocols.dll
+SHA-256-Digest: MZQJ0Lt2B0Il3t9ZfrentDIbkkqUwWsx5PFo8wIXnPQ=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.SqlServer.xml
+SHA-256-Digest: 45n388AkPOn3tZfsH/jZ0lWC2UEn2mPl+z4PLRinXO0=
+
+Name: GWS-Workflows.Picking.Tests/GWS-Workflows.Picking.Tests.csproj
+SHA-256-Digest: 24tBJIX95zP5ysPYcKqkYnaBPFPqaz2H4fXqhIQ/pzs=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/de/Honeywell.GWS.Connector.
+ Library.Workflows.Picking.resources.dll
+SHA-256-Digest: QcylVVJHvom7r3eScOvO78TlJMibm9MyVLfq3mGszBc=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Identit
+ yModel.Protocols.OpenIdConnect.dll
+SHA-256-Digest: SOoTErlk7aX9pWuIQxFcBG1RLLeM6prsJSLvopboL4Q=
+
+Name: GWS-Workflows.Picking.Rest/GlobalSuppressions.cs
+SHA-256-Digest: QEHpJUWi9nZNAGP/Orcu8LkyAvRPJ6YxbHi+PMRWPY0=
+
+Name: GWS-Workflows.Picking.Rest/RestBehavior.cs
+SHA-256-Digest: zbIaryyLz3TIzyljggI7HXyy558LbZsHExyENijbO9Q=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/System.Threading.Tas
+ ks.Extensions.dll
+SHA-256-Digest: T4H/0NxyBNt1r8NepCkXabB8RAWS8oiUJg7qdmJqI8Y=
+
+Name: GWS-Workflows.Picking.SqlServer/Properties/Resources.es.resx
+SHA-256-Digest: MTAlbyHYN4zRdLSzMmb//GuVWKJbCiEu9B5Z4d0IV9c=
+
+Name: GWS-Workflows.Picking/Workflow.cs
+SHA-256-Digest: /HN+lhFCODOTJiuFmAlw+ZO10D58mnbUEHqBd5TMpGA=
+
+Name: GWS-Workflows.Picking.Files/Properties/Resources.Designer.cs
+SHA-256-Digest: UbFviWupMF1RbtFrg2duSePv1/CSOTeTcN7JNO1Tr+I=
+
+Name: GWS-Workflows.Picking/bin/Debug/netstandard2.1/de/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: lw6xQqRCsURKVfV6llECrHJRS1ucNCLqA7pNwT7Yl1M=
+
+Name: GWS-Workflows.Picking/Modules/InMemory/Batch/ServiceConnector.cs
+SHA-256-Digest: 6c9J//nWGoH7nlToAcJTfd5CtPrFZkkqGR34LhZisxk=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/osx-arm
+ 64/native/libe_sqlcipher.dylib
+SHA-256-Digest: haCu9RDGb8pNxJmxz69KyFPS1veCGnDkb6uz1IZdGRQ=
+
+Name: GWS-Workflows.Picking/bin/Debug/netstandard2.1/es-MX/Honeywell.GWS
+ .Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: gQswtSgSQkL5+ghlj8pDnf6jj7X/ssDt7fa+FkbV7gI=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/es/Microsoft.Vis
+ ualStudio.TestPlatform.ObjectModel.resources.dll
+SHA-256-Digest: wnhkN/9lyhfXhDyIhlSW3FENgg1+KqmhKI32mgJn5jQ=
+
+Name: GWS-Workflows.Picking.Files/Code/PickingJsonConverter.cs
+SHA-256-Digest: gNSFeg9smh/Lr9D4nicrbxZARvPuoxRc89LpecwDp+g=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/Honeywell.GWS.Connec
+ tor.Library.Workflows.Picking.Oracle.Properties.Resources.resources
+SHA-256-Digest: 10x+x02LeekBW7ZueFTWMfURR2xZ09qGAGwoYCnwEeQ=
+
+Name: GWS-Workflows.Picking.Oracle.Tests/Continuous/BehaviorTests.cs
+SHA-256-Digest: uCzZf1mpEp+2uBSYZ8pHSXoHmYCZgHeY3iI7El/GD8w=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/es/Microsoft.Tes
+ tPlatform.CoreUtilities.resources.dll
+SHA-256-Digest: +oEB7IajBLiGLrsJo7Tkjof8qAdPwKEMdR7dQr7unSc=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.Properties.DialogResources.es-MX.resourc
+ es
+SHA-256-Digest: ZdfhchE79p6GyUgO3Pq7c0z39K9lqa+vlfh1ZQ3ik0I=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/Honeywell.GWS.Connecto
+ r.Library.Workflows.Picking.Rest.Properties.Resources.resources
+SHA-256-Digest: XCbTTKsa00+oXKFEI+gZymQtpmLiorDevhD5vRaNGL8=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/GWS-Workflows.Pickin
+ g.Oracle.csproj.GenerateResource.cache
+SHA-256-Digest: RJKCTwCM7NHMfYSO/Dz0IqVLgyN0fDNRh5JpQSUnUK8=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/RestSharp.Serializers.
+ NewtonsoftJson.dll
+SHA-256-Digest: nr2S86oKdbP5OHpYs/5CvvXEeAEH8OCopLB65zsAVEI=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/Microsoft.Bcl.AsyncI
+ nterfaces.dll
+SHA-256-Digest: KVryFC2SFPP9hOr+R3jcoRm+fgIp8UtrqNUmnC8eLng=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/GWS-Workflows.Pickin
+ g.Oracle.csproj.CopyComplete
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Microsoft.TestPl
+ atform.PlatformAbstractions.dll
+SHA-256-Digest: uGAVksmlc9aD3R51R1tDn/1vjLa9uONGGH3K7v6siz8=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/Honeywell.GWS.Connec
+ tor.Library.Workflows.Picking.Oracle.pdb
+SHA-256-Digest: zBrbrzeXDiEWKjwDynS7IDFBFar8fPnTxMOl8CylvFs=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ko/Microsoft.Tes
+ tPlatform.CommunicationUtilities.resources.dll
+SHA-256-Digest: 5YBbe/jotUYdyk+M2TrRPz6WN07yhS9qHPNMdDIBSsw=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/project.assets.json
+SHA-256-Digest: 8mPkvjHlh1/bNJmG/f44mEWpsdoJV1dx+brtFWs0V3w=
+
+Name: GWS-Workflows.Picking/Modules/InMemory/Batch/AppConnector.cs
+SHA-256-Digest: 2w9c83+y9g9DN1aYa6O+h9VF5qbGfH7aBxuBvtQxoIM=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/pt/Honeywell.GWS
+ .Connector.SDK.resources.dll
+SHA-256-Digest: 7I1wKvBsZvSUY0Dn9fatylPw3Yw+LoHFNt667Fgd0ss=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/GWS-Workflow
+ s.Picking.Oracle.assets.cache
+SHA-256-Digest: eIiAp8oMQoBA3J151/08w0iUhgUnOuU7McOmFdsXrCU=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.xml
+SHA-256-Digest: AodztmXbxQH33dfqle59NOWo5hiIANfGB6y6fgIXNLY=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.Properties.DialogResources.es-MX.resources
+SHA-256-Digest: ZdfhchE79p6GyUgO3Pq7c0z39K9lqa+vlfh1ZQ3ik0I=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/System.Text.Json.dll
+SHA-256-Digest: FYgtnpg3GXErdc+sSNBcPugVKpP7U1yB9ln0ktqBB5g=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/linux-a
+ rm/native/libe_sqlcipher.so
+SHA-256-Digest: 2qqOeG3OBGkPWZZUaH7054kqC/eduJK0MQ2WR/qM7So=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/GWS-Workf
+ lows.Picking.SqlServer.assets.cache
+SHA-256-Digest: tYej/F7JnXTHA6RlytRiLHE5yYhmrA8mIbp5JyNVTTc=
+
+Name: GWS-Workflows.Picking/Properties/DialogResources.resx
+SHA-256-Digest: GLmdtGEpiyCnIIRv5rZT8VJ/Zaqs7koAyCrJDFkVyxo=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/es-MX/Honeywell.GWS.Co
+ nnector.SDK.resources.dll
+SHA-256-Digest: 8GZY/p/T4idKmk0hloyl302ho0+zI0PRT89UAWTL7NU=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/.NETFramework,Ver
+ sion=v4.7.2.AssemblyAttributes.cs
+SHA-256-Digest: YhGZVX6Q+xZh5AHMmpcxY8hQtLfmW7yNEA9n9mme73A=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/linux-x
+ 64/native/libe_sqlcipher.so
+SHA-256-Digest: t5Fd7UCC1dOxOYAHQx5lhjgjj07EC8gbMIvj0ShxyEA=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/nl/Honeywell.GWS
+ .Connector.SDK.resources.dll
+SHA-256-Digest: Ag+55FbNkVe9F1+EayjiVZXKFvFjiDsd/BN1QKroA30=
+
+Name: GWS-Workflows.Picking/obj/GWS-Workflows.Picking.csproj.nuget.g.pro
+ ps
+SHA-256-Digest: kR2PTELeNUIEbQIs96mF7MDVvCBMiGfgm/gPEGhFOcU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/xunit.runner.rep
+ orters.netcoreapp10.dll
+SHA-256-Digest: qEAn0mLnzLGYlRkVEqQhCDhO778KwPjvlQQOPbBrpks=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/xunit.runner.uti
+ lity.netcoreapp10.dll
+SHA-256-Digest: DNczVDdohZKYftuMRCnf1iASGE5HJJ20r8Iz0qiS76w=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/GWS-Workflows.
+ Picking.Rest.AssemblyInfo.cs
+SHA-256-Digest: HK4m4PI/DiW1s/5tX7IBJsDalL/IWfgrXXzWiFEaQHQ=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/Honeywell.GW
+ S.Connector.Library.Workflows.Picking.Oracle.pdb
+SHA-256-Digest: KxkFFdynDxY2bZAgy3lwuP1nejOmKY6x45sOsiHzUVA=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/GWS-Workflows.Pi
+ cking.Rest.Tests.genruntimeconfig.cache
+SHA-256-Digest: vqJy9v7jKCjI8P9JIypta2TceOcHJ2EQgjKChPBQ4bk=
+
+Name: GWS-Workflows.Picking/Code/DbDataReaderParser.cs
+SHA-256-Digest: 8+lg4Mi9+uhYLJ4+GIXMa8M3KEAErhqC5GBNNW8qQLI=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/de/Microsoft.Vis
+ ualStudio.TestPlatform.Common.resources.dll
+SHA-256-Digest: KhzBEDXKJrJ23c1Qju+US1P0zX+3ehd8kT9ky6YxnRs=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/win/lib
+ /netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+SHA-256-Digest: HHOhsBbPyNSXEG7sCK8HYW8vTAfk3cgHyfEgzqzQpTo=
+
+Name: GWS-Workflows.Picking.Files/FilesBehaviorSettings.cs
+SHA-256-Digest: yZzo2eGQ8j3oM6qNNVdWdOQA3R3R8IpphB7BT88cuhg=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.Text.Encod
+ ings.Web.dll
+SHA-256-Digest: eOtbT+5YDhY9G+of2303H9/P0wrNhwj/YsQ3Kqohn3w=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Azure.Core.dll
+SHA-256-Digest: SS4C1uHS1PLSAbhvt/b4PxMBfXXnHMXem4jPQZgCwFI=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Honeywell.VIO.SDK
+ .dll
+SHA-256-Digest: s3nNOw17EDtGgIDJpFgWiv7meVMdnkawVxMBWHbs37c=
+
+Name: GWS-Workflows.Picking.Oracle/Continuous/ServiceConnector.cs
+SHA-256-Digest: qg2JFVQRR8UNrA6GRoy+eZmteUebO8zB7Rf8NqCsR90=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/fr-CA/Honeywell.GWS
+ .Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: djCjOSvPGPZSafNLrP1CUUmpj9pN8CQkcdMAY5ox8p4=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/browser
+ -wasm/nativeassets/net7.0/e_sqlcipher.a
+SHA-256-Digest: 4lXkrHZFXMLGw6yWQe/Oetxwe2QhzCoSBvCujmGg1zo=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.Properties.DialogResources.de.resources
+SHA-256-Digest: p6E04cSNhcyG+27EveJZCZZqf0q+DuskiJBZ3x/qP5M=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.Properties.DialogResources.fr-CA.resources
+SHA-256-Digest: vMuhBIHYzcnIjx4VzSj/UAjrIpKussbPSsBlsNAriGg=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/GWS-Workflows.Picki
+ ng.csproj.AssemblyReference.cache
+SHA-256-Digest: LrLsLp1ueKnx5fVJTZxAP42bvWN/3FKGn9NhDSeaanA=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/fr/Microsoft.Tes
+ tPlatform.CommunicationUtilities.resources.dll
+SHA-256-Digest: 94B1xOrNeDNVDvQGv/mY7UDOu9//v+q9OE2n+Xhj7yc=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/ru/Microsoft.Data
+ .SqlClient.resources.dll
+SHA-256-Digest: pnTe56cCZ7OGprXNoPcSyLtO+C3RDndum9PUZz651AQ=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/fr/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: zv66H1ER1adYsWRHvkbf6IFSZWv3WMboFBDDUXjdx0o=
+
+Name: GWS-Workflows.Picking.SqlServer/Batch/ServiceConnector.cs
+SHA-256-Digest: PHT/JYd0L6FuzJSNvrUvPMD+NUv1k5i/j+6XBGsJAJc=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/GWS-Workflows.Pickin
+ g.Oracle.csproj.FileListAbsolute.txt
+SHA-256-Digest: tpKbJL0b0FBIrhVPgjlD5au/E3rg0voOGBf02jrjJ/w=
+
+Name: GWS-Workflows.Picking.Oracle.Tests/GWS-Workflows.Picking.Oracle.Te
+ sts.csproj
+SHA-256-Digest: XzukMyCxwDHrS57TbukI5EgX/+kz2CP1Ukqv4vCDQxU=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/de/Honeywell.GWS.Con
+ nector.SDK.resources.dll
+SHA-256-Digest: aKrr8G4fOS7HNmfFIWEwQvjVIWvOMMsDxDwY0YZ+8bw=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/de/Honeywell.G
+ WS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: lw6xQqRCsURKVfV6llECrHJRS1ucNCLqA7pNwT7Yl1M=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/pl/Microsoft.Vis
+ ualStudio.TestPlatform.Common.resources.dll
+SHA-256-Digest: Gau5rXX8SyfPJ249q5HzW/3o4iU395uaG8ZGn2XOIKA=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/nl/Honeywell.GWS.Connector.
+ Library.Workflows.Picking.resources.dll
+SHA-256-Digest: dG6vunDpouIkCltgImZHbVXebmWclojZ7CmkC2j5yWk=
+
+Name: GWS-Workflows.Picking.Files/Batch/AppConnector.cs
+SHA-256-Digest: 8tKMPnQd+eMVPJBvh065RTJ655VHIefbZP1HFYvXCrY=
+
+Name: GWS-Workflows.Picking.Oracle/Properties/Resources.Designer.cs
+SHA-256-Digest: iTYQXDlBaDMURVcv/p4lSt7XZK4ZSz/18wGq0a+nCIQ=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/es/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: TK+crjKHodMyY/3ovDMwMUGaWtZJwkXaX58oEOWP2Bg=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.Memory.dll
+SHA-256-Digest: jnYxjosGaSq/fasRadJ9FVV/fwo002r2Rj7/D+ISE8c=
+
+Name: GWS-Workflows.Picking.Rest/Models/ConnectModel.cs
+SHA-256-Digest: IlEBCcM/SzXPGPRQILpNfbLQ9ghGYP4y3Mr9m/+F2Yg=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/GWS-Workflows.Picking.asset
+ s.cache
+SHA-256-Digest: JtJos/6DcJIuByLqoi8yua5JZ328Mqa47XcDd3YfShQ=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/Honeywell.GWS.Connecto
+ r.Library.Workflows.Picking.Rest.xml
+SHA-256-Digest: DRxLc9m4gQpQcDsQktEzhNEO/5gztyQ5l6/2ZhzZ82E=
+
+Name: GWS-Workflows.Picking/Properties/DialogResources.es-MX.resx
+SHA-256-Digest: aITFCMIbn7VvhxXwPV5TLuGWtRcrHlfKDNj9Qikk9ZQ=
+
+Name: GWS-Workflows.Picking.SqlServer.Tests/ConfigMock.cs
+SHA-256-Digest: d0XDOPCQnPdXJhsQ6vc7M1UqGDdqA7GY1MYXNKxwf+c=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/GWS-Workflows.Picki
+ ng.AssemblyInfoInputs.cache
+SHA-256-Digest: F3cGOW05ySKgZe0kR3N/fFAHM6+ySlZcSgaHL/q0jJc=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/GWS-Workflow
+ s.Picking.Oracle.csproj.CopyComplete
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.dll
+SHA-256-Digest: Hi4DrSoJuo2XBTp6/M8B8Zj+cRzeU0cgWyYVUStUrRo=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/fr/Microsoft.Tes
+ tPlatform.CrossPlatEngine.resources.dll
+SHA-256-Digest: 5bMo+rKy93OMlBXGbaodnEFwT4M2QInkYNyiHfBAkoM=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/zh-Hans/Microsof
+ t.VisualStudio.TestPlatform.ObjectModel.resources.dll
+SHA-256-Digest: 4t4lkp/E/jI5FoudCu6TGNcAcWJoKNU+cYPg7A9mAwY=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.SqlServer.xml
+SHA-256-Digest: 45n388AkPOn3tZfsH/jZ0lWC2UEn2mPl+z4PLRinXO0=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/es/Microsoft.Tes
+ tPlatform.CrossPlatEngine.resources.dll
+SHA-256-Digest: hrivbIDmJ0EcUfG2QGHFFY8oi16pw8c9I2Y8Wq/qf80=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.Properties.DialogResources.resources
+SHA-256-Digest: Us398xjkqTiz7PZtfwdcECk12Apxg8N60zDvZGvlmfU=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.Rest.Properties.Resources.resources
+SHA-256-Digest: XCbTTKsa00+oXKFEI+gZymQtpmLiorDevhD5vRaNGL8=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/es-MX/Honeywell.GWS.
+ Connector.SDK.resources.dll
+SHA-256-Digest: 8GZY/p/T4idKmk0hloyl302ho0+zI0PRT89UAWTL7NU=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.Properties.Resources.resources
+SHA-256-Digest: cNdq3LlpLM1YhZsM92LN/PsLy8wSI0rLDCi4qraVyeE=
+
+Name: GWS-Workflows.Picking.Tests.MockCatalyst/Honeywell.GWS.Connector.e
+ xe.config
+SHA-256-Digest: ha/3M0K/vR7k5XCxTibZIABMP8yei30onMT+UpfHIf8=
+
+Name: GWS-Workflows.Picking.Files/Batch/Behavior.cs
+SHA-256-Digest: My30aSXE3b/0u6hnzaGlj1WjwWcrj3NIkymkxDZbKPo=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/nl/Honeyw
+ ell.GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: Aw62YFDEnrE/1A2DaE9CrDcWR0KBlQxg7cyL8pn0pwI=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Identit
+ y.Client.Extensions.Msal.dll
+SHA-256-Digest: Skhbv4gkyTu3R+YNFT2rKo37vU3TLVTYeuMeEv7n7GI=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/GWS-Workf
+ lows.Picking.SqlServer.csproj.AssemblyReference.cache
+SHA-256-Digest: UkIXyPPk30XcJNXxCq+KMasud3xv9dMx9L+hyxDYYos=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/GWS-Workflows.Picking.Rest.Te
+ sts.csproj.nuget.dgspec.json
+SHA-256-Digest: HmnFXEytO4ify14mutq+aEzCoT0yPdTOWYx4mrnCkWs=
+
+Name: GWS-Workflows.Picking/Modules/InMemory/Continuous/ServiceConnector
+ .cs
+SHA-256-Digest: kgMNP9jUlVoSHPL1/+6xQ8ATljYAXwxMhmynNKfqCcY=
+
+Name: GWS-Workflows.Picking.Rest/obj/project.assets.json
+SHA-256-Digest: gO0bLtHZDtInvePsGgnv8qG4kX1z9EugZIKBbiyAS1A=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/pt-BR/Honeywell.
+ GWS.Connector.SDK.resources.dll
+SHA-256-Digest: 3U5GnWP0rSKo9sx/fpzYufEcjGMBAQ3aIjxR4KMh4ww=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Microsoft.TestPl
+ atform.CommunicationUtilities.dll
+SHA-256-Digest: 9hpy7SfBIn1Phou3EU7gBPv7EHm2zh/y4I7Ue0JifEM=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/Honeywell.GW
+ S.Connector.Library.Workflows.Picking.Oracle.dll
+SHA-256-Digest: syhx6AhRXtNDAXkRertYeQMGbM/h5nbKfE/s2pTjt08=
+
+Name: GWS-Workflows.Picking/Models/SharedDialogs.cs
+SHA-256-Digest: dTxAAZjuJxVQ03YKjZ+bfaIIfgVKBumV3EXi0nyUHhI=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/GWS-Workflows.
+ Picking.Rest.csproj.CopyComplete
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: stylecop.json
+SHA-256-Digest: NAcnJI3SZjhi1uU4f1P1kImG6OlMEea8FYxE0CZ+bVo=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/SQLitePCLRaw.bat
+ teries_v2.dll
+SHA-256-Digest: 2fBrqzDe25neyBNfhfZX22t1Yc9RRv/rSruw/rzpV88=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/pt/Honeywell.GWS.Con
+ nector.SDK.resources.dll
+SHA-256-Digest: YGgilDjoy3EOf9VHj2QLQGYaCcPAQu2g0l/Kqyvqi8w=
+
+Name: GWS-Workflows.Picking/Properties/DialogResources.ja.resx
+SHA-256-Digest: hlXVIy5D+5/LTvXOdBHoHMeQ7BBI9j0sSe3Uh1JX63U=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/Honeywell.GWS.Connector.Lib
+ rary.Workflows.Picking.Properties.DialogResources.fr.resources
+SHA-256-Digest: IJ89KCEEVN0Z74tQaUk8qxp05BmEy4s0LPwndLV2aqc=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/Honeywell.GWS.Connec
+ tor.Library.Workflows.Picking.Oracle.dll
+SHA-256-Digest: nA2HUQo7+br34VmAtorZy5O4+Fy7FvG7gPaqE3KbOR0=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/ja/Honeywell.GWS.Con
+ nector.SDK.resources.dll
+SHA-256-Digest: WJnfrBjm7Cda1mC6kgsIr8zpLFM8KeuKd8r7KRgGsvY=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/win/lib
+ /net6.0/System.Diagnostics.EventLog.Messages.dll
+SHA-256-Digest: ZETfoDYJJI7/05joVir0hK0BY6bEfO5tOih//e+AmtI=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/ja/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: DZV77wEFOXRULzLg3DWTa4zh3HyTxf8MzXX98aDX1fE=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.Text.Json.
+ dll
+SHA-256-Digest: 0mCCVAQ+Wxn26DNVafwt1yrkzhGj3w0/FCWsFY35Mjc=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/de/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: lw6xQqRCsURKVfV6llECrHJRS1ucNCLqA7pNwT7Yl1M=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/pl/Microsoft.Tes
+ tPlatform.CoreUtilities.resources.dll
+SHA-256-Digest: BtrR55rqaKMWbxVeKI08zFdYAttML4ept1l1PrlyO3Q=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/linux-a
+ rm64/native/libe_sqlcipher.so
+SHA-256-Digest: aJxGpfPXwIH1I91l4Y+pAdI20S5FhFHJjc45P3wIYc8=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/cs/Microsoft.Tes
+ tPlatform.CoreUtilities.resources.dll
+SHA-256-Digest: z8tlkrAuawy94i/reeGaU5ezsWX/IBABI/HCyJl7TOA=
+
+Name: GWS-Workflows.Picking.Tests/Data/GetWorkOrderItem_Work.cs
+SHA-256-Digest: n1kRzEGZr/FHsnoGICmDRYGlcfca0W1ShpfkB0FNGPY=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/es/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.Oracle.resources.dll
+SHA-256-Digest: puuuHolgRoSV2WLGOArsGvBWH16RGU+sZfSbAde9oOs=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/de/Honeywell.GWS.
+ Connector.SDK.resources.dll
+SHA-256-Digest: aKrr8G4fOS7HNmfFIWEwQvjVIWvOMMsDxDwY0YZ+8bw=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/fr/Microsoft.Tes
+ tPlatform.CoreUtilities.resources.dll
+SHA-256-Digest: nUAVEXJXSISh/sxGZonCtHBwa6ojqETGMXhN3qb60rA=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/System.Memory.dll
+SHA-256-Digest: jnYxjosGaSq/fasRadJ9FVV/fwo002r2Rj7/D+ISE8c=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/cs/Microsoft.Vis
+ ualStudio.TestPlatform.ObjectModel.resources.dll
+SHA-256-Digest: t/5FSoVtI/X/OMkwqQSXvXlD+RgnpgGIeHo2RMNcpfs=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/System.Text.Encoding
+ s.Web.dll
+SHA-256-Digest: eOtbT+5YDhY9G+of2303H9/P0wrNhwj/YsQ3Kqohn3w=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.Rest.dll
+SHA-256-Digest: OKgS8xI+VgoO3ISViwFIMNSs7wH6UX/snTgYSEAlJLU=
+
+Name: GWS-Workflows.Picking/bin/Debug/netstandard2.1/fr/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: zv66H1ER1adYsWRHvkbf6IFSZWv3WMboFBDDUXjdx0o=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/pt/Honeywell.GWS.
+ Connector.SDK.resources.dll
+SHA-256-Digest: YGgilDjoy3EOf9VHj2QLQGYaCcPAQu2g0l/Kqyvqi8w=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/GWS-Workflows.
+ Picking.Rest.csproj.GenerateResource.cache
+SHA-256-Digest: bnzVZtl06pZLnaBR3CTDVLvYT2h5I2NLz9djWnVXsBk=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.SqlServer.pdb
+SHA-256-Digest: WPbpt/2dDBf7+yPUxyz/B6FJTD0eQDZJZjjNuJBMKMo=
+
+Name: GWS-Workflows.Picking.Oracle.Tests/OracleBehaviorTests.cs
+SHA-256-Digest: G757Qnjfud/A0ts9liRRk321/wbiuAIWDwzeDCSCcbU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/xunit.core.dll
+SHA-256-Digest: LzsMOgrwPjQY1891ABt2aHnB/JGwqQ6DW3rCbudW6Hs=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/es/Honeyw
+ ell.GWS.Connector.Library.Workflows.Picking.SqlServer.resources.dll
+SHA-256-Digest: JdQAylofCl9lvbfve19qrqmr5bMkHP3VsJZVtvVMI14=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/es/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.Oracle.resources.dll
+SHA-256-Digest: BniM3iTGu4lHpXAAlNfMIMWIaZXu5jeLbndQ+Ad4caM=
+
+Name: GWS-Workflows.Picking.Files.Tests/Batch/BehaviorTests.cs
+SHA-256-Digest: GkbyTTDv5NTErucolHy3bPfZwhRGWjj9Z127pdAr3TE=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/System.Runtime.Compi
+ lerServices.Unsafe.dll
+SHA-256-Digest: N3aEiOjvRXKbx9miZ3YzxkUAQpdbuWUW4YbabLnNDc8=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/GWS-Workflows.Picking.
+ Rest.AssemblyInfo.cs
+SHA-256-Digest: HK4m4PI/DiW1s/5tX7IBJsDalL/IWfgrXXzWiFEaQHQ=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/nl/Honeywell.GWS.Conne
+ ctor.SDK.resources.dll
+SHA-256-Digest: Txbb02ictH4Dm2KnHpqdEk9Q6D/uF1my/kHYDldsPHw=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/zh-Hans/Microsof
+ t.TestPlatform.CommunicationUtilities.resources.dll
+SHA-256-Digest: PE/ysMx6mewrLfnHxFs6UfXQhBu5O28ykhGaIj6xvdE=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/GWS-Workflows.Pic
+ king.SqlServer.AssemblyInfo.cs
+SHA-256-Digest: OgvYXM0VyhcVtQlHlwo8xx8UsfpbBuzUZwIHGNz186U=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/GWS-Workflows.Picking.Assem
+ blyInfo.cs
+SHA-256-Digest: jM94YDxDHLOGVQI3m9f5T08urPYVITgg9WjnoH5+VQw=
+
+Name: GWS-Workflows.Picking.SqlServer.Tests/Batch/BehaviorTests.cs
+SHA-256-Digest: vpLZOhvqdGJnsrXTpQHZESHeDRmlsZ8NewR4eaOSjZU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Microsoft.TestPl
+ atform.CrossPlatEngine.dll
+SHA-256-Digest: IMTPkBzDGJh3APXL2VHy5lS6zaKUwmoRxOZ7PkzIFNY=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.Rest.pdb
+SHA-256-Digest: tAbnhar3RO9Vk8VIiFTbMH72l5FViW2Hy4ucygKBDfk=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/Honeywell.GWS.Connec
+ tor.SDK.dll
+SHA-256-Digest: E3B7djGYwfDC7/MRm3K2eLoX05PT+LLQGi/a56B2lPc=
+
+Name: GWS-Workflows.Picking/Services/InServiceServerLog.cs
+SHA-256-Digest: yDW94oFOlPZ/O6J50lsLA4bcqHpBBU71EV8gVeiWpNw=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/.NETFramework,Versio
+ n=v4.7.2.AssemblyAttributes.cs
+SHA-256-Digest: YhGZVX6Q+xZh5AHMmpcxY8hQtLfmW7yNEA9n9mme73A=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/Honeywell.GWS.Connec
+ tor.Library.Workflows.Picking.pdb
+SHA-256-Digest: dmujaEf5c9pqtsD4Zh3s0lYnNbHQZa7PuvDEZVGV1Ak=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/de/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: QcylVVJHvom7r3eScOvO78TlJMibm9MyVLfq3mGszBc=
+
+Name: GWS-Workflows.Picking/bin/Debug/netstandard2.1/fr-CA/Honeywell.GWS
+ .Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: djCjOSvPGPZSafNLrP1CUUmpj9pN8CQkcdMAY5ox8p4=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/Honeywell.GWS.Connec
+ tor.Library.Workflows.Picking.dll
+SHA-256-Digest: Qmz0SOcpX8G0A/421AM1itbaBU20mZx4Ye9JbjVIJ9U=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/GWS-Workflows.Pi
+ cking.Rest.Tests.assets.cache
+SHA-256-Digest: l8fBm/VQg2cg7NlCYqDfQXoPyb6PqFCbZSMOh33RKwU=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.Runtime.Co
+ mpilerServices.Unsafe.dll
+SHA-256-Digest: N3aEiOjvRXKbx9miZ3YzxkUAQpdbuWUW4YbabLnNDc8=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/es/Honeywell.GWS.Con
+ nector.SDK.resources.dll
+SHA-256-Digest: 9FTYzSgx5CsaI7K3L9dEBAqdbkYQkiZMAaDN3IeQtiE=
+
+Name: GWS-Workflows.Picking/Modules/Behaviors/IPickingBatchBehavior.cs
+SHA-256-Digest: HkyIVGNO0amPotcXRr6zUvJqb7I5LXLoffznMOmPLg4=
+
+Name: GWS-Workflows.Picking/Menus.cs
+SHA-256-Digest: 7B/CFJhMre1xgjRPvzrTS7Alot8FDQcPvw9NYIFGlnQ=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.Rest.pdb
+SHA-256-Digest: tAbnhar3RO9Vk8VIiFTbMH72l5FViW2Hy4ucygKBDfk=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/it/Microsoft.Tes
+ tPlatform.CommunicationUtilities.resources.dll
+SHA-256-Digest: dBOvl1P5wcCIMxlw51u73xQf4juM5dXY4AhGE16gjHA=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.pdb
+SHA-256-Digest: vccupEMTrhO2QjLcfUMGnHjZYf2EaIc9idJcQlD71/U=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.SqlServer.dll
+SHA-256-Digest: YVfOpmlKWm/Xja72a23/nHnGmiIoX2j8K9h3NJQQyvY=
+
+Name: GWS-Workflows.Picking/bin/Debug/netstandard2.1/nl/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: Aw62YFDEnrE/1A2DaE9CrDcWR0KBlQxg7cyL8pn0pwI=
+
+Name: GWS-Workflows.Picking.Files.Tests/Continuous/BehaviorTests.cs
+SHA-256-Digest: KpcPSpWr07r3PPmJpSxo0NGu0pEF/5ADsE2kTXW09hs=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/xunit.abstractio
+ ns.dll
+SHA-256-Digest: MWbccDI/swzPHO2w/obyrRIsRtJUVCNC2QOG78TJKFw=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/GWS-Workflows.Pi
+ cking.Rest.Tests.GeneratedMSBuildEditorConfig.editorconfig
+SHA-256-Digest: cSv+BsW6z0kUtFdKUqomtHLx8AStqTTaOzZlKsAToic=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/de/Microsoft.Tes
+ tPlatform.CoreUtilities.resources.dll
+SHA-256-Digest: OEgUGyRJDC2jFzQT7R9dB0fODrLDb+KjO2x0xkjh4+g=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.IdentityMo
+ del.Tokens.Jwt.dll
+SHA-256-Digest: eHB297ml3dOsXncOgspysPeW+AHluQXeehbjAh89RbM=
+
+Name: GWS-Workflows.Picking/Models/GetWorkOrderItemBase.cs
+SHA-256-Digest: FLfrJTbM/j0xqszfox1VNyXuRZHWrU8+RRWNy7xvOy0=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/FluentAssertions
+ .dll
+SHA-256-Digest: wtJ6dz+NlqsKkE5jJJCw1jdYSoySz8BXNbUtwThf+sU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/pt-BR/Microsoft.
+ TestPlatform.CrossPlatEngine.resources.dll
+SHA-256-Digest: vsGFtIWODOusr+EqXRhZCS8Y1O/2/c5E7JsJ0F8rY5g=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Identit
+ yModel.Abstractions.dll
+SHA-256-Digest: P+GghUIi33n5seO9/gRi7JqT2OiyJRjBSZQBV5Qo1J0=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/fr-CA/Honeywell.
+ GWS.Connector.SDK.resources.dll
+SHA-256-Digest: O6+p7siltiYcuZnC/O4pUDa81eqqSgvoZ0x/swY4eyU=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/GWS-Workflow
+ s.Picking.Oracle.csproj.FileListAbsolute.txt
+SHA-256-Digest: EEszRjTjwyomEs5qoL5OVKn3C4fz0Hq3FWJIVp6QuO0=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/de/Honeywell.GWS
+ .Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: lw6xQqRCsURKVfV6llECrHJRS1ucNCLqA7pNwT7Yl1M=
+
+Name: GWS-Workflows.Picking/Models/PrintLabelsBatch.cs
+SHA-256-Digest: 7SruLMj4IUR97lMeBgUZrD0UGrKTnXVD6yrR+Zg+nLw=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.ValueTuple
+ .dll
+SHA-256-Digest: 6QXRAlhbIsbfBPIZr1y9v6e8Fll56XiLYt9tzBZeEPQ=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/pl/Microsoft.Vis
+ ualStudio.TestPlatform.ObjectModel.resources.dll
+SHA-256-Digest: zjveDUZRumKoia8LIqYE8bgWcWNbfU5rO2pbbmOjfOs=
+
+Name: GWS-Workflows.Picking.Files/Models/Operator.cs
+SHA-256-Digest: 1PRNh+S/u5wXix3Oh2btD5ezDhYfDyvMphJ9+CF011M=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/fr/Honeywell.GWS.Connector.
+ Library.Workflows.Picking.resources.dll
+SHA-256-Digest: iHuXsbMqU6bN6fXF+T6DFzyL5aKX619W/+Gg5MOpuMs=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/es/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: coJNVcJsbdUQOB9gf1ZERT21w3F9yO6dM0cBhwnfe1A=
+
+Name: GWS-Workflows.Picking.Rest/Properties/Resources.es.resx
+SHA-256-Digest: bx52l3g9b4ThAZQKyrkrwlYmHhDm0MtYcpc0XB80ick=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ja/Honeywell.GWS
+ .Connector.SDK.resources.dll
+SHA-256-Digest: B3517GwUNPYWX3n6h8DCVfW9TzQZhh97CuPX3wbPaCo=
+
+Name: GWS-Workflows.Picking/obj/project.assets.json
+SHA-256-Digest: /kg8vrDo87Tmt/D6I8XegSDlvlEnez+6HNz2snJhH+c=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/fr-CA/Honeywell.G
+ WS.Connector.SDK.resources.dll
+SHA-256-Digest: lKg1Xj3H4QwCelYZbf1b4gFoiXSbgxIHwAzqjrDT0uI=
+
+Name: GWS-Workflows.Picking.SqlServer/Properties/Resources.resx
+SHA-256-Digest: OC4y9eH/bYF7LGRuKZC9onhAfumQHje0F3+HBNKlWMY=
+
+Name: GWS-Workflows.Picking.Files/FileFormat.cs
+SHA-256-Digest: x4JoT0PZyJd8MbMiU9K/a3G74aoqkF3RRmp0No2Qctc=
+
+Name: GWS-Workflows.Picking/Modules/Behaviors/IPickingBehaviorSettings.c
+ s
+SHA-256-Digest: 52nvoLO6doxo/h8qIeE2Uhv6nR69DCsGlpoiwewekGM=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/GWS-Workflow
+ s.Picking.Oracle.csproj.AssemblyReference.cache
+SHA-256-Digest: nc2fUxzl08UBpjNgU/PX6fdgqCu0YTFa8brlqJxm3Wg=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.Security.P
+ rincipal.Windows.dll
+SHA-256-Digest: tNjhWtwjXQ6Fjjm1Ez5dAKS6qMlPTznjteeRsPnAyAY=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.Rest.deps.json
+SHA-256-Digest: LnrULHXm8KF64qVQdLKttbyL/NFBxbSn5MfpdTsvwAU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/ConfigMock.cs
+SHA-256-Digest: 2nDtsFzAtSRsE+GvPXvkkxCnZ1SSElpqiaNCai/SwCY=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/Honeywell.GWS.Connecto
+ r.Library.Workflows.Picking.Rest.xml
+SHA-256-Digest: DRxLc9m4gQpQcDsQktEzhNEO/5gztyQ5l6/2ZhzZ82E=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/de/Microsoft.Tes
+ tPlatform.CommunicationUtilities.resources.dll
+SHA-256-Digest: /728TFSuof1AjuRYVjl1mbljlYy88QHuLj2PX2SgZb4=
+
+Name: GWS-Workflows.Picking.Oracle/obj/GWS-Workflows.Picking.Oracle.cspr
+ oj.nuget.g.props
+SHA-256-Digest: kR2PTELeNUIEbQIs96mF7MDVvCBMiGfgm/gPEGhFOcU=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/ja/Honeywell.G
+ WS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: 2j7+thMPU2iiwvfAl+zqbNstuIqgaGpQd/CC6cCJxSU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ja/Honeywell.GWS
+ .Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: 2j7+thMPU2iiwvfAl+zqbNstuIqgaGpQd/CC6cCJxSU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/GWS-Workflows.Pi
+ cking.Rest.Tests.csproj.CopyComplete
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/RestBehaviorTests.cs
+SHA-256-Digest: KbYvKb/ICB/z6DXiitt+xqxXgz8GvBNvx5SlIWRFJsQ=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/tr/Microsoft.Vis
+ ualStudio.TestPlatform.ObjectModel.resources.dll
+SHA-256-Digest: Fb5uDLB6t0lXoeLtjhjNL68UbM80xYTKB+GQ2KqDfUQ=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Identit
+ yModel.Logging.dll
+SHA-256-Digest: gzaOH4z0ZO46zqDaCqkpxxtkR+j0XTNEhDiUMMbh4ls=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.SqlServer.Properties.Resources
+ .resources
+SHA-256-Digest: 10x+x02LeekBW7ZueFTWMfURR2xZ09qGAGwoYCnwEeQ=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/Honeywell.GW
+ S.Connector.Library.Workflows.Picking.Oracle.Properties.Resources.es.re
+ sources
+SHA-256-Digest: D6fwdQbDeyPcqdziVWpa08HK7ciZ6uS8kgDtNsnJyzc=
+
+Name: GWS-Workflows.Picking.Tests.MockCatalyst/OnetimeStartupSettings.co
+ nfig
+SHA-256-Digest: YA33e6qq/we7IePnX9/l55/II5sIqTe8fuZxZYXv56g=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.pdb
+SHA-256-Digest: vccupEMTrhO2QjLcfUMGnHjZYf2EaIc9idJcQlD71/U=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.SqlServer.Properties.Resources.resourc
+ es
+SHA-256-Digest: 10x+x02LeekBW7ZueFTWMfURR2xZ09qGAGwoYCnwEeQ=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/GWS-Workflows.Pic
+ king.SqlServer.csproj.CoreCompileInputs.cache
+SHA-256-Digest: W67q7K9dIDPk/YeSHaSDSUrjIEVhcNYnlwA/ml9kdRE=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Newtonsoft.Json.
+ dll
+SHA-256-Digest: IsZJ91/OW+fHzNqIgEc7Y072ns8z9dGritiSyvR9Wgc=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/es-MX/Honeywell.GWS.Connect
+ or.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: 1A3SE/5azy+b4e5iPjDJ0OqhKwmtzQbkYisACYeKaD4=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.dll
+SHA-256-Digest: Hi4DrSoJuo2XBTp6/M8B8Zj+cRzeU0cgWyYVUStUrRo=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/Honeywell.GWS.Connecto
+ r.Library.Workflows.Picking.pdb
+SHA-256-Digest: dmujaEf5c9pqtsD4Zh3s0lYnNbHQZa7PuvDEZVGV1Ak=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/de/Honeyw
+ ell.GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: lw6xQqRCsURKVfV6llECrHJRS1ucNCLqA7pNwT7Yl1M=
+
+Name: GWS-Workflows.Picking.Files/Continuous/Behavior.cs
+SHA-256-Digest: lTkJKrplY3jq/x8L65tR7jW6OLCPikqBKKAqS/lT2Dc=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/Honeywell.GWS.Connec
+ tor.Library.Workflows.Picking.Oracle.Properties.Resources.es.resources
+SHA-256-Digest: D6fwdQbDeyPcqdziVWpa08HK7ciZ6uS8kgDtNsnJyzc=
+
+Name: GWS-Workflows.Picking.SqlServer/assemblies
+SHA-256-Digest: 9iKTBjaWNvJWqjdPLmRQHy3mcYuFhwDc05SXILNLl20=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/es/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.SqlServer.resources.dll
+SHA-256-Digest: jDOgF6OaF+77SZaIW36M9Ti9kazx/cTgjWbCPjgSARY=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.xml
+SHA-256-Digest: AodztmXbxQH33dfqle59NOWo5hiIANfGB6y6fgIXNLY=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/de/Honeywell.GWS.Connector.
+ Library.Workflows.Picking.resources.dll
+SHA-256-Digest: QcylVVJHvom7r3eScOvO78TlJMibm9MyVLfq3mGszBc=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/fr/Microsoft.Vis
+ ualStudio.TestPlatform.ObjectModel.resources.dll
+SHA-256-Digest: 2kcuzY4YjKlGhciiX3NpfOTUtkMKZCHYheu7bb8nkAI=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/linux-s
+ 390x/native/libe_sqlcipher.so
+SHA-256-Digest: c5IaOyzzAlS0glY7EwSUDK30O0aoHQMN5EIrg2iGTLM=
+
+Name: GWS-Workflows.Picking.Tests.MockCatalyst/voiceconfig.xml
+SHA-256-Digest: PjmvTtKONWfPaOuJjhaYk374PWvIcQl8b9N5ovTaTY8=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/.NETFramework,Version=
+ v4.7.2.AssemblyAttributes.cs
+SHA-256-Digest: YhGZVX6Q+xZh5AHMmpcxY8hQtLfmW7yNEA9n9mme73A=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/zh-Hans/Microsoft
+ .Data.SqlClient.resources.dll
+SHA-256-Digest: n0pMzN32VNMkFAkd4FfkD+T4Jz5MaALpOS//hziHlC8=
+
+Name: GWS-Workflows.Picking/Models/Interfaces/IWorkOrderItem.cs
+SHA-256-Digest: 6w2pXuqc/9GccXUIY/hG7s0I2u8W+mQj80FRcSW1gPk=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ja/Microsoft.Tes
+ tPlatform.CommunicationUtilities.resources.dll
+SHA-256-Digest: dKuCVaNdBnaUi5+ntOIvR+F3h7aBR/wSAD2km7CuyV8=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/net472/Honeywell.GWS.Connecto
+ r.Library.Workflows.Picking.dll
+SHA-256-Digest: Qmz0SOcpX8G0A/421AM1itbaBU20mZx4Ye9JbjVIJ9U=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/GWS-Workflows.Picking.
+ Rest.csproj.CopyComplete
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
+Name: GWS-Workflows.Picking.Files/Code/ParserFactory.cs
+SHA-256-Digest: NwbdL5oNi7x7bEhxkD1biH6qMUmXQPC6tJpEeN961Pc=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/win/lib
+ /net6.0/System.Diagnostics.EventLog.dll
+SHA-256-Digest: ZEuzoa++prg1QisJhzdvBHluOLu+zAjJQCNjjuvlf0w=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.SqlServer.pdb
+SHA-256-Digest: WPbpt/2dDBf7+yPUxyz/B6FJTD0eQDZJZjjNuJBMKMo=
+
+Name: GWS-Workflows.Picking.Files/FilesBehavior.cs
+SHA-256-Digest: HfjTV8oz0q4H57XaGhM6/gQcVT+eB5Qeuqt9U1Bm7AQ=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.Rest.Tests.dll
+SHA-256-Digest: Z7KAq8ZjN4fJBuHhbrxmwrP1dAQ2xqYbom5LWeH/+tw=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ja/Microsoft.Tes
+ tPlatform.CoreUtilities.resources.dll
+SHA-256-Digest: ZhFGTulAb4YBUrW7QoutXt9nM6Ala9pwd9LcWltYHe0=
+
+Name: GWS-Workflows.Picking/bin/Debug/netstandard2.1/ja/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: 2j7+thMPU2iiwvfAl+zqbNstuIqgaGpQd/CC6cCJxSU=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/es-MX/Honeywell.GWS.Connect
+ or.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: 1A3SE/5azy+b4e5iPjDJ0OqhKwmtzQbkYisACYeKaD4=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/fr-CA/Honeywell.GWS.Connect
+ or.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: UX61uNIGZRXrZWAfm4Y9WHzyOldIU2m1MFBGwD2OpUk=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/.NETStandard,V
+ ersion=v2.1.AssemblyAttributes.cs
+SHA-256-Digest: yoXc5eaa6nw1dwUdH3EHtmcsB/AhfdwIB31NDR7WY10=
+
+Name: GWS-Workflows.Picking.SqlServer/Properties/Resources.Designer.cs
+SHA-256-Digest: ZCJQUnR+31jSls0gwSN2RAZ4PkJwu6Fe4e4w+Hq8R44=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.pdb
+SHA-256-Digest: vccupEMTrhO2QjLcfUMGnHjZYf2EaIc9idJcQlD71/U=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/zh-Hant/Microsof
+ t.TestPlatform.CoreUtilities.resources.dll
+SHA-256-Digest: e0jGacaDBoibL6gkOe5zwWY/IuoGYLqF9VtouLICiI0=
+
+Name: GWS-Workflows.Picking/Properties/DialogResources.Designer.cs
+SHA-256-Digest: 5AQ8mijSnhMv1pYG3OJTWbSI66O4bb67fxeylNU/srs=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/netstandard2.1/GWS-Workflows.
+ Picking.Rest.AssemblyInfoInputs.cache
+SHA-256-Digest: T2+Pf7mtKmpufDbvLxLuAVa65AFdFi9HP6/ABkGm+Zs=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/osx-x64
+ /native/libe_sqlcipher.dylib
+SHA-256-Digest: fsIRbDRxsdkC0WMsLCatxlDnS5v247F/PWvpI//BTr4=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.Rest.Tests.pdb
+SHA-256-Digest: KQxxdfneHHon+GNvXOn9PpoFyKIZUtFGjVLIIE5Ep1k=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/GWS-Workflows.Pickin
+ g.Oracle.AssemblyInfoInputs.cache
+SHA-256-Digest: 94jubDYyVMsYh1OqHMtlYStJwYpsu/ba/ISk1wKTPyY=
+
+Name: GWS-Workflows.Picking/bin/Debug/netstandard2.1/es/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: coJNVcJsbdUQOB9gf1ZERT21w3F9yO6dM0cBhwnfe1A=
+
+Name: GWS-Workflows.Picking/Models/StockCountingMode.cs
+SHA-256-Digest: VLQjus46PppWytUaIhJMbpepPnMV+2Rcf/YzqRDFrRo=
+
+Name: GWS-Workflows.Picking.Files/Models/PrintLabelsBatchRequest.cs
+SHA-256-Digest: nDMFMFhhkQhTyjGUyeF4uxJXudMGEtmZk6Es2M7h8Uw=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/de/Honeywell.GWS.Connector.
+ SDK.resources.dll
+SHA-256-Digest: aKrr8G4fOS7HNmfFIWEwQvjVIWvOMMsDxDwY0YZ+8bw=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ko/Microsoft.Tes
+ tPlatform.CrossPlatEngine.resources.dll
+SHA-256-Digest: YQgqTjYzvLBE0srvBRnTvnlrq1lN8SS31w4R1HCpmME=
+
+Name: GWS-Workflows.Picking.Tests/Data/GetWorkOrderItem_Start.cs
+SHA-256-Digest: RBg2r+Le4xReN9WJtRtYNMOeCBLWBkproKnaK8ZXij8=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.xml
+SHA-256-Digest: eWyPGykzhkuXHy8y8l2J1mD0o7JrzvK05zI1iwSRm38=
+
+Name: GWS-Workflows.Picking/bin/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.deps.json
+SHA-256-Digest: FsjUrUJyqp4NP5fmEjS1vYYJ7x2G79awVgtWQyqA6BU=
+
+Name: GWS-Workflows.Picking/obj/Debug/netstandard2.1/Honeywell.GWS.Conne
+ ctor.Library.Workflows.Picking.dll
+SHA-256-Digest: Hi4DrSoJuo2XBTp6/M8B8Zj+cRzeU0cgWyYVUStUrRo=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.xml
+SHA-256-Digest: AodztmXbxQH33dfqle59NOWo5hiIANfGB6y6fgIXNLY=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/fr-CA/Honeywell.GWS.
+ Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: UX61uNIGZRXrZWAfm4Y9WHzyOldIU2m1MFBGwD2OpUk=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/netstandard2.1/GWS-Workflow
+ s.Picking.Oracle.AssemblyInfoInputs.cache
+SHA-256-Digest: 94jubDYyVMsYh1OqHMtlYStJwYpsu/ba/ISk1wKTPyY=
+
+Name: GWS-Workflows.Picking.Oracle/obj/GWS-Workflows.Picking.Oracle.cspr
+ oj.nuget.dgspec.json
+SHA-256-Digest: e6uuUQKjJsRbv7bnVU9WH+8w1awn/DTkMhCMXR/35lY=
+
+Name: GWS-Workflows.Picking/Models/PrintLabels.cs
+SHA-256-Digest: cRigla2XdYmvg9xwCxfA2EvWlYJXtFucKvPMTDXnpYY=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.SqlServer.dll
+SHA-256-Digest: YVfOpmlKWm/Xja72a23/nHnGmiIoX2j8K9h3NJQQyvY=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/linux-m
+ usl-arm64/native/libe_sqlcipher.so
+SHA-256-Digest: rygrhXokOkEW5XXqYLEQlgSJtg5uqykoHPZGEvTS7vI=
+
+Name: GWS-Workflows.Picking/Modules/InMemory/Batch/Behavior.cs
+SHA-256-Digest: WK/Sgwtly2/vpvwlG4AWI4LaOGgQpF0HzUrpi7iokOk=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/Honeywell.GWS.Connec
+ tor.Library.Workflows.Picking.Oracle.dll
+SHA-256-Digest: nA2HUQo7+br34VmAtorZy5O4+Fy7FvG7gPaqE3KbOR0=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.SqlServer.Properties.Resources
+ .es.resources
+SHA-256-Digest: D6fwdQbDeyPcqdziVWpa08HK7ciZ6uS8kgDtNsnJyzc=
+
+Name: GWS-Workflows.Picking/Constants.cs
+SHA-256-Digest: 5bmJDcuJaZ1racd5DrbowkWoxS1mptnWwnfyDlbIQxE=
+
+Name: GWS-Workflows.Picking/Properties/DialogResources.fr-CA.resx
+SHA-256-Digest: Xf1+bPXph2KJSEXHgrwkXx5QWo27BS4AM7p31oKVHzw=
+
+Name: GWS-Workflows.Picking.SqlServer.Tests/SqlServerBehaviorTests.cs
+SHA-256-Digest: EaUaNxpvhy9rRycmiBb53qP6Uyn/dNjbGdB9eZk/d0c=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/nl/Honeywell.G
+ WS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: Aw62YFDEnrE/1A2DaE9CrDcWR0KBlQxg7cyL8pn0pwI=
+
+Name: GWS-Workflows.Picking.Files/assemblies
+SHA-256-Digest: hHPxwWuOGR2GFqcYhYGWAHbmDIXxvryb7a+/NhbKYIU=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/GWS-Workflows.Picking.
+ Rest.csproj.GenerateResource.cache
+SHA-256-Digest: bnzVZtl06pZLnaBR3CTDVLvYT2h5I2NLz9djWnVXsBk=
+
+Name: GWS-Workflows.Picking/Services/Interfaces/IServerLog.cs
+SHA-256-Digest: hgoOUpxpCd1rBjhwcU5I4cYynVhGQOH5OWnRKTzl+nk=
+
+Name: GWS-Workflows.Picking.SqlServer.Tests/Continuous/BehaviorTests.cs
+SHA-256-Digest: F+A03sMMYGakxGGI4+f0CrWat3Je98YdwgbEwOpTctM=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/.NETStand
+ ard,Version=v2.1.AssemblyAttributes.cs
+SHA-256-Digest: yoXc5eaa6nw1dwUdH3EHtmcsB/AhfdwIB31NDR7WY10=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ja/Microsoft.Vis
+ ualStudio.TestPlatform.ObjectModel.resources.dll
+SHA-256-Digest: ZyP5VesUWs7nV0nwZK/zz4Cw2muJUjZp5ZumjWP/uns=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/GWS-Workflows.Pi
+ cking.Rest.Tests.csproj.CoreCompileInputs.cache
+SHA-256-Digest: 136W7zPeKagzse2SVC5BBJ9YKHMJxrbr7dUOkZLfk1k=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/zh-Hans/Microsof
+ t.VisualStudio.TestPlatform.Common.resources.dll
+SHA-256-Digest: shkb/o+DqDBSLFGKwrs2ZfPSMizrN1x2Gra894NKk4E=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/zh-Hant/Microsoft
+ .Data.SqlClient.resources.dll
+SHA-256-Digest: jJwsMYMjb1fON5pQZH8vCgKnvGBG1mb4GEPRHXiy5Vg=
+
+Name: GWS-Workflows.Picking.Oracle/OracleBehavior.cs
+SHA-256-Digest: 5OSwPJIY7U/HLvNSqvRpH1j8O4C8FC6/hdJltyFk7vo=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/runtimes/maccata
+ lyst-x64/native/libe_sqlcipher.dylib
+SHA-256-Digest: 7C2fYuL3PVrQQpU1Ncu43VdOdZbvtseMz88jsaSdYCk=
+
+Name: GWS-Workflows.Picking.Rest/bin/Debug/netstandard2.1/fr/Honeywell.G
+ WS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: zv66H1ER1adYsWRHvkbf6IFSZWv3WMboFBDDUXjdx0o=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/GWS-Workflows.Picking.
+ Rest.csproj.AssemblyReference.cache
+SHA-256-Digest: BT5Ys8r5ZG5aZoCJlaZ4zYwYt6+oW3rR9zdWNizKlhM=
+
+Name: GWS-Workflows.Picking.Rest.Tests/Continuous/BehaviorTests.cs
+SHA-256-Digest: bvGBfCNkDIXoK3nuXtMAHbG7neTXrPQ6cJRmXtuu1Kg=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/de/Microsoft.Data
+ .SqlClient.resources.dll
+SHA-256-Digest: 8ImrjcWGwokrePGhpX1tb0Lc/kQrBB44ZpH/vt1ncSM=
+
+Name: GWS-Workflows.Picking/Models/ValidatePrintingResult.cs
+SHA-256-Digest: ctgjWQCu96sp4bfTP7IygD2J+OF5z/RT1fZbMGkTmU0=
+
+Name: GWS-Workflows.Picking/obj/Debug/net472/fr-CA/Honeywell.GWS.Connect
+ or.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: UX61uNIGZRXrZWAfm4Y9WHzyOldIU2m1MFBGwD2OpUk=
+
+Name: GWS-Workflows.Picking.Rest.Tests/GWS-Workflows.Picking.Rest.Tests.
+ csproj
+SHA-256-Digest: 9Qeq6sgWiTaTkkewcBOuMm/sYU7zybjLdgmm6btkOT4=
+
+Name: GWS-Workflows.Picking.Oracle/obj/Debug/net472/Honeywell.GWS.Connec
+ tor.Library.Workflows.Picking.Oracle.pdb
+SHA-256-Digest: zBrbrzeXDiEWKjwDynS7IDFBFar8fPnTxMOl8CylvFs=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/netstandard2.1/es-MX/Hon
+ eywell.GWS.Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: gQswtSgSQkL5+ghlj8pDnf6jj7X/ssDt7fa+FkbV7gI=
+
+Name: GWS-Workflows.Picking/Properties/DialogResources.es.resx
+SHA-256-Digest: +AOTDZT7dVJaMpXd9krQan7lR0eP89GSBtqcPkTiGI0=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/netstandard2.1/es/Honeywell
+ .GWS.Connector.Library.Workflows.Picking.Oracle.resources.dll
+SHA-256-Digest: BniM3iTGu4lHpXAAlNfMIMWIaZXu5jeLbndQ+Ad4caM=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/nl/Honeywell.GWS.
+ Connector.SDK.resources.dll
+SHA-256-Digest: Txbb02ictH4Dm2KnHpqdEk9Q6D/uF1my/kHYDldsPHw=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/net472/Honeywell.GWS.Con
+ nector.Library.Workflows.Picking.SqlServer.Properties.Resources.es.reso
+ urces
+SHA-256-Digest: D6fwdQbDeyPcqdziVWpa08HK7ciZ6uS8kgDtNsnJyzc=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/Microsoft.Identit
+ yModel.Tokens.dll
+SHA-256-Digest: FVQpVVC53q1TygnTlx9MhYoMPpP/mEjCpdASiY17gZE=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/nl/Honeywell.GWS
+ .Connector.Library.Workflows.Picking.resources.dll
+SHA-256-Digest: Aw62YFDEnrE/1A2DaE9CrDcWR0KBlQxg7cyL8pn0pwI=
+
+Name: GWS-Workflows.Picking.Oracle/bin/Debug/net472/fr/Honeywell.GWS.Con
+ nector.SDK.resources.dll
+SHA-256-Digest: 2K5t6LhxU4BvjysdUYJXlPn7xRzjcqg9zgGuO/1WZHM=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/SQLite-net.dll
+SHA-256-Digest: M8TfsIWenKa7auytZMRaEAt64Wv83l/jyYoQTlg9lgo=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/System.Memory.Dat
+ a.dll
+SHA-256-Digest: yWgBtfSwppGGt4D8MlvCbEQ39yYR6y1aFAg+d2w0Pe0=
+
+Name: GWS-Workflows.Picking.Rest.Tests/bin/Debug/net7.0/ja/Microsoft.Vis
+ ualStudio.TestPlatform.Common.resources.dll
+SHA-256-Digest: PdAfbwf/+eCWt6/A6P+XQMSHQlhgN5lqYTHTef1NIiw=
+
+Name: GWS-Workflows.Picking.Rest/obj/Debug/net472/GWS-Workflows.Picking.
+ Rest.assets.cache
+SHA-256-Digest: MYkS2i+/aKoIi3gxx5aIGpijhCiz7H+GLNXs5ThL+TE=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.Rest.Tests.dll
+SHA-256-Digest: Z7KAq8ZjN4fJBuHhbrxmwrP1dAQ2xqYbom5LWeH/+tw=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/pt-BR/Honeywell.G
+ WS.Connector.SDK.resources.dll
+SHA-256-Digest: 9DQ34SWu4Tz6rziRDcoxFHUwiULQTBxcztux3C2yLt8=
+
+Name: GWS-Workflows.Picking.SqlServer/bin/Debug/net472/pt-BR/Microsoft.D
+ ata.SqlClient.resources.dll
+SHA-256-Digest: pvuUiejSbgtA5P8SWml/++rYb+J4vG37/l56whIwhXY=
+
+Name: GWS-Workflows.Picking/bin/Debug/net472/pt/Honeywell.GWS.Connector.
+ SDK.resources.dll
+SHA-256-Digest: YGgilDjoy3EOf9VHj2QLQGYaCcPAQu2g0l/Kqyvqi8w=
+
+Name: GWS-Workflows.Picking.SqlServer/obj/Debug/netstandard2.1/GWS-Workf
+ lows.Picking.SqlServer.AssemblyInfoInputs.cache
+SHA-256-Digest: +is4F4yF73aEggLSCA21VHrs8DZEViPGR2n+uoQUcUY=
+
+Name: GWS-Workflows.Picking.Rest/obj/GWS-Workflows.Picking.Rest.csproj.n
+ uget.g.targets
+SHA-256-Digest: lxzJtTU4SEm1xmHXds16gIM6QWJl4y6JaOBsNnNouLU=
+
+Name: GWS-Workflows.Picking.Rest.Tests/obj/Debug/net7.0/Honeywell.GWS.Co
+ nnector.Library.Workflows.Picking.Rest.Tests.pdb
+SHA-256-Digest: KQxxdfneHHon+GNvXOn9PpoFyKIZUtFGjVLIIE5Ep1k=
+
+Name: GWS-Workflows.Picking/Models/PlaceInDock.cs
+SHA-256-Digest: 4obkWx7K2s52R7sh0MY3Vm/keye5wCA5MRZcD9c+SgQ=
+

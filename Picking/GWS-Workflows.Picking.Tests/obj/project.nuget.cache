@@ -1,0 +1,202 @@
+{
+  "version": 2,
+  "dgSpecHash": "zuyfsFhJbvedHSPGITP9BsqxzicUUNJQAObYwDdjw/2WKo1oX7ZxxZfYOj4AXkVD2+H6TC2caiyqapITUsuzFA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\E841371\\source\\repos\\Picking\\GWS-Workflows.Picking.Tests\\GWS-Workflows.Picking.Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\E841371\\.nuget\\packages\\common.logging.core\\3.4.1\\common.logging.core.3.4.1.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\fluentassertions\\6.11.0\\fluentassertions.6.11.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\honeywell.guidedwork.appbase.abstractions\\1.11.0\\honeywell.guidedwork.appbase.abstractions.1.11.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\honeywell.gws.connector.sdk\\2.1.0\\honeywell.gws.connector.sdk.2.1.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\honeywell.vio.sdk\\3.1.0\\honeywell.vio.sdk.3.1.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\microsoft.net.test.sdk\\17.6.1\\microsoft.net.test.sdk.17.6.1.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\moq\\4.18.4\\moq.4.18.4.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple\\4.3.0\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0\\system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.security.cryptography.csp\\4.3.0\\system.security.cryptography.csp.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0\\system.security.cryptography.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\system.security.cryptography.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\system.security.cryptography.x509certificates.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\xunit\\2.4.2\\xunit.2.4.2.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'coverlet.collector' from remote source 'https://packagesource/FindPackagesById()?id='coverlet.collector'&semVerLevel=2.0.0'.",
+      "libraryId": "coverlet.collector"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'coverlet.collector' from remote source 'https://packagesource/FindPackagesById()?id='coverlet.collector'&semVerLevel=2.0.0'.",
+      "libraryId": "coverlet.collector"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'xunit' from remote source 'https://packagesource/FindPackagesById()?id='xunit'&semVerLevel=2.0.0'.",
+      "libraryId": "xunit"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'xunit' from remote source 'https://packagesource/FindPackagesById()?id='xunit'&semVerLevel=2.0.0'.",
+      "libraryId": "xunit"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'xunit.analyzers' from remote source 'https://packagesource/FindPackagesById()?id='xunit.analyzers'&semVerLevel=2.0.0'.",
+      "libraryId": "xunit.analyzers"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'xunit.analyzers' from remote source 'https://packagesource/FindPackagesById()?id='xunit.analyzers'&semVerLevel=2.0.0'.",
+      "libraryId": "xunit.analyzers"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'xunit.core' from remote source 'https://packagesource/FindPackagesById()?id='xunit.core'&semVerLevel=2.0.0'.",
+      "libraryId": "xunit.core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'xunit.core' from remote source 'https://packagesource/FindPackagesById()?id='xunit.core'&semVerLevel=2.0.0'.",
+      "libraryId": "xunit.core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'xunit.runner.visualstudio' from remote source 'https://packagesource/FindPackagesById()?id='xunit.runner.visualstudio'&semVerLevel=2.0.0'.",
+      "libraryId": "xunit.runner.visualstudio"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'xunit.runner.visualstudio' from remote source 'https://packagesource/FindPackagesById()?id='xunit.runner.visualstudio'&semVerLevel=2.0.0'.",
+      "libraryId": "xunit.runner.visualstudio"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeCoverage' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeCoverage'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeCoverage"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'System.Configuration.ConfigurationManager' from remote source 'https://packagesource/FindPackagesById()?id='System.Configuration.ConfigurationManager'&semVerLevel=2.0.0'.",
+      "libraryId": "System.Configuration.ConfigurationManager"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.CodeCoverage' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.CodeCoverage'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.CodeCoverage"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.Frameworks' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.Frameworks'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.Frameworks"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'NuGet.Frameworks' from remote source 'https://packagesource/FindPackagesById()?id='NuGet.Frameworks'&semVerLevel=2.0.0'.",
+      "libraryId": "NuGet.Frameworks"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.App.Ref' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.AspNetCore.App.Ref'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.AspNetCore.App.Ref' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.AspNetCore.App.Ref'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.AspNetCore.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NETCore.App.Ref' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.NETCore.App.Ref'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NETCore.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.NETCore.App.Ref' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.NETCore.App.Ref'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.NETCore.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.WindowsDesktop.App.Ref' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.WindowsDesktop.App.Ref'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.WindowsDesktop.App.Ref' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.WindowsDesktop.App.Ref'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'xunit.assert' from remote source 'https://packagesource/FindPackagesById()?id='xunit.assert'&semVerLevel=2.0.0'.",
+      "libraryId": "xunit.assert"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'xunit.assert' from remote source 'https://packagesource/FindPackagesById()?id='xunit.assert'&semVerLevel=2.0.0'.",
+      "libraryId": "xunit.assert"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.TestPlatform.TestHost' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.TestPlatform.TestHost'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.TestPlatform.TestHost"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Failed to retrieve information about 'Microsoft.TestPlatform.TestHost' from remote source 'https://packagesource/FindPackagesById()?id='Microsoft.TestPlatform.TestHost'&semVerLevel=2.0.0'.",
+      "libraryId": "Microsoft.TestPlatform.TestHost"
+    }
+  ]
+}

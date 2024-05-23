@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Honeywell.GWS.Connector.Library.Workflows.Picking
+build_property.ProjectDir = C:\Users\E841371\source\repos\Picking\GWS-Workflows.Picking\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
