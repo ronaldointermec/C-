@@ -1,0 +1,1224 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Honeywell.GWS.Connector.Library.Workflows.Checklist</name>
+    </assembly>
+    <members>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.DbDataSetParser">
+            <summary>
+            Utility class to extract the data from the database dataset object.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.DbDataSetParser.Parse(System.Data.DataSet)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.DbDataSetParser.GetQuestion(System.Data.DataRow)">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <returns>Question list to answer.</returns>
+            <param name="row">Row object.</param>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.IDbDataSetParser">
+            <summary>
+            Utility class to extract the data from the database dataset object.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.IDbDataSetParser.Parse(System.Data.DataSet)">
+            <summary>
+            Extract array of questions from database dataset object.
+            </summary>
+            <param name="ds">DataSet object.</param>
+            <returns>Question list to answer.</returns>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.IDbDataSetParserExtensions">
+            <summary>
+            Extensions methods for <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.DbDataSetParser"/>.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.IDbDataSetParserExtensions.SafeGetString(System.Data.DataRow,System.String)">
+            <summary>
+            Gets the <see cref="T:System.String"/> value from the database dataset object in a safe manner.
+            </summary>
+            <param name="row">Database row object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or string value from row.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.IDbDataSetParserExtensions.SafeGetString(System.Data.IDataReader,System.String)">
+            <summary>
+            Gets the <see cref="T:System.String"/> value from the database reader object in a safe manner.
+            </summary>
+            <param name="reader">Database reader object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or string value from reader.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.IDbDataSetParserExtensions.SafeGetInt(System.Data.DataRow,System.String)">
+            <summary>
+            Gets the <see cref="T:System.Int32"/> value from the database dataset object in a safe manner.
+            </summary>
+            <param name="row">Database row object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or int value from row.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.IDbDataSetParserExtensions.SafeGetShort(System.Data.DataRow,System.String)">
+            <summary>
+            Gets the <see cref="T:System.Int16"/> value from the database dataset object in a safe manner.
+            </summary>
+            <param name="row">Database row object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or short value from row.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.IDbDataSetParserExtensions.SafeGetDecimal(System.Data.DataRow,System.String)">
+            <summary>
+            Gets the <see cref="T:System.Decimal"/> value from the database dataset object in a safe manner.
+            </summary>
+            <param name="row">Database row object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or decimal value from row.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.IDbDataSetParserExtensions.SafeGetBool(System.Data.DataRow,System.String)">
+            <summary>
+            Gets the <see cref="T:System.Boolean"/> value from the database dataset object in a safe manner.
+            </summary>
+            <param name="row">Database row object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or bool value from row.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.IDbDataSetParserExtensions.SafeGetDateTime(System.Data.DataRow,System.String)">
+            <summary>
+            Gets the <see cref="T:System.Boolean"/> value from the database dataset object in a safe manner.
+            </summary>
+            <param name="row">Database row object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or bool value from row.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.IDbDataSetParserExtensions.SafeGetUri(System.Data.DataRow,System.String)">
+            <summary>
+            Gets the <see cref="T:System.Uri"/> value from the database dataset object in a safe manner.
+            </summary>
+            <param name="row">Database row object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or Uri value from row.</returns>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.QuestionJsonConverter">
+            <summary>
+            JSON Converter to create the right <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestion"/> implementation type, based on the "type" property of the JSON parsed.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.QuestionJsonConverter.CanWrite">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.QuestionJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestion,System.Boolean,Newtonsoft.Json.JsonSerializer)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.QuestionJsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestion,Newtonsoft.Json.JsonSerializer)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Dialogs">
+            <summary>
+            Dialogs enumeration.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Dialogs.Start">
+            <summary>
+            Start state, for beginning of execution and get the checklist to be loaded.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Dialogs.DoChecklist">
+            <summary>
+            Perform the loaded checklist.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Dialogs.Finished">
+            <summary>
+            Current checklist completed.
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Extensions">
+            <summary>
+            Helper methods for dialog generation.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Extensions.AssignNum(Honeywell.VIO.SDK.InstructionSet,System.String,Honeywell.GWS.Connector.Library.Workflows.Checklist.Dialogs)">
+            <summary>
+            Extend <see cref="T:Honeywell.VIO.SDK.InstructionSet"/> to add an AssignNum which receives a <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Dialogs"/> enumeration value.
+            </summary>
+            <param name="i">Current instruction set instance.</param>
+            <param name="variableName">Variable to be updated.</param>
+            <param name="dialog">Dialog enumeration value.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Extensions.AssignNum(Honeywell.VIO.SDK.CommandRequest,System.String,Honeywell.GWS.Connector.Library.Workflows.Checklist.Dialogs)">
+            <summary>
+            Extend <see cref="T:Honeywell.VIO.SDK.CommandRequest"/> to add an AssignNum which receives a <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Dialogs"/> enumeration value.
+            </summary>
+            <param name="cmd">Current command request response.</param>
+            <param name="variableName">Variable to be updated.</param>
+            <param name="dialog">Dialog enumeration value.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Extensions.TryGetValue``3(System.Collections.Generic.IDictionary{``0,``1},``0,``2@)">
+            <summary>
+            Tries to retrieve a value from a dictionary and cast it to the <typeparamref name="TValueAs"/> type.
+            </summary>
+            <typeparam name="TKey">Type of the <see cref="T:System.Collections.Generic.IDictionary`2"/> key.</typeparam>
+            <typeparam name="TValue">Type of the <see cref="T:System.Collections.Generic.IDictionary`2"/> value.</typeparam>
+            <typeparam name="TValueAs">Type of the data to be casted to.</typeparam>
+            <param name="dictionary">Current dictionary.</param>
+            <param name="key">Key to be retrieved.</param>
+            <param name="valueAs">Parameter to get the value.</param>
+            <returns>If value could be returned and casted.</returns>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Labels">
+            <summary>
+            Labels Helper class.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Labels.Begin">
+            <summary>
+            Beginning of a question.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Labels.End">
+            <summary>
+            End of a question.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Labels.LeaveJob">
+            <summary>
+            Leave current checklist.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Labels.Wrong">
+            <summary>
+            Wrong answer.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Labels.Ask">
+            <summary>
+            Ask question prompt.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Labels.Ok">
+            <summary>
+            Answer is correct or completed.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Labels.Undo">
+            <summary>
+            Undo current answer.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Labels.Complete">
+            <summary>
+            Complete current process.
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Ask">
+            <summary>
+            Question to be answered as 'Yes' or 'No'.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Ask.Type">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Ask.Priority">
+            <summary>
+            Gets a value indicating whether if question can be answered before <see cref="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Question.Prompt"/> has been answered.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Ask.Image">
+            <summary>
+            Gets a value with an image to be displayed when the question is showed.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Ask.BuildDialog(Honeywell.GWS.Connector.SDK.Interfaces.IDevice,Honeywell.VIO.SDK.InstructionSet,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Checklist">
+            <summary>
+            A Checklist loaded to be processed by voice.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Checklist.Questions">
+            <summary>
+            Gets a collection of questions which conforms the checklist.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Checklist.Completed">
+            <summary>
+            Gets or sets timestamp of checklist completion.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Checklist.CompletedBy">
+            <summary>
+            Gets or sets the operator who completed the checklist.
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Date">
+            <summary>
+            Question to be answered with multiple prompts which conforms a Date.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Date.Type">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Date.ConfirmationEnabled">
+            <summary>
+            Gets a value indicating whether confirmation is enabled.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Date.Format">
+            <summary>
+            Gets format of the date.
+            </summary>
+            <remarks>It's a subset of C# standard date format strings.</remarks>
+            <example>'ddMMyyyy' or 'yyyyMM'.</example>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Date.Image">
+            <summary>
+            Gets a value with an image to be displayed when the question is showed.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Date.BuildDialog(Honeywell.GWS.Connector.SDK.Interfaces.IDevice,Honeywell.VIO.SDK.InstructionSet,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.FloatValue">
+            <summary>
+            Question to be answered with a decimal value.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.FloatValue.Type">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.FloatValue.ConfirmationEnabled">
+            <summary>
+            Gets a value indicating whether confirmation is enabled.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.FloatValue.MinLength">
+            <summary>
+            Gets min length for the answer.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.FloatValue.MaxLength">
+            <summary>
+            Gets max length for the answer.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.FloatValue.MinValue">
+            <summary>
+            Gets min value for the answer.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.FloatValue.MaxValue">
+            <summary>
+            Gets max value for the answer.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.FloatValue.ScannerEnabled">
+            <summary>
+            Gets a value indicating whether if barcode scanner is enabled.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.FloatValue.Image">
+            <summary>
+            Gets a value with an image to be displayed when the question is showed.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.FloatValue.BuildDialog(Honeywell.GWS.Connector.SDK.Interfaces.IDevice,Honeywell.VIO.SDK.InstructionSet,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IntegerValue">
+            <summary>
+            Question to be answered with an integer value.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IntegerValue.Type">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IntegerValue.ConfirmationEnabled">
+            <summary>
+            Gets a value indicating whether confirmation is enabled.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IntegerValue.MinLength">
+            <summary>
+            Gets min length for the answer.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IntegerValue.MaxLength">
+            <summary>
+            Gets max length for the answer.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IntegerValue.MinValue">
+            <summary>
+            Gets min value for the answer.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IntegerValue.MaxValue">
+            <summary>
+            Gets max value for the answer.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IntegerValue.ScannerEnabled">
+            <summary>
+            Gets a value indicating whether if barcode scanner is enabled.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IntegerValue.Image">
+            <summary>
+            Gets a value with an image to be displayed when the question is showed.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IntegerValue.BuildDialog(Honeywell.GWS.Connector.SDK.Interfaces.IDevice,Honeywell.VIO.SDK.InstructionSet,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestion">
+            <summary>
+            Interface for a question.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestion.Code">
+            <summary>
+            Gets unique code for the question within the checklist.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestion.Prompt">
+            <summary>
+            Gets the message of the question to be asked to the operator.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestion.AdditionalInformation">
+            <summary>
+            Gets additional information to be given to the operator when asking for help.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestion.SkipAllowed">
+            <summary>
+            Gets a value indicating whether if question can be skipped.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestion.Operator">
+            <summary>
+            Gets or sets operator who answered the question.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestion.StartTime">
+            <summary>
+            Gets or sets timestamp of when the operator entered into this question.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestion.EndTime">
+            <summary>
+            Gets or sets timestamp of when the operator leaved the question by giving an answer (if required).
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestion.BuildDialog(Honeywell.GWS.Connector.SDK.Interfaces.IDevice,Honeywell.VIO.SDK.InstructionSet,System.String,System.String)">
+            <summary>
+            Method for build instructions set for the question.
+            </summary>
+            <param name="device">Device identifier.</param>
+            <param name="instr">Current instruction set.</param>
+            <param name="id">Checklist identifier.</param>
+            <param name="previousCode">Previous question code.</param>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestionWithValueTypeAnswer`1">
+            <summary>
+            Extended question with a <see cref="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestionWithValueTypeAnswer`1.Answer"/> property.
+            </summary>
+            <typeparam name="TAnswer">Type of the answer (value type).</typeparam>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestionWithValueTypeAnswer`1.Answer">
+            <summary>
+            Gets or sets answer given by the operator.
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestionWithReferenceTypeAnswer`1">
+            <summary>
+            Extended question with a <see cref="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestionWithReferenceTypeAnswer`1.Answer"/> property.
+            </summary>
+            <typeparam name="TAnswer">Type of the answer (reference type).</typeparam>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestionWithReferenceTypeAnswer`1.Answer">
+            <summary>
+            Gets or sets answer given by the operator.
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Message">
+            <summary>
+            Message to be spoken to the operator.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Message.Type">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Message.Priority">
+            <summary>
+            Gets a value indicating whether if question can be answered before <see cref="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Question.Prompt"/> has been answered.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Message.ReadyToContinue">
+            <summary>
+            Gets a value indicating whether if operator has to confirm to proceed with the next question.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Message.Image">
+            <summary>
+            Gets a value with an image to be displayed when the question is showed.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Message.BuildDialog(Honeywell.GWS.Connector.SDK.Interfaces.IDevice,Honeywell.VIO.SDK.InstructionSet,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Operator">
+            <summary>
+            Model representing an Operator.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Operator.Name">
+            <summary>
+            Gets name of the operator.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Operator.Password">
+            <summary>
+            Gets password to be spoken by the operator to sign on (optional).
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Question">
+            <summary>
+            A base implementation of <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestion"/> interface. Used mainly for serialization/deserialization purposes.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Question.Type">
+            <summary>
+            Gets type of the question (used for serialization).
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Question.Code">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Question.Prompt">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Question.AdditionalInformation">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Question.SkipAllowed">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Question.Operator">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Question.StartTime">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Question.EndTime">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Question.BuildDialog(Honeywell.GWS.Connector.SDK.Interfaces.IDevice,Honeywell.VIO.SDK.InstructionSet,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.QuestionWithValueTypeAnswer`1">
+            <summary>
+            A base implementation of <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestionWithValueTypeAnswer`1"/> interface. Used mainly for serialization/deserialization purposes.
+            </summary>
+            <typeparam name="TAnswer"><inheritdoc/></typeparam>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.QuestionWithValueTypeAnswer`1.Answer">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.QuestionWithReferenceTypeAnswer`1">
+            <summary>
+            A base implementation of <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestionWithReferenceTypeAnswer`1"/> interface. Used mainly for serialization/deserialization purposes.
+            </summary>
+            <typeparam name="TAnswer"><inheritdoc/></typeparam>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.QuestionWithReferenceTypeAnswer`1.Answer">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Select">
+            <summary>
+            Question to be answered with an option within offered <see cref="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Select.Options"/>.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Select.Type">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Select.ConfirmationEnabled">
+            <summary>
+            Gets a value indicating whether confirmation is enabled.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Select.Options">
+            <summary>
+            Gets available options to be presented to the operator.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Select.BuildDialog(Honeywell.GWS.Connector.SDK.Interfaces.IDevice,Honeywell.VIO.SDK.InstructionSet,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.SelectMultiple">
+            <summary>
+            Question to be answered with one or more options within offered <see cref="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.SelectMultiple.Options"/>.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.SelectMultiple.Type">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.SelectMultiple.ConfirmationEnabled">
+            <summary>
+            Gets a value indicating whether confirmation is enabled.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.SelectMultiple.Options">
+            <summary>
+            Gets available options to be presented to the operator.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.SelectMultiple.BuildDialog(Honeywell.GWS.Connector.SDK.Interfaces.IDevice,Honeywell.VIO.SDK.InstructionSet,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.SelectOption">
+            <summary>
+            Select Option used in <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Select"/> and <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.SelectMultiple"/> questions.
+            </summary>
+            <param name="Code">Numeric code to be spoken by the operator for direct selection.</param>
+            <param name="Description">Description spoken to the operator.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.SelectOption.#ctor(System.Int16,System.String)">
+            <summary>
+            Select Option used in <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Select"/> and <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.SelectMultiple"/> questions.
+            </summary>
+            <param name="Code">Numeric code to be spoken by the operator for direct selection.</param>
+            <param name="Description">Description spoken to the operator.</param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.SelectOption.Code">
+            <summary>Numeric code to be spoken by the operator for direct selection.</summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.SelectOption.Description">
+            <summary>Description spoken to the operator.</summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.StringValue">
+            <summary>
+            Question to be answered with an alphanumeric value.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.StringValue.Type">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.StringValue.ConfirmationEnabled">
+            <summary>
+            Gets a value indicating whether confirmation is enabled.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.StringValue.MinLength">
+            <summary>
+            Gets min length for the answer.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.StringValue.MaxLength">
+            <summary>
+            Gets max length for the answer.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.StringValue.ScannerEnabled">
+            <summary>
+            Gets a value indicating whether if barcode scanner is enabled.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.StringValue.Image">
+            <summary>
+            Gets a value with an image to be displayed when the question is showed.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.StringValue.BuildDialog(Honeywell.GWS.Connector.SDK.Interfaces.IDevice,Honeywell.VIO.SDK.InstructionSet,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Time">
+            <summary>
+            Question to be answered with multiple prompts which conforms a Time.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Time.Type">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Time.ConfirmationEnabled">
+            <summary>
+            Gets a value indicating whether confirmation is enabled.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Time.Format">
+            <summary>
+            Gets format of the time.
+            </summary>
+            <remarks>It's a subset of C# standard time format strings.</remarks>
+            <example>'hhmmss' or 'mmss'.</example>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Time.Image">
+            <summary>
+            Gets a value with an image to be displayed when the question is showed.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Time.BuildDialog(Honeywell.GWS.Connector.SDK.Interfaces.IDevice,Honeywell.VIO.SDK.InstructionSet,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior`1">
+            <summary>
+            A base implementation for <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior`1"/>.
+            </summary>
+            <remarks>Includes common functionality for working with Checklists and expose methods for concrete implementations.</remarks>
+            <typeparam name="TConnectorBehaviorSettings">Type of Settings used.</typeparam>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior`1.#ctor(`0)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior`1"/> class.
+            </summary>
+            <param name="settings">Settings instance.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior`1.GetOperator(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior`1.GetChecklist(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior`1.SubmitChecklistResult(System.String,System.String,System.String,System.String,System.DateTime,System.Nullable{System.DateTime})">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior`1.CompleteChecklist(System.String,System.String,System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior`1.RetrieveChecklist(System.String,System.String)">
+            <summary>
+            Retrieve a Checklist from storage.
+            </summary>
+            <param name="operator">Operator retrieving the checklist.</param>
+            <param name="id">Checklist identifier to be retrieved.</param>
+            <returns>A checklist loaded from storage.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior`1.UpdateChecklist(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Checklist)">
+            <summary>
+            Updates a Checklist to the storage.
+            </summary>
+            <param name="operator">Operator performing the operation.</param>
+            <param name="id">Checklist identifier to be updated.</param>
+            <param name="checklist">The checklist to be updated.</param>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior">
+            <summary>
+            A simple implementation for <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior`1"/> using <see cref="T:Honeywell.GWS.Connector.SDK.ConnectorBehaviorSettingsBase"/>.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior.#ctor(Honeywell.GWS.Connector.SDK.ConnectorBehaviorSettingsBase)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior"/> class.
+            </summary>
+            <param name="settings">Settings instance.</param>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.IConnectorBehavior">
+            <summary>
+            Base interface for Checklist connector behavior.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.IConnectorBehavior.GetOperator(System.String)">
+            <summary>
+            Retrieves an operator.
+            </summary>
+            <param name="operator">Operator code.</param>
+            <returns>An Operator or null if not found.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.IConnectorBehavior.GetChecklist(System.String,System.String)">
+            <summary>
+            Retrieves the checklist to be processed.
+            </summary>
+            <param name="operator">Operator requesting the checklist.</param>
+            <param name="id">Checklist identifier.</param>
+            <returns>A Checklist or null if not found.</returns>
+            <remarks>Only questions unanswered are included in the response.</remarks>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.IConnectorBehavior.SubmitChecklistResult(System.String,System.String,System.String,System.String,System.DateTime,System.Nullable{System.DateTime})">
+            <summary>
+            Submit checklist results.
+            </summary>
+            <param name="operator">Operator submitting the checklist results.</param>
+            <param name="id">Checklist identifier.</param>
+            <param name="code">Code of the question answered.</param>
+            <param name="answer">Answer value spoken by the operator, or null if question was skipped or undone.</param>
+            <param name="startTime">Timestamp when the operator entered the question.</param>
+            <param name="endTime">Timestamp when the operator leaved the question providing an answer, or null if question was skipped or undone.</param>
+            <remarks>Questions may or not be answered, and it's answer can also be erased by passing null.</remarks>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.IConnectorBehavior.CompleteChecklist(System.String,System.String,System.Boolean)">
+            <summary>
+            Marks a checklist as completed, only if has no skipped questions.
+            </summary>
+            <param name="operator">Operator completing the checklist.</param>
+            <param name="id">Checklist identifier.</param>
+            <param name="force">Force to complete the checklist even if there are skipped questions.</param>
+            <returns>A bool indicating if the checklist has been completed or not.</returns>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.InMemory.Behavior">
+            <summary>
+            An implementation of <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior"></see> based on file storage.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.InMemory.Behavior.#ctor(Honeywell.GWS.Connector.SDK.ConnectorBehaviorSettingsBase)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.InMemory.Behavior"/> class.
+            </summary>
+            <param name="settings">Settings instance.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.InMemory.Behavior.GetOperator(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.InMemory.Behavior.RetrieveChecklist(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.InMemory.Behavior.UpdateChecklist(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Checklist)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.InMemory.ServiceConnector">
+            <summary>
+            Base implementation for Memory Task Connector.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.InMemory.ServiceConnector.#ctor(Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.InMemory.Behavior)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.InMemory.ServiceConnector"/> class.
+            </summary>
+            <param name="connectorBehavior">ConnectorBehavior instance.</param>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Date_Day">
+            <summary>
+              Looks up a localized string similar to Day.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Date_DayRepeated">
+            <summary>
+              Looks up a localized string similar to Day repeated.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Date_InvalidCharacters">
+            <summary>
+              Looks up a localized string similar to Contains invalid characters (only &apos;d&apos;, &apos;M&apos; and &apos;y&apos; are allowed).
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Date_InvalidDate">
+            <summary>
+              Looks up a localized string similar to Invalid date.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Date_Month">
+            <summary>
+              Looks up a localized string similar to Month.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Date_MonthRepeated">
+            <summary>
+              Looks up a localized string similar to Month repeated.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Date_NoMatches">
+            <summary>
+              Looks up a localized string similar to Does not contains any matches (only &apos;dd&apos;, &apos;MM&apos;, &apos;yyyy&apos; and &apos;yy&apos; are allowed).
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Date_Year">
+            <summary>
+              Looks up a localized string similar to Year.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Date_YearRepeated">
+            <summary>
+              Looks up a localized string similar to Year repeated.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.FourDigits">
+            <summary>
+              Looks up a localized string similar to Four digits.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Message_ToContinueSayVCONFIRM">
+            <summary>
+              Looks up a localized string similar to {0}, to continue say VCONFIRM.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.MissingDeviceState">
+            <summary>
+              Looks up a localized string similar to Missing device state.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.MissingRequiredVariable">
+            <summary>
+              Looks up a localized string similar to Missing required variable &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Options_InvalidValue">
+            <summary>
+              Looks up a localized string similar to A valid value for option &apos;{0}&apos; is missing. Initialized with value &apos;{1}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Select_Wrong">
+            <summary>
+              Looks up a localized string similar to Wrong.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.SelectMultiple_Next">
+            <summary>
+              Looks up a localized string similar to Next.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.ServerConnection_OperatorNotFound_Voice">
+            <summary>
+              Looks up a localized string similar to Operator not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Time_Hour">
+            <summary>
+              Looks up a localized string similar to Hour.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Time_HourRepeated">
+            <summary>
+              Looks up a localized string similar to Hour repeated.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Time_InvalidCharacters">
+            <summary>
+              Looks up a localized string similar to Contains invalid characters (only &apos;h&apos;, &apos;m&apos; and &apos;s&apos; are allowed).
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Time_Minute">
+            <summary>
+              Looks up a localized string similar to Minute.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Time_MinuteRepeated">
+            <summary>
+              Looks up a localized string similar to Minute repeated.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Time_NoMatches">
+            <summary>
+              Looks up a localized string similar to Does not contains any matches (only &apos;hh&apos;, &apos;mm&apos; and &apos;ss&apos; are allowed).
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Time_Second">
+            <summary>
+              Looks up a localized string similar to Second.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Time_SecondRepeated">
+            <summary>
+              Looks up a localized string similar to Second repeated.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.TwoDigits">
+            <summary>
+              Looks up a localized string similar to Two digits.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.UnknownState">
+            <summary>
+              Looks up a localized string similar to Unknown state &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Workflow_ErrorRetrievingJob">
+            <summary>
+              Looks up a localized string similar to An error occurred while retrieving job. To continue, say VCONFIRM.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Workflow_Job">
+            <summary>
+              Looks up a localized string similar to Job?.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Workflow_JobFinished">
+            <summary>
+              Looks up a localized string similar to Job finished. To continue, say VCONFIRM.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Workflow_JobFinishedWithSkippedQuestions">
+            <summary>
+              Looks up a localized string similar to Job finished with skipped questions. To complete it, say no more . To continue, say VCONFIRM.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Workflow_JobNotFound_Voice">
+            <summary>
+              Looks up a localized string similar to Job {0} not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Workflow_LeavingJob">
+            <summary>
+              Looks up a localized string similar to Leaving job.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.Workflow_OperatorNotFound">
+            <summary>
+              Looks up a localized string similar to Operator {0} not found..
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.Behavior_ErrorSettingAnswer">
+            <summary>
+              Busca una cadena traducida similar a [{0}] Error setting answer for question &apos;{1}&apos;. Response was &apos;{2}&apos; ({3}): {4}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.Behavior_NotFound">
+            <summary>
+              Busca una cadena traducida similar a [{0}] Checklist not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.Behavior_QuestionNotFound">
+            <summary>
+              Busca una cadena traducida similar a [{0}] Question &apos;{1}&apos; not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.Behavior_RepeatedQuestions">
+            <summary>
+              Busca una cadena traducida similar a [{0}] Checklist has questions with same code.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.Checklist_Null">
+            <summary>
+              Busca una cadena traducida similar a [{0}] Retrieve: Unexpected Response &apos;{1}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.DataSetParser_InvalidType">
+            <summary>
+              Busca una cadena traducida similar a Invalid type &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.DataSetParser_PropertyEmpty">
+            <summary>
+              Busca una cadena traducida similar a Property &apos;{0}&apos; is mandatory.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.Date_InvalidFormat">
+            <summary>
+              Busca una cadena traducida similar a [{0}] Date Format in question &apos;{1}&apos; is not valid: &apos;{2}&apos; - {3}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.Error_DBNotAccessible">
+            <summary>
+              Busca una cadena traducida similar a The database was not accessible during initialization ({0}): {1}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.Error_UpdateChecklist">
+            <summary>
+              Busca una cadena traducida similar a Error updating checklist &apos;{0}&apos;: {1}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.FileFormatEmpty">
+            <summary>
+              Busca una cadena traducida similar a File Format is mandatory.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.GetOperator_Null">
+            <summary>
+              Busca una cadena traducida similar a [{0}] GetOperator: Unexpected Response &apos;{1}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.JsonParser_FailedToParse">
+            <summary>
+              Busca una cadena traducida similar a Failed to parse: {0}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.JsonParser_InvalidType">
+            <summary>
+              Busca una cadena traducida similar a Invalid type &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.ServerConnection_OperatorNotFound">
+            <summary>
+              Busca una cadena traducida similar a [{0}] Operator &apos;{1}&apos; not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.ServerEmpty">
+            <summary>
+              Busca una cadena traducida similar a Server is mandatory.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.StatusCodeDefault">
+            <summary>
+              Busca una cadena traducida similar a Unexpected response code: {0}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.Time_InvalidFormat">
+            <summary>
+              Busca una cadena traducida similar a [{0}] Time Format in question &apos;{1}&apos; is not valid: &apos;{2}&apos; - {3}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.Workflow_JobNotFound">
+            <summary>
+              Busca una cadena traducida similar a [{0}] Job not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.Workflow_SelectOptionsNotFound">
+            <summary>
+              Busca una cadena traducida similar a [{0}] Select Options not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.Workflow_UnknownQuestionType">
+            <summary>
+              Busca una cadena traducida similar a [{0}] Unknown question type &apos;{1}&apos;.
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars">
+            <summary>
+            Variables Helper class.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.DLG">
+            <summary>
+            Current state.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.PROMPT">
+            <summary>
+            Current prompt.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.AUX">
+            <summary>
+            Auxiliar variable to hold intermediate results.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.DUMMY">
+            <summary>
+            Dummy variable to hold intermediate results.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.COMPLETE">
+            <summary>
+            Flag variable to mark as completed.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.ID">
+            <summary>
+            Current checklist identifier.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.CODE">
+            <summary>
+            Question code within current checklist.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.ANSWER">
+            <summary>
+            Answer collected for this question.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.UNDO">
+            <summary>
+            Flag variable to erase the answer from the current question.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.START_TIME">
+            <summary>
+            Start time for this question.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.END_TIME">
+            <summary>
+            End time for this question.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.YEAR">
+            <summary>
+            Intermediate variable to hold the year part in a Date answer.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.MONTH">
+            <summary>
+            Intermediate variable to hold the month part in a Date answer.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.DAY">
+            <summary>
+            Intermediate variable to hold the day in part a Date answer.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.HOUR">
+            <summary>
+            Intermediate variable to hold the hour in part a Time answer.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.MINUTE">
+            <summary>
+            Intermediate variable to hold the minute part in a Time answer.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars.SECOND">
+            <summary>
+            Intermediate variable to hold the second in part a Time answer.
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Workflow">
+            <summary>
+            Workflow implementation.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Workflow.#ctor(Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.IConnectorBehavior)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Workflow"/> class.
+            </summary>
+            <param name="behavior">Instance of ConnectorBehavior used.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Workflow.ConnectAsync(Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Workflow.GetVariableSetAsync(System.Collections.Generic.Dictionary{System.String,System.String},Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Workflow.BuildInstructionsAsync(Honeywell.VIO.SDK.InstructionSet,System.Collections.Generic.Dictionary{System.String,System.String},Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Workflow.ProcessDataAsync(System.Collections.Generic.Dictionary{System.String,System.String},Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Workflow.GetMenuOptionsAsync(Honeywell.GWS.Connector.SDK.Interfaces.IDevice,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Workflow.DisconnectAsync(System.Boolean,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+            <inheritdoc/>
+        </member>
+        <member name="T:System.Runtime.CompilerServices.IsExternalInit">
+            <summary>
+            Reserved to be used by the compiler for tracking metadata.
+            This class should not be used by developers in source code.
+            </summary>
+        </member>
+    </members>
+</doc>

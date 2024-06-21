@@ -6,43 +6,30 @@
     <members>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.Behavior">
             <summary>
-            Base implementation for SQL Server ConnectorBehavior.
+            Base implementation for Batch REST ConnectorBehavior.
             </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.Behavior"/> class. This constructor is used by GWS Connector Service.
+            </summary>
+            <param name="settings">Settings instance.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings,Honeywell.GWS.Connector.Library.Workflows.Picking.Services.Interfaces.IServerLog,Newtonsoft.Json.JsonConverter)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.Behavior"/> class. This constructor is used by GWS App.
+            </summary>
+            <param name="settings">Settings instance.</param>
+            <param name="serverLog">ServerLog service instance.</param>
+            <param name="converter">JSON Converter.</param>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.Behavior.GetWorkOrdersAsync(System.String,System.String)">
             <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrderResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDockResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestionResult)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.ISetWorkOrderItem)">
             <inheritdoc/>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.Behavior.PrintLabelsBatchAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabelsBatch)">
-            <inheritdoc/>
-        </member>
-        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.ServerConnection">
-            <summary>
-            Base implementation for REST ServerConnection.
-            </summary>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.ServerConnection.#ctor(System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.Behavior)">
-            <summary>
-            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.ServerConnection"/> class.
-            </summary>
-            <param name="deviceID">Device identifier.</param>
-            <param name="connectorBehavior">ConnectorBehavior reference.</param>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.ServerConnection.ConnectToServerAsync">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.ServerConnection.DisconnectAsync(System.Boolean)">
             <inheritdoc/>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.ServiceConnector">
@@ -50,54 +37,47 @@
             An implementation for ServiceConnector for GWS-Workflows - Picking (REST Batch) to be used with GWS Connector Service.
             </summary>
         </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.ServiceConnector.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.Behavior)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Batch.ServiceConnector"/> class.
+            </summary>
+            <param name="connectorBehavior">ConnectorBehavior instance.</param>
+        </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior">
             <summary>
-            Base implementation for REST ConnectorBehavior.
+            Base implementation for Continuous REST ConnectorBehavior.
             </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior"/> class. This constructor is used by GWS Connector Service.
+            </summary>
+            <param name="settings">Settings instance.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings,Honeywell.GWS.Connector.Library.Workflows.Picking.Services.Interfaces.IServerLog,Newtonsoft.Json.JsonConverter)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior"/> class. This constructor is used by GWS App.
+            </summary>
+            <param name="settings">Settings instance.</param>
+            <param name="serverLog">ServerLog service instance.</param>
+            <param name="converter">JSON Converter.</param>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior.GetWorkOrderAsync(System.String,System.String)">
             <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrderResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDockResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestionResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabelsResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.ValidatePrintingResult)">
-            <inheritdoc/>
-        </member>
-        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.ServerConnection">
-            <summary>
-            Base implementation for SQL Server ServerConnection.
-            </summary>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.ServerConnection.#ctor(System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior)">
-            <summary>
-            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.ServerConnection"/> class.
-            </summary>
-            <param name="deviceID">Device identifier.</param>
-            <param name="connectorBehavior">ConnectorBehavior reference.</param>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.ServerConnection.ConnectToServerAsync">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.ServerConnection.DisconnectAsync(System.Boolean)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.ISetWorkOrderItem)">
             <inheritdoc/>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.ServiceConnector">
             <summary>
             An implementation for ServiceConnector for GWS-Workflows - Picking (REST Continuous) to be used with GWS Connector Service.
             </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.ServiceConnector.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.Behavior)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Continuous.ServiceConnector"/> class.
+            </summary>
+            <param name="connectorBehavior">ConnectorBehavior instance.</param>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.GetWorkOrderConverter">
             <summary>
@@ -115,7 +95,7 @@
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Models.ConnectModel">
             <summary>
-            Result for REST request performed in <see cref="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior.ConnectToServerAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)"/>.
+            Result for REST request performed in <see cref="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior.ConnectAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)"/>.
             </summary>
             <param name="Name">Operator name.</param>
             <param name="Allowed">Allowed to connect.</param>
@@ -124,7 +104,7 @@
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Models.ConnectModel.#ctor(System.String,System.Boolean,System.String,System.String)">
             <summary>
-            Result for REST request performed in <see cref="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior.ConnectToServerAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)"/>.
+            Result for REST request performed in <see cref="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior.ConnectAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)"/>.
             </summary>
             <param name="Name">Operator name.</param>
             <param name="Allowed">Allowed to connect.</param>
@@ -299,9 +279,9 @@
               Busca una cadena traducida similar a An error occurred.
             </summary>
         </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Properties.Resources.Error_BeginRest">
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Properties.Resources.Error_BeginBreak">
             <summary>
-              Busca una cadena traducida similar a Error registering rest start &apos;{0}&apos;: {1}.
+              Busca una cadena traducida similar a Error registering break start &apos;{0}&apos;: {1}.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Properties.Resources.Error_Connect">
@@ -319,9 +299,9 @@
               Busca una cadena traducida similar a Error to disconnect: {0}.
             </summary>
         </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Properties.Resources.Error_EndRest">
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Properties.Resources.Error_EndBreak">
             <summary>
-              Busca una cadena traducida similar a Error registering rest end: {0}.
+              Busca una cadena traducida similar a Error registering break end: {0}.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.Properties.Resources.Error_PrintLabels">
@@ -374,15 +354,34 @@
             Base class for REST implementation.
             </summary>
         </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior"/> class. This constructor is used by GWS Connector Service.
+            </summary>
+            <param name="settings">Settings instance.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings,Honeywell.GWS.Connector.Library.Workflows.Picking.Services.Interfaces.IServerLog,Newtonsoft.Json.JsonConverter)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior"/> class. This constructor is used by GWS App.
+            </summary>
+            <param name="settings">Settings instance.</param>
+            <param name="serverLog">ServerLog service instance.</param>
+            <param name="converter">JSON Converter.</param>
+        </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior.RestClient">
             <summary>
             Gets REST client used to perform requests to remote server.
             </summary>
         </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior.Converter">
+            <summary>
+            Gets database parser for extracting data.
+            </summary>
+        </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior.Initialize">
             <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior.ConnectToServerAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior.ConnectAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
             <inheritdoc/>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior.DisconnectAsync(System.String,System.String,System.Boolean)">
@@ -391,10 +390,10 @@
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior.RegisterOperatorStartAsync(System.String,System.String)">
             <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior.BeginRestAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginRest)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior.BeginBreakAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginBreak)">
             <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior.EndRestAsync(System.String,System.String)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Rest.RestBehavior.EndBreakAsync(System.String,System.String)">
             <inheritdoc/>
         </member>
         <member name="T:System.Runtime.CompilerServices.IsExternalInit">

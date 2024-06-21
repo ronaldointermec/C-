@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFrameworks>net472;netstandard2.1</TargetFrameworks>
+		<Authors>Honeywell | Safety and Productivity Solutions</Authors>
+		<Company>Honeywell | Safety and Productivity Solutions</Company>
+		<Product>Honeywell GWS Connector Library - Checklist Workflow</Product>
+		<Copyright>Honeywell, 2023</Copyright>
+		<LangVersion>latest</LangVersion>
+		<AssemblyName>Honeywell.GWS.Connector.Library.Workflows.Checklist.Files</AssemblyName>
+		<RootNamespace>Honeywell.GWS.Connector.Library.Workflows.Checklist.Files</RootNamespace>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="Honeywell.GuidedWork.AppBase.Abstractions" Version="1.11.0" />
+	  <PackageReference Include="Honeywell.GWS.Connector.SDK" Version="2.1.0" />
+	  <PackageReference Include="Honeywell.VIO.SDK" Version="3.1.0" />
+	  <PackageReference Include="System.IO.Abstractions" Version="19.2.26" />
+	  <PackageReference Include="System.IO.Abstractions.TestingHelpers" Version="19.2.26" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\GWS-Workflows.Checklist\GWS-Workflows.Checklist.csproj" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
+		<None Update="assemblies">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+		</None>
+	</ItemGroup>
+	
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+			<_Parameter1>Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Tests</_Parameter1>
+		</AssemblyAttribute>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+			<_Parameter1>DynamicProxyGenAssembly2</_Parameter1>
+		</AssemblyAttribute>
+	</ItemGroup>
+</Project>

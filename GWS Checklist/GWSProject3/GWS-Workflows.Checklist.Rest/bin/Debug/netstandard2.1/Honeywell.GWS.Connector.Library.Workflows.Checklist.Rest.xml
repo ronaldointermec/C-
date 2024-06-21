@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest</name>
+    </assembly>
+    <members>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.AppConnector`3">
+            <summary>
+            Base implementation for AppConnector to be used with GWS Connector App. All implementations of Checklist (REST) connectors implementations must inherit from this base class.
+            </summary>
+            <typeparam name="TConnectorBehavior">Type of ConnectorBehavior.</typeparam>
+            <typeparam name="TConnectorBehaviorSettings">Type of ConnectorBehaviorSettings.</typeparam>
+            <typeparam name="TWorkflow">Type of Workflow.</typeparam>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.AppConnector`3.#ctor(Honeywell.Firebird.Module.IAppBaseModuleContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.AppConnector`3"/> class.
+            </summary>
+            <param name="context"><inheritdoc/></param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.AppConnector`3.ConnectorName">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.AppConnector`3.RegisterServices">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.AppConnector">
+            <summary>
+            An implementation for AppConnector for GWS-Workflows - Checklist (REST) to be used with GWS Connector App.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.AppConnector.#ctor(Honeywell.Firebird.Module.IAppBaseModuleContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.AppConnector"/> class.
+            </summary>
+            <param name="context"><inheritdoc/></param>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.Behavior">
+            <summary>
+            An implementation of <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior"></see> based on Rest.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.Behavior.#ctor(Honeywell.GWS.Connector.SDK.ConnectorBehaviorSettingsBase,Newtonsoft.Json.JsonConverter)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.Behavior"/> class.
+            </summary>
+            <param name="settings">Settings instance.</param>
+            <param name="converter">JSON Converter.</param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.Behavior.RestClient">
+            <summary>
+            Gets REST client used to perform requests to remote server.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.Behavior.Converter">
+            <summary>
+            Gets database parser for extracting data.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.Behavior.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.Behavior.GetOperator(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.Behavior.RetrieveChecklist(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.Behavior.UpdateChecklist(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Checklist)">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

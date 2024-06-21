@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net472;netstandard2.1</TargetFrameworks>
+		<Authors>Honeywell | Safety and Productivity Solutions</Authors>
+		<Company>Honeywell | Safety and Productivity Solutions</Company>
+		<Product>Honeywell GWS Connector Library - Checklist Workflow (SqlServer)</Product>
+		<Copyright>Honeywell, 2023</Copyright>
+		<LangVersion>latest</LangVersion>
+		<AssemblyName>Honeywell.GWS.Connector.Library.Workflows.Checklist.SqlServer</AssemblyName>
+		<RootNamespace>Honeywell.GWS.Connector.Library.Workflows.Checklist.SqlServer</RootNamespace>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<AdditionalFiles Include="..\stylecop.json">
+			<PackagePath>\</PackagePath>
+		</AdditionalFiles>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Honeywell.GuidedWork.AppBase.Abstractions" Version="1.11.0" />
+	  <PackageReference Include="Honeywell.GWS.Connector.SDK" Version="2.1.0" />
+	  <PackageReference Include="Honeywell.VIO.SDK" Version="3.1.0" />
+	  <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	  <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\GWS-Workflows.Checklist\GWS-Workflows.Checklist.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+			<_Parameter1>Honeywell.GWS.Connector.Library.Workflows.Checklist.SqlServer.Tests</_Parameter1>
+		</AssemblyAttribute>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+			<_Parameter1>DynamicProxyGenAssembly2</_Parameter1>
+		</AssemblyAttribute>
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <Compile Update="Properties\Resources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Resources.resx</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
+		<None Update="assemblies">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+		</None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Properties\Resources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFrameworks>net472;netstandard2.1</TargetFrameworks>
+        <Authors>Honeywell | Safety and Productivity Solutions</Authors>
+        <Company>Honeywell | Safety and Productivity Solutions</Company>
+        <Product>Honeywell GWS Connector Library - Checklist Workflow</Product>
+        <Copyright>Honeywell, 2023</Copyright>
+        <LangVersion>latest</LangVersion>
+        <AssemblyName>Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest</AssemblyName>
+        <RootNamespace>Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest</RootNamespace>
+        <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+    <ItemGroup>
+      <AdditionalFiles Include="..\stylecop.json" Link="stylecop.json">
+        <PackagePath>\</PackagePath>
+      </AdditionalFiles>
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Honeywell.GuidedWork.AppBase.Abstractions" Version="1.11.0" />
+      <PackageReference Include="Honeywell.GWS.Connector.SDK" Version="2.1.0" />
+      <PackageReference Include="Honeywell.VIO.SDK" Version="3.1.0" />
+      <PackageReference Include="RestSharp" Version="106.15.0" />
+      <PackageReference Include="RestSharp.Serializers.NewtonsoftJson" Version="106.15.0" />
+      <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.435">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\GWS-Workflows.Checklist\GWS-Workflows.Checklist.csproj" />
+    </ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.1'">
+		<None Update="assemblies">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+			<CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+		</None>
+	</ItemGroup>
+
+    <ItemGroup>
+        <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+            <_Parameter1>Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest.Tests</_Parameter1>
+        </AssemblyAttribute>
+        <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+            <_Parameter1>DynamicProxyGenAssembly2</_Parameter1>
+        </AssemblyAttribute>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Properties\" />
+    </ItemGroup>
+</Project>

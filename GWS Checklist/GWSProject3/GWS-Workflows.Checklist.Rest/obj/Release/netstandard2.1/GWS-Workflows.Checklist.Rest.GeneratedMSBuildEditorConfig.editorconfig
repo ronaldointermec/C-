@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Honeywell.GWS.Connector.Library.Workflows.Checklist.Rest
+build_property.ProjectDir = C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.Rest\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

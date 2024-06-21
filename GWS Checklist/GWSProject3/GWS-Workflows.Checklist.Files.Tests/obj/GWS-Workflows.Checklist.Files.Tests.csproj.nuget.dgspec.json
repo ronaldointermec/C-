@@ -1,0 +1,385 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist.Files.Tests\\GWS-Workflows.Checklist.Files.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist.Files.Tests\\GWS-Workflows.Checklist.Files.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist.Files.Tests\\GWS-Workflows.Checklist.Files.Tests.csproj",
+        "projectName": "Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Tests",
+        "projectPath": "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist.Files.Tests\\GWS-Workflows.Checklist.Files.Tests.csproj",
+        "packagesPath": "C:\\Users\\E841371\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist.Files.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\E841371\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist.Files\\GWS-Workflows.Checklist.Files.csproj": {
+                "projectPath": "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist.Files\\GWS-Workflows.Checklist.Files.csproj"
+              },
+              "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist\\GWS-Workflows.Checklist.csproj": {
+                "projectPath": "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist\\GWS-Workflows.Checklist.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.11.0, )"
+            },
+            "Honeywell.GWS.Connector.SDK": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Honeywell.GuidedWork.AppBase.Abstractions": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "Honeywell.VIO.SDK": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.17, 7.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.17, 7.0.17]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.17, 7.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist.Files\\GWS-Workflows.Checklist.Files.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist.Files\\GWS-Workflows.Checklist.Files.csproj",
+        "projectName": "Honeywell.GWS.Connector.Library.Workflows.Checklist.Files",
+        "projectPath": "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist.Files\\GWS-Workflows.Checklist.Files.csproj",
+        "packagesPath": "C:\\Users\\E841371\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist.Files\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\E841371\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist\\GWS-Workflows.Checklist.csproj": {
+                "projectPath": "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist\\GWS-Workflows.Checklist.csproj"
+              }
+            }
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist\\GWS-Workflows.Checklist.csproj": {
+                "projectPath": "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist\\GWS-Workflows.Checklist.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Honeywell.GWS.Connector.SDK": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Honeywell.GuidedWork.AppBase.Abstractions": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "Honeywell.VIO.SDK": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "System.IO.Abstractions": {
+              "target": "Package",
+              "version": "[19.2.26, )"
+            },
+            "System.IO.Abstractions.TestingHelpers": {
+              "target": "Package",
+              "version": "[19.2.26, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Honeywell.GWS.Connector.SDK": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Honeywell.GuidedWork.AppBase.Abstractions": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "Honeywell.VIO.SDK": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "System.IO.Abstractions": {
+              "target": "Package",
+              "version": "[19.2.26, )"
+            },
+            "System.IO.Abstractions.TestingHelpers": {
+              "target": "Package",
+              "version": "[19.2.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist\\GWS-Workflows.Checklist.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist\\GWS-Workflows.Checklist.csproj",
+        "projectName": "Honeywell.GWS.Connector.Library.Workflows.Checklist",
+        "projectPath": "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist\\GWS-Workflows.Checklist.csproj",
+        "packagesPath": "C:\\Users\\E841371\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\E841371\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\nuget": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Honeywell.GWS.Connector.SDK": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Honeywell.GuidedWork.AppBase.Abstractions": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "Honeywell.VIO.SDK": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[13.1.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Honeywell.GWS.Connector.SDK": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Honeywell.GuidedWork.AppBase.Abstractions": {
+              "target": "Package",
+              "version": "[1.11.0, )"
+            },
+            "Honeywell.VIO.SDK": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.435, )"
+            },
+            "YamlDotNet": {
+              "target": "Package",
+              "version": "[13.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

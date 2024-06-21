@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle</name>
+    </assembly>
+    <members>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.Behavior">
+            <summary>
+            An implementation of <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior"></see> based on Oracle.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.Behavior.#ctor(Honeywell.GWS.Connector.SDK.ConnectorBehaviorSettingsBase)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.Behavior"/> class.
+            This constructor is used by GWS Connector Service.
+            </summary>
+            <param name="settings">Settings instance.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.Behavior.#ctor(Honeywell.GWS.Connector.SDK.ConnectorBehaviorSettingsBase,Honeywell.GWS.Connector.Library.Workflows.Checklist.Code.IDbDataSetParser)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.Behavior"/> class.
+            This constructor is used by GWS Connector App.
+            </summary>
+            <param name="settings">Settings instance.</param>
+            <param name="dbDataSetParser">Database dataset parser service instance.</param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.Behavior.DbDataSetParser">
+            <summary>
+            Gets database parser for extracting data.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.Behavior.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.Behavior.GetOperator(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.Behavior.RetrieveChecklist(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.Behavior.UpdateChecklist(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Checklist)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.Behavior.CreateConnection">
+            <summary>
+            Creates a new instance of the <see cref="T:System.Data.Common.DbConnection"/> class.
+            </summary>
+            <returns>A new <see cref="T:System.Data.Common.DbConnection"/> instance.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.Behavior.CreateDataAdapter">
+            <summary>
+            Creates a new instance of the <see cref="T:System.Data.Common.DbDataAdapter"/> class.
+            </summary>
+            <returns>A new <see cref="T:System.Data.Common.DbDataAdapter"/> instance.</returns>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.ServiceConnector">
+            <summary>
+            /// Base implementation for Oracle ServiceConnector to be used with GWS Connector Service.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.ServiceConnector.#ctor(Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.Behavior)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.ServiceConnector"/> class.
+            </summary>
+            <param name="connectorBehavior">ConnectorBehavior instance.</param>
+        </member>
+    </members>
+</doc>

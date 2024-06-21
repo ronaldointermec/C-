@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Honeywell.GWS.Connector.Library.Workflows.Checklist.Files</name>
+    </assembly>
+    <members>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.AppConnector`3">
+            <summary>
+            Base implementation for AppConnector to be used with GWS Connector App. All implementations of Checklist (Files) connectors implementations must inherit from this base class.
+            </summary>
+            <typeparam name="TConnectorBehavior">Type of ConnectorBehavior.</typeparam>
+            <typeparam name="TConnectorBehaviorSettings">Type of ConnectorBehaviorSettings.</typeparam>
+            <typeparam name="TWorkflow">Type of Workflow.</typeparam>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.AppConnector`3.#ctor(Honeywell.Firebird.Module.IAppBaseModuleContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.AppConnector`3"/> class.
+            </summary>
+            <param name="context"><inheritdoc/></param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.AppConnector`3.ConnectorName">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.AppConnector`3.RegisterServices">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.AppConnector">
+            <summary>
+            An implementation for AppConnector for GWS-Workflows - Checklist (Files) to be used with GWS Connector App.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.AppConnector.#ctor(Honeywell.Firebird.Module.IAppBaseModuleContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.AppConnector"/> class.
+            </summary>
+            <param name="context"><inheritdoc/></param>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Behavior">
+            <summary>
+            An implementation of <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Modules.ConnectorBehavior"></see> based on file storage.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.BehaviorSettings,Honeywell.GuidedWork.AppBase.Services.DataService.ICustomDataPath,System.IO.Abstractions.IFileSystem,Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.IParserFactory)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Behavior"/> class.
+            This constructor is used by GWS App Connector.
+            </summary>
+            <param name="settings">Settings instance.</param>
+            <param name="customDataPath">CustomDataPath service.</param>
+            <param name="fileSystem">FileSystem instance.</param>
+            <param name="parserFactory">ParserFactory instance.</param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Behavior.FileSystem">
+            <summary>
+            Gets FileSystem object.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Behavior.ParserFactory">
+            <summary>
+            Gets parser factory object.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Behavior.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Behavior.GetOperator(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Behavior.RetrieveChecklist(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Behavior.UpdateChecklist(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.Checklist)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.BehaviorSettings">
+            <summary>
+            Settings class for configuration.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.BehaviorSettings.#ctor(Honeywell.Firebird.CoreLibrary.IConfigService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.BehaviorSettings"/> class.
+            </summary>
+            <param name="configService"><inheritdoc/></param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.BehaviorSettings.DefaultValues">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.BehaviorSettings.Encoding">
+            <summary>
+            Gets or sets files encoding.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.BehaviorSettings.FileFormat">
+            <summary>
+            Gets or sets the information of the rest options.
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.IParser">
+            <summary>
+            Utility interface for parsing information in different formats.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.IParser.Parse``1(System.String)">
+            <summary>
+            Parse into an object.
+            </summary>
+            <param name="contents">A string containing serialized object to be parsed.</param>
+            <typeparam name="TModel">Type of the object to create by parsing the string.</typeparam>
+            <returns>An object representing the contents string.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.IParser.Serialize``1(``0)">
+            <summary>
+            Serialize an object to a string.
+            </summary>
+            <param name="model">Object to be serialized.</param>
+            <typeparam name="TModel">Type of the object to be serialized.</typeparam>
+            <returns>A string representing the serialized object.</returns>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.IParserFactory">
+            <summary>
+            Base interface for Parser Factory.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.IParserFactory.GetParser(System.Nullable{Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.FileFormat})">
+            <summary>
+            Gets a new parser based on the File format.
+            </summary>
+            <param name="fileFormat">File format.</param>
+            <returns>A new <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.IParser"/> instance.</returns>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.JsonParser">
+            <summary>
+            A JSON implementation of <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.IParser"/>.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.JsonParser.#ctor(Newtonsoft.Json.JsonConverter{Honeywell.GWS.Connector.Library.Workflows.Checklist.Models.IQuestion})">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.JsonParser"/> class.
+            </summary>
+            <param name="questionConverter">Json question converter instance.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.JsonParser.Parse``1(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.JsonParser.Serialize``1(``0)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.ParserFactory">
+            <summary>
+            Base implementation for Parser Factory.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.ParserFactory.GetParser(System.Nullable{Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.FileFormat})">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.YamlParser">
+            <summary>
+            A YAML implementation of <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.IParser"/>.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.YamlParser.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.YamlParser"/> class.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.YamlParser.AdditionalTypes">
+            <summary>
+            Gets additional types to be considered for deserialization.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.YamlParser.Parse``1(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Code.YamlParser.Serialize``1(``0)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.FileFormat">
+            <summary>
+            Available formats for serialization.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.FileFormat.Json">
+            <summary>
+            JSON.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.FileFormat.Yaml">
+            <summary>
+            YAML.
+            </summary>
+        </member>
+        <member name="T:System.Runtime.CompilerServices.IsExternalInit">
+            <summary>
+            Reserved to be used by the compiler for tracking metadata.
+            This class should not be used by developers in source code.
+            </summary>
+        </member>
+    </members>
+</doc>

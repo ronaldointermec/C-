@@ -9,40 +9,27 @@
             Base implementation for Oracle ConnectorBehavior.
             </summary>
         </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.Behavior"/> class. This constructor is used by GWS Connector Service.
+            </summary>
+            <param name="settings">Settings instance.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings,Honeywell.GWS.Connector.Library.Workflows.Picking.Services.Interfaces.IServerLog,Honeywell.GWS.Connector.Library.Workflows.Picking.Code.IDbDataReaderParser)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.Behavior"/> class. This constructor is used by GWS App.
+            </summary>
+            <param name="settings">Settings instance.</param>
+            <param name="serverLog">ServerLog service instance.</param>
+            <param name="dbDataReaderParser">Database reader parser service instance.</param>
+        </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.Behavior.GetWorkOrdersAsync(System.String,System.String)">
             <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrderResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDockResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestionResult)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.ISetWorkOrderItem)">
             <inheritdoc/>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.Behavior.PrintLabelsBatchAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabelsBatch)">
-            <inheritdoc/>
-        </member>
-        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.ServerConnection">
-            <summary>
-            Base implementation for Oracle ServerConnection.
-            </summary>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.ServerConnection.#ctor(System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.Behavior)">
-            <summary>
-            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.ServerConnection"/> class.
-            </summary>
-            <param name="deviceID">Device identifier.</param>
-            <param name="connectorBehavior">ConnectorBehavior reference.</param>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.ServerConnection.ConnectToServerAsync">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.ServerConnection.DisconnectAsync(System.Boolean)">
             <inheritdoc/>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.ServiceConnector">
@@ -50,97 +37,110 @@
             An implementation for ServiceConnector for GWS-Workflows - Picking (Oracle Batch) to be used with GWS Connector Service.
             </summary>
         </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.ServiceConnector.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.Behavior)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Batch.ServiceConnector"/> class.
+            </summary>
+            <param name="connectorBehavior">ConnectorBehavior instance.</param>
+        </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior">
             <summary>
             Base implementation for Oracle ConnectorBehavior.
             </summary>
         </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior"/> class. This constructor is used by GWS Connector Service.
+            </summary>
+            <param name="settings">Settings instance.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings,Honeywell.GWS.Connector.Library.Workflows.Picking.Services.Interfaces.IServerLog,Honeywell.GWS.Connector.Library.Workflows.Picking.Code.IDbDataReaderParser)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior"/> class. This constructor is used by GWS App.
+            </summary>
+            <param name="settings">Settings instance.</param>
+            <param name="serverLog">ServerLog service instance.</param>
+            <param name="dbDataReaderParser">Database reader parser service instance.</param>
+        </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior.GetWorkOrderAsync(System.String,System.String)">
             <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrderResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDockResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestionResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabelsResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.ValidatePrintingResult)">
-            <inheritdoc/>
-        </member>
-        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.ServerConnection">
-            <summary>
-            Base implementation for Oracle ServerConnection.
-            </summary>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.ServerConnection.#ctor(System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior)">
-            <summary>
-            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.ServerConnection"/> class.
-            </summary>
-            <param name="deviceID">Device identifier.</param>
-            <param name="connectorBehavior">ConnectorBehavior reference.</param>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.ServerConnection.ConnectToServerAsync">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.ServerConnection.DisconnectAsync(System.Boolean)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.ISetWorkOrderItem)">
             <inheritdoc/>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.ServiceConnector">
             <summary>
-            An implementation for ServiceConnector for GWS-Workflows - Picking (REST Continuous) to be used with GWS Connector Service.
+            An implementation for ServiceConnector for GWS-Workflows - Picking (ORACLE Continuous) to be used with GWS Connector Service.
             </summary>
         </member>
-        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.OracleBehavior">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.ServiceConnector.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.Behavior)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.ServiceConnector"/> class.
+            </summary>
+            <param name="connectorBehavior">ConnectorBehavior instance.</param>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior">
             <summary>
             Base class for Oracle ConnectorBehavior.
             </summary>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.OracleBehavior.Initialize">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.OracleBehavior.ConnectToServerAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.OracleBehavior.DisconnectAsync(System.String,System.String,System.Boolean)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.OracleBehavior.RegisterOperatorStartAsync(System.String,System.String)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.OracleBehavior.BeginRestAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginRest)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Continuous.OracleBehavior.EndRestAsync(System.String,System.String)">
-            <inheritdoc/>
-        </member>
-        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.DbDataReaderParser">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings)">
             <summary>
-            Utility class to extract the data from the database data reader object.
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior"/> class. This constructor is used by GWS Connector Service.
+            </summary>
+            <param name="settings">Settings instance.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings,Honeywell.GWS.Connector.Library.Workflows.Picking.Services.Interfaces.IServerLog,Honeywell.GWS.Connector.Library.Workflows.Picking.Code.IDbDataReaderParser)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior"/> class. This constructor is used by GWS App.
+            </summary>
+            <param name="settings">Settings instance.</param>
+            <param name="serverLog">ServerLog service instance.</param>
+            <param name="dbDataReaderParser">Database reader parser service instance.</param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior.DbDataReaderParser">
+            <summary>
+            Gets database parser for extracting data.
             </summary>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.DbDataReaderParser.Parse(System.Data.Common.DbDataReader)">
-            <summary>
-            Extract work order item from database reader object.
-            </summary>
-            <param name="reader">Database reader object.</param>
-            <returns>Work order to perform by operator.</returns>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior.Initialize">
+            <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.DbDataReaderParser.SafeGetString(System.Data.Common.DbDataReader,System.String)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior.ConnectAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior.DisconnectAsync(System.String,System.String,System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior.RegisterOperatorStartAsync(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior.BeginBreakAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginBreak)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior.EndBreakAsync(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior.CreateConnection">
             <summary>
-            Gets the string value from the database reader object in a safe manner.
+            Creates a new instance of the <see cref="T:System.Data.Common.DbConnection"/> class.
             </summary>
-            <param name="reader">Database reader object.</param>
-            <param name="colName">Column name.</param>
-            <returns>Null or string value from reader.</returns>
+            <returns>A new <see cref="T:System.Data.Common.DbConnection"/> instance.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior.GetParamValue(System.Reflection.PropertyInfo,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.ISetWorkOrderItem)">
+            <summary>
+            Gets the parameter value from a PropertyInfo.
+            </summary>
+            <param name="prop">PropertyInfo object.</param>
+            <param name="res">ISetWorkOrderItem object.</param>
+            <returns>A new <see cref="T:System.Object"/> instance.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.OracleBehavior.GetType(System.Reflection.PropertyInfo)">
+            <summary>
+            Gets the OracleDbType from a PropertyInfo name.
+            </summary>
+            <param name="prop">PropertyInfo object.</param>
+            <returns>A new <see cref="T:Oracle.ManagedDataAccess.Client.OracleDbType"/> instance.</returns>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Properties.Resources">
             <summary>
@@ -163,9 +163,9 @@
               Busca una cadena traducida similar a Error: {0}.
             </summary>
         </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Properties.Resources.Error_BeginRest">
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Properties.Resources.Error_BeginBreak">
             <summary>
-              Busca una cadena traducida similar a Error registering rest start &apos;{0}&apos;: {1}.
+              Busca una cadena traducida similar a Error registering break start &apos;{0}&apos;: {1}.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Properties.Resources.Error_Connect">
@@ -188,9 +188,9 @@
               Busca una cadena traducida similar a Error to disconnect: {0}.
             </summary>
         </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Properties.Resources.Error_EndRest">
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Properties.Resources.Error_EndBreak">
             <summary>
-              Busca una cadena traducida similar a Error registering rest end: {0}.
+              Busca una cadena traducida similar a Error registering break end: {0}.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Oracle.Properties.Resources.Error_PrintLabels">

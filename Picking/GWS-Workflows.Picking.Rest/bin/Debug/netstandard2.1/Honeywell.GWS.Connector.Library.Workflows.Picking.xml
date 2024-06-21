@@ -4,35 +4,86 @@
         <name>Honeywell.GWS.Connector.Library.Workflows.Picking</name>
     </assembly>
     <members>
-        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.BehaviorSettings">
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Code.DbDataReaderExtensions">
             <summary>
-            Settings class for configuration.
+            Extension methods for <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Code.DbDataReaderParser"/>.
             </summary>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.BehaviorSettings.#ctor(Honeywell.Firebird.CoreLibrary.IConfigService)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Code.DbDataReaderExtensions.SafeGetString(System.Data.IDataReader,System.String)">
             <summary>
-            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.BehaviorSettings"/> class.
+            Gets the <see cref="T:System.String"/> value from the database reader object in a safe manner.
             </summary>
-            <param name="configService"><inheritdoc/></param>
+            <param name="reader">Database reader object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or string value from reader.</returns>
         </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.BehaviorSettings.ServerLogEnabled">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Code.DbDataReaderExtensions.SafeGetInt(System.Data.IDataReader,System.String)">
             <summary>
-            Gets or sets a value indicating whether if the server log is enabled.
+            Gets the <see cref="T:System.Int32"/> value from the database reader object in a safe manner.
             </summary>
+            <param name="reader">Database reader object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or string value from reader.</returns>
         </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.BehaviorSettings.RestOptions">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Code.DbDataReaderExtensions.SafeGetDecimal(System.Data.IDataReader,System.String)">
             <summary>
-            Gets or sets the information of the rest options.
+            Gets the <see cref="T:System.Decimal"/> value from the database reader object in a safe manner.
+            </summary>
+            <param name="reader">Database reader object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or string value from reader.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Code.DbDataReaderExtensions.SafeGetBool(System.Data.IDataReader,System.String)">
+            <summary>
+            Gets the <see cref="T:System.Boolean"/> value from the database reader object in a safe manner.
+            </summary>
+            <param name="reader">Database reader object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or string value from reader.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Code.DbDataReaderExtensions.SafeGetStringArray(System.Data.IDataReader,System.String)">
+            <summary>
+            Gets the <see cref="T:System.String"/> array value from the database reader object in a safe manner.
+            </summary>
+            <param name="reader">Database reader object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or string value from reader.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Code.DbDataReaderExtensions.SafeGetIntArray(System.Data.IDataReader,System.String)">
+            <summary>
+            Gets the <see cref="T:System.Int32"/> array value from the database reader object in a safe manner.
+            </summary>
+            <param name="reader">Database reader object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or string value from reader.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Code.DbDataReaderExtensions.SafeGetUri(System.Data.IDataReader,System.String)">
+            <summary>
+            Gets the <see cref="T:System.Uri"/> value from the database reader object in a safe manner.
+            </summary>
+            <param name="reader">Database reader object.</param>
+            <param name="colName">Column name.</param>
+            <returns>Null or string value from reader.</returns>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Code.DbDataReaderParser">
+            <summary>
+            Default implementation for <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Code.IDbDataReaderParser"/>.
             </summary>
         </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.BehaviorSettings.DefaultValues">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Code.DbDataReaderParser.Parse(System.Data.IDataReader)">
             <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.BehaviorSettings.Apply">
-            <inheritdoc/>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Code.IDbDataReaderParser">
+            <summary>
+            Utility class to extract the data from the database data reader object.
+            </summary>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.BehaviorSettings.Save">
-            <inheritdoc/>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Code.IDbDataReaderParser.Parse(System.Data.IDataReader)">
+            <summary>
+            Extract work order item from database reader object.
+            </summary>
+            <param name="reader">Database reader object.</param>
+            <returns>Work order to perform by operator.</returns>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Constants">
             <summary>
@@ -65,39 +116,6 @@
             Work. Main dialog as the execution will remain in this state for the rest of the session.
             </summary>
         </member>
-        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Extensions">
-            <summary>
-            Application custom extensions.
-            </summary>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Extensions.AssignNum(Honeywell.VIO.SDK.InstructionSet,System.String,System.Enum)">
-            <summary>
-            Assigns number value from enumerator.
-            </summary>
-            <param name="i">Instruction information.</param>
-            <param name="variableName">Variable name.</param>
-            <param name="enum">Source enumerator.</param>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Extensions.AssignNum(Honeywell.VIO.SDK.CommandRequest,System.String,System.Enum)">
-            <summary>
-            Assigns number value from enumerator.
-            </summary>
-            <param name="cmd">Command information.</param>
-            <param name="variableName">Variable name.</param>
-            <param name="enum">Source enumerator.</param>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Extensions.TryGetValue``3(System.Collections.Generic.IDictionary{``0,``1},``0,``2@)">
-            <summary>
-            A helper method to try get value from dictionary.
-            </summary>
-            <typeparam name="TKey" > Type of key.</typeparam>
-            <typeparam name="TValue" > Type of value.</typeparam>
-            <typeparam name="TValueAs" > Type of valueAs.</typeparam>
-            <param name="dictionary">Source dictionary.</param>
-            <param name="key">Dictionary key.</param>
-            <param name="valueAs">Result value.</param>
-            <returns>True if the dictionary contains an item with the specified key and can convert value; otherwise, false.</returns>
-        </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Labels">
             <summary>
             Extension class to set label names to use in Dialog. Labels are used to change the dialog flow during a task.
@@ -113,9 +131,9 @@
             Start label.
             </summary>
         </member>
-        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Labels.REST">
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Labels.BREAK">
             <summary>
-            Rest label.
+            Break label.
             </summary>
         </member>
         <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Labels.END">
@@ -128,7 +146,7 @@
             Skip aisle label.
             </summary>
         </member>
-        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Labels.SKIP">
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Labels.SKIP_SLOT">
             <summary>
             Skip label.
             </summary>
@@ -243,14 +261,19 @@
             Contains the menu key to select lower quantity option.
             </summary>
         </member>
-        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Menus.REST">
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Menus.BREAK">
             <summary>
-            Contains the menu key to select rest option.
+            Contains the menu key to select break option.
             </summary>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestion">
             <summary>
             Implementation class for Ask Question work.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestion.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestion"/> class.
             </summary>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestion.#ctor(System.String,System.String)">
@@ -259,6 +282,11 @@
             </summary>
             <param name="code">Work identifier.</param>
             <param name="message">Optional message.</param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestion.Image">
+            <summary>
+            Gets an image uri to be displayed.
+            </summary>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestion.BuildDialog(Honeywell.VIO.SDK.InstructionSet,Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
             <inheritdoc/>
@@ -272,11 +300,37 @@
             <summary>
             Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestionResult"/> class.
             </summary>
-            <param name="code">Work identififer.</param>
+            <param name="code">Work identifier.</param>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginBreak">
+            <summary>
+            BeginBreak request object.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginBreak.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginBreak"/> class.
+            </summary>
+            <param name="code">Work order identifier.</param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginBreak.Code">
+            <summary>
+            Gets work order identifier.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginBreak.Reason">
+            <summary>
+            Gets or sets break reason.
+            </summary>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrder">
             <summary>
             Implementation class for Begin Picking Order work.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrder.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrder"/> class.
             </summary>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrder.#ctor(System.String,System.String)">
@@ -288,22 +342,27 @@
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrder.OrderNumber">
             <summary>
-            Gets or sets the order number.
+            Gets the order number.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrder.Customer">
             <summary>
-            Gets or sets the order customer.
+            Gets the order customer.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrder.ContainersCount">
             <summary>
-            Gets or sets the number of containers to prepare.
+            Gets the number of containers to prepare.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrder.ContainerType">
             <summary>
-            Gets or sets the container type.
+            Gets the container type.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrder.Image">
+            <summary>
+            Gets an image uri to be displayed.
             </summary>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrder.BuildDialog(Honeywell.VIO.SDK.InstructionSet,Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
@@ -318,32 +377,16 @@
             <summary>
             Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrderResult"/> class.
             </summary>
-            <param name="code">Work identififer.</param>
-        </member>
-        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginRest">
-            <summary>
-            BeginRest request object.
-            </summary>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginRest.#ctor(System.String)">
-            <summary>
-            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginRest"/> class.
-            </summary>
-            <param name="code">Work order identifier.</param>
-        </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginRest.Code">
-            <summary>
-            Gets work order identifier.
-            </summary>
-        </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginRest.Reason">
-            <summary>
-            Gets or sets rest reason.
-            </summary>
+            <param name="code">Work identifier.</param>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.EmptyWork">
             <summary>
             Implementation class for Empty work.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.EmptyWork.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.EmptyWork"/> class.
             </summary>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.EmptyWork.#ctor(System.String)">
@@ -358,6 +401,11 @@
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.GetWorkOrderItemBase">
             <summary>
             Abstract base class for <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.IGetWorkOrderItem"/>.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.GetWorkOrderItemBase.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.GetWorkOrderItemBase"/> class.
             </summary>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.GetWorkOrderItemBase.#ctor(System.String,System.String)">
@@ -401,17 +449,17 @@
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.ISetWorkOrderItem.Status">
             <summary>
-            Gets or sets work order result status.
+            Gets work order result status.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.ISetWorkOrderItem.Started">
             <summary>
-            Gets or sets the work order start datetime.
+            Gets the work order start datetime.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.ISetWorkOrderItem.Finished">
             <summary>
-            Gets or sets the work order end datetime.
+            Gets the work order end datetime.
             </summary>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.IWorkOrderItem">
@@ -429,6 +477,11 @@
             Implementation class for Picking Line work.
             </summary>
         </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine"/> class.
+            </summary>
+        </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.#ctor(System.String,System.String)">
             <summary>
             Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine"/> class.
@@ -438,189 +491,224 @@
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.Customer">
             <summary>
-            Gets or sets the order customer.
+            Gets the order customer.
             </summary>
         </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.PendingLines">
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.HowMuchMore">
             <summary>
-            Gets or sets the pending lines.
+            Gets the pending lines.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.Aisle">
             <summary>
-            Gets or sets the aisle.
+            Gets the aisle.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.Slot">
             <summary>
-            Gets or sets the slot.
+            Gets the slot.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.Position">
             <summary>
-            Gets or sets the position.
+            Gets the position.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.CD">
             <summary>
-            Gets or sets the check digit to validate position.
+            Gets the check digit to validate position.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.ProductName">
             <summary>
-            Gets or sets the product name.
+            Gets the product name.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.ProductNumber">
+            <summary>
+            Gets the product number.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.UpcNumber">
+            <summary>
+            Gets the UPC number.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.SpeakProductName">
             <summary>
-            Gets or sets the spoken name of the product.
+            Gets the spoken name of the product.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.OriginalServingCode">
             <summary>
-            Gets or sets the original serving code.
+            Gets the original serving code.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.OriginalServingPrompt">
             <summary>
-            Gets or sets the original serving prompt.
+            Gets the original serving prompt.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.OriginalServingQuantity">
             <summary>
-            Gets or sets the original serving quantity.
+            Gets the original serving quantity.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.OriginalUnitsFormat">
             <summary>
-            Gets or sets the original units format.
+            Gets the original units format.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.OriginalServingUpperTolerance">
             <summary>
-            Gets or sets the original serving upper tolerance.
+            Gets the original serving upper tolerance.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.OriginalServingLowerTolerance">
             <summary>
-            Gets or sets the original serving lower tolerance.
+            Gets the original serving lower tolerance.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.OriginalMaxQuantityAllowedPerPick">
             <summary>
-            Gets or sets the maximum quantity allowed per pick when original format is selected.
+            Gets the maximum quantity allowed per pick when original format is selected.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.AlternativeServingCode">
             <summary>
-            Gets or sets the alternative serving code.
+            Gets the alternative serving code.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.AlternativeServingPrompt">
             <summary>
-            Gets or sets the alternative serving prompt.
+            Gets the alternative serving prompt.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.AlternativeServingQuantity">
             <summary>
-            Gets or sets the alternative serving quantity.
+            Gets the alternative serving quantity.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.AlternativeUnitsFormat">
             <summary>
-            Gets or sets the alternative units format.
+            Gets the alternative units format.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.AlternativeServingUpperTolerance">
             <summary>
-            Gets or sets the alternative serving upper tolerance.
+            Gets the alternative serving upper tolerance.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.AlternativeServingLowerTolerance">
             <summary>
-            Gets or sets the alternative serving lower tolerance.
+            Gets the alternative serving lower tolerance.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.AlternativeMaxQuantityAllowedPerPick">
             <summary>
-            Gets or sets the maximum quantity allowed per pick when alternative format is selected.
+            Gets the maximum quantity allowed per pick when alternative format is selected.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.UnitsQuantity">
             <summary>
-            Gets or sets the quantity in units format.
+            Gets the quantity in units format.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.UnitsUpperTolerance">
             <summary>
-            Gets or sets the upper tolerance when units format is selected.
+            Gets the upper tolerance when units format is selected.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.UnitsLowerTolerance">
             <summary>
-            Gets or sets the lower tolerance when units format is selected.
+            Gets the lower tolerance when units format is selected.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.UnitsMaxQuantityAllowedPerPick">
             <summary>
-            Gets or sets the maximum quantity allowed per pick when units format is selected.
+            Gets the maximum quantity allowed per pick when units format is selected.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.CountdownPick">
             <summary>
-            Gets or sets a value indicating whether partial picking is allowed.
+            Gets a value indicating whether partial picking is allowed.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.HelpMsg">
             <summary>
-            Gets or sets the help message used in picking prompt.
+            Gets the help message used in picking prompt.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.AskWeight">
             <summary>
-            Gets or sets whether to ask for weight.
+            Gets whether to ask for weight.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.WeightMin">
             <summary>
-            Gets or sets the minimum weight accepted.
+            Gets the minimum weight accepted.
             </summary>
             <remarks>When <see cref="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.CountdownPick"/> is enabled, refers to each unit instead of the whole pick operation.</remarks>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.WeightMax">
             <summary>
-            Gets or sets the maximum weight accepted.
+            Gets the maximum weight accepted.
             </summary>
             <remarks>When <see cref="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.CountdownPick"/> is enabled, refers to each unit instead of the whole pick operation.</remarks>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.StockCounting">
             <summary>
-            Gets or sets the stock counting mode (0: Do not count stock, 1: Count stock only if the quantity picked is partial. 3: Count stock).
+            Gets the stock counting mode (0: Do not count stock, 1: Count stock only if the quantity picked is partial. 3: Count stock).
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.ProductCDs">
             <summary>
-            Gets or sets the list of check digits to validate product.
+            Gets the list of check digits to validate product.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.CanSkipAisle">
             <summary>
-            Gets or sets a value indicating whether the operator can skip aisle.
-            </summary>
-        </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.AskPackage">
-            <summary>
-            Gets or sets whether to ask for package.
+            Gets a value indicating whether the operator can skip aisle.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.AskBatch">
             <summary>
-            Gets or sets whether to ask for batch.
+            Gets whether to ask for batch.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.Batches">
             <summary>
-            Gets or sets the list of allowed batches.
+            Gets the list of allowed batches.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.ValidateLocationImage">
+            <summary>
+            Gets an image uri to be displayed while validating location.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.ValidateProductImage">
+            <summary>
+            Gets an image uri to be displayed while validating product.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.PickQuantityImage">
+            <summary>
+            Gets an image uri to be displayed while picking quantity.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.BatchesImage">
+            <summary>
+            Gets an image uri to be displayed while asking for batches.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.StockCountingImage">
+            <summary>
+            Gets an image uri to be displayed while asking for stock left.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.PlaceInDockImage">
+            <summary>
+            Gets an image uri to be displayed while placing in dock (only Batch mode).
             </summary>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLine.BuildDialog(Honeywell.VIO.SDK.InstructionSet,Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
@@ -639,52 +727,52 @@
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult.Picked">
             <summary>
-            Gets or sets the quantity picked by operator.
+            Gets the quantity picked by operator.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult.ServingCode">
             <summary>
-            Gets or sets the picking line serving code prepared by operator.
+            Gets the picking line serving code prepared by operator.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult.Weight">
             <summary>
-            Gets or sets the weight informed by operator when is required.
+            Gets the weight informed by operator when is required.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult.Stock">
             <summary>
-            Gets or sets the stock quantity informed by operator when is required.
+            Gets the stock quantity informed by operator when is required.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult.Dock">
             <summary>
-            Gets or sets the dock informed by operator when is required.
+            Gets the dock informed by operator when is required.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult.ProductCD">
             <summary>
-            Gets or sets the check digit product informed by operator when is required.
+            Gets the check digit product informed by operator when is required.
             </summary>
         </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult.BreakageQty">
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult.Breakage">
             <summary>
-            Gets or sets the breakage quantity informed by operator when is required.
-            </summary>
-        </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult.HasPackage">
-            <summary>
-            Gets or sets a value indicating whether the line has package.
+            Gets the breakage quantity informed by operator when is required.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult.Batch">
             <summary>
-            Gets or sets the batch informed by operator when is required.
+            Gets the batch informed by operator when is required.
             </summary>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDock">
             <summary>
             Implementation class for Place In Dock work.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDock.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDock"/> class.
             </summary>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDock.#ctor(System.String,System.String)">
@@ -696,12 +784,17 @@
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDock.Dock">
             <summary>
-            Gets or sets the dock where to deposit the container.
+            Gets the dock where to deposit the container.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDock.CD">
             <summary>
-            Gets or sets the check digit to validate dock.
+            Gets the check digit to validate dock.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDock.Image">
+            <summary>
+            Gets an image uri to be displayed.
             </summary>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDock.BuildDialog(Honeywell.VIO.SDK.InstructionSet,Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
@@ -720,12 +813,17 @@
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDockResult.Dock">
             <summary>
-            Gets or sets the dock where the container has been placed.
+            Gets the dock where the container has been placed.
             </summary>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabels">
             <summary>
             Implementation class for Print Labels work (only for Continuous behavior).
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabels.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabels"/> class.
             </summary>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabels.#ctor(System.String,System.String)">
@@ -737,17 +835,27 @@
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabels.Printers">
             <summary>
-            Gets or sets the list of available printers.
+            Gets the list of available printers.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabels.DefaultPrinter">
             <summary>
-            Gets or sets the default printer.
+            Gets the default printer.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabels.Copies">
             <summary>
-            Gets or sets the number of copies to print.
+            Gets the number of copies to print.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabels.CopiesImage">
+            <summary>
+            Gets an image uri to be displayed while asking/informing for number of copies.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabels.PrinterImage">
+            <summary>
+            Gets an image uri to be displayed while asking/informing for printer.
             </summary>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabels.BuildDialog(Honeywell.VIO.SDK.InstructionSet,Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
@@ -771,7 +879,7 @@
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabelsBatch.Count">
             <summary>
-            Gets or sets the number of labels to be printed.
+            Gets the number of labels to be printed.
             </summary>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabelsResult">
@@ -787,12 +895,12 @@
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabelsResult.LabelsToPrint">
             <summary>
-            Gets or sets the number of copies to print.
+            Gets the number of copies to print.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabelsResult.Printer">
             <summary>
-            Gets or sets the printer used to print the labels.
+            Gets the printer used to print the labels.
             </summary>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.SetWorkOrderItemBase">
@@ -823,12 +931,12 @@
             Extension class to provide common dialogs implementations.
             </summary>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.SharedDialogs.Rest(Honeywell.VIO.SDK.InstructionSet,System.Collections.Generic.IEnumerable{System.String},Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.SharedDialogs.Break(Honeywell.VIO.SDK.InstructionSet,System.Boolean,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
             <summary>
-            Dialog implementation for rest work.
+            Dialog implementation for break work.
             </summary>
             <param name="i">The dialog object that is being build.</param>
-            <param name="restOptions">The list of the available rest options.</param>
+            <param name="askForReason">Ask for a break reason.</param>
             <param name="device">Device object.</param>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.StockCountingMode">
@@ -856,6 +964,11 @@
             Implementation class for Validate Printing work (only for Continuous behavior).
             </summary>
         </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.ValidatePrinting.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.ValidatePrinting"/> class.
+            </summary>
+        </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.ValidatePrinting.#ctor(System.String,System.String)">
             <summary>
             Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.ValidatePrinting"/> class.
@@ -865,12 +978,22 @@
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.ValidatePrinting.ValidationCodes">
             <summary>
-            Gets or sets the list of codes used to validate labels.
+            Gets the list of codes used to validate labels.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.ValidatePrinting.VoiceLength">
             <summary>
-            Gets or sets the number of digits required to validate labels.
+            Gets the number of digits required to validate labels.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.ValidatePrinting.ConfirmImage">
+            <summary>
+            Gets an image uri to be displayed while asking for printing confirmation.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.ValidatePrinting.ValidateLabelsImage">
+            <summary>
+            Gets an image uri to be displayed while validating labels.
             </summary>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.ValidatePrinting.BuildDialog(Honeywell.VIO.SDK.InstructionSet,Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
@@ -889,30 +1012,29 @@
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Models.ValidatePrintingResult.ReadLabels">
             <summary>
-            Gets or sets the labels read by the operator.
+            Gets the labels read by the operator.
             </summary>
         </member>
-        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.AppConnectorBase`4">
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.AppConnectorBase`3">
             <summary>
             Abstract class for all AppConnector implementations.
             </summary>
             <typeparam name="TConnectorBehavior">Type of ConnectorBehavior.</typeparam>
             <typeparam name="TConnectorBehaviorSettings">Type of ConnectorBehavior settings.</typeparam>
-            <typeparam name="TServerConnection">Type of ServerConnection.</typeparam>
-            <typeparam name="TPlugin">Type of Plugin.</typeparam>
+            <typeparam name="TWorkflow">Type of Workflow.</typeparam>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.AppConnectorBase`4.#ctor(Honeywell.Firebird.Module.IAppBaseModuleContext)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.AppConnectorBase`3.#ctor(Honeywell.Firebird.Module.IAppBaseModuleContext)">
             <summary>
-            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.AppConnectorBase`4"/> class.
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.AppConnectorBase`3"/> class.
             </summary>
             <param name="context">Context instance.</param>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.AppConnectorBase`4.RegisterServices">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.AppConnectorBase`3.RegisterServices">
             <inheritdoc/>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBatchBehavior">
             <summary>
-            Base interface for Picking Batch Behavior.
+            Base generic interface for Picking Batch Behavior.
             </summary>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBatchBehavior.GetWorkOrdersAsync(System.String,System.String)">
@@ -923,40 +1045,13 @@
             <param name="device">Device serial number provided by device request.</param>
             <returns>A list of work order items.</returns>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBatchBehavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrderResult)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBatchBehavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.ISetWorkOrderItem)">
             <summary>
-            Sets the begin picking order work result.
+            Sets the work result.
             </summary>
             <param name="operatorName">Operator identifier provided by device request.</param>
             <param name="device">Device serial number provided by device request.</param>
-            <param name="res">Begin Picking Order result object.</param>
-            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBatchBehavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestionResult)">
-            <summary>
-            Sets the ask question work result.
-            </summary>
-            <param name="operatorName">Operator identifier provided by device request.</param>
-            <param name="device">Device serial number provided by device request.</param>
-            <param name="res">Ask question result object.</param>
-            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBatchBehavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult)">
-            <summary>
-            Sets the picking line work result.
-            </summary>
-            <param name="operatorName">Operator identifier provided by device request.</param>
-            <param name="device">Device serial number provided by device request.</param>
-            <param name="res">Picking line result object.</param>
-            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBatchBehavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDockResult)">
-            <summary>
-            Sets the place in dock work result.
-            </summary>
-            <param name="operatorName">Operator identifier provided by device request.</param>
-            <param name="device">Device serial number provided by device request.</param>
-            <param name="res">Place in dock result object.</param>
+            <param name="res">Work Order result object.</param>
             <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBatchBehavior.PrintLabelsBatchAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabelsBatch)">
@@ -973,7 +1068,7 @@
             Base interface for Picking Behavior.
             </summary>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior.ConnectToServerAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior.ConnectAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
             <summary>
             Device establish connection with the Server and retrieves required information for handling the signOn request.
             </summary>
@@ -990,18 +1085,18 @@
             <param name="force">Indicates if the operation must be forced.</param>
             <returns>If operation is allowed to signoff.</returns>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior.BeginRestAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginRest)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior.BeginBreakAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginBreak)">
             <summary>
-            Operator initiates a rest.
+            Operator initiates a break.
             </summary>
             <param name="operatorName">Operator identifier provided by device request.</param>
             <param name="device">Device serial number provided by device request.</param>
-            <param name="res">Begin rest request object.</param>
+            <param name="res">Begin break request object.</param>
             <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior.EndRestAsync(System.String,System.String)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior.EndBreakAsync(System.String,System.String)">
             <summary>
-            Operator ends a rest.
+            Operator ends a break.
             </summary>
             <param name="operatorName">Operator identifier provided by device request.</param>
             <param name="device">Device serial number provided by device request.</param>
@@ -1015,9 +1110,69 @@
             <param name="device">Device serial number provided by device request.</param>
             <returns>Initial message for operator.</returns>
         </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.ConnectResult">
+            <summary>
+            Result of the Sign On attempt operation.
+            </summary>
+            <param name="Allowed">Allowed to sign on.</param>
+            <param name="Password">Password to be spoken by the operator.</param>
+            <param name="Message">Message to be spoken to the operator.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.ConnectResult.#ctor(System.Boolean,System.String,System.String)">
+            <summary>
+            Result of the Sign On attempt operation.
+            </summary>
+            <param name="Allowed">Allowed to sign on.</param>
+            <param name="Password">Password to be spoken by the operator.</param>
+            <param name="Message">Message to be spoken to the operator.</param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.ConnectResult.Allowed">
+            <summary>Allowed to sign on.</summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.ConnectResult.Password">
+            <summary>Password to be spoken by the operator.</summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.ConnectResult.Message">
+            <summary>Message to be spoken to the operator.</summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.DisconnectResult">
+            <summary>
+            Result of the Sign Off attempt operation.
+            </summary>
+            <param name="Allowed">Allowed to sign off.</param>
+            <param name="Message">Message to be spoken to the operator.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.DisconnectResult.#ctor(System.Boolean,System.String)">
+            <summary>
+            Result of the Sign Off attempt operation.
+            </summary>
+            <param name="Allowed">Allowed to sign off.</param>
+            <param name="Message">Message to be spoken to the operator.</param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.DisconnectResult.Allowed">
+            <summary>Allowed to sign off.</summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.DisconnectResult.Message">
+            <summary>Message to be spoken to the operator.</summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehaviorSettings">
+            <summary>
+            Interface for common Picking settings.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehaviorSettings.ServerLogEnabled">
+            <summary>
+            Gets a value indicating whether if the server log is enabled.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehaviorSettings.BreakOptions">
+            <summary>
+            Gets information of the break options.
+            </summary>
+        </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingContinuousBehavior">
             <summary>
-            Base interface for Picking Continuous Behavior.
+            Base generic interface for Picking Continuous Behavior.
             </summary>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingContinuousBehavior.GetWorkOrderAsync(System.String,System.String)">
@@ -1028,76 +1183,92 @@
             <param name="device">Device serial number provided by device request.</param>
             <returns>The work order item.</returns>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingContinuousBehavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabelsResult)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingContinuousBehavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.ISetWorkOrderItem)">
             <summary>
-            Sets the print labels work result.
+            Sets the work result.
             </summary>
             <param name="operatorName">Operator identifier provided by device request.</param>
             <param name="device">Device serial number provided by device request.</param>
-            <param name="res">Print Labels result object.</param>
+            <param name="res">Work order result object.</param>
             <returns>Next work to perform by operator.</returns>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingContinuousBehavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.ValidatePrintingResult)">
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase`1">
             <summary>
-            Sets the validate printing work result.
+            Base generic implementation for Picking ConnectorBehavior for extending Settings.
             </summary>
-            <param name="operatorName">Operator identifier provided by device request.</param>
-            <param name="device">Device serial number provided by device request.</param>
-            <param name="res">Validate Printing result object.</param>
-            <returns>Next work to perform by operator.</returns>
+            <typeparam name="TBehaviorSettings">Settings type.</typeparam>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingContinuousBehavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrderResult)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase`1.#ctor(`0,Honeywell.GWS.Connector.Library.Workflows.Picking.Services.Interfaces.IServerLog)">
             <summary>
-            Sets the begin picking order work result.
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase`1"/> class.
             </summary>
-            <param name="operatorName">Operator identifier provided by device request.</param>
-            <param name="device">Device serial number provided by device request.</param>
-            <param name="res">Begin Picking Order result object.</param>
-            <returns>Next work order to perform by operator.</returns>
+            <param name="settings">Settings instance.</param>
+            <param name="serverLog">ServerLog instance.</param>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingContinuousBehavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestionResult)">
-            <summary>
-            Sets the ask question work result.
-            </summary>
-            <param name="operatorName">Operator identifier provided by device request.</param>
-            <param name="device">Device serial number provided by device request.</param>
-            <param name="res">Ask question result object.</param>
-            <returns>Next work order to perform by operator.</returns>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase`1.Honeywell#GWS#Connector#SDK#Interfaces#IConnectorBehavior{Honeywell#GWS#Connector#Library#Workflows#Picking#Modules#Behaviors#IPickingBehaviorSettings}#Settings">
+            <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingContinuousBehavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult)">
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase`1.ServerLog">
             <summary>
-            Sets the picking line work result.
+            Gets the object to log server information.
             </summary>
-            <param name="operatorName">Operator identifier provided by device request.</param>
-            <param name="device">Device serial number provided by device request.</param>
-            <param name="res">Picking line result object.</param>
-            <returns>Next work order to perform by operator.</returns>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingContinuousBehavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDockResult)">
-            <summary>
-            Sets the place in dock work result.
-            </summary>
-            <param name="operatorName">Operator identifier provided by device request.</param>
-            <param name="device">Device serial number provided by device request.</param>
-            <param name="res">Place in dock result object.</param>
-            <returns>Next work order to perform by operator.</returns>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase`1.BeginBreakAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginBreak)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase`1.ConnectAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase`1.DisconnectAsync(System.String,System.String,System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase`1.EndBreakAsync(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase`1.RegisterOperatorStartAsync(System.String,System.String)">
+            <inheritdoc/>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase">
             <summary>
             Base implementation for Picking ConnectorBehavior.
             </summary>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.BehaviorSettings,Honeywell.GWS.Connector.Library.Workflows.Picking.Services.Interfaces.IServerLog)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings,Honeywell.GWS.Connector.Library.Workflows.Picking.Services.Interfaces.IServerLog)">
             <summary>
             Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase"/> class.
             </summary>
             <param name="settings">Settings instance.</param>
             <param name="serverLog">ServerLog instance.</param>
         </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorBase.ServerLog">
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings">
             <summary>
-            Gets the object to log server information.
+            Settings class for configuration.
             </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings.BreakOptionsKey">
+            <summary>
+            Key value used to define break options.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings.LogServerKey">
+            <summary>
+            Key value used to define whether server logs are enabled.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings.#ctor(Honeywell.Firebird.CoreLibrary.IConfigService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings"/> class.
+            </summary>
+            <param name="configService"><inheritdoc/></param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings.ServerLogEnabled">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings.BreakOptions">
+            <inheritdoc/>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings.DefaultValues">
+            <inheritdoc/>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.AppConnector">
             <summary>
@@ -1110,7 +1281,7 @@
             </summary>
             <param name="context"><inheritdoc/></param>
         </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.AppConnector.Name">
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.AppConnector.ConnectorName">
             <inheritdoc/>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior">
@@ -1118,22 +1289,23 @@
             Base implementation for Memory ConnectorBehavior.
             </summary>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.BehaviorSettings)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings,Honeywell.GWS.Connector.Library.Workflows.Picking.Services.Interfaces.IServerLog)">
             <summary>
             Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior"/> class.
             </summary>
             <param name="settings">Settings instance.</param>
+            <param name="serverLog">ServerLog service instance.</param>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.ConnectToServerAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.ConnectAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
             <inheritdoc/>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.DisconnectAsync(System.String,System.String,System.Boolean)">
             <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.BeginRestAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginRest)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.BeginBreakAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginBreak)">
             <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.EndRestAsync(System.String,System.String)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.EndBreakAsync(System.String,System.String)">
             <inheritdoc/>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.GetWorkOrdersAsync(System.String,System.String)">
@@ -1142,37 +1314,10 @@
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.RegisterOperatorStartAsync(System.String,System.String)">
             <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrderResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDockResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestionResult)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.ISetWorkOrderItem)">
             <inheritdoc/>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior.PrintLabelsBatchAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabelsBatch)">
-            <inheritdoc/>
-        </member>
-        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.ServerConnection">
-            <summary>
-            Base implementation for Memory ServerConnection.
-            </summary>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.ServerConnection.#ctor(System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.Behavior)">
-            <summary>
-            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.ServerConnection"/> class.
-            </summary>
-            <param name="deviceID">Device identifier.</param>
-            <param name="connectorBehavior">ConnectorBehavior reference.</param>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.ServerConnection.ConnectToServerAsync">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Batch.ServerConnection.DisconnectAsync(System.Boolean)">
             <inheritdoc/>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.AppConnector">
@@ -1186,7 +1331,7 @@
             </summary>
             <param name="context"><inheritdoc/></param>
         </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.AppConnector.Name">
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.AppConnector.ConnectorName">
             <inheritdoc/>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior">
@@ -1194,22 +1339,23 @@
             Base implementation for Memory Continuous ConnectorBehavior.
             </summary>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.BehaviorSettings)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.PickingBehaviorSettings,Honeywell.GWS.Connector.Library.Workflows.Picking.Services.Interfaces.IServerLog)">
             <summary>
             Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior"/> class.
             </summary>
             <param name="settings">Settings instance.</param>
+            <param name="serverLog">ServerLog service instance.</param>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.ConnectToServerAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.ConnectAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
             <inheritdoc/>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.DisconnectAsync(System.String,System.String,System.Boolean)">
             <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.BeginRestAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginRest)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.BeginBreakAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginBreak)">
             <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.EndRestAsync(System.String,System.String)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.EndBreakAsync(System.String,System.String)">
             <inheritdoc/>
         </member>
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.GetWorkOrderAsync(System.String,System.String)">
@@ -1218,368 +1364,318 @@
         <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.RegisterOperatorStartAsync(System.String,System.String)">
             <inheritdoc/>
         </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginPickingOrderResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PickingLineResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PlaceInDockResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.AskQuestionResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabelsResult)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.ValidatePrintingResult)">
-            <inheritdoc/>
-        </member>
-        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.ServerConnection">
-            <summary>
-            Base implementation for Memory ServerConnection.
-            </summary>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.ServerConnection.#ctor(System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior)">
-            <summary>
-            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.ServerConnection"/> class.
-            </summary>
-            <param name="deviceID">Device identifier.</param>
-            <param name="connectorBehavior">ConnectorBehavior reference.</param>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.ServerConnection.ConnectToServerAsync">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.ServerConnection.DisconnectAsync(System.Boolean)">
-            <inheritdoc/>
-        </member>
-        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Plugin">
-            <summary>
-            Base implementation for Picking Plugin.
-            </summary>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Plugin.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior)">
-            <summary>
-            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Plugin"/> class.
-            </summary>
-            <param name="behavior">Behavior used by the Plugin.</param>
-        </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Plugin.Name">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Plugin.GetAnchorWordsAsync(Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Plugin.GetVariableSetAsync(System.Collections.Generic.Dictionary{System.String,System.String},Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Plugin.BuildInstructionsAsync(Honeywell.VIO.SDK.InstructionSet,System.Collections.Generic.Dictionary{System.String,System.String},Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Plugin.ProcessDataAsync(System.Collections.Generic.Dictionary{System.String,System.String},Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
-            <inheritdoc/>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Plugin.ProcessDataWorkAsync(System.Collections.Generic.Dictionary{System.String,System.String},Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
-            <summary>
-            Process the VIO request from a getInstructions or getVariablesODR.
-            </summary>
-            <param name="data">Active variables included in the request.</param>
-            <param name="device">Device that performed the request.</param>
-            <returns>Next work order to perform by operator.</returns>
-        </member>
-        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Plugin.GetMenuOptionsAsync(Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.InMemory.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.ISetWorkOrderItem)">
             <inheritdoc/>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources">
             <summary>
-              A strongly-typed resource class, for looking up localized strings, etc.
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.ResourceManager">
             <summary>
-              Returns the cached ResourceManager instance used by this class.
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.Culture">
             <summary>
-              Overrides the current thread's CurrentUICulture property for all
-              resource lookups using this strongly typed resource class.
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.BeginPickingOrder_ContainersCount">
             <summary>
-              Looks up a localized string similar to , {0} containers.
+              Busca una cadena traducida similar a , {0} containers.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.BeginPickingOrder_ContainerType">
             <summary>
-              Looks up a localized string similar to , in {0}.
+              Busca una cadena traducida similar a , in {0}.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.BeginPickingOrder_Order">
             <summary>
-              Looks up a localized string similar to Order {0}.
+              Busca una cadena traducida similar a Order {0}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.Break_ConfirmReason">
+            <summary>
+              Busca una cadena traducida similar a Break reason?.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.Break_Resume">
+            <summary>
+              Busca una cadena traducida similar a At break. To resume work, say VCONFIRM.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.Error">
+            <summary>
+              Busca una cadena traducida similar a An error ocurred.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.Error_Authentication">
             <summary>
-              Looks up a localized string similar to You can&apos;t access at this time: &apos;{0}&apos;. Say VCONFIRM or VSIGNOFF..
+              Busca una cadena traducida similar a You can&apos;t access at this time: &apos;{0}&apos;. Say VCONFIRM or VSIGNOFF..
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.Error_ConnectMissingServerResponse">
+            <summary>
+              Busca una cadena traducida similar a Error accessing: no response received from the server.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.Error_Incorrect">
             <summary>
-              Looks up a localized string similar to Incorrect.
+              Busca una cadena traducida similar a Incorrect.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.Error_UnknownReason">
+            <summary>
+              Busca una cadena traducida similar a Unknown reason.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.GetWork_NotWork">
             <summary>
-              Looks up a localized string similar to No work assigned. To try again, say VCONFIRM.
+              Busca una cadena traducida similar a No work assigned. To try again, say VCONFIRM.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.LowerQuantityMenu_Breakage">
             <summary>
-              Looks up a localized string similar to Breakage.
+              Busca una cadena traducida similar a Breakage.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.LowerQuantityMenu_Cancel">
             <summary>
-              Looks up a localized string similar to Cancel.
+              Busca una cadena traducida similar a Cancel.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.LowerQuantityMenu_Complete">
             <summary>
-              Looks up a localized string similar to Complete.
+              Busca una cadena traducida similar a Complete.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.LowerQuantityMenu_Continue">
             <summary>
-              Looks up a localized string similar to Continue.
+              Busca una cadena traducida similar a Continue.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.LowerQuantityMenu_Dock">
             <summary>
-              Looks up a localized string similar to Dock.
+              Busca una cadena traducida similar a Dock.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.LowerQuantityMenu_Empty">
             <summary>
-              Looks up a localized string similar to Empty.
+              Busca una cadena traducida similar a Empty.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_Aisle">
             <summary>
-              Looks up a localized string similar to Aisle {0}.
+              Busca una cadena traducida similar a Aisle {0}.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_AskPackage">
             <summary>
-              Looks up a localized string similar to Contains packaging?.
+              Busca una cadena traducida similar a Contains packaging?.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_BreakageQuantity">
             <summary>
-              Looks up a localized string similar to Breakage quantity?.
+              Busca una cadena traducida similar a Breakage quantity?.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_CD">
             <summary>
-              Looks up a localized string similar to Control digit?.
+              Busca una cadena traducida similar a Check digit?.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_Confirm">
             <summary>
-              Looks up a localized string similar to  , correct?.
+              Busca una cadena traducida similar a  , correct?.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_ConfirmBatch">
             <summary>
-              Looks up a localized string similar to Batch {0}?.
+              Busca una cadena traducida similar a Batch {0}?.
             </summary>
         </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_ConfirmLowerQuantity">
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_HowMuchMore">
             <summary>
-              Looks up a localized string similar to  is less than the amount requested. Are you sure?.
+              Busca una cadena traducida similar a There are {0} lines remaining.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_IsShort">
+            <summary>
+              Busca una cadena traducida similar a . Is this a short?.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_LowerQuantityReason">
             <summary>
-              Looks up a localized string similar to  is less than the amount requested. Reason?.
-            </summary>
-        </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_MaxAndMinWeight">
-            <summary>
-              Looks up a localized string similar to The minimum weight is {0} and the maximum weight is {1}.
+              Busca una cadena traducida similar a Reason code?.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_MaxQuantityAllowed">
             <summary>
-              Looks up a localized string similar to The maximum quantity allowed per pick is.
+              Busca una cadena traducida similar a The maximum quantity allowed per pick is.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_MaxWeightAllowed">
             <summary>
-              Looks up a localized string similar to The maximum weight is.
+              Busca una cadena traducida similar a The weight is more than allowed.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_MinWeightAllowed">
             <summary>
-              Looks up a localized string similar to The minimum weight is.
+              Busca una cadena traducida similar a The weight is less than allowed.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_MissingData">
             <summary>
-              Looks up a localized string similar to Information not available.
+              Busca una cadena traducida similar a Information not available.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_NotAllowed">
             <summary>
-              Looks up a localized string similar to Not allowed.
-            </summary>
-        </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_PendingLines">
-            <summary>
-              Looks up a localized string similar to There are {0} lines remaining.
+              Busca una cadena traducida similar a Not allowed.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_PendingQuantity">
             <summary>
-              Looks up a localized string similar to Remain.
+              Busca una cadena traducida similar a Remain.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_PickedQuantity">
+            <summary>
+              Busca una cadena traducida similar a , you said .
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_QuantityGreater">
             <summary>
-              Looks up a localized string similar to Quantity greater than requested.
+              Busca una cadena traducida similar a Quantity greater than requested.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_QuantityInLocation">
             <summary>
-              Looks up a localized string similar to Quantity in location.
+              Busca una cadena traducida similar a Quantity in location.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_RequiredQuantity">
+            <summary>
+              Busca una cadena traducida similar a Asked for .
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_SelectBatch">
             <summary>
-              Looks up a localized string similar to Select batch.
+              Busca una cadena traducida similar a Select batch.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_Slot">
             <summary>
-              Looks up a localized string similar to Slot {0}.
+              Busca una cadena traducida similar a Slot {0}.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_Units">
             <summary>
-              Looks up a localized string similar to {0} units.
+              Busca una cadena traducida similar a {0} units.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PickingLine_Weight">
             <summary>
-              Looks up a localized string similar to Weight?.
+              Busca una cadena traducida similar a Weight?.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PlaceInDock_Destination">
             <summary>
-              Looks up a localized string similar to Specify destination.
+              Busca una cadena traducida similar a Specify destination.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PlaceInDock_Dock">
             <summary>
-              Looks up a localized string similar to Dock {0}.
+              Busca una cadena traducida similar a Dock {0}.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PlaceInDock_Location">
             <summary>
-              Looks up a localized string similar to Pallet location.
+              Busca una cadena traducida similar a Pallet location.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PlaceInDock_PalletPlaced">
             <summary>
-              Looks up a localized string similar to Pallet placed.
+              Busca una cadena traducida similar a Pallet placed.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PlaceInDock_PlaceInDock">
             <summary>
-              Looks up a localized string similar to Place in dock.
+              Busca una cadena traducida similar a Place in dock.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PrintLabels_Completed">
             <summary>
-              Looks up a localized string similar to Completed.
+              Busca una cadena traducida similar a Completed.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PrintLabels_Confirm">
             <summary>
-              Looks up a localized string similar to , to print, say VCONFIRM.
+              Busca una cadena traducida similar a , to print, say VCONFIRM.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PrintLabels_ConfirmPrinter">
             <summary>
-              Looks up a localized string similar to Printer?.
+              Busca una cadena traducida similar a Printer?.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PrintLabels_ConfirmResult">
             <summary>
-              Looks up a localized string similar to Correct printing?.
+              Busca una cadena traducida similar a Correct printing?.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PrintLabels_Labels">
             <summary>
-              Looks up a localized string similar to How many labels?.
+              Busca una cadena traducida similar a How many labels?.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PrintLabels_Printer">
             <summary>
-              Looks up a localized string similar to Printer.
+              Busca una cadena traducida similar a Printer.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PrintLabels_PrintersNotAvailable">
             <summary>
-              Looks up a localized string similar to Printers not available.
+              Busca una cadena traducida similar a Printers not available.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PrintLabels_Retrying">
             <summary>
-              Looks up a localized string similar to Retrying....
+              Busca una cadena traducida similar a Retrying....
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PrintLabels_Unknown">
             <summary>
-              Looks up a localized string similar to unknown.
+              Busca una cadena traducida similar a unknown.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.PrintLabels_UnknownPrinter">
             <summary>
-              Looks up a localized string similar to Unknown printer.
-            </summary>
-        </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.Rest_ConfirmReason">
-            <summary>
-              Looks up a localized string similar to Rest reason?.
-            </summary>
-        </member>
-        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.Rest_Resume">
-            <summary>
-              Looks up a localized string similar to At rest. To resume work, say VCONFIRM.
+              Busca una cadena traducida similar a Unknown printer.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.ValidatePrinting_Confirm">
             <summary>
-              Looks up a localized string similar to Validate labels.
+              Busca una cadena traducida similar a Validate labels.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.ValidatePrinting_ConfirmLabel">
             <summary>
-              Looks up a localized string similar to Validate label.
+              Busca una cadena traducida similar a Validate label.
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.ValidatePrinting_Pendings">
             <summary>
-              Looks up a localized string similar to , remain .
+              Busca una cadena traducida similar a , remain .
             </summary>
         </member>
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.DialogResources.ValidatePrinting_ValidationCompleted">
             <summary>
-              Looks up a localized string similar to Validation completed.
+              Busca una cadena traducida similar a Validation completed.
             </summary>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Properties.Resources">
@@ -1663,14 +1759,14 @@
             Saves result from PlaceInDock work.
             </summary>
         </member>
-        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.ResponseTypes.BeginRest">
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.ResponseTypes.BeginBreak">
             <summary>
-            Sends BeginRest request.
+            Sends BeginBreak request.
             </summary>
         </member>
-        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.ResponseTypes.EndRest">
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.ResponseTypes.EndBreak">
             <summary>
-            Sends EndRest request.
+            Sends EndBreak request.
             </summary>
         </member>
         <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.ResponseTypes.PrintLabelsBatchResult">
@@ -1747,11 +1843,6 @@
             Prompt variable used to prompt large messages.
             </summary>
         </member>
-        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Vars.HAS_PACKAGE">
-            <summary>
-            Used to indicate whether the line has package.
-            </summary>
-        </member>
         <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Vars.DOCK">
             <summary>
             Contains the dock selected.
@@ -1782,9 +1873,19 @@
             Contains the weight selected.
             </summary>
         </member>
-        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Vars.PRODUCT">
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Vars.PRODUCT_DESCRIPTION">
             <summary>
-            Contains the product name.
+            Contains the product description.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Vars.PRODUCT_NUMBER">
+            <summary>
+            Contains the product number.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Vars.UPC_NUMBER">
+            <summary>
+            Contains the UPC number.
             </summary>
         </member>
         <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Vars.TOTAL_WEIGHT">
@@ -1877,9 +1978,52 @@
             Contains the number of labels to print.
             </summary>
         </member>
-        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Vars.REST_REASON">
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Vars.BREAK_REASON">
             <summary>
-            Contains the rest reason.
+            Contains the break reason.
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Workflow">
+            <summary>
+            Base implementation for Picking Workflow.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Workflow.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Modules.Behaviors.IPickingBehavior)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Workflow"/> class.
+            </summary>
+            <param name="behavior">Behavior used by the Workflow.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Workflow.ConnectAsync(Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Workflow.GetVariableSetAsync(System.Collections.Generic.Dictionary{System.String,System.String},Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Workflow.BuildInstructionsAsync(Honeywell.VIO.SDK.InstructionSet,System.Collections.Generic.Dictionary{System.String,System.String},Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Workflow.ProcessDataAsync(System.Collections.Generic.Dictionary{System.String,System.String},Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Workflow.GetMenuOptionsAsync(Honeywell.GWS.Connector.SDK.Interfaces.IDevice,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Workflow.DisconnectAsync(System.Boolean,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Workflow.ProcessDataWorkAsync(System.Collections.Generic.Dictionary{System.String,System.String},Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+            <summary>
+            Process the VIO request from a getInstructions or getVariablesODR.
+            </summary>
+            <param name="data">Active variables included in the request.</param>
+            <param name="device">Device that performed the request.</param>
+            <returns>Next work order to perform by operator.</returns>
+        </member>
+        <member name="T:System.Runtime.CompilerServices.IsExternalInit">
+            <summary>
+            Reserved to be used by the compiler for tracking metadata.
+            This class should not be used by developers in source code.
             </summary>
         </member>
     </members>

@@ -1,0 +1,7 @@
+C:\Users\E841371\source\repos\ObserverDesignPatternConsole\bin\Debug\ObserverDesignPatternConsole.exe.config
+C:\Users\E841371\source\repos\ObserverDesignPatternConsole\bin\Debug\ObserverDesignPatternConsole.exe
+C:\Users\E841371\source\repos\ObserverDesignPatternConsole\bin\Debug\ObserverDesignPatternConsole.pdb
+C:\Users\E841371\source\repos\ObserverDesignPatternConsole\obj\Debug\ObserverDesignPatternConsole.csproj.AssemblyReference.cache
+C:\Users\E841371\source\repos\ObserverDesignPatternConsole\obj\Debug\ObserverDesignPatternConsole.csproj.CoreCompileInputs.cache
+C:\Users\E841371\source\repos\ObserverDesignPatternConsole\obj\Debug\ObserverDesignPatternConsole.exe
+C:\Users\E841371\source\repos\ObserverDesignPatternConsole\obj\Debug\ObserverDesignPatternConsole.pdb

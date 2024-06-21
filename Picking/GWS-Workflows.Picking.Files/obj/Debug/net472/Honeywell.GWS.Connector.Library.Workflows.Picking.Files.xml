@@ -1,0 +1,463 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Honeywell.GWS.Connector.Library.Workflows.Picking.Files</name>
+    </assembly>
+    <members>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Batch.Behavior">
+            <summary>
+            Base implementation for Files ConnectorBehavior.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Batch.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehaviorSettings)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Batch.Behavior"/> class. This constructor is used by GWS Connector Service.
+            </summary>
+            <param name="settings">Settings instance.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Batch.Behavior.GetWorkOrdersAsync(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Batch.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.ISetWorkOrderItem)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Batch.Behavior.PrintLabelsBatchAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.PrintLabelsBatch)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Batch.Behavior.UpdateOperatorWorkOrderFileName(System.String,System.String)">
+            <summary>
+            Updates the current work order file name for the provided operator.
+            </summary>
+            <param name="operatorName">Operator name.</param>
+            <param name="woFileName">Work Order file name.</param>
+            <returns>Completed task.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Batch.Behavior.GetOperatorWorkOrderFileName(System.String)">
+            <summary>
+            Gets current work order file name for the operator.
+            </summary>
+            <param name="operatorName">Operator name.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the result of the asynchronous operation.</returns>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Batch.ServiceConnector">
+            <summary>
+            Base implementation for File Task Connector.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Batch.ServiceConnector.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Batch.Behavior)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Batch.ServiceConnector"/> class.
+            </summary>
+            <param name="connectorBehavior">Base connector behavior.</param>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.IParser">
+            <summary>
+            Utility interface for parsing information in different formats.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.IParser.Parse``1(System.String)">
+            <summary>
+            Parse into an object.
+            </summary>
+            <param name="contents">A string containing serialized object to be parsed.</param>
+            <typeparam name="TModel">Type of the object to create by parsing the string.</typeparam>
+            <returns>An object representing the contents string.</returns>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.IParser.Serialize``1(``0)">
+            <summary>
+            Serialize an object to a string.
+            </summary>
+            <param name="model">Object to be serialized.</param>
+            <typeparam name="TModel">Type of the object to be serialized.</typeparam>
+            <returns>A string representing the serialized object.</returns>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.IParserFactory">
+            <summary>
+            Base interface for Parser Factory.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.IParserFactory.GetParser(Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FileFormat)">
+            <summary>
+            Gets a new parser based on the File format.
+            </summary>
+            <param name="format">File format.</param>
+            <returns>A new <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.IParser"/> instance.</returns>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.JsonParser">
+            <summary>
+            A JSON implementation of <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.IParser"/>.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.JsonParser.#ctor(Newtonsoft.Json.JsonConverter)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.JsonParser"/> class.
+            </summary>
+            <param name="converter">Json converter instance.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.JsonParser.Parse``1(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.JsonParser.Serialize``1(``0)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.ParserFactory">
+            <summary>
+            Base implementation for Parser Factory.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.ParserFactory.GetParser(Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FileFormat)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.PickingJsonConverter">
+            <summary>
+            JSON Converter to create the right type, based on the "type" property of the JSON parsed.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.PickingJsonConverter.CanWrite">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.PickingJsonConverter.CanConvert(System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.PickingJsonConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.PickingJsonConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.YamlParser">
+            <summary>
+            A YAML implementation of <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.IParser"/>.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.YamlParser.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.YamlParser"/> class.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.YamlParser.AdditionalTypes">
+            <summary>
+            Gets additional types to be considered for deserialization.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.YamlParser.Parse``1(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.YamlParser.Serialize``1(``0)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.YamlParser.UriYamlTypeConverter">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.YamlParser.UriYamlTypeConverter.Accepts(System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.YamlParser.UriYamlTypeConverter.ReadYaml(YamlDotNet.Core.IParser,System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Code.YamlParser.UriYamlTypeConverter.WriteYaml(YamlDotNet.Core.IEmitter,System.Object,System.Type)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Continuous.Behavior">
+            <summary>
+            Base implementation for Files ConnectorBehavior.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Continuous.Behavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehaviorSettings)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Continuous.Behavior"/> class. This constructor is used by GWS Connector Service.
+            </summary>
+            <param name="settings">Settings instance.</param>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Continuous.Behavior.GetWorkOrderAsync(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Continuous.Behavior.SetWorkOrderAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.Interfaces.ISetWorkOrderItem)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Continuous.ServiceConnector">
+            <summary>
+            Base implementation for File Task Connector.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Continuous.ServiceConnector.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Continuous.Behavior)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Continuous.ServiceConnector"/> class.
+            </summary>
+            <param name="connectorBehavior">Base connector behavior.</param>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FileFormat">
+            <summary>
+            Available formats for serialization.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FileFormat.Json">
+            <summary>
+            JSON.
+            </summary>
+        </member>
+        <member name="F:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FileFormat.Yaml">
+            <summary>
+            YAML.
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior">
+            <summary>
+            Base class for File implementation.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.#ctor(Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehaviorSettings)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior"/> class. This constructor is used by GWS Connector Service.
+            </summary>
+            <param name="settings">Settings instance.</param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.Parser">
+            <summary>
+            Gets Parser object.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.ParserFactory">
+            <summary>
+            Gets parser factory object.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.FileExtension">
+            <summary>
+            Gets file extension.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.OperatorsPath">
+            <summary>
+            Gets operators file path.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.RequestsPath">
+            <summary>
+            Gets file path to get work order requests.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.ResultsPath">
+            <summary>
+            Gets file path to set work order results.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.FileSystem">
+            <summary>
+            Gets FileSystem object.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.FileEncoding">
+            <summary>
+            Gets File encoding.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.OperatorSemaphoreDictionary">
+            <summary>
+            Gets or sets a list of Semaphore objects to prevent concurrent writing on operators file.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.Initialize">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.ConnectAsync(System.String,Honeywell.GWS.Connector.SDK.Interfaces.IDevice)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.DisconnectAsync(System.String,System.String,System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.RegisterOperatorStartAsync(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.BeginBreakAsync(System.String,System.String,Honeywell.GWS.Connector.Library.Workflows.Picking.Models.BeginBreak)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.EndBreakAsync(System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehavior.GetOperatorFileSemaphore(System.String)">
+            <summary>
+            Gets file semaphore for provided operator.
+            </summary>
+            <param name="operatorName">Operator name.</param>
+            <returns>Operator File semaphore.</returns>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehaviorSettings">
+            <summary>
+            Settings class for configuration.
+            </summary>
+        </member>
+        <member name="M:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehaviorSettings.#ctor(Honeywell.Firebird.CoreLibrary.IConfigService)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehaviorSettings"/> class.
+            </summary>
+            <param name="configService"><inheritdoc/></param>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehaviorSettings.FileFormat">
+            <summary>
+            Gets or sets the information of the file format.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehaviorSettings.FileEncoding">
+            <summary>
+            Gets or sets the information of the file encoding.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.FilesBehaviorSettings.DefaultValues">
+            <inheritdoc/>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Models.Operator">
+            <summary>
+            Model representing an Operator.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Models.Operator.Name">
+            <summary>
+            Gets or sets name of the operator.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Models.Operator.Password">
+            <summary>
+            Gets or sets password to be spoken by the operator to sign on (optional).
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Models.Operator.WorkOrderFileName">
+            <summary>
+            Gets or sets the name of the file used for work order result registry.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Models.Operator.StartTime">
+            <summary>
+            Gets or sets operators last session start time.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Models.Operator.EndTime">
+            <summary>
+            Gets or sets operators last session end time.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Models.Operator.BreakStartTime">
+            <summary>
+            Gets or sets operators last break start time.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Models.Operator.BreakEndTime">
+            <summary>
+            Gets or sets operators last break end time.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Models.Operator.Code">
+            <summary>
+            Gets or sets work order identifier.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Models.Operator.Reason">
+            <summary>
+            Gets or sets break reason.
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Models.PrintLabelsBatchRequest">
+            <summary>
+            PrintLabels file request object.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Models.PrintLabelsBatchRequest.OperatorName">
+            <summary>
+            Gets or sets current operator name.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Models.PrintLabelsBatchRequest.Code">
+            <summary>
+            Gets or sets work order identifier.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Models.PrintLabelsBatchRequest.Count">
+            <summary>
+            Gets or sets the number of labels to be printed.
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources.Error_MissingFile">
+            <summary>
+              Busca una cadena traducida similar a Error accessing: no file located in server directory.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources.Error_OperatorNameNotFound">
+            <summary>
+              Busca una cadena traducida similar a Error accessing: operator name {0} not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources.Error_ParseFail">
+            <summary>
+              Busca una cadena traducida similar a Error accessing: {0}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources.FileFormatEmpty">
+            <summary>
+              Busca una cadena traducida similar a File format is mandatory.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources.FileFormatNotValid">
+            <summary>
+              Busca una cadena traducida similar a File format is not valid.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources.JsonParser_FailedToParse">
+            <summary>
+              Busca una cadena traducida similar a Failed to parse: {0}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources.JsonParser_InvalidType">
+            <summary>
+              Busca una cadena traducida similar a Invalid type &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources.ServerConnection_OperatorNotFound">
+            <summary>
+              Busca una cadena traducida similar a [{0}] Operator &apos;{1}&apos; not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources.ServerEmpty">
+            <summary>
+              Busca una cadena traducida similar a Server is mandatory.
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources___Copia">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources___Copia.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Picking.Files.Properties.Resources___Copia.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="T:System.Runtime.CompilerServices.IsExternalInit">
+            <summary>
+            Reserved to be used by the compiler for tracking metadata.
+            This class should not be used by developers in source code.
+            </summary>
+        </member>
+    </members>
+</doc>

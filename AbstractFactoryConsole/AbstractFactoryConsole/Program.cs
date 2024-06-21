@@ -17,6 +17,9 @@ namespace AbstractFactoryConsole
         }
         class SteaakBurbuer : Burguer { }
         class CreamBluer: Dessert { }
+        class KidBurguer : Burguer { }
+        class IceCream : Dessert { }
+
         class AdultCuisineFactory : RecipeFactory
         {
             public override Burguer CreateBurguer()
@@ -29,8 +32,7 @@ namespace AbstractFactoryConsole
                 return new CreamBluer();
             }
         }
-        class KidBurguer : Burguer { }
-        class IceCream : Dessert { }
+  
         class KidCusineFactory : RecipeFactory
         {
             public override Burguer CreateBurguer()
