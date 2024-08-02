@@ -81,3 +81,4 @@ C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.SqlServer\obj\Debug\net472\Honeywell.GWS.Connector.Library.Workflows.Checklist.SqlServer.dll
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.SqlServer\obj\Debug\net472\Honeywell.GWS.Connector.Library.Workflows.Checklist.SqlServer.xml
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.SqlServer\obj\Debug\net472\Honeywell.GWS.Connector.Library.Workflows.Checklist.SqlServer.pdb
+C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.SqlServer\bin\Debug\net472\pt-BR\Honeywell.GWS.Connector.Library.Workflows.Checklist.resources.dll

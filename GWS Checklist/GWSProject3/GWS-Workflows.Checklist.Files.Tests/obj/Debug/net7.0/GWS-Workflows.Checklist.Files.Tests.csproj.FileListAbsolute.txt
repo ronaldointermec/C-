@@ -141,3 +141,4 @@ C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.Files.Tests\obj\Debug\net7.0\Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Tests.pdb
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.Files.Tests\obj\Debug\net7.0\GWS-Workflows.Checklist.Files.Tests.genruntimeconfig.cache
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.Files.Tests\obj\Debug\net7.0\ref\Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.Tests.dll
+C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.Files.Tests\bin\Debug\net7.0\pt-BR\Honeywell.GWS.Connector.Library.Workflows.Checklist.resources.dll

@@ -23,3 +23,4 @@ C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.Files\obj\Debug\netstandard2.1\Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.dll
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.Files\obj\Debug\netstandard2.1\Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.xml
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.Files\obj\Debug\netstandard2.1\Honeywell.GWS.Connector.Library.Workflows.Checklist.Files.pdb
+C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.Files\bin\Debug\netstandard2.1\pt-BR\Honeywell.GWS.Connector.Library.Workflows.Checklist.resources.dll

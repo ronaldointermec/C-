@@ -991,6 +991,192 @@
               Looks up a localized string similar to Operator {0} not found..
             </summary>
         </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Date_Day">
+            <summary>
+              Looks up a localized string similar to Day.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Date_DayRepeated">
+            <summary>
+              Looks up a localized string similar to Day repeated.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Date_InvalidCharacters">
+            <summary>
+              Looks up a localized string similar to Contains invalid characters (only &apos;d&apos;, &apos;M&apos; and &apos;y&apos; are allowed).
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Date_InvalidDate">
+            <summary>
+              Looks up a localized string similar to Invalid date.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Date_Month">
+            <summary>
+              Looks up a localized string similar to Month.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Date_MonthRepeated">
+            <summary>
+              Looks up a localized string similar to Month repeated.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Date_NoMatches">
+            <summary>
+              Looks up a localized string similar to Does not contains any matches (only &apos;dd&apos;, &apos;MM&apos;, &apos;yyyy&apos; and &apos;yy&apos; are allowed).
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Date_Year">
+            <summary>
+              Looks up a localized string similar to Year.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Date_YearRepeated">
+            <summary>
+              Looks up a localized string similar to Year repeated.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.FourDigits">
+            <summary>
+              Looks up a localized string similar to Four digits.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Message_ToContinueSayVCONFIRM">
+            <summary>
+              Looks up a localized string similar to {0}, to continue say VCONFIRM.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.MissingDeviceState">
+            <summary>
+              Looks up a localized string similar to Missing device state.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.MissingRequiredVariable">
+            <summary>
+              Looks up a localized string similar to Missing required variable &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Options_InvalidValue">
+            <summary>
+              Looks up a localized string similar to A valid value for option &apos;{0}&apos; is missing. Initialized with value &apos;{1}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Select_Wrong">
+            <summary>
+              Looks up a localized string similar to Wrong.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.SelectMultiple_Next">
+            <summary>
+              Looks up a localized string similar to Next.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.ServerConnection_OperatorNotFound_Voice">
+            <summary>
+              Looks up a localized string similar to Operator not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Time_Hour">
+            <summary>
+              Looks up a localized string similar to Hour.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Time_HourRepeated">
+            <summary>
+              Looks up a localized string similar to Hour repeated.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Time_InvalidCharacters">
+            <summary>
+              Looks up a localized string similar to Contains invalid characters (only &apos;h&apos;, &apos;m&apos; and &apos;s&apos; are allowed).
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Time_Minute">
+            <summary>
+              Looks up a localized string similar to Minute.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Time_MinuteRepeated">
+            <summary>
+              Looks up a localized string similar to Minute repeated.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Time_NoMatches">
+            <summary>
+              Looks up a localized string similar to Does not contains any matches (only &apos;hh&apos;, &apos;mm&apos; and &apos;ss&apos; are allowed).
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Time_Second">
+            <summary>
+              Looks up a localized string similar to Second.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Time_SecondRepeated">
+            <summary>
+              Looks up a localized string similar to Second repeated.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.TwoDigits">
+            <summary>
+              Looks up a localized string similar to Two digits.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.UnknownState">
+            <summary>
+              Looks up a localized string similar to Unknown state &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Workflow_ErrorRetrievingJob">
+            <summary>
+              Looks up a localized string similar to An error occurred while retrieving job. To continue, say VCONFIRM.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Workflow_Job">
+            <summary>
+              Looks up a localized string similar to Job?.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Workflow_JobFinished">
+            <summary>
+              Looks up a localized string similar to Job finished. To continue, say VCONFIRM.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Workflow_JobFinishedWithSkippedQuestions">
+            <summary>
+              Looks up a localized string similar to Job finished with skipped questions. To complete it, say no more . To continue, say VCONFIRM.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Workflow_JobNotFound_Voice">
+            <summary>
+              Looks up a localized string similar to Job {0} not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Workflow_LeavingJob">
+            <summary>
+              Looks up a localized string similar to Leaving job.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources___Copy.Workflow_OperatorNotFound">
+            <summary>
+              Looks up a localized string similar to Operator {0} not found..
+            </summary>
+        </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources">
             <summary>
               Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
@@ -1110,6 +1296,127 @@
         <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.Workflow_UnknownQuestionType">
             <summary>
               Busca una cadena traducida similar a [{0}] Unknown question type &apos;{1}&apos;.
+            </summary>
+        </member>
+        <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.Behavior_ErrorSettingAnswer">
+            <summary>
+              Looks up a localized string similar to [{0}] Error setting answer for question &apos;{1}&apos;. Response was &apos;{2}&apos; ({3}): {4}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.Behavior_NotFound">
+            <summary>
+              Looks up a localized string similar to [{0}] Checklist not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.Behavior_QuestionNotFound">
+            <summary>
+              Looks up a localized string similar to [{0}] Question &apos;{1}&apos; not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.Behavior_RepeatedQuestions">
+            <summary>
+              Looks up a localized string similar to [{0}] Checklist has questions with same code.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.Checklist_Null">
+            <summary>
+              Looks up a localized string similar to [{0}] Retrieve: Unexpected Response &apos;{1}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.DataSetParser_InvalidType">
+            <summary>
+              Looks up a localized string similar to Invalid type &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.DataSetParser_PropertyEmpty">
+            <summary>
+              Looks up a localized string similar to Property &apos;{0}&apos; is mandatory.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.Date_InvalidFormat">
+            <summary>
+              Looks up a localized string similar to [{0}] Date Format in question &apos;{1}&apos; is not valid: &apos;{2}&apos; - {3}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.Error_DBNotAccessible">
+            <summary>
+              Looks up a localized string similar to The database was not accessible during initialization ({0}): {1}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.Error_UpdateChecklist">
+            <summary>
+              Looks up a localized string similar to Error updating checklist &apos;{0}&apos;: {1}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.FileFormatEmpty">
+            <summary>
+              Looks up a localized string similar to File Format is mandatory.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.GetOperator_Null">
+            <summary>
+              Looks up a localized string similar to [{0}] GetOperator: Unexpected Response &apos;{1}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.JsonParser_FailedToParse">
+            <summary>
+              Looks up a localized string similar to Failed to parse: {0}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.JsonParser_InvalidType">
+            <summary>
+              Looks up a localized string similar to Invalid type &apos;{0}&apos;.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.ServerConnection_OperatorNotFound">
+            <summary>
+              Looks up a localized string similar to [{0}] Operator &apos;{1}&apos; not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.ServerEmpty">
+            <summary>
+              Looks up a localized string similar to Server is mandatory.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.StatusCodeDefault">
+            <summary>
+              Looks up a localized string similar to Unexpected response code: {0}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.Time_InvalidFormat">
+            <summary>
+              Looks up a localized string similar to [{0}] Time Format in question &apos;{1}&apos; is not valid: &apos;{2}&apos; - {3}.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.Workflow_JobNotFound">
+            <summary>
+              Looks up a localized string similar to [{0}] Job not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.Workflow_SelectOptionsNotFound">
+            <summary>
+              Looks up a localized string similar to [{0}] Select Options not found.
+            </summary>
+        </member>
+        <member name="P:Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources___Copy.Workflow_UnknownQuestionType">
+            <summary>
+              Looks up a localized string similar to [{0}] Unknown question type &apos;{1}&apos;.
             </summary>
         </member>
         <member name="T:Honeywell.GWS.Connector.Library.Workflows.Checklist.Vars">

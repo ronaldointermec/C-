@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QDowaSj40UVPxPtzNW0eimb8pF/TuRwN6aRvaI9UZwo0mjMVx/2+8GedrnYT1LdTS9YAlmbyatxJFew8G5CLmQ==",
+  "dgSpecHash": "kwjoa+eHY34=",
   "success": true,
   "projectFilePath": "C:\\Users\\E841371\\source\\repos\\GWS Checklist\\GWSProject3\\GWS-Workflows.Checklist.Files.Tests\\GWS-Workflows.Checklist.Files.Tests.csproj",
   "expectedPackageFiles": [
@@ -110,9 +110,9 @@
     "C:\\Users\\E841371\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
     "C:\\Users\\E841371\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512",
     "C:\\Users\\E841371\\.nuget\\packages\\yamldotnet\\13.1.0\\yamldotnet.13.1.0.nupkg.sha512",
-    "C:\\Users\\E841371\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\E841371\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\E841371\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512"
+    "C:\\Users\\E841371\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\E841371\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

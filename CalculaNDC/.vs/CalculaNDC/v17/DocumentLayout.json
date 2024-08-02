@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\E841371\\source\\repos\\CalculaNDC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{05A4CE61-1750-4A8B-A102-ED786047D4E2}|CalculaNDC\\CalculaNDC.csproj|C:\\Users\\E841371\\source\\repos\\CalculaNDC\\calculandc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{05A4CE61-1750-4A8B-A102-ED786047D4E2}|CalculaNDC\\CalculaNDC.csproj|c:\\users\\e841371\\source\\repos\\calculandc\\calculandc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05A4CE61-1750-4A8B-A102-ED786047D4E2}|CalculaNDC\\CalculaNDC.csproj|solutionrelative:calculandc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05A4CE61-1750-4A8B-A102-ED786047D4E2}|CalculaNDC\\CalculaNDC.csproj|c:\\users\\e841371\\source\\repos\\calculandc\\calculandc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{05A4CE61-1750-4A8B-A102-ED786047D4E2}|CalculaNDC\\CalculaNDC.csproj|solutionrelative:calculandc\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\E841371\\source\\repos\\CalculaNDC\\CalculaNDC\\Form1.cs",
+              "RelativeDocumentMoniker": "CalculaNDC\\Form1.cs",
+              "ToolTip": "C:\\Users\\E841371\\source\\repos\\CalculaNDC\\CalculaNDC\\Form1.cs",
+              "RelativeToolTip": "CalculaNDC\\Form1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:08:33.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\E841371\\source\\repos\\CalculaNDC\\CalculaNDC\\Form1.cs",
               "RelativeDocumentMoniker": "CalculaNDC\\Form1.cs",

@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Honeywell, 2023")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0650d0230298a76655a8d188818bbad8cae6c2c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1f78d21c2a1be357b5ad458456e82ed36cbac39")]
 [assembly: System.Reflection.AssemblyProductAttribute("Honeywell GWS Connector Library - Checklist Workflow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Honeywell.GWS.Connector.Library.Workflows.Checklist.Files")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

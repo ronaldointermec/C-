@@ -46,3 +46,4 @@ C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.Oracle\obj\Debug\net472\Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.dll
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.Oracle\obj\Debug\net472\Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.xml
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.Oracle\obj\Debug\net472\Honeywell.GWS.Connector.Library.Workflows.Checklist.Oracle.pdb
+C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist.Oracle\bin\Debug\net472\pt-BR\Honeywell.GWS.Connector.Library.Workflows.Checklist.resources.dll

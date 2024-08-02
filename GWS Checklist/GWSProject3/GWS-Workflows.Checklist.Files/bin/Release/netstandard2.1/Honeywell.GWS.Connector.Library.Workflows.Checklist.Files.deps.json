@@ -11,6 +11,7 @@
         "dependencies": {
           "Honeywell.GWS.Connector.Library.Workflows.Checklist": "1.0.0",
           "Honeywell.GWS.Connector.SDK": "2.1.0",
+          "Honeywell.GuidedWork.AppBase.Abstractions": "1.11.0",
           "Honeywell.VIO.SDK": "3.1.0",
           "System.IO.Abstractions": "19.2.26",
           "System.IO.Abstractions.TestingHelpers": "19.2.26",
@@ -244,6 +245,7 @@
       "Honeywell.GWS.Connector.Library.Workflows.Checklist/1.0.0": {
         "dependencies": {
           "Honeywell.GWS.Connector.SDK": "2.1.0",
+          "Honeywell.GuidedWork.AppBase.Abstractions": "1.11.0",
           "Honeywell.VIO.SDK": "3.1.0",
           "Newtonsoft.Json": "13.0.3",
           "YamlDotNet": "13.1.0"
@@ -272,6 +274,9 @@
           },
           "nl/Honeywell.GWS.Connector.Library.Workflows.Checklist.resources.dll": {
             "locale": "nl"
+          },
+          "pt-BR/Honeywell.GWS.Connector.Library.Workflows.Checklist.resources.dll": {
+            "locale": "pt-BR"
           }
         }
       },
@@ -303,6 +308,9 @@
           },
           "nl/Honeywell.GWS.Connector.Library.Workflows.Checklist.resources.dll": {
             "locale": "nl"
+          },
+          "pt-BR/Honeywell.GWS.Connector.Library.Workflows.Checklist.resources.dll": {
+            "locale": "pt-BR"
           }
         }
       }

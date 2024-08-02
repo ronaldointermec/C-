@@ -274,6 +274,9 @@
           },
           "nl/Honeywell.GWS.Connector.Library.Workflows.Checklist.resources.dll": {
             "locale": "nl"
+          },
+          "pt-BR/Honeywell.GWS.Connector.Library.Workflows.Checklist.resources.dll": {
+            "locale": "pt-BR"
           }
         }
       },
@@ -305,6 +308,9 @@
           },
           "nl/Honeywell.GWS.Connector.Library.Workflows.Checklist.resources.dll": {
             "locale": "nl"
+          },
+          "pt-BR/Honeywell.GWS.Connector.Library.Workflows.Checklist.resources.dll": {
+            "locale": "pt-BR"
           }
         }
       }

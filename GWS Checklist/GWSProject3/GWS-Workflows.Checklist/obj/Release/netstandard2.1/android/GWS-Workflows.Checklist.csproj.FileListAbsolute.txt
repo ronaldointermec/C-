@@ -36,3 +36,7 @@ C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist\
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist\obj\Release\netstandard2.1\android\Honeywell.GWS.Connector.Library.Workflows.Checklist.dll
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist\obj\Release\netstandard2.1\android\Honeywell.GWS.Connector.Library.Workflows.Checklist.xml
 C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist\obj\Release\netstandard2.1\android\Honeywell.GWS.Connector.Library.Workflows.Checklist.pdb
+C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist\bin\Release\netstandard2.1\android\pt-BR\Honeywell.GWS.Connector.Library.Workflows.Checklist.resources.dll
+C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist\obj\Release\netstandard2.1\android\Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.DialogResources.pt-BR.resources
+C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist\obj\Release\netstandard2.1\android\Honeywell.GWS.Connector.Library.Workflows.Checklist.Properties.Resources.pt-BR.resources
+C:\Users\E841371\source\repos\GWS Checklist\GWSProject3\GWS-Workflows.Checklist\obj\Release\netstandard2.1\android\pt-BR\Honeywell.GWS.Connector.Library.Workflows.Checklist.resources.dll
